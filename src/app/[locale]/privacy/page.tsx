@@ -168,7 +168,7 @@ export default async function PrivacyPage({
                 </p>
                 <a
                   href={`mailto:${company.email}`}
-                  className="mt-4 inline-flex items-center gap-2 rounded-full bg-brand-500 px-6 py-3 text-sm font-semibold text-white transition-all hover:bg-brand-400 hover:shadow-glow"
+                  className="mt-4 inline-flex items-center gap-2 rounded-full bg-brand-500 px-6 py-3 text-sm font-semibold text-ink-950 transition-all hover:bg-brand-400 hover:shadow-glow"
                   data-track="cta_click_privacy_email"
                 >
                   <Mail className="h-4 w-4" aria-hidden="true" />

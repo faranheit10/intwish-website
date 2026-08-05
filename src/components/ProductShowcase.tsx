@@ -79,7 +79,7 @@ export function ProductShowcase({
               <span className="font-display text-lg font-semibold text-paper">intOS</span>
               <Link
                 href="/products/intos"
-                className="inline-flex items-center gap-2 rounded-full border border-brand-500/40 bg-brand-500/10 px-5 py-2.5 text-sm font-semibold text-brand-400 transition-all hover:bg-brand-500 hover:text-white"
+                className="inline-flex items-center gap-2 rounded-full border border-brand-500/40 bg-brand-500/10 px-5 py-2.5 text-sm font-semibold text-brand-400 transition-all hover:bg-brand-500 hover:text-ink-950"
                 data-track="cta_click_intos_bento"
               >
                 {intos.cta}
@@ -120,7 +120,7 @@ export function ProductShowcase({
               <span className="font-display text-lg font-semibold text-paper">IntReview</span>
               <Link
                 href="/products/intreview"
-                className="inline-flex items-center gap-2 rounded-full border border-brand-500/40 bg-brand-500/10 px-5 py-2.5 text-sm font-semibold text-brand-400 transition-all hover:bg-brand-500 hover:text-white"
+                className="inline-flex items-center gap-2 rounded-full border border-brand-500/40 bg-brand-500/10 px-5 py-2.5 text-sm font-semibold text-brand-400 transition-all hover:bg-brand-500 hover:text-ink-950"
                 data-track="cta_click_intreview_bento"
               >
                 {intreview.cta}

@@ -1,7 +1,13 @@
 import { ArrowRight } from "lucide-react";
+import type { Metadata } from "next";
 import { useTranslations } from "next-intl";
 import { Button } from "@/components/Button";
 import { Section } from "@/components/Section";
+
+export const metadata: Metadata = {
+  title: "404 — Page not found",
+  robots: { index: false, follow: false },
+};
 
 /**
  * Locale-aware 404. NOTE: Next.js renders this boundary without `params`,

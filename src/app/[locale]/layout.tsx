@@ -1,8 +1,8 @@
 import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono, Space_Grotesk } from "next/font/google";
 import { notFound } from "next/navigation";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
-import { setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
@@ -10,6 +10,8 @@ import { Analytics } from "@/components/Analytics";
 import { ConsentManager } from "@/components/ConsentManager";
 import { ChatWidget } from "@/components/ChatWidget";
 import { BackToTop } from "@/components/BackToTop";
+import { NavigationAnnouncement } from "@/components/NavigationAnnouncement";
+import { StickyMobileCTA } from "@/components/StickyMobileCTA";
 import { company, team } from "@/content/site";
 import { SITE_URL } from "@/lib/site-url";
 
@@ -58,7 +60,7 @@ const orgJsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Corporation",
+      "@type": "Organization",
       "@id": ORG_ID,
       name: "Intwish",
       url: SITE_URL,
@@ -127,6 +129,7 @@ export default async function LocaleLayout({
   // Enable static rendering (generateStaticParams above).
   setRequestLocale(locale);
   const isRtl = locale === "ar";
+  const tcommon = await getTranslations({ locale, namespace: "common" });
 
   return (
     <html
@@ -146,17 +149,19 @@ export default async function LocaleLayout({
         <NextIntlClientProvider>
           <a
             href="#main"
-            className="sr-only focus:not-sr-only focus:fixed focus:start-4 focus:top-4 focus:z-[60] focus:rounded-full focus:bg-brand-500 focus:px-5 focus:py-2 focus:text-sm focus:font-semibold focus:text-white"
+            className="sr-only focus:not-sr-only focus:fixed focus:start-4 focus:top-4 focus:z-[60] focus:rounded-full focus:bg-brand-500 focus:px-5 focus:py-2 focus:text-sm focus:font-semibold focus:text-ink-950"
           >
-            Skip to content
+            {tcommon("skipToContent")}
           </a>
           <Analytics />
           <ConsentManager />
           <ChatWidget />
+          <NavigationAnnouncement />
           <Header />
           <main id="main">{children}</main>
           <Footer />
           <BackToTop />
+          <StickyMobileCTA />
           <script
             type="application/ld+json"
             dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }}

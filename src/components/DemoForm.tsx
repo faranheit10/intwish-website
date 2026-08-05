@@ -41,6 +41,10 @@ export function DemoForm({ initialIntent }: DemoFormProps) {
     if (!name || !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) {
       setStatus("error");
       setErrorMsg(t("required"));
+      const target = name
+        ? (document.getElementById("email") as HTMLInputElement | null)
+        : (document.getElementById("name") as HTMLInputElement | null);
+      target?.focus();
       return;
     }
 
@@ -81,7 +85,10 @@ export function DemoForm({ initialIntent }: DemoFormProps) {
 
   if (status === "success") {
     return (
-      <div className="frame-blueprint flex flex-col items-center gap-4 rounded-2xl bg-ink-850 p-10 text-center">
+      <div
+        role="status"
+        className="frame-blueprint flex flex-col items-center gap-4 rounded-2xl bg-ink-850 p-10 text-center"
+      >
         <CheckCircle2 className="h-12 w-12 text-accent-400" aria-hidden="true" />
         <p className="text-lg font-medium text-paper">{t("success")}</p>
         <p className="max-w-md text-sm leading-relaxed text-muted">{t("successNote")}</p>
@@ -90,7 +97,7 @@ export function DemoForm({ initialIntent }: DemoFormProps) {
   }
 
   const inputClass =
-    "w-full rounded-xl border border-line bg-ink-900 px-4 py-3 text-paper placeholder:text-faint transition-colors focus:border-brand-500/60 focus:outline-none";
+    "w-full rounded-xl border border-line bg-ink-900 px-4 py-3 text-paper placeholder:text-faint transition-colors focus:border-brand-500 focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-brand-500";
 
   return (
     <form onSubmit={onSubmit} className="frame-blueprint rounded-2xl bg-ink-850 p-6 sm:p-8" noValidate>
@@ -105,13 +112,29 @@ export function DemoForm({ initialIntent }: DemoFormProps) {
           <label htmlFor="name" className="mb-2 block text-sm font-medium text-paper">
             {t("name")} *
           </label>
-          <input id="name" name="name" type="text" required className={inputClass} />
+          <input
+            id="name"
+            name="name"
+            type="text"
+            required
+            aria-invalid={status === "error"}
+            aria-describedby={status === "error" ? "demo-error" : undefined}
+            className={inputClass}
+          />
         </div>
         <div>
           <label htmlFor="email" className="mb-2 block text-sm font-medium text-paper">
             {t("email")} *
           </label>
-          <input id="email" name="email" type="email" required className={inputClass} />
+          <input
+            id="email"
+            name="email"
+            type="email"
+            required
+            aria-invalid={status === "error"}
+            aria-describedby={status === "error" ? "demo-error" : undefined}
+            className={inputClass}
+          />
         </div>
       </div>
 
@@ -148,7 +171,11 @@ export function DemoForm({ initialIntent }: DemoFormProps) {
       </div>
 
       {status === "error" ? (
-        <p role="alert" className="mt-4 rounded-xl border border-danger-500/30 bg-danger-500/10 px-4 py-3 text-sm text-danger-300">
+        <p
+          id="demo-error"
+          role="alert"
+          className="mt-4 rounded-xl border border-danger-500/30 bg-danger-500/10 px-4 py-3 text-sm text-danger-300"
+        >
           {errorMsg}
         </p>
       ) : null}
@@ -156,7 +183,7 @@ export function DemoForm({ initialIntent }: DemoFormProps) {
       <button
         type="submit"
         disabled={status === "submitting"}
-        className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-full bg-brand-500 px-7 py-3.5 font-semibold text-white transition-all hover:bg-brand-400 hover:shadow-glow disabled:cursor-not-allowed disabled:opacity-60 sm:w-auto"
+        className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-full bg-brand-500 px-7 py-3.5 font-semibold text-ink-950 transition-all hover:bg-brand-400 hover:shadow-glow disabled:cursor-not-allowed disabled:opacity-60 sm:w-auto"
         data-track="cta_click_demo_submit"
       >
         {status === "submitting" ? (

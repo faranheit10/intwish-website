@@ -204,13 +204,13 @@ export default async function InsightDetailPage({
                       <div className="flex flex-wrap gap-2">
                         <Link
                           href="/products/intos"
-                          className="rounded-full border border-brand-500/40 bg-brand-500/10 px-4 py-2 text-sm font-semibold text-brand-400 transition-all hover:bg-brand-500 hover:text-white"
+                          className="rounded-full border border-brand-500/40 bg-brand-500/10 px-4 py-2 text-sm font-semibold text-brand-400 transition-all hover:bg-brand-500 hover:text-ink-950"
                         >
                           intOS
                         </Link>
                         <Link
                           href="/products/intreview"
-                          className="rounded-full border border-brand-500/40 bg-brand-500/10 px-4 py-2 text-sm font-semibold text-brand-400 transition-all hover:bg-brand-500 hover:text-white"
+                          className="rounded-full border border-brand-500/40 bg-brand-500/10 px-4 py-2 text-sm font-semibold text-brand-400 transition-all hover:bg-brand-500 hover:text-ink-950"
                         >
                           IntReview
                         </Link>

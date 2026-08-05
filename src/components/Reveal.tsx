@@ -1,6 +1,6 @@
 "use client";
 
-import { motion, type Variants } from "framer-motion";
+import { motion, useReducedMotion, type Variants } from "framer-motion";
 import type { ReactNode } from "react";
 import { cn } from "@/lib/cn";
 
@@ -76,6 +76,7 @@ export function Reveal({
   className,
   as = "div",
 }: RevealProps) {
+  const reduce = useReducedMotion();
   const transition = {
     delay: (staggerIndex ?? 0) * 0.08 + delay,
     duration: 0.6,
@@ -90,6 +91,15 @@ export function Reveal({
     figure: motion.figure,
   } as const;
   const Component = componentMap[as];
+
+  // Respect prefers-reduced-motion: render statically (no entrance animation).
+  if (reduce) {
+    return (
+      <Component data-reveal className={cn("will-change-transform", className)}>
+        {children}
+      </Component>
+    );
+  }
 
   return (
     <Component

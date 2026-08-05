@@ -97,7 +97,7 @@ export default async function SciencePage({
                   {statKeys.map((key) => (
                     <div key={key} className="flex items-center justify-between gap-4 border-b border-line pb-3 last:border-0 last:pb-0">
                       <span className="font-mono text-2xl font-bold text-gradient-teal">{t(`stats.${key}.value`)}</span>
-                      <span className="text-right text-sm text-muted">{t(`stats.${key}.label`)}</span>
+                      <span className="text-end text-sm text-muted">{t(`stats.${key}.label`)}</span>
                     </div>
                   ))}
                 </div>

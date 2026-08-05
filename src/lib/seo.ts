@@ -10,7 +10,7 @@ const OG_LOCALES: Record<Locale, string> = {
   en: "en_US",
   "fr-CA": "fr_CA",
   "id-ID": "id_ID",
-  ar: "ar_AR",
+  ar: "ar_AE", // Dubai HQ; ar_AR would be ambiguous (Argentina).
 };
 
 interface SeoImage {

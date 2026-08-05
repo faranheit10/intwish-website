@@ -104,6 +104,7 @@ export function Header() {
               <Link
                 key={href}
                 href={href}
+                aria-current={isActive(href) ? "page" : undefined}
                 className={cn(
                   "rounded-full px-4 py-2 text-sm font-medium transition-colors",
                   isActive(href) ? "text-brand-400" : "text-muted hover:text-paper"
@@ -119,7 +120,7 @@ export function Header() {
           <LocaleSwitcher />
           <Link
             href="/demo"
-            className="hidden rounded-full bg-brand-500 px-5 py-2.5 text-sm font-semibold text-white shadow-[0_10px_30px_-10px_rgba(241,95,53,0.55)] transition-all hover:bg-brand-400 hover:shadow-glow lg:inline-flex"
+            className="hidden rounded-full bg-brand-500 px-5 py-2.5 text-sm font-semibold text-ink-950 shadow-[0_10px_30px_-10px_rgba(241,95,53,0.55)] transition-all hover:bg-brand-400 hover:shadow-glow lg:inline-flex"
             data-track="cta_click_header"
           >
             {t("bookDemo")}
@@ -205,6 +206,7 @@ export function Header() {
       <div
         id="mobile-menu"
         aria-hidden={!open}
+        inert={!open}
         className={cn(
           "overflow-hidden border-line transition-all duration-300 lg:hidden",
           open ? "max-h-[36rem] border-t opacity-100" : "pointer-events-none max-h-0 opacity-0"
@@ -216,6 +218,7 @@ export function Header() {
               key={href}
               href={href}
               onClick={() => setOpen(false)}
+              aria-current={isActive(href) ? "page" : undefined}
               className={cn(
                 "rounded-xl px-4 py-3 text-sm font-medium transition-colors",
                 isActive(href) ? "bg-white/5 text-brand-400" : "text-muted hover:text-paper"
@@ -227,7 +230,7 @@ export function Header() {
           <Link
             href="/demo"
             onClick={() => setOpen(false)}
-            className="mt-2 inline-flex items-center justify-center rounded-full bg-brand-500 px-5 py-3 text-sm font-semibold text-white"
+            className="mt-2 inline-flex items-center justify-center rounded-full bg-brand-500 px-5 py-3 text-sm font-semibold text-ink-950"
             data-track="cta_click_mobile"
           >
             {t("bookDemo")}

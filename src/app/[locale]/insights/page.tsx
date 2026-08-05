@@ -118,7 +118,7 @@ export default async function InsightsPage({
                 </ul>
                 <Link
                   href={`/insights/${featured.slug}`}
-                  className="mt-8 inline-flex items-center gap-2 rounded-full bg-brand-500 px-7 py-3.5 font-semibold text-white transition-all hover:bg-brand-400 hover:shadow-glow"
+                  className="mt-8 inline-flex items-center gap-2 rounded-full bg-brand-500 px-7 py-3.5 font-semibold text-ink-950 transition-all hover:bg-brand-400 hover:shadow-glow"
                   data-track="cta_click_featured_report"
                 >
                   {t("featured.cta")}

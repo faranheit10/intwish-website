@@ -49,7 +49,7 @@ export function FilterableGrid({ items, locale, emptyLabel }: FilterableGridProp
     cn(
       "inline-flex items-center gap-2 rounded-full border px-4 py-2 text-sm font-medium transition-all duration-200",
       isActive
-        ? "border-brand-500 bg-brand-500 text-white shadow-[0_8px_24px_-8px_rgba(241,95,53,0.6)]"
+        ? "border-brand-500 bg-brand-500 text-ink-950 shadow-[0_8px_24px_-8px_rgba(241,95,53,0.6)]"
         : "border-line bg-white/5 text-muted hover:border-brand-500/40 hover:text-paper"
     );
 
@@ -60,7 +60,12 @@ export function FilterableGrid({ items, locale, emptyLabel }: FilterableGridProp
         aria-label={t("industry")}
         className="mb-10 flex flex-wrap items-center gap-2"
       >
-        <button type="button" className={chip(active === "all")} onClick={() => setActive("all")}>
+        <button
+          type="button"
+          aria-pressed={active === "all"}
+          className={chip(active === "all")}
+          onClick={() => setActive("all")}
+        >
           {t("all")}
           <span className="font-mono text-xs opacity-70">{items.length}</span>
         </button>
@@ -68,6 +73,7 @@ export function FilterableGrid({ items, locale, emptyLabel }: FilterableGridProp
           <button
             key={key}
             type="button"
+            aria-pressed={active === key}
             className={chip(active === key)}
             onClick={() => setActive(key)}
           >

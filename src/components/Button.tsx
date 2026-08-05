@@ -6,10 +6,12 @@ type Variant = "primary" | "secondary" | "ghost";
 type Size = "md" | "lg";
 
 const variants: Record<Variant, string> = {
+  // Near-black on brand-500 passes AA (5.85:1) in base + hover; keeps the
+  // signature bright orange rather than muddying the fill (see Phase 7 audit).
   primary:
-    "bg-brand-500 text-white shadow-[0_10px_30px_-10px_rgba(241,95,53,0.55)] hover:bg-brand-400 hover:shadow-glow active:translate-y-px",
+    "bg-brand-500 text-ink-950 shadow-[0_10px_30px_-10px_rgba(241,95,53,0.55)] hover:bg-brand-400 hover:shadow-glow active:translate-y-px",
   secondary:
-    "border border-line-strong bg-white/5 text-paper backdrop-blur hover:border-brand-500/50 hover:bg-white/10 active:translate-y-px",
+    "border border-line-strong bg-ink-800/60 text-paper backdrop-blur hover:border-brand-500/50 hover:bg-ink-800 active:translate-y-px",
   ghost: "text-paper hover:text-brand-300",
 };
 

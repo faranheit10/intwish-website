@@ -83,7 +83,7 @@ export function AnimatedStatCounter({ items, className }: AnimatedStatCounterPro
         return (
           <div
             key={item.label}
-            className="flex h-full flex-col items-center justify-center rounded-2xl border border-white/10 bg-white/5 px-6 py-10 text-center backdrop-blur transition-colors hover:border-accent-400/40"
+            className="flex h-full flex-col items-center justify-center rounded-2xl border border-line bg-ink-850/80 px-6 py-10 text-center backdrop-blur transition-colors hover:border-accent-400/40"
           >
             <span
               aria-label={formatValue(locale, item.value, item.hasPlus || false)}

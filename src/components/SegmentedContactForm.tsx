@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useState, type FormEvent } from "react";
+import { useEffect, useRef, useState, type FormEvent } from "react";
 import { CheckCircle2, Loader2, Send } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { cn } from "@/lib/cn";
@@ -37,6 +37,19 @@ export function SegmentedContactForm({ locale, initialIntent }: SegmentedContact
   // so submit in step 2 still carries them via hidden inputs.
   const [capturedName, setCapturedName] = useState("");
   const [capturedEmail, setCapturedEmail] = useState("");
+  // True once the visitor navigates between steps, so focus can be moved onto
+  // the freshly-rendered fields (WCAG 2.4.3 / 2.4.7).
+  const [stepTransitioned, setStepTransitioned] = useState(false);
+
+  // Move focus to the first field of the newly rendered step (the inputs are
+  // conditionally mounted, so this must run after the render commit).
+  useEffect(() => {
+    if (!stepTransitioned) return;
+    const id = step === "details" ? "company" : "email";
+    requestAnimationFrame(() => {
+      (document.getElementById(id) as HTMLInputElement | null)?.focus();
+    });
+  }, [step, stepTransitioned]);
 
   const segments: Segment[] = ["sales", "partnership", "careers", "general"];
 
@@ -54,11 +67,13 @@ export function SegmentedContactForm({ locale, initialIntent }: SegmentedContact
     if (!name || !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) {
       setStatus("error");
       setMessage(t("requiredEmail"));
+      (document.getElementById("email") as HTMLInputElement | null)?.focus();
       return;
     }
     setCapturedName(name);
     setCapturedEmail(email);
     setStatus("idle");
+    setStepTransitioned(true);
     setStep("details");
   }
 
@@ -134,7 +149,10 @@ export function SegmentedContactForm({ locale, initialIntent }: SegmentedContact
 
   if (status === "success") {
     return (
-      <div className="frame-blueprint flex flex-col items-center gap-4 rounded-2xl bg-ink-850 p-10 text-center">
+      <div
+        role="status"
+        className="frame-blueprint flex flex-col items-center gap-4 rounded-2xl bg-ink-850 p-10 text-center"
+      >
         <CheckCircle2 className="h-12 w-12 text-accent-400" aria-hidden="true" />
         <p className="text-lg font-medium text-paper">{t("success")}</p>
         <p className="max-w-md text-sm leading-relaxed text-muted">{t("responseTime")}</p>
@@ -143,13 +161,13 @@ export function SegmentedContactForm({ locale, initialIntent }: SegmentedContact
   }
 
   const inputClass =
-    "w-full rounded-xl border border-line bg-ink-900 px-4 py-3 text-paper placeholder:text-faint transition-colors focus:border-brand-500/60 focus:outline-none";
+    "w-full rounded-xl border border-line bg-ink-900 px-4 py-3 text-paper placeholder:text-faint transition-colors focus:border-brand-500 focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-brand-500";
 
   const tabClass = (active: boolean) =>
     cn(
       "flex-1 rounded-full border px-4 py-2.5 text-sm font-semibold transition-all duration-200 sm:flex-none",
       active
-        ? "border-brand-500 bg-brand-500 text-white"
+        ? "border-brand-500 bg-brand-500 text-ink-950"
         : "border-line bg-white/5 text-muted hover:border-brand-500/40 hover:text-paper"
     );
 
@@ -170,6 +188,7 @@ export function SegmentedContactForm({ locale, initialIntent }: SegmentedContact
           <button
             key={s}
             type="button"
+            aria-pressed={segment === s}
             className={tabClass(segment === s)}
             onClick={() => chooseSegment(s)}
           >
@@ -192,24 +211,46 @@ export function SegmentedContactForm({ locale, initialIntent }: SegmentedContact
               <label htmlFor="name" className="mb-2 block text-sm font-medium text-paper">
                 {t("name")} *
               </label>
-              <input id="name" name="name" type="text" required defaultValue={capturedName} className={inputClass} />
+              <input
+                id="name"
+                name="name"
+                type="text"
+                required
+                defaultValue={capturedName}
+                aria-invalid={status === "error"}
+                aria-describedby={status === "error" ? "contact-step-error" : undefined}
+                className={inputClass}
+              />
             </div>
             <div>
               <label htmlFor="email" className="mb-2 block text-sm font-medium text-paper">
                 {t("email")} *
               </label>
-              <input id="email" name="email" type="email" required defaultValue={capturedEmail} className={inputClass} />
+              <input
+                id="email"
+                name="email"
+                type="email"
+                required
+                defaultValue={capturedEmail}
+                aria-invalid={status === "error"}
+                aria-describedby={status === "error" ? "contact-step-error" : undefined}
+                className={inputClass}
+              />
             </div>
           </div>
           {status === "error" ? (
-            <p role="alert" className="mt-4 rounded-xl border border-danger-500/30 bg-danger-500/10 px-4 py-3 text-sm text-danger-300">
+            <p
+              id="contact-step-error"
+              role="alert"
+              className="mt-4 rounded-xl border border-danger-500/30 bg-danger-500/10 px-4 py-3 text-sm text-danger-300"
+            >
               {message}
             </p>
           ) : null}
           <button
             type="button"
             onClick={continueToDetails}
-            className="mt-6 inline-flex items-center gap-2 rounded-full bg-brand-500 px-7 py-3.5 font-semibold text-white transition-all hover:bg-brand-400 hover:shadow-glow"
+            className="mt-6 inline-flex items-center gap-2 rounded-full bg-brand-500 px-7 py-3.5 font-semibold text-ink-950 transition-all hover:bg-brand-400 hover:shadow-glow"
           >
             {t("continue")}
             <Send className="h-4 w-4 rtl:-scale-x-100" aria-hidden="true" />
@@ -292,7 +333,11 @@ export function SegmentedContactForm({ locale, initialIntent }: SegmentedContact
           </div>
 
           {status === "error" ? (
-            <p role="alert" className="mt-4 rounded-xl border border-danger-500/30 bg-danger-500/10 px-4 py-3 text-sm text-danger-300">
+            <p
+              id="contact-error"
+              role="alert"
+              className="mt-4 rounded-xl border border-danger-500/30 bg-danger-500/10 px-4 py-3 text-sm text-danger-300"
+            >
               {message}
             </p>
           ) : null}
@@ -301,7 +346,7 @@ export function SegmentedContactForm({ locale, initialIntent }: SegmentedContact
             <button
               type="submit"
               disabled={status === "submitting"}
-              className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-brand-500 px-7 py-3.5 font-semibold text-white transition-all hover:bg-brand-400 hover:shadow-glow disabled:cursor-not-allowed disabled:opacity-60 sm:w-auto"
+              className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-brand-500 px-7 py-3.5 font-semibold text-ink-950 transition-all hover:bg-brand-400 hover:shadow-glow disabled:cursor-not-allowed disabled:opacity-60 sm:w-auto"
               data-track="cta_click_form_submit"
             >
               {status === "submitting" ? (
@@ -313,7 +358,10 @@ export function SegmentedContactForm({ locale, initialIntent }: SegmentedContact
             </button>
             <button
               type="button"
-              onClick={() => setStep("contact")}
+              onClick={() => {
+                setStepTransitioned(true);
+                setStep("contact");
+              }}
               className="text-sm font-medium text-muted underline-offset-4 transition-colors hover:text-brand-400 hover:underline"
             >
               {t("back")}

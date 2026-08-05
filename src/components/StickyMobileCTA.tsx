@@ -32,18 +32,21 @@ export function StickyMobileCTA() {
           visible ? "translate-y-0" : "translate-y-full"
         )}
         aria-hidden={!visible}
+        inert={!visible}
       >
         <div className="mx-auto flex max-w-md items-center gap-3">
           <Link
             href="/demo"
-            className="flex-1 rounded-full bg-brand-500 px-4 py-3 text-center text-sm font-semibold text-white shadow-[0_10px_30px_-10px_rgba(241,95,53,0.55)] transition-colors hover:bg-brand-400"
+            tabIndex={visible ? 0 : -1}
+            className="flex-1 rounded-full bg-brand-500 px-4 py-3 text-center text-sm font-semibold text-ink-950 shadow-[0_10px_30px_-10px_rgba(241,95,53,0.55)] transition-colors hover:bg-brand-400"
             data-track="cta_click_sticky_demo"
           >
             {tn("bookDemo")}
           </Link>
           <Link
             href="/products/intos#sandbox"
-            className="flex-1 rounded-full border border-line-strong bg-white/5 px-4 py-3 text-center text-sm font-semibold text-paper transition-colors hover:border-brand-500/50 hover:bg-white/10"
+            tabIndex={visible ? 0 : -1}
+            className="flex-1 rounded-full border border-line-strong bg-ink-800/60 px-4 py-3 text-center text-sm font-semibold text-paper transition-colors hover:border-brand-500/50 hover:bg-ink-800"
             data-track="cta_click_sticky_sandbox"
           >
             {tc("sandboxCta")}

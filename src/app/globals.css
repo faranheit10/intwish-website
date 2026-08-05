@@ -44,10 +44,16 @@
   --color-danger-400: #f8716d;
   --color-danger-300: #fca5a5;
 
+  /* ---------- WindowFrame macOS traffic lights ---------- */
+  --color-traffic-close: #ff5f57;
+  --color-traffic-min: #febc2e;
+  --color-traffic-max: #28c840;
+
   /* ---------- Text ---------- */
   --color-paper: #e9ecef;
   --color-muted: #9aa2ac;
-  --color-faint: #69717c;
+  /* #7e8894 passes WCAG 2.1 AA (≥4.5:1) on ink-950 (#0b0d10): 5.31:1. */
+  --color-faint: #7e8894;
 
   /* ---------- Lines / borders ---------- */
   --color-line: rgba(233, 236, 239, 0.09);

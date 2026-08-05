@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 import { loadAnalytics } from "@/lib/analytics";
 import {
@@ -24,6 +24,7 @@ export function ConsentManager() {
   const t = useTranslations("consent");
   const [choice, setChoice] = useState<ConsentChoice>(null);
   const [ready, setReady] = useState(false);
+  const acceptRef = useRef<HTMLButtonElement>(null);
 
   useEffect(() => {
     const apply = () => {
@@ -37,6 +38,12 @@ export function ConsentManager() {
     return subscribeConsent(apply);
   }, []);
 
+  // Once rendered (no stored choice), move focus to the primary action so the
+  // banner is reachable by keyboard/SR users immediately (WCAG 2.4.3).
+  useEffect(() => {
+    if (ready && choice === null) acceptRef.current?.focus();
+  }, [ready, choice]);
+
   // Known trade-off: scripts can't be unloaded, so if a visitor accepts and
   // later clears their choice via "Cookie settings", gtag stays loaded for the
   // remainder of the session (it just never loads again after a decline).
@@ -46,7 +53,7 @@ export function ConsentManager() {
 
   return (
     <div
-      role="region"
+      role="dialog"
       aria-label={t("title")}
       className="fixed inset-x-0 bottom-16 z-[80] px-4 sm:bottom-4 print:hidden"
     >
@@ -55,9 +62,10 @@ export function ConsentManager() {
         <p className="mt-2 text-sm leading-relaxed text-muted">{t("body")}</p>
         <div className="mt-4 flex flex-wrap items-center gap-3">
           <button
+            ref={acceptRef}
             type="button"
             onClick={() => setConsent("accepted")}
-            className="inline-flex items-center justify-center rounded-full bg-brand-500 px-6 py-2.5 text-sm font-semibold text-white transition-all hover:bg-brand-400 hover:shadow-glow"
+            className="inline-flex items-center justify-center rounded-full bg-brand-500 px-6 py-2.5 text-sm font-semibold text-ink-950 transition-all hover:bg-brand-400 hover:shadow-glow"
             data-track="consent_accept"
           >
             {t("accept")}

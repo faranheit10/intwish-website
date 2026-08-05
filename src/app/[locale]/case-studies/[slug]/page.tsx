@@ -123,7 +123,7 @@ export default async function CaseStudyDetailPage({
                   </Button>
                   <Link
                     href={`/case-studies/${study.slug}/one-pager`}
-                    className="inline-flex items-center gap-2 rounded-full border border-brand-500/40 bg-brand-500/10 px-5 py-2.5 text-sm font-semibold text-brand-400 transition-all hover:bg-brand-500 hover:text-white"
+                    className="inline-flex items-center gap-2 rounded-full border border-brand-500/40 bg-brand-500/10 px-5 py-2.5 text-sm font-semibold text-brand-400 transition-all hover:bg-brand-500 hover:text-ink-950"
                     data-track="case_download"
                   >
                     <FileDown className="h-4 w-4" aria-hidden="true" />

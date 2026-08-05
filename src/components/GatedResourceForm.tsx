@@ -41,6 +41,10 @@ export function GatedResourceForm({ locale, resource, onUnlocked }: GatedResourc
     if (!payload.name || !payload.email) {
       setStatus("error");
       setMessage(t("required"));
+      const target = payload.name
+        ? (document.getElementById("lead-email") as HTMLInputElement | null)
+        : (document.getElementById("lead-name") as HTMLInputElement | null);
+      target?.focus();
       trackEvent("form_submit", { form: "gate", outcome: "invalid", resource });
       return;
     }
@@ -77,7 +81,10 @@ export function GatedResourceForm({ locale, resource, onUnlocked }: GatedResourc
 
   if (status === "success") {
     return (
-      <div className="frame-blueprint flex flex-col items-center gap-4 rounded-2xl bg-ink-850 p-8 text-center sm:p-10">
+      <div
+        role="status"
+        className="frame-blueprint flex flex-col items-center gap-4 rounded-2xl bg-ink-850 p-8 text-center sm:p-10"
+      >
         <CheckCircle2 className="h-10 w-10 text-accent-400" aria-hidden="true" />
         <p className="text-lg font-medium text-paper">{t("success")}</p>
         <p className="max-w-md text-sm text-muted">{t("successNote")}</p>
@@ -86,7 +93,7 @@ export function GatedResourceForm({ locale, resource, onUnlocked }: GatedResourc
   }
 
   const inputClass =
-    "w-full rounded-xl border border-line bg-ink-900 px-4 py-3 text-paper placeholder:text-faint transition-colors focus:border-brand-500/60 focus:outline-none";
+    "w-full rounded-xl border border-line bg-ink-900 px-4 py-3 text-paper placeholder:text-faint transition-colors focus:border-brand-500 focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-brand-500";
 
   return (
     <form
@@ -116,13 +123,29 @@ export function GatedResourceForm({ locale, resource, onUnlocked }: GatedResourc
             <label htmlFor="lead-name" className="mb-2 block text-sm font-medium text-paper">
               {t("name")} *
             </label>
-            <input id="lead-name" name="name" type="text" required className={inputClass} />
+            <input
+              id="lead-name"
+              name="name"
+              type="text"
+              required
+              aria-invalid={status === "error"}
+              aria-describedby={status === "error" ? "gate-error" : undefined}
+              className={inputClass}
+            />
           </div>
           <div>
             <label htmlFor="lead-email" className="mb-2 block text-sm font-medium text-paper">
               {t("email")} *
             </label>
-            <input id="lead-email" name="email" type="email" required className={inputClass} />
+            <input
+              id="lead-email"
+              name="email"
+              type="email"
+              required
+              aria-invalid={status === "error"}
+              aria-describedby={status === "error" ? "gate-error" : undefined}
+              className={inputClass}
+            />
           </div>
         </div>
 
@@ -134,7 +157,11 @@ export function GatedResourceForm({ locale, resource, onUnlocked }: GatedResourc
         </div>
 
         {status === "error" ? (
-          <p role="alert" className="mt-4 rounded-xl border border-danger-500/30 bg-danger-500/10 px-4 py-3 text-sm text-danger-300">
+          <p
+            id="gate-error"
+            role="alert"
+            className="mt-4 rounded-xl border border-danger-500/30 bg-danger-500/10 px-4 py-3 text-sm text-danger-300"
+          >
             {message}
           </p>
         ) : null}
@@ -142,7 +169,7 @@ export function GatedResourceForm({ locale, resource, onUnlocked }: GatedResourc
         <button
           type="submit"
           disabled={status === "submitting"}
-          className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-full bg-brand-500 px-7 py-3.5 font-semibold text-white transition-all hover:bg-brand-400 hover:shadow-glow disabled:cursor-not-allowed disabled:opacity-60"
+          className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-full bg-brand-500 px-7 py-3.5 font-semibold text-ink-950 transition-all hover:bg-brand-400 hover:shadow-glow disabled:cursor-not-allowed disabled:opacity-60"
           data-track="cta_click_gate_submit"
         >
           {status === "submitting" ? (

@@ -63,6 +63,7 @@ export default async function ProductsPage({
             kicker={t("kicker")}
             title={t("title")}
             subtitle={t("subtitle")}
+            as="h1"
           />
         </div>
       </Section>
