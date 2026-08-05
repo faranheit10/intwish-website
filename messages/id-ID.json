@@ -158,7 +158,7 @@
       "windowTitle": "IntReview — laporan kandidat AI",
       "reportLabel": "Laporan kandidat AI IntReview"
     },
-    "bentoKicker": "const products = compile(",
+    "bentoKicker": "// Rangkaian Produk",
     "bentoTitle": "Dua produk. Satu stack. Nol vendor sprawl.",
     "bentoSubtitle": "Setiap lapisan stack — dibangun, dimiliki, dan di-deploy oleh tim yang sama."
   },
@@ -204,7 +204,7 @@
         "label": "Halaman laporan 360° otomatis"
       }
     },
-    "kicker": "return {"
+    "kicker": "// Dampak Terukur"
   },
   "compliance": {
     "title": "Dibangun untuk pengadaan teregulasi",
@@ -231,7 +231,7 @@
         "note": "Peta jalan berjalan"
       }
     },
-    "kicker": "// compliance compiled"
+    "kicker": "// Kepatuhan Perusahaan"
   },
   "about": {
     "kicker": "Tentang Intwish",
@@ -297,14 +297,54 @@
       "tagline": "Platform asesmen OS virtual",
       "description": "Desktop virtual langsung yang benar-benar dioperasikan kandidat Anda — simulasi email, messenger tim, pertemuan penilaian situasional, game psikometri, dan mesin naratif saling terhubung. Dibangun untuk rekrutmen volume tinggi di skala apa pun.",
       "cta": "Jelajahi intOS",
-      "sandbox": "Demo interaktif langsung"
+      "sandbox": "Demo interaktif langsung",
+      "differentiator": "Platform asesmen pertama yang mensimulasikan dunia kerja",
+      "a": "Email, messenger, rapat & game dalam satu OS",
+      "b": "Naratif saling terhubung — balas email dan pesan tim terpicu",
+      "c": "25.000+ kandidat dalam satu kampanye",
+      "windowTitle": "intOS — desktop virtual",
+      "reportLabel": "Desktop virtual intOS"
     },
     "intreview": {
       "name": "IntReview",
       "tagline": "Wawancara & asesmen berbantuan AI",
       "description": "Wawancara video asinkron dinilai oleh AI berdasarkan rubrik kompetensi Anda — dengan proctoring, analisis STAR, dan laporan instan berbasis data. Kandidat merekam sekali; Anda meninjau buktinya.",
       "cta": "Jelajahi IntReview",
-      "sandbox": "Wawancara dinilai AI"
+      "sandbox": "Wawancara dinilai AI",
+      "differentiator": "Wawancara AI yang memperlihatkan cara kerjanya",
+      "a": "Penilaian AI dengan kutipan bukti",
+      "b": "18+ tipe pertanyaan, termasuk AI",
+      "c": "Proctoring anti-kecurangan bawaan",
+      "windowTitle": "IntReview — laporan kandidat AI",
+      "reportLabel": "Laporan kandidat AI IntReview"
+    },
+    "stack": {
+      "kicker": "// Keunggulan full-stack",
+      "title": "Satu stack. Satu mitra. Nol vendor sprawl.",
+      "subtitle": "Asesmen dan wawancara berbagi satu model data, satu rubrik, dan satu jalur dukungan — karena tim yang sama membangun keduanya.",
+      "items": {
+        "model": {
+          "title": "Satu model data",
+          "body": "Kandidat, kompetensi, dan skor mengalir antara intOS dan IntReview — tanpa mengetik ulang atau ekspor/impor."
+        },
+        "rubric": {
+          "title": "Satu rubrik",
+          "body": "Kompetensi yang Anda konfigurasi di intOS menggerakkan penilaian IntReview, sehingga keputusan konsisten dari awal sampai akhir."
+        },
+        "support": {
+          "title": "Satu jalur dukungan",
+          "body": "Satu SLA dan satu tim untuk kedua platform — tanpa saling lempar tanggung jawab antar vendor."
+        },
+        "roadmap": {
+          "title": "Satu peta jalan",
+          "body": "Fitur dirilis ke kedua produk sekaligus, dan masukan Anda membentuk mesin bersama."
+        },
+        "cost": {
+          "title": "Total biaya lebih rendah",
+          "body": "Satu pengadaan, satu kontrak, harga volume untuk seluruh stack — lebih murah daripada lima alat."
+        }
+      },
+      "cta": "Jadwalkan demo keduanya"
     }
   },
   "intos": {
@@ -312,6 +352,15 @@
     "title": "Platform asesmen OS virtual",
     "tagline": "Platform asesmen pertama yang mensimulasikan dunia kerja — OS yang benar-benar dioperasikan kandidat Anda.",
     "description": "intOS menempatkan kandidat di desktop virtual yang realistis: kotak masuk email, messenger tim, pertemuan terjadwal, tugas langsung, dan aliran interupsi. Apa pun yang mereka lakukan di OS itu — setiap klik, balasan, dan keputusan — dinilai dan dilaporkan kepada Anda. Dibangun untuk program management trainee, skema lulusan baru, perekrutan lateral, dan kampanye 25.000+ kandidat.",
+    "hero": {
+      "kicker": "define(assessment):",
+      "headline": "Platform asesmen pertama yang mensimulasikan dunia kerja",
+      "tagline": "Kandidat masuk ke desktop virtual langsung — inbox, messenger, rapat, dan game — di mana setiap klik, balasan, dan keputusan dinilai sesuai rubrik Anda.",
+      "outcome": "25.000+ kandidat dinilai dalam satu kampanye",
+      "ctaSandbox": "Coba OS-nya",
+      "ctaPilot": "Jadwalkan Pilot",
+      "windowTitle": "intOS — desktop virtual"
+    },
     "ctaSandbox": "Coba sandbox langsung",
     "ctaPilot": "Jadwalkan pilot dengan ahli",
     "proof": {
@@ -459,7 +508,8 @@
       "kicker": "Ilmunya",
       "title": "Psikometri yang bisa Anda pertanggungjawabkan",
       "subtitle": "intOS dibangun di atas riset penilaian situasional dan kognitif — metode di balik 300.000+ pengguna yang kami nilai.",
-      "body": "Asesmen kognitif berbasis SJT dan game mengukur penilaian dan kemampuan dengan bias budaya dan kepura-puraan yang lebih rendah daripada tes laporan diri tradisional. Basis riset kami mencakup validasi lintas-negara asesmen kognitif berbasis game — bukti yang sama yang dikutip laporan klien kami."
+      "body": "Asesmen kognitif berbasis SJT dan game mengukur penilaian dan kemampuan dengan bias budaya dan kepura-puraan yang lebih rendah daripada tes laporan diri tradisional. Basis riset kami mencakup validasi lintas-negara asesmen kognitif berbasis game — bukti yang sama yang dikutip laporan klien kami.",
+      "cta": "Baca metodologi kami"
     },
     "reporting": {
       "kicker": "Analitik & pelaporan",
@@ -625,13 +675,23 @@
       },
       "cta": "Dapatkan kutipan regional",
       "roiNote": "Lebih suka angka? Coba kalkulator ROI"
-    }
+    },
+    "proofLabel": "Terbukti dalam skala besar"
   },
   "intreview": {
     "kicker": "Produk · Wawancara",
     "title": "Wawancara & asesmen berbantuan AI",
     "tagline": "Wawancara video asinkron dinilai oleh AI berdasarkan rubrik kompetensi Anda — dengan proctoring, analisis STAR, dan laporan instan berbasis data.",
     "description": "Kandidat merekam jawaban video terstruktur sekali, sesuai waktu mereka. AI IntReview menilainya terhadap rubrik Anda — struktur STAR, peringkat 1–5, dan kutipan bukti — sementara proctoring mengawasi kecurangan. Anda meninjau bukti berperingkat, bukan berjam-jam rekaman mentah.",
+    "hero": {
+      "kicker": "define(interview):",
+      "headline": "Wawancara AI yang memperlihatkan cara kerjanya",
+      "tagline": "Kandidat merekam sekali, sesuai waktu mereka. IntReview menilai berdasarkan rubrik Anda dengan kutipan bukti verbatim dan cap waktu — sementara proctoring mengawasi kecurangan.",
+      "outcome": "~80% lebih sedikit waktu review, dengan bukti yang bisa dipertahankan",
+      "ctaDemo": "Lihat penilaian AI beraksi",
+      "ctaPilot": "Jadwalkan Pilot",
+      "windowTitle": "IntReview — laporan kandidat AI"
+    },
     "ctaDemo": "Minta demo langsung",
     "ctaPilot": "Jadwalkan pilot dengan ahli",
     "proof": {
@@ -846,7 +906,8 @@
       },
       "cta": "Dapatkan kutipan regional",
       "roiNote": "Lebih suka angka? Coba kalkulator ROI"
-    }
+    },
+    "proofLabel": "Terbukti dalam skala besar"
   },
   "trust": {
     "kicker": "Kepercayaan & Keamanan",
@@ -1136,7 +1197,7 @@
     "title": "DefineYourWish(); — mari bangun milik Anda.",
     "subtitle": "Jadwalkan demo intOS dan IntReview — atau mulai proyek pelatihan, asesmen, atau simulasi gamifikasi dengan tim yang memeloporinya di Pakistan.",
     "sandboxCta": "Coba sandbox intOS",
-    "kicker": "}; // compiled and ready",
+    "kicker": "// DefineYourWish();",
     "trustLine": "Bank Alfalah · HBL · PTCL · Shell · K-Electric · Daraz · 300.000+ profesional dinilai"
   },
   "announcement": {
@@ -1144,12 +1205,12 @@
     "dismiss": "Tutup pengumuman"
   },
   "servicesBand": {
-    "kicker": "const services = deploy(",
+    "kicker": "// Kapabilitas Rekayasa",
     "title": "Kapabilitas engineering di balik produk di atas",
     "subtitle": "Tim yang sama yang membangun intOS dan IntReview mengirim program pelatihan, rekrutmen, engagement, portal, dan 360° Anda."
   },
   "science": {
-    "kicker": "const science = prove(",
+    "kicker": "// Rigor Ilmiah",
     "title": "Berakar pada sains, bukan sekadar gamifikasi",
     "body": "Asesmen kami dibangun di atas teori situational-judgement dan metode psikometri berbasis game yang berakar pada psikologi industri & organisasi — tervalidasi, terukur, dan terkait pada kesuksesan kerja nyata.",
     "cta": "Baca metodologi kami",

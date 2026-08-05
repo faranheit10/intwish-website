@@ -158,7 +158,7 @@
       "windowTitle": "IntReview — rapport de candidat IA",
       "reportLabel": "Rapport de candidat IA IntReview"
     },
-    "bentoKicker": "const products = compile(",
+    "bentoKicker": "// Suite de produits",
     "bentoTitle": "Deux produits. Une pile. Zéro prolifération de fournisseurs.",
     "bentoSubtitle": "Chaque couche de la pile — conçue, détenue et déployée par la même équipe."
   },
@@ -204,7 +204,7 @@
         "label": "Pages de rapports 360° automatisés"
       }
     },
-    "kicker": "return {"
+    "kicker": "// Impact mesuré"
   },
   "compliance": {
     "title": "Conçu pour les marchés publics réglementés",
@@ -231,7 +231,7 @@
         "note": "Feuille de route en cours"
       }
     },
-    "kicker": "// compliance compiled"
+    "kicker": "// Conformité d'entreprise"
   },
   "about": {
     "kicker": "À propos d'Intwish",
@@ -297,14 +297,54 @@
       "tagline": "La plateforme d'évaluation à OS virtuel",
       "description": "Un bureau virtuel en direct que vos candidats utilisent réellement — simulations de courriels, messagerie d'équipe, réunions de jugement situationnel, jeux psychométriques et moteur narratif interconnecté. Conçu pour l'embauche à grand volume, à toute échelle.",
       "cta": "Explorer intOS",
-      "sandbox": "Démo interactive en direct"
+      "sandbox": "Démo interactive en direct",
+      "differentiator": "La première plateforme d'évaluation qui simule le monde du travail",
+      "a": "Courriels, messagerie, réunions et jeux dans un seul OS",
+      "b": "Narratif interconnecté — répondez à un courriel et un message d'équipe s'envole",
+      "c": "Plus de 25 000 candidats dans une seule campagne",
+      "windowTitle": "intOS — bureau virtuel",
+      "reportLabel": "Bureau virtuel intOS"
     },
     "intreview": {
       "name": "IntReview",
       "tagline": "Entrevues et évaluations assistées par IA",
       "description": "Entrevues vidéo asynchrones évaluées par IA selon vos grilles de compétences — avec surveillance anti-triche, analyse STAR et rapports instantanés fondés sur les données. Les candidats enregistrent une fois ; vous examinez les preuves.",
       "cta": "Explorer IntReview",
-      "sandbox": "Entrevues évaluées par IA"
+      "sandbox": "Entrevues évaluées par IA",
+      "differentiator": "Des entrevues IA qui montrent leur raisonnement",
+      "a": "Évaluation IA avec citations de preuves",
+      "b": "Plus de 18 types de questions, dont IA",
+      "c": "Surveillance anti-triche intégrée",
+      "windowTitle": "IntReview — rapport de candidat IA",
+      "reportLabel": "Rapport de candidat IA IntReview"
+    },
+    "stack": {
+      "kicker": "// L'avantage de la pile complète",
+      "title": "Une pile. Un partenaire. Zéro prolifération de fournisseurs.",
+      "subtitle": "L'évaluation et les entrevues partagent un modèle de données, une grille et un canal de soutien — parce que la même équipe a bâti les deux.",
+      "items": {
+        "model": {
+          "title": "Un modèle de données",
+          "body": "Candidats, compétences et scores circulent entre intOS et IntReview — sans ressaisie ni export/import."
+        },
+        "rubric": {
+          "title": "Une grille",
+          "body": "Les compétences que vous configurez dans intOS pilotent la notation d'IntReview, pour des décisions cohérentes de bout en bout."
+        },
+        "support": {
+          "title": "Un canal de soutien",
+          "body": "Un seul SLA et une seule équipe pour les deux plateformes — aucune réponse du style « pas nous »."
+        },
+        "roadmap": {
+          "title": "Une feuille de route",
+          "body": "Les fonctionnalités sortent pour les deux produits à la fois, et vos retours façonnent le moteur partagé."
+        },
+        "cost": {
+          "title": "Coût total réduit",
+          "body": "Un approvisionnement, un contrat, un prix au volume pour toute la pile — moins cher que cinq outils."
+        }
+      },
+      "cta": "Réserver une démo des deux"
     }
   },
   "intos": {
@@ -312,6 +352,15 @@
     "title": "La plateforme d'évaluation à OS virtuel",
     "tagline": "La première plateforme d'évaluation qui simule le monde du travail — un OS que vos candidats utilisent réellement.",
     "description": "intOS plonge les candidats dans un bureau virtuel réaliste : une boîte de réception, une messagerie d'équipe, des réunions planifiées, des tâches en direct et un flot d'interruptions. Chaque geste dans cet OS — chaque clic, chaque réponse, chaque décision — est évalué et consigné pour vous. Conçu pour les programmes de stagiaires en gestion, les programmes pour diplômés, l'embauche latérale et les campagnes de 25 000+ candidats.",
+    "hero": {
+      "kicker": "define(assessment):",
+      "headline": "La première plateforme d'évaluation qui simule le monde du travail",
+      "tagline": "Les candidats entrent dans un bureau virtuel en direct — boîte de réception, messagerie, réunions et jeux — où chaque clic, réponse et décision est noté selon votre grille.",
+      "outcome": "Plus de 25 000 candidats évalués en une seule campagne",
+      "ctaSandbox": "Découvrir l'OS",
+      "ctaPilot": "Réserver un pilote",
+      "windowTitle": "intOS — bureau virtuel"
+    },
     "ctaSandbox": "Essayer le bac à sable en direct",
     "ctaPilot": "Réserver un projet pilote avec un expert",
     "proof": {
@@ -459,7 +508,8 @@
       "kicker": "La science",
       "title": "Une psychométrie défendable",
       "subtitle": "intOS repose sur la recherche en jugement situationnel et en évaluation cognitive — les méthodes derrière nos 300 000+ utilisateurs évalués.",
-      "body": "Les évaluations cognitives par SJT et par jeu mesurent le jugement et l'aptitude avec moins de biais culturel et de tricherie que les tests d'auto-évaluation traditionnels. Notre base de recherche comprend la validation transnationale de l'évaluation cognitive par jeu — les mêmes preuves que citent nos rapports clients."
+      "body": "Les évaluations cognitives par SJT et par jeu mesurent le jugement et l'aptitude avec moins de biais culturel et de tricherie que les tests d'auto-évaluation traditionnels. Notre base de recherche comprend la validation transnationale de l'évaluation cognitive par jeu — les mêmes preuves que citent nos rapports clients.",
+      "cta": "Lire notre méthodologie"
     },
     "reporting": {
       "kicker": "Analytique et rapports",
@@ -625,13 +675,23 @@
       },
       "cta": "Obtenir un devis régional",
       "roiNote": "Vous préférez les chiffres ? Essayez le calculateur de ROI"
-    }
+    },
+    "proofLabel": "Éprouvé à grande échelle"
   },
   "intreview": {
     "kicker": "Produit · Entrevues",
     "title": "Entrevues et évaluations assistées par IA",
     "tagline": "Entrevues vidéo asynchrones évaluées par IA selon vos grilles de compétences — avec surveillance anti-triche, analyse STAR et rapports instantanés fondés sur les données.",
     "description": "Les candidats enregistrent une fois des réponses vidéo structurées, à leur rythme. L'IA d'IntReview les évalue selon votre grille — structure STAR, cotes de 1 à 5 et citations de preuves — tandis que la surveillance veille à la tricherie. Vous examinez des preuves classées, pas des heures de vidéo brute.",
+    "hero": {
+      "kicker": "define(interview):",
+      "headline": "Des entrevues IA qui montrent leur raisonnement",
+      "tagline": "Les candidats enregistrent une seule fois, à leur rythme. IntReview évalue selon votre grille avec citations de preuves textuelles et horodatages — pendant que la surveillance anti-triche veille.",
+      "outcome": "Environ 80 % de temps de révision en moins, avec des preuves défendables",
+      "ctaDemo": "Voir la notation IA en action",
+      "ctaPilot": "Réserver un pilote",
+      "windowTitle": "IntReview — rapport de candidat IA"
+    },
     "ctaDemo": "Demander une démonstration en direct",
     "ctaPilot": "Réserver un projet pilote avec un expert",
     "proof": {
@@ -846,7 +906,8 @@
       },
       "cta": "Obtenir un devis régional",
       "roiNote": "Vous préférez les chiffres ? Essayez le calculateur de ROI"
-    }
+    },
+    "proofLabel": "Éprouvé à grande échelle"
   },
   "trust": {
     "kicker": "Confiance et sécurité",
@@ -1136,7 +1197,7 @@
     "title": "DefineYourWish(); — construisons la vôtre.",
     "subtitle": "Réservez une démo d'intOS et d'IntReview — ou démarrez un projet de formation, d'évaluation ou de simulation ludifiée avec l'équipe qui l'a inaugurée au Pakistan.",
     "sandboxCta": "Essayez la démo intOS",
-    "kicker": "}; // compiled and ready",
+    "kicker": "// DefineYourWish();",
     "trustLine": "Bank Alfalah · HBL · PTCL · Shell · K-Electric · Daraz · plus de 300 000 professionnels évalués"
   },
   "announcement": {
@@ -1144,12 +1205,12 @@
     "dismiss": "Fermer l'annonce"
   },
   "servicesBand": {
-    "kicker": "const services = deploy(",
+    "kicker": "// Capacités d'ingénierie",
     "title": "La capacité d'ingénierie derrière les produits ci-dessus",
     "subtitle": "La même équipe qui bâtit intOS et IntReview déploie vos programmes de formation, de recrutement, d'engagement, de portails et de 360°."
   },
   "science": {
-    "kicker": "const science = prove(",
+    "kicker": "// Rigueur scientifique",
     "title": "Fondé sur la science, pas seulement la ludification",
     "body": "Nos évaluations reposent sur la théorie du jugement situationnel et des méthodes psychométriques issues de la psychologie industrielle et organisationnelle — validées, mesurées et liées à la réussite réelle en poste.",
     "cta": "Lire notre méthodologie",

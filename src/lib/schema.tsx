@@ -82,6 +82,60 @@ export function serviceSchema(input: ServiceSchemaInput): object {
   };
 }
 
+interface FAQPageInput {
+  items: { q: string; a: string }[];
+}
+
+/** FAQPage JSON-LD — one per product page, mirrors the on-page accordion. */
+export function faqPageSchema({ items }: FAQPageInput): object {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: items.map((item) => ({
+      "@type": "Question",
+      name: item.q,
+      acceptedAnswer: { "@type": "Answer", text: item.a },
+    })),
+  };
+}
+
+interface ProductPageInput {
+  locale: Locale;
+  href: string;
+  name: string;
+  description: string;
+  image?: string;
+  offers?: { priceCurrency: string; description: string };
+}
+
+/**
+ * Product JSON-LD for the two product detail pages. `@id` matches the
+ * SoftwareApplication nodes declared in the layout graph so rich results
+ * connect to the organization.
+ */
+export function productSchema(input: ProductPageInput): object {
+  const { locale, href, name, description, image } = input;
+  return {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name,
+    description,
+    url: pageUrl(locale, href),
+    ...(image ? { image: image.startsWith("http") ? image : `${ORIGIN}${image}` } : {}),
+    brand: { "@type": "Brand", name: "Intwish" },
+    ...(input.offers
+      ? {
+          offers: {
+            "@type": "Offer",
+            priceCurrency: input.offers.priceCurrency,
+            description: input.offers.description,
+          },
+        }
+      : {}),
+    audience: { "@type": "BusinessAudience" },
+  };
+}
+
 interface VideoObjectInput {
   name: string;
   description?: string;

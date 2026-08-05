@@ -158,7 +158,7 @@
       "windowTitle": "IntReview — AI candidate report",
       "reportLabel": "IntReview AI candidate report"
     },
-    "bentoKicker": "const products = compile(",
+    "bentoKicker": "// Product Suite",
     "bentoTitle": "Two products. One stack. Zero vendor sprawl.",
     "bentoSubtitle": "Every layer of the stack — built, owned and deployed by the same team."
   },
@@ -204,7 +204,7 @@
         "label": "Pages of automated 360° reports"
       }
     },
-    "kicker": "return {"
+    "kicker": "// Quantified Impact"
   },
   "compliance": {
     "title": "Built for regulated procurement",
@@ -231,7 +231,7 @@
         "note": "Roadmap in progress"
       }
     },
-    "kicker": "// compliance compiled"
+    "kicker": "// Enterprise Compliance"
   },
   "about": {
     "kicker": "About Intwish",
@@ -297,14 +297,54 @@
       "tagline": "The virtual OS assessment platform",
       "description": "A live virtual desktop your candidates actually operate — email simulations, team messenger, situational-judgement meetings, psychometric games and an interlinked narrative engine. Built for high-volume hiring at any scale.",
       "cta": "Explore intOS",
-      "sandbox": "Live interactive demo"
+      "sandbox": "Live interactive demo",
+      "differentiator": "The first assessment platform that simulates the working world",
+      "a": "Email, messenger, meetings & games in one OS",
+      "b": "Interlinked narrative — reply to an email and a team-message fires",
+      "c": "25,000+ candidates in a single drive",
+      "windowTitle": "intOS — virtual desktop",
+      "reportLabel": "intOS virtual desktop"
     },
     "intreview": {
       "name": "IntReview",
       "tagline": "AI-assisted interviews & assessments",
       "description": "Asynchronous video interviews scored by AI against your competency rubrics — with proctoring, STAR analysis and instant, data-driven reports. Candidates record once; you review the evidence.",
       "cta": "Explore IntReview",
-      "sandbox": "AI-scored interviews"
+      "sandbox": "AI-scored interviews",
+      "differentiator": "AI interviews that show their work",
+      "a": "AI scoring with verbatim evidence quotes",
+      "b": "18+ question types, incl. AI-generated",
+      "c": "Anti-cheat proctoring built in",
+      "windowTitle": "IntReview — AI candidate report",
+      "reportLabel": "IntReview AI candidate report"
+    },
+    "stack": {
+      "kicker": "// The full-stack advantage",
+      "title": "One stack. One partner. Zero vendor sprawl.",
+      "subtitle": "Assessment and interviews share one data model, one rubric, and one support line — because the same team built both.",
+      "items": {
+        "model": {
+          "title": "One data model",
+          "body": "Candidates, competencies and scores flow between intOS and IntReview — no re-keying, no export/import."
+        },
+        "rubric": {
+          "title": "One rubric",
+          "body": "The competencies you configure in intOS drive IntReview scoring, so decisions stay consistent end to end."
+        },
+        "support": {
+          "title": "One support line",
+          "body": "A single SLA and a single team for both platforms — no finger-pointing between vendors."
+        },
+        "roadmap": {
+          "title": "One roadmap",
+          "body": "Features ship to both products at once, and your feedback shapes the shared engine."
+        },
+        "cost": {
+          "title": "Lower total cost",
+          "body": "One procurement, one contract, volume pricing across the stack — cheaper than five point tools."
+        }
+      },
+      "cta": "Book a demo of both"
     }
   },
   "intos": {
@@ -312,6 +352,15 @@
     "title": "The virtual OS assessment platform",
     "tagline": "The first assessment platform that simulates the working world — an OS your candidates actually operate.",
     "description": "intOS drops candidates into a realistic virtual desktop: an email inbox, a team messenger, scheduled meetings, live tasks and a stream of interruptions. What they do in that OS — every click, reply and decision — is scored and reported back to you. Built for management trainee programs, graduate schemes, lateral hires and drives of 25,000+ candidates.",
+    "hero": {
+      "kicker": "define(assessment):",
+      "headline": "The first assessment platform that simulates the working world",
+      "tagline": "Candidates step inside a live virtual desktop — inbox, messenger, meetings and games — where every click, reply and decision is scored against your rubric.",
+      "outcome": "25,000+ candidates assessed in a single drive",
+      "ctaSandbox": "Experience the OS",
+      "ctaPilot": "Book a Pilot",
+      "windowTitle": "intOS — virtual desktop"
+    },
     "ctaSandbox": "Try the live sandbox",
     "ctaPilot": "Book a pilot with an expert",
     "proof": {
@@ -459,7 +508,8 @@
       "kicker": "The science",
       "title": "Psychometrics you can defend",
       "subtitle": "intOS is built on situational-judgement and cognitive-assessment research — the methods behind our 300,000+ assessed users.",
-      "body": "SJT and game-based cognitive assessments measure judgment and ability with less cultural bias and faking than traditional self-report tests. Our research base spans cross-national validation of game-based cognitive assessment — the same evidence our client-facing reports cite."
+      "body": "SJT and game-based cognitive assessments measure judgment and ability with less cultural bias and faking than traditional self-report tests. Our research base spans cross-national validation of game-based cognitive assessment — the same evidence our client-facing reports cite.",
+      "cta": "Read our methodology"
     },
     "reporting": {
       "kicker": "Analytics & reporting",
@@ -625,13 +675,23 @@
       },
       "cta": "Get a regional quote",
       "roiNote": "Prefer numbers? Try the ROI calculator"
-    }
+    },
+    "proofLabel": "Proven at scale"
   },
   "intreview": {
     "kicker": "Product · Interviews",
     "title": "AI-assisted interviews & assessments",
     "tagline": "Asynchronous video interviews scored by AI against your competency rubrics — with proctoring, STAR analysis and instant, data-driven reports.",
     "description": "Candidates record structured video answers once, on their own time. IntReview's AI scores them against your rubric — STAR structure, 1–5 ratings and evidence quotes — while proctoring watches for cheating. You review ranked evidence, not raw hours of footage.",
+    "hero": {
+      "kicker": "define(interview):",
+      "headline": "AI-powered interviews that show their work",
+      "tagline": "Candidates record once, on their own time. IntReview scores against your rubric with verbatim evidence quotes and timestamps — while proctoring watches for cheating.",
+      "outcome": "~80% less review time, with evidence you can defend",
+      "ctaDemo": "See AI scoring in action",
+      "ctaPilot": "Book a Pilot",
+      "windowTitle": "IntReview — AI candidate report"
+    },
     "ctaDemo": "Request a live walkthrough",
     "ctaPilot": "Book a pilot with an expert",
     "proof": {
@@ -846,7 +906,8 @@
       },
       "cta": "Get a regional quote",
       "roiNote": "Prefer numbers? Try the ROI calculator"
-    }
+    },
+    "proofLabel": "Proven at scale"
   },
   "trust": {
     "kicker": "Trust & Security",
@@ -1136,7 +1197,7 @@
     "title": "DefineYourWish(); — let's build yours.",
     "subtitle": "Book a demo of intOS and IntReview — or start a gamified training, assessment or simulation project with the team that pioneered it in Pakistan.",
     "sandboxCta": "Try the intOS sandbox",
-    "kicker": "}; // compiled and ready",
+    "kicker": "// DefineYourWish();",
     "trustLine": "Bank Alfalah · HBL · PTCL · Shell · K-Electric · Daraz · 300,000+ professionals assessed"
   },
   "announcement": {
@@ -1144,12 +1205,12 @@
     "dismiss": "Dismiss announcement"
   },
   "servicesBand": {
-    "kicker": "const services = deploy(",
+    "kicker": "// Engineering Capabilities",
     "title": "The engineering capability behind the products above",
     "subtitle": "The same team that builds intOS and IntReview ships your training, recruitment, engagement, portal and 360° programs."
   },
   "science": {
-    "kicker": "const science = prove(",
+    "kicker": "// Scientific Rigor",
     "title": "Grounded in science, not just gamification",
     "body": "Our assessments are built on situational-judgement theory and psychometric game-based methods rooted in industrial & organizational psychology — validated, measured and tied to real job success.",
     "cta": "Read our methodology",
