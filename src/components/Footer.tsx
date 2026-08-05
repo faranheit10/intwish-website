@@ -63,6 +63,7 @@ export function Footer() {
                   ["/about", "about"],
                   ["/services", "services"],
                   ["/case-studies", "caseStudies"],
+                  ["/industries", "industries"],
                   ["/insights", "insights"],
                   ["/science", "science"],
                   ["/contact", "contact"],

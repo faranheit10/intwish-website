@@ -72,6 +72,22 @@
       "terms": {
         "title": "Conditions d'utilisation — Intwish",
         "description": "Les conditions qui régissent l'utilisation du site web et des services d'Intwish, nos engagements en matière de traitement des données et comment nous joindre."
+      },
+      "industries": {
+        "title": "Secteurs d'activité — Solutions de talents d'entreprise par secteur",
+        "description": "Des solutions de talents sectorielles pour la banque et la finance, les télécommunications, l'énergie et les services publics, le secteur public et gouvernemental et l'éducation — avec des études de cas éprouvées dans chacun."
+      },
+      "industryDetail": {
+        "title": "{industry} — Solutions de talents d'entreprise Intwish",
+        "description": "Intwish pour {industry} : problèmes propres au secteur, études de cas éprouvées et produits qui les résolvent."
+      },
+      "science": {
+        "title": "Science & méthodologie — Les preuves derrière les évaluations Intwish",
+        "description": "Comment les évaluations Intwish sont conçues : théorie du jugement situationnel, évaluation cognitive par jeu, équité du scoring IA, éthique des données et base de recherche."
+      },
+      "careers": {
+        "title": "Carrières chez Intwish — Bâtir l'avenir de la technologie des talents",
+        "description": "Rejoignez l'équipe pionnière de l'évaluation ludifiée au Pakistan. Postes d'ingénierie, de produit et de design à Dubaï, Karachi, au Canada et en Indonésie."
       }
     }
   },
@@ -85,7 +101,11 @@
     "bookDemo": "Réserver une démo",
     "openMenu": "Ouvrir le menu principal",
     "closeMenu": "Fermer le menu principal",
-    "insights": "Perspectives"
+    "insights": "Perspectives",
+    "industries": "Secteurs",
+    "science": "Science & méthodologie",
+    "trust": "Confiance & sécurité",
+    "careers": "Carrières"
   },
   "localeSwitcher": {
     "label": "Langue",
@@ -247,7 +267,44 @@
     "teamTitle": "Direction",
     "teamSubtitle": "Des visionnaires, des ingénieurs et des conteurs qui animent l'innovation.",
     "entitiesTitle": "Où nous opérons",
-    "entitiesSubtitle": "Entités et bureaux inscrits dans quatre pays, avec un historique de projets en Arabie saoudite."
+    "entitiesSubtitle": "Entités et bureaux inscrits dans quatre pays, avec un historique de projets en Arabie saoudite.",
+    "originKicker": "define(votre wish):",
+    "originTitle": "Conçus pour faire ce que les solutions ponctuelles ne peuvent pas",
+    "originBody": "Intwish a démarré en 2015 avec une conviction simple : les jeux ont leur place dans le monde de l'entreprise. Nous nous sommes donné pour mission d'automatiser le fastidieux, de changer la façon d'obtenir des résultats et de prouver que l'engagement et la rigueur peuvent coexister dans la technologie des talents.",
+    "statAssessed": "Professionnels évalués",
+    "statYears": "Années de premières",
+    "statMarkets": "Marchés desservis",
+    "timelineKicker": "// Notre parcours",
+    "timelineSubtitle": "D'une idée naissante à une entreprise produit mondiale — les étapes qui nous ont façonnés.",
+    "teamKicker": "// Leadership",
+    "entitiesKicker": "// Présence mondiale",
+    "markets": {
+      "pk": {
+        "name": "Pakistan",
+        "body": "Là où tout a commencé — notre bureau de Karachi, berceau du pionnier de la ludification au Pakistan."
+      },
+      "ae": {
+        "name": "Émirats arabes unis",
+        "body": "Notre siège de Dubaï et une base au Moyen-Orient pour les clients gouvernementaux et d'entreprise."
+      },
+      "ca": {
+        "name": "Canada",
+        "body": "Une entité enregistrée et une présence alignée sur la PIPEDA pour les achats nord-américains."
+      },
+      "id": {
+        "name": "Indonésie",
+        "body": "PT Intwish Global Solutions — conforme à l'UU PDP 27/2022, au service du marché de l'ASEAN."
+      }
+    },
+    "academicKicker": "Fondé sur la recherche",
+    "academicTitle": "Des racines académiques, un impact pratique",
+    "academicBody": "Nos évaluations s'appuient sur la psychologie industrielle et organisationnelle et sur la recherche en évaluation cognitive par jeu — un lien fondateur avec la psychologie académique qui rend nos méthodes défendables et nos rapports citables.",
+    "academicCta": "Lire notre méthodologie",
+    "viewLinkedIn": "Se connecter sur LinkedIn",
+    "careersKicker": "// Rejoignez-nous",
+    "careersTitle": "Bâtissez l'avenir de la technologie des talents",
+    "careersBody": "Nous cherchons toujours des personnes exceptionnelles — ingénieurs, designers et narrateurs qui veulent posséder des produits qui déplacent de vraies métriques.",
+    "careersCta": "Explorer les carrières chez Intwish"
   },
   "services": {
     "kicker": "Services",
@@ -954,7 +1011,9 @@
     },
     "data": {
       "title": "Nous traitons uniquement ce dont l'évaluation a besoin",
-      "body": "Les données des candidats et des employés sont recueillies à des fins d'évaluation explicites, réduites au minimum par conception et jamais vendues. L'accès est fondé sur les rôles et audité, et les données sont traitées en vertu d'accords écrits de traitement des données sur demande."
+      "body": "Les données des candidats et des employés sont recueillies à des fins d'évaluation explicites, réduites au minimum par conception et jamais vendues. L'accès est fondé sur les rôles et audité, et les données sont traitées en vertu d'accords écrits de traitement des données sur demande.",
+      "kicker": "// Traitement des données",
+      "privacyLink": "Voir notre résumé de confidentialité"
     },
     "hosting": {
       "kicker": "Hébergement et sécurité",
@@ -980,7 +1039,8 @@
     },
     "retention": {
       "title": "Conservées uniquement le temps nécessaire",
-      "body": "Les données d'évaluation sont conservées pendant la durée de votre programme, puis supprimées ou retournées selon votre politique — avec des calendriers clairs documentés dans nos conditions prêtes pour les conventions de traitement."
+      "body": "Les données d'évaluation sont conservées pendant la durée de votre programme, puis supprimées ou retournées selon votre politique — avec des calendriers clairs documentés dans nos conditions prêtes pour les conventions de traitement.",
+      "kicker": "// Conservation & suppression"
     },
     "roadmap": {
       "kicker": "Feuille de route de certification",
@@ -992,6 +1052,13 @@
       "title": "Signaler un problème ou demander une convention de traitement",
       "body": "Pour les divulgations de sécurité, les accords de traitement des données ou les questions de conformité, joignez directement notre équipe.",
       "cta": "Contacter l'équipe de sécurité"
+    },
+    "dpa": {
+      "kicker": "// Préparation DPA",
+      "title": "Accords de traitement des données sur demande",
+      "body": "Nous signons des accords écrits de traitement des données couvrant la portée, les sous-traitants, la conservation et la suppression. Un modèle est disponible sur demande pour les équipes d'achat.",
+      "cta": "Demander le modèle DPA",
+      "email": "security@intwish.com"
     }
   },
   "roi": {
@@ -1203,7 +1270,8 @@
     "insights": "Perspectives et recherche",
     "media": "Médias et prix",
     "cookieSettings": "Paramètres des témoins",
-    "science": "Science et méthodologie"
+    "science": "Science et méthodologie",
+    "industries": "Secteurs"
   },
   "cta": {
     "title": "DefineYourWish(); — construisons la vôtre.",
@@ -1223,10 +1291,68 @@
   },
   "science": {
     "kicker": "// Rigueur scientifique",
-    "title": "Fondé sur la science, pas seulement la ludification",
-    "body": "Nos évaluations reposent sur la théorie du jugement situationnel et des méthodes psychométriques issues de la psychologie industrielle et organisationnelle — validées, mesurées et liées à la réussite réelle en poste.",
+    "title": "Fondé sur la science, pas seulement sur la ludification",
+    "body": "Nos évaluations reposent sur la théorie du jugement situationnel et sur des méthodes psychométriques par jeu issues de la psychologie industrielle et organisationnelle — validées, mesurées et liées à la réussite réelle au poste.",
     "cta": "Lire notre méthodologie",
-    "placeholder": "À RÉSERVER — précisions méthodologiques à venir"
+    "placeholder": "PLACEHOLDER — détails des qualifications académiques à venir de Faran (intitulé du poste, axe de recherche, publications)",
+    "heroTitle": "Fondé sur la science, pas sur le battage",
+    "heroSubtitle": "Chaque évaluation que nous livrons repose sur des recherches de mesure établies — théorie du jugement situationnel, évaluation cognitive par jeu et psychologie industrielle et organisationnelle.",
+    "exploreProduct": "Découvrir intOS",
+    "readResearch": "Lire nos recherches",
+    "statsKicker": "// Les preuves",
+    "statsTitle": "Des affirmations que nous pouvons défendre avec des données",
+    "statsSubtitle": "Les prémisses de recherche derrière nos méthodes, énoncées simplement.",
+    "stats": {
+      "validity": {
+        "value": "Des décennies",
+        "label": "de preuves de validité liée au critère du SJT"
+      },
+      "anxiety": {
+        "value": "Moins",
+        "label": "d'anxiété de passation vs. examens à haute pression"
+      },
+      "bias": {
+        "value": "Même grille",
+        "label": "appliquée à chaque candidat par l'automatisation"
+      },
+      "scale": {
+        "value": "300 000+",
+        "label": "professionnels évalués en 10 ans"
+      }
+    },
+    "methodologyKicker": "// Comment nous concevons les évaluations",
+    "methodologyTitle": "De l'analyse de poste à une expérience scorée",
+    "methodologySubtitle": "Une méthode défendable, appliquée de façon cohérente à chaque engagement.",
+    "methodology": {
+      "p1": "Méthode du jugement situationnel : les candidats répondent à des scénarios réalistes liés au poste — mesurant le jugement et la prise de décision avec moins de biais culturel et de tricherie que les tests d'auto-évaluation traditionnels.",
+      "p2": "Évaluation cognitive par jeu : des jeux validés (p. ex. Numbubbles, Numparision, Word Wizard) mesurent l'aptitude cognitive et les traits de personnalité dans un format engageant qui réduit l'anxiété.",
+      "p3": "Cartographie des construits : chaque jeu et scénario correspond aux compétences qu'exige votre rôle, pour que les scores aient un sens clair et un lien avec la réussite en poste.",
+      "p4": "Scoring IA avec preuves : là où l'IA note, elle applique une grille unique de façon cohérente et cite des preuves verbatim — la même norme pour chaque candidat."
+    },
+    "biasKicker": "// Équitable par conception",
+    "biasTitle": "L'IA comme copilote, pas comme juge",
+    "biasIntro": "Nous concevons l'équité de fond — l'humain reste dans la décision, et la machine montre son travail.",
+    "bias": {
+      "p1": "Une grille pour chaque candidat : l'IA note tous les candidats selon les mêmes critères, éliminant la variance liée à l'intervieweur.",
+      "p2": "Preuves verbatim : chaque note IA cite exactement ce qu'un candidat a dit ou fait, pour qu'un réviseur humain puisse vérifier chaque décision.",
+      "p3": "Un humain dans la boucle : l'IA révèle des schémas et des preuves classées ; votre panel prend la décision finale. Nous publions nos engagements d'équité comme une feuille de route."
+    },
+    "dataKicker": "// Données & éthique",
+    "dataTitle": "Gérées avec consentement et soin",
+    "dataSubtitle": "Chaque évaluation est une relation de données que nous prenons au sérieux.",
+    "data": {
+      "p1": "Consentement d'abord et minimisé : nous collectons uniquement ce dont l'évaluation a besoin, avec le consentement du candidat et un but clair.",
+      "p2": "Une conservation que vous contrôlez : les données sont gardées pendant la durée de votre programme, puis supprimées ou retournées selon votre politique.",
+      "p3": "Éthique par défaut : les données des candidats ne sont jamais vendues, et l'accès est fondé sur les rôles et audité."
+    },
+    "academicKicker": "// Fondé sur la recherche",
+    "academicTitle": "Des racines académiques",
+    "academicSubtitle": "Un lien fondateur avec la psychologie académique sous-tend pourquoi nos méthodes fonctionnent.",
+    "academic": {
+      "p1": "Notre cadre d'évaluation s'appuie sur la psychologie industrielle et organisationnelle et sur la recherche psychométrique en évaluation par jeu et par jugement situationnel.",
+      "p2": "Cette base de preuves est citée dans chaque rapport client — reliant nos outils à des recherches publiées plutôt qu'à une nouveauté non testée.",
+      "p3": "Nous continuons d'investir dans la recherche et invitons l'examen critique de nos méthodes, traitant la validation comme une discipline, pas comme un argument marketing."
+    }
   },
   "megaMenu": {
     "products": {
@@ -1273,5 +1399,97 @@
         "tagline": "Simulations immersives pour les postes à haut risque."
       }
     }
+  },
+  "industries": {
+    "kicker": "Secteurs",
+    "title": "Des solutions de talents d'entreprise pour votre secteur",
+    "subtitle": "Problèmes, preuves et produits — adaptés au secteur dans lequel vous travaillez.",
+    "explore": "Explorer le secteur",
+    "caseSingular": "étude de cas",
+    "casePlural": "études de cas",
+    "otherSectorKicker": "// Un autre secteur ?",
+    "otherSectorTitle": "Nous livrons pour les banques, les télécoms, l'énergie, le gouvernement et l'éducation.",
+    "otherSectorCta": "Parlez-nous du vôtre",
+    "cta": "Parlez à notre équipe {sector}",
+    "ctaTitle": "Construisons des résultats {sector}",
+    "ctaSubtitle": "Un spécialiste qui connaît votre secteur — ses régulateurs, ses pressions, son ampleur.",
+    "back": "Retour à tous les secteurs",
+    "deployLine": "deploy({sector}) — ce que nous livrons",
+    "painKicker": "// Ce que nous résolvons",
+    "painTitle": "Défis propres au secteur",
+    "painBody": "Les problèmes que nous avons été engagés pour éliminer dans ce secteur.",
+    "proofKicker": "// Preuve",
+    "proofTitle": "Résultats dans ce secteur",
+    "proofBody": "De vraies mises en œuvre, des résultats quantifiés — la même équipe qui bâtira la vôtre.",
+    "allCases": "Voir toutes les études de cas",
+    "productKicker": "// Les plateformes",
+    "productTitle": "Des produits conçus pour votre volume",
+    "productBody": "Les mêmes plateformes déjà en service dans votre secteur.",
+    "complianceKicker": "Conformité & données",
+    "complianceTitle": "Conçu pour votre processus d'achat",
+    "moreKicker": "// Continuer à explorer",
+    "moreTitle": "Secteurs connexes",
+    "moreBody": "Des secteurs adjacents avec des mises en œuvre éprouvées."
+  },
+  "careers": {
+    "kicker": "Carrières",
+    "title": "Bâtissez l'avenir de la technologie des talents",
+    "subtitle": "L'équipe pionnière de l'évaluation ludifiée au Pakistan — qui livre désormais des produits aux entreprises, gouvernements et organisations de développement dans cinq marchés.",
+    "whyKicker": "// Pourquoi Intwish",
+    "whyTitle": "Possédez votre travail, de bout en bout",
+    "whySubtitle": "Petite équipe, vrais produits, vraies conséquences.",
+    "why": {
+      "build": {
+        "title": "Bâtir ce qui compte",
+        "body": "Des produits qui évaluent plus de 300 000 professionnels — plates-formes de formation, d'embauche et de simulation utilisées à l'échelle nationale."
+      },
+      "own": {
+        "title": "Posséder toute la pile",
+        "body": "Ingénieurs, designers et équipes contenu possèdent les fonctionnalités du brief au déploiement — aucune boîte noire."
+      },
+      "global": {
+        "title": "Travailler entre les marchés",
+        "body": "Des équipes à Dubaï, Karachi, au Canada et en Indonésie, avec des clients dans toute l'Asie du Sud et le Moyen-Orient."
+      },
+      "growth": {
+        "title": "Grandir avec le métier",
+        "body": "Jeux, psychométrie, IA et RA/RV — il y a toujours un problème plus dur et plus intéressant ensuite."
+      }
+    },
+    "rolesKicker": "// Postes ouverts",
+    "rolesTitle": "Nous cherchons toujours des talents exceptionnels",
+    "rolesSubtitle": "Les ouvertures précises sont publiées au fil de l'eau. En attendant, parlez-nous de vos points forts.",
+    "alwaysOpenKicker": "// Toujours ouvert",
+    "alwaysOpenTitle": "Aucun poste vacant ? Postulez quand même.",
+    "alwaysOpenBody": "Si vous êtes exceptionnel dans ce que vous faites et voulez bâtir une technologie des talents qui fonctionne vraiment, nous voulons vous entendre — ingénierie, design, contenu, science et croissance.",
+    "applyCta": "Postuler par courriel",
+    "learnMore": "Découvrir l'entreprise",
+    "flowKicker": "// Comment ça marche",
+    "flowTitle": "Un processus d'embauche qu'il nous ferait plaisir de suivre",
+    "flowSubtitle": "Court, transparent et respectueux de votre temps.",
+    "flow": {
+      "apply": {
+        "title": "Postuler",
+        "body": "Envoyez votre CV et une note sur ce que vous bâtiriez en premier — par courriel à careers@intwish.com."
+      },
+      "review": {
+        "title": "Examen",
+        "body": "Nous lisons chaque candidature personnellement et répondons sous une semaine, avec ou sans correspondance."
+      },
+      "talk": {
+        "title": "Parler",
+        "body": "Une conversation avec l'équipe — sans question piège, un vrai regard sur notre façon de travailler."
+      },
+      "welcome": {
+        "title": "Bienvenue",
+        "body": "Si c'est une bonne correspondance, vous rejoignez une équipe qui livre vite et donne une vraie propriété."
+      }
+    },
+    "cultureKicker": "// La vie chez Intwish",
+    "cultureTitle": "Sérieux sur les résultats, pas sur nous-mêmes",
+    "cultureBody": "Rapide, orienté produit et mondial — une culture de la livraison, de l'apprentissage et de la franchise.",
+    "photoPlaceholder": "PLACEHOLDER — photos de bureau et de culture d'équipe à venir",
+    "ctaTitle": "Votre prochain chapitre pourrait commencer ici",
+    "ctaSubtitle": "Dites-nous ce que vous bâtiriez en premier. Nous lisons tout."
   }
 }

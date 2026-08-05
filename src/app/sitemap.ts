@@ -21,6 +21,7 @@ const basePaths = [
   "/industries",
   "/science",
   "/trust",
+  "/careers",
   "/demo",
   "/contact",
   "/privacy",

@@ -9,13 +9,15 @@ import { LocaleSwitcher } from "./LocaleSwitcher";
 
 const links: {
   href: string;
-  key: "products" | "services" | "caseStudies" | "insights" | "about";
+  key: "products" | "services" | "industries" | "caseStudies" | "insights" | "careers" | "about";
   mega?: "products" | "services";
 }[] = [
   { href: "/products", key: "products", mega: "products" },
   { href: "/services", key: "services", mega: "services" },
+  { href: "/industries", key: "industries" },
   { href: "/case-studies", key: "caseStudies" },
   { href: "/insights", key: "insights" },
+  { href: "/careers", key: "careers" },
   { href: "/about", key: "about" },
 ];
 

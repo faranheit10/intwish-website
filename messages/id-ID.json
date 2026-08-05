@@ -72,6 +72,22 @@
       "terms": {
         "title": "Ketentuan Penggunaan — Intwish",
         "description": "Ketentuan yang mengatur penggunaan situs web dan layanan Intwish, komitmen pemrosesan data kami, dan cara menghubungi kami."
+      },
+      "industries": {
+        "title": "Industri — Solusi Talenta Enterprise per Sektor",
+        "description": "Solusi talenta khusus sektor untuk perbankan & keuangan, telekomunikasi, energi & utilitas, pemerintahan & sektor publik, dan pendidikan — dengan studi kasus terbukti di masing-masing."
+      },
+      "industryDetail": {
+        "title": "{industry} — Solusi Talenta Enterprise Intwish",
+        "description": "Intwish untuk {industry}: masalah khusus sektor, studi kasus terbukti, dan produk yang menghasilkannya."
+      },
+      "science": {
+        "title": "Sains & Metodologi — Bukti di Balik Asesmen Intwish",
+        "description": "Bagaimana asesmen Intwish dirancang: teori penilaian situasional, asesmen kognitif berbasis game, keadilan penilaian AI, etika data, dan basis riset."
+      },
+      "careers": {
+        "title": "Karier di Intwish — Bangun Masa Depan Teknologi Talenta",
+        "description": "Bergabunglah dengan tim pelopor asesmen gamifikasi di Pakistan. Peran engineering, produk, dan desain di Dubai, Karachi, Kanada, dan Indonesia."
       }
     }
   },
@@ -85,7 +101,11 @@
     "bookDemo": "Jadwalkan Demo",
     "openMenu": "Buka menu utama",
     "closeMenu": "Tutup menu utama",
-    "insights": "Wawasan"
+    "insights": "Wawasan",
+    "industries": "Industri",
+    "science": "Sains & Metodologi",
+    "trust": "Kepercayaan & Keamanan",
+    "careers": "Karier"
   },
   "localeSwitcher": {
     "label": "Bahasa",
@@ -247,7 +267,44 @@
     "teamTitle": "Kepemimpinan",
     "teamSubtitle": "Para visioner, insinyur, dan pencerita yang mendorong inovasi.",
     "entitiesTitle": "Tempat kami beroperasi",
-    "entitiesSubtitle": "Entitas dan kantor terdaftar di empat negara, dengan rekam jejak proyek di Arab Saudi."
+    "entitiesSubtitle": "Entitas dan kantor terdaftar di empat negara, dengan rekam jejak proyek di Arab Saudi.",
+    "originKicker": "define(keinginan Anda):",
+    "originTitle": "Dibangun untuk melakukan yang tidak bisa solusi titik",
+    "originBody": "Intwish dimulai tahun 2015 dengan keyakinan sederhana: game layak ada di dunia korporat. Kami berupaya mengotomatiskan tugas monoton, mengubah cara hasil dicapai, dan membuktikan bahwa keterlibatan dan ketelitian bisa hidup berdampingan dalam teknologi talenta.",
+    "statAssessed": "Profesional dinilai",
+    "statYears": "Tahun pencapaian pertama",
+    "statMarkets": "Pasar yang dilayani",
+    "timelineKicker": "// Perjalanan kami",
+    "timelineSubtitle": "Dari ide awal menjadi perusahaan produk global — tonggak yang membentuk kami.",
+    "teamKicker": "// Kepemimpinan",
+    "entitiesKicker": "// Kehadiran global",
+    "markets": {
+      "pk": {
+        "name": "Pakistan",
+        "body": "Tempat semuanya bermula — kantor Karachi kami dan asal pelopor gamifikasi Pakistan."
+      },
+      "ae": {
+        "name": "Uni Emirat Arab",
+        "body": "Kantor pusat kami di Dubai dan basis Timur Tengah untuk klien pemerintah dan enterprise."
+      },
+      "ca": {
+        "name": "Kanada",
+        "body": "Entitas terdaftar dan kehadiran selaras PIPEDA untuk pengadaan Amerika Utara."
+      },
+      "id": {
+        "name": "Indonesia",
+        "body": "PT Intwish Global Solutions — siap UU PDP 27/2022, melayani pasar ASEAN."
+      }
+    },
+    "academicKicker": "Berbasis riset sejak awal",
+    "academicTitle": "Akar akademis, dampak praktis",
+    "academicBody": "Asesmen kami berlandaskan psikologi industri & organisasi dan riset asesmen kognitif berbasis game — hubungan pendirian dengan psikologi akademis yang membuat metode kami dapat dipertahankan dan laporan kami dapat dirujuk.",
+    "academicCta": "Baca metodologi kami",
+    "viewLinkedIn": "Terhubung di LinkedIn",
+    "careersKicker": "// Bergabunglah",
+    "careersTitle": "Bangun masa depan teknologi talenta",
+    "careersBody": "Kami selalu mencari orang luar biasa — engineer, desainer, dan pencerita yang ingin memiliki produk yang menggerakkan metrik nyata.",
+    "careersCta": "Jelajahi karier di Intwish"
   },
   "services": {
     "kicker": "Layanan",
@@ -954,7 +1011,9 @@
     },
     "data": {
       "title": "Kami hanya memproses apa yang dibutuhkan asesmen",
-      "body": "Data kandidat dan karyawan dikumpulkan untuk tujuan asesmen yang eksplisit, diminimalkan sejak desain, dan tidak pernah dijual. Akses berbasis peran dan diaudit, serta data diproses berdasarkan perjanjian pemrosesan data tertulis sesuai permintaan."
+      "body": "Data kandidat dan karyawan dikumpulkan untuk tujuan asesmen yang eksplisit, diminimalkan sejak desain, dan tidak pernah dijual. Akses berbasis peran dan diaudit, serta data diproses berdasarkan perjanjian pemrosesan data tertulis sesuai permintaan.",
+      "kicker": "// Penanganan data",
+      "privacyLink": "Lihat ringkasan privasi kami"
     },
     "hosting": {
       "kicker": "Hosting & keamanan",
@@ -980,7 +1039,8 @@
     },
     "retention": {
       "title": "Disimpan hanya selama diperlukan",
-      "body": "Data asesmen disimpan selama durasi program Anda dan dihapus atau dikembalikan sesuai kebijakan Anda — dengan jadwal yang jelas didokumentasikan dalam ketentuan siap-DPA kami."
+      "body": "Data asesmen disimpan selama durasi program Anda dan dihapus atau dikembalikan sesuai kebijakan Anda — dengan jadwal yang jelas didokumentasikan dalam ketentuan siap-DPA kami.",
+      "kicker": "// Retensi & penghapusan"
     },
     "roadmap": {
       "kicker": "Peta jalan sertifikasi",
@@ -992,6 +1052,13 @@
       "title": "Laporkan masalah atau ajukan DPA",
       "body": "Untuk pengungkapan keamanan, perjanjian pemrosesan data, atau pertanyaan kepatuhan, hubungi tim kami secara langsung.",
       "cta": "Hubungi tim keamanan"
+    },
+    "dpa": {
+      "kicker": "// Kesiapan DPA",
+      "title": "Perjanjian pemrosesan data on request",
+      "body": "Kami menandatangani perjanjian pemrosesan data tertulis yang mencakup lingkup, sub-pemroses, retensi, dan penghapusan. Templat tersedia on request untuk tim pengadaan.",
+      "cta": "Minta templat DPA",
+      "email": "security@intwish.com"
     }
   },
   "roi": {
@@ -1203,7 +1270,8 @@
     "insights": "Wawasan & Riset",
     "media": "Media & Penghargaan",
     "cookieSettings": "Pengaturan cookie",
-    "science": "Sains & Metodologi"
+    "science": "Sains & Metodologi",
+    "industries": "Industri"
   },
   "cta": {
     "title": "DefineYourWish(); — mari bangun milik Anda.",
@@ -1222,11 +1290,69 @@
     "subtitle": "Tim yang sama yang membangun intOS dan IntReview mengirim program pelatihan, rekrutmen, engagement, portal, dan 360° Anda."
   },
   "science": {
-    "kicker": "// Rigor Ilmiah",
-    "title": "Berakar pada sains, bukan sekadar gamifikasi",
-    "body": "Asesmen kami dibangun di atas teori situational-judgement dan metode psikometri berbasis game yang berakar pada psikologi industri & organisasi — tervalidasi, terukur, dan terkait pada kesuksesan kerja nyata.",
+    "kicker": "// Ketelitian Ilmiah",
+    "title": "Berlandaskan sains, bukan sekadar gamifikasi",
+    "body": "Asesmen kami dibangun di atas teori penilaian situasional dan metode berbasis game psikometri yang berakar pada psikologi industri & organisasi — tervalidasi, terukur, dan terhubung pada kesuksesan kerja nyata.",
     "cta": "Baca metodologi kami",
-    "placeholder": "PLACEHOLDER — detail metodologi menyusul"
+    "placeholder": "PLACEHOLDER — detail kredensial akademis menunggu dari Faran (gelar jabatan, fokus riset, publikasi)",
+    "heroTitle": "Dibangun di atas sains, bukan gembar-gembor",
+    "heroSubtitle": "Setiap asesmen yang kami kirim bertumpu pada riset pengukuran yang mapan — teori penilaian situasional, asesmen kognitif berbasis game, dan psikologi industri & organisasi.",
+    "exploreProduct": "Jelajahi intOS",
+    "readResearch": "Baca riset kami",
+    "statsKicker": "// Bukti",
+    "statsTitle": "Klaim yang bisa kami pertahankan dengan data",
+    "statsSubtitle": "Premis riset di balik metode kami, dinyatakan dengan jelas.",
+    "stats": {
+      "validity": {
+        "value": "Dekade",
+        "label": "bukti validitas terkait kriteria SJT"
+      },
+      "anxiety": {
+        "value": "Lebih rendah",
+        "label": "kecemasan mengerjakan tes vs. ujian bertekanan tinggi"
+      },
+      "bias": {
+        "value": "Rubrik sama",
+        "label": "diterapkan pada setiap kandidat oleh otomatisasi"
+      },
+      "scale": {
+        "value": "300.000+",
+        "label": "profesional dinilai dalam 10 tahun"
+      }
+    },
+    "methodologyKicker": "// Cara kami merancang asesmen",
+    "methodologyTitle": "Dari analisis pekerjaan ke pengalaman dinilai",
+    "methodologySubtitle": "Metode yang dapat dipertahankan, diterapkan konsisten di setiap keterlibatan.",
+    "methodology": {
+      "p1": "Metode penilaian situasional: kandidat merespons skenario realistis yang relevan pekerjaan — mengukur penilaian dan pengambilan keputusan dengan bias budaya dan rekayasa yang lebih rendah daripada tes lapor-diri tradisional.",
+      "p2": "Asesmen kognitif berbasis game: game tervalidasi (mis. Numbubbles, Numparision, Word Wizard) mengukur kemampuan kognitif dan sifat kepribadian dalam format menarik yang mengurangi kecemasan.",
+      "p3": "Pemetaan konstruk: setiap game dan skenario dipetakan ke kompetensi yang dibutuhkan peran Anda, sehingga skor bermakna jelas dan terhubung pada kesuksesan kerja.",
+      "p4": "Penilaian AI dengan bukti: di mana pun AI menilai, ia menerapkan satu rubrik secara konsisten dan mengutip bukti verbatim — standar yang sama dipenuhi setiap kandidat."
+    },
+    "biasKicker": "// Adil sejak desain",
+    "biasTitle": "AI sebagai kopilot, bukan hakim",
+    "biasIntro": "Kami merancang keadilan dari dasar — manusia tetap dalam keputusan, dan mesin menunjukkan kerjanya.",
+    "bias": {
+      "p1": "Satu rubrik untuk setiap kandidat: AI menilai semua kandidat dengan kriteria yang sama, menghilangkan varians tergantung pewawancara.",
+      "p2": "Bukti verbatim: setiap peringkat AI mengutip persis apa yang dikatakan atau dilakukan kandidat, sehingga peninjau manusia dapat memverifikasi setiap keputusan.",
+      "p3": "Manusia dalam lingkar: AI menampilkan pola dan bukti berperingkat; panel Anda membuat keputusan akhir. Kami memublikasikan komitmen keadilan kami sebagai peta jalan."
+    },
+    "dataKicker": "// Data & etika",
+    "dataTitle": "Dikelola dengan persetujuan dan kepedulian",
+    "dataSubtitle": "Setiap asesmen adalah hubungan data yang kami anggap serius.",
+    "data": {
+      "p1": "Persetujuan dulu dan diminimalkan: kami mengumpulkan hanya apa yang dibutuhkan asesmen, dengan persetujuan kandidat dan tujuan yang jelas.",
+      "p2": "Retensi yang Anda kendalikan: data disimpan selama program Anda dan dihapus atau dikembalikan sesuai kebijakan Anda.",
+      "p3": "Etis secara bawaan: data kandidat tidak pernah dijual, dan akses berbasis peran serta diaudit."
+    },
+    "academicKicker": "// Berbasis riset",
+    "academicTitle": "Akar akademis",
+    "academicSubtitle": "Hubungan pendirian dengan psikologi akademis mendasari mengapa metode kami berhasil.",
+    "academic": {
+      "p1": "Kerangka asesmen kami berlandaskan psikologi industri & organisasi dan riset psikometri tentang asesmen berbasis game dan penilaian situasional.",
+      "p2": "Basis bukti ini dikutip di setiap laporan klien — menghubungkan alat kami dengan riset terpublikasi, bukan kebaruan yang tak teruji.",
+      "p3": "Kami terus berinvestasi dalam riset dan mengundang pengawasan atas metode kami, memperlakukan validasi sebagai disiplin, bukan klaim pemasaran."
+    }
   },
   "megaMenu": {
     "products": {
@@ -1273,5 +1399,97 @@
         "tagline": "Simulasi imersif untuk peran berisiko tinggi."
       }
     }
+  },
+  "industries": {
+    "kicker": "Industri",
+    "title": "Solusi talenta enterprise untuk sektor Anda",
+    "subtitle": "Masalah, bukti, dan produk — disesuaikan dengan vertikal yang Anda geluti.",
+    "explore": "Jelajahi sektor ini",
+    "caseSingular": "studi kasus",
+    "casePlural": "studi kasus",
+    "otherSectorKicker": "// Sektor berbeda?",
+    "otherSectorTitle": "Kami melayani perbankan, telekomunikasi, energi, pemerintahan, dan pendidikan.",
+    "otherSectorCta": "Bicarakan sektor Anda",
+    "cta": "Bicara dengan tim {sector} kami",
+    "ctaTitle": "Mari bangun hasil {sector}",
+    "ctaSubtitle": "Spesialis yang memahami vertikal Anda — regulatornya, tekanannya, skala-nya.",
+    "back": "Kembali ke semua industri",
+    "deployLine": "deploy({sector}) — yang kami kirim",
+    "painKicker": "// Yang kami selesaikan",
+    "painTitle": "Tantangan khusus sektor",
+    "painBody": "Masalah yang kami dipekerjakan untuk hilangkan di seluruh vertikal ini.",
+    "proofKicker": "// Bukti",
+    "proofTitle": "Hasil dari sektor ini",
+    "proofBody": "Deployment nyata, hasil terukur — tim yang sama akan membangun milik Anda.",
+    "allCases": "Lihat semua studi kasus",
+    "productKicker": "// Platform",
+    "productTitle": "Produk dibangun untuk volume Anda",
+    "productBody": "Platform yang sama sudah berjalan di industri Anda.",
+    "complianceKicker": "Kepatuhan & data",
+    "complianceTitle": "Dibangun untuk pengadaan Anda",
+    "moreKicker": "// Terus menjelajah",
+    "moreTitle": "Sektor terkait",
+    "moreBody": "Industri berdekatan dengan deployment terbukti."
+  },
+  "careers": {
+    "kicker": "Karier",
+    "title": "Bangun masa depan teknologi talenta",
+    "subtitle": "Tim pelopor asesmen gamifikasi di Pakistan — kini mengirim produk untuk enterprise, pemerintah, dan organisasi pembangunan di lima pasar.",
+    "whyKicker": "// Mengapa Intwish",
+    "whyTitle": "Miliki pekerjaan Anda, dari awal hingga akhir",
+    "whySubtitle": "Tim kecil, produk nyata, konsekuensi nyata.",
+    "why": {
+      "build": {
+        "title": "Bangun yang penting",
+        "body": "Produk yang menilai 300.000+ profesional — platform pelatihan, rekrutmen, dan simulasi yang digunakan dalam skala nasional."
+      },
+      "own": {
+        "title": "Miliki seluruh tumpukan",
+        "body": "Engineer, desainer, dan tim konten memiliki fitur dari brief hingga deployment — tanpa kotak hitam."
+      },
+      "global": {
+        "title": "Bekerja lintas pasar",
+        "body": "Tim di Dubai, Karachi, Kanada, dan Indonesia, dengan klien di seluruh Asia Selatan dan Timur Tengah."
+      },
+      "growth": {
+        "title": "Tumbuh bersama keriapan",
+        "body": "Game, psikometri, AI, dan AR/VR — selalu ada masalah yang lebih sulit dan menarik berikutnya."
+      }
+    },
+    "rolesKicker": "// Posisi terbuka",
+    "rolesTitle": "Kami selalu mencari talenta luar biasa",
+    "rolesSubtitle": "Lowongan spesifik didaftarkan saat ada. Sementara itu, ceritakan keahlian Anda.",
+    "alwaysOpenKicker": "// Selalu terbuka",
+    "alwaysOpenTitle": "Tidak ada lowongan sekarang? Tetap lamar.",
+    "alwaysOpenBody": "Jika Anda luar biasa dalam apa yang Anda lakukan dan ingin membangun teknologi talenta yang benar-benar berfungsi, kami ingin mendengarnya — engineering, desain, konten, sains, dan pertumbuhan.",
+    "applyCta": "Lamar melalui email",
+    "learnMore": "Kenali perusahaan",
+    "flowKicker": "// Cara kerjanya",
+    "flowTitle": "Proses perekrutan yang ingin kami lalui",
+    "flowSubtitle": "Singkat, transparan, dan menghormati waktu Anda.",
+    "flow": {
+      "apply": {
+        "title": "Lamar",
+        "body": "Kirim CV dan catatan tentang yang akan Anda bangun lebih dulu — email ke careers@intwish.com."
+      },
+      "review": {
+        "title": "Tinjau",
+        "body": "Kami membaca setiap lamaran secara pribadi dan membalas dalam seminggu, cocok atau tidak."
+      },
+      "talk": {
+        "title": "Bicara",
+        "body": "Percakapan dengan tim — tanpa pertanyaan jebakan, sekadar tatapan jujur soal cara kami bekerja."
+      },
+      "welcome": {
+        "title": "Selamat datang",
+        "body": "Jika cocok, Anda bergabung dengan tim yang mengirim cepat dan memberi kepemilikan nyata."
+      }
+    },
+    "cultureKicker": "// Kehidupan di Intwish",
+    "cultureTitle": "Serius pada hasil, tidak serius pada diri sendiri",
+    "cultureBody": "Cepat, berorientasi produk, dan global — budaya mengirim, belajar, dan terus terang.",
+    "photoPlaceholder": "PLACEHOLDER — foto kantor & budaya tim segera hadir",
+    "ctaTitle": "Bab berikutnya Anda bisa dimulai di sini",
+    "ctaSubtitle": "Ceritakan apa yang akan Anda bangun lebih dulu. Kami membaca semuanya."
   }
 }

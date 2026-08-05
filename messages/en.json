@@ -29,6 +29,22 @@
         "title": "{title} — Intwish Case Study",
         "description": "{summary}"
       },
+      "industries": {
+        "title": "Industries — Enterprise Talent Solutions by Sector",
+        "description": "Sector-specific talent solutions for banking & finance, telecom, energy & utilities, government & public sector and education — with proven case studies in each."
+      },
+      "industryDetail": {
+        "title": "{industry} — Intwish Enterprise Talent Solutions",
+        "description": "Intwish for {industry}: sector-specific pain points, proven case studies and the products that deliver them."
+      },
+      "science": {
+        "title": "Science & Methodology — The Evidence Behind Intwish Assessments",
+        "description": "How Intwish assessments are designed: situational-judgement theory, game-based cognitive assessment, AI scoring fairness, data ethics and the research base."
+      },
+      "careers": {
+        "title": "Careers at Intwish — Build the Future of Talent Technology",
+        "description": "Join the team that pioneered gamified assessment in Pakistan. Engineering, product and design roles across Dubai, Karachi, Canada and Indonesia."
+      },
       "contact": {
         "title": "Contact Intwish — Book a Demo or Start a Project",
         "description": "Talk to our teams in Dubai, Karachi, Canada and Indonesia. Book a demo of intOS or IntReview, or start a gamified training, assessment or simulation project."
@@ -85,7 +101,11 @@
     "bookDemo": "Book a Demo",
     "openMenu": "Open main menu",
     "closeMenu": "Close main menu",
-    "insights": "Insights"
+    "insights": "Insights",
+    "industries": "Industries",
+    "science": "Science & Methodology",
+    "trust": "Trust & Security",
+    "careers": "Careers"
   },
   "localeSwitcher": {
     "label": "Language",
@@ -247,7 +267,136 @@
     "teamTitle": "Leadership",
     "teamSubtitle": "Visionaries, engineers and storytellers driving innovation.",
     "entitiesTitle": "Where we operate",
-    "entitiesSubtitle": "Registered entities and offices across four countries, with project history in Saudi Arabia."
+    "entitiesSubtitle": "Registered entities and offices across four countries, with project history in Saudi Arabia.",
+    "originKicker": "define(your wish):",
+    "originTitle": "Built to do what point solutions can't",
+    "originBody": "Intwish started in 2015 with a simple conviction: games belong in the corporate world. We set out to automate the tedious, change how results are achieved and prove that engagement and rigor can coexist in talent technology.",
+    "statAssessed": "Professionals assessed",
+    "statYears": "Years of firsts",
+    "statMarkets": "Markets served",
+    "timelineKicker": "// Our journey",
+    "timelineSubtitle": "From a seed idea to a global product company — the milestones that shaped us.",
+    "teamKicker": "// Leadership",
+    "entitiesKicker": "// Global presence",
+    "markets": {
+      "pk": {
+        "name": "Pakistan",
+        "body": "Where it all began — our Karachi office and the origin of Pakistan's gamification pioneer."
+      },
+      "ae": {
+        "name": "United Arab Emirates",
+        "body": "Our Dubai headquarters and a Middle East base for government and enterprise clients."
+      },
+      "ca": {
+        "name": "Canada",
+        "body": "A registered entity and PIPEDA-aligned presence for North American procurement."
+      },
+      "id": {
+        "name": "Indonesia",
+        "body": "PT Intwish Global Solutions — UU PDP 27/2022-ready, serving the ASEAN market."
+      }
+    },
+    "academicKicker": "Research-backed by design",
+    "academicTitle": "Academic roots, practical impact",
+    "academicBody": "Our assessments draw on industrial & organizational psychology and game-based cognitive assessment research — a founding connection to academic psychology that keeps our methods defensible and our reports citable.",
+    "academicCta": "Read our methodology",
+    "viewLinkedIn": "Connect on LinkedIn",
+    "careersKicker": "// Join us",
+    "careersTitle": "Build the future of talent technology",
+    "careersBody": "We're always looking for exceptional people — engineers, designers and storytellers who want to own products that move real-world metrics.",
+    "careersCta": "Explore careers at Intwish"
+  },
+  "industries": {
+    "kicker": "Industries",
+    "title": "Enterprise talent solutions for your sector",
+    "subtitle": "Pain points, proof and products — tailored to the vertical you work in.",
+    "explore": "Explore the sector",
+    "caseSingular": "case study",
+    "casePlural": "case studies",
+    "otherSectorKicker": "// Different sector?",
+    "otherSectorTitle": "We ship across banking, telecom, energy, government and education.",
+    "otherSectorCta": "Talk to us about yours",
+    "cta": "Talk to our {sector} team",
+    "ctaTitle": "Let's build {sector} results",
+    "ctaSubtitle": "A specialist who knows your vertical — its regulators, its pressures, its scale.",
+    "back": "Back to all industries",
+    "deployLine": "deploy({sector}) — what we ship",
+    "painKicker": "// What we solve",
+    "painTitle": "Sector-specific challenges",
+    "painBody": "The problems we've been hired to remove across this vertical.",
+    "proofKicker": "// Proof",
+    "proofTitle": "Results from this sector",
+    "proofBody": "Real deployments, quantified outcomes — the same team that will build yours.",
+    "allCases": "View all case studies",
+    "productKicker": "// The platforms",
+    "productTitle": "Products built for your volume",
+    "productBody": "The same platforms already live in your industry.",
+    "complianceKicker": "Compliance & data",
+    "complianceTitle": "Built for your procurement",
+    "moreKicker": "// Keep exploring",
+    "moreTitle": "Related sectors",
+    "moreBody": "Adjacent industries with proven deployments."
+  },
+  "careers": {
+    "kicker": "Careers",
+    "title": "Build the future of talent technology",
+    "subtitle": "The team that pioneered gamified assessment in Pakistan — and now ships products for enterprises, governments and development organizations across five markets.",
+    "whyKicker": "// Why Intwish",
+    "whyTitle": "Own your work, end to end",
+    "whySubtitle": "Small team, real products, real consequences.",
+    "why": {
+      "build": {
+        "title": "Build what matters",
+        "body": "Products that assess 300,000+ professionals — training, hiring and simulation platforms used at national scale."
+      },
+      "own": {
+        "title": "Own the stack",
+        "body": "Engineers, designers and content teams own features from brief to deployment — no black boxes."
+      },
+      "global": {
+        "title": "Work across markets",
+        "body": "Teams in Dubai, Karachi, Canada and Indonesia, with clients across South Asia and the Middle East."
+      },
+      "growth": {
+        "title": "Grow with the craft",
+        "body": "Games, psychometrics, AI and AR/VR — there's always a harder, more interesting problem next."
+      }
+    },
+    "rolesKicker": "// Open roles",
+    "rolesTitle": "We're always looking for exceptional talent",
+    "rolesSubtitle": "Specific openings are listed as they arise. In the meantime, tell us what you're great at.",
+    "alwaysOpenKicker": "// Always open",
+    "alwaysOpenTitle": "No current vacancy? Apply anyway.",
+    "alwaysOpenBody": "If you're exceptional at what you do and want to build talent technology that actually works, we want to hear from you — engineering, design, content, science and growth.",
+    "applyCta": "Apply by email",
+    "learnMore": "Meet the company",
+    "flowKicker": "// How it works",
+    "flowTitle": "A hiring process we'd want to go through",
+    "flowSubtitle": "Short, transparent and respectful of your time.",
+    "flow": {
+      "apply": {
+        "title": "Apply",
+        "body": "Send your CV and a note on what you'd build first — email us at careers@intwish.com."
+      },
+      "review": {
+        "title": "Review",
+        "body": "We read every application personally and reply within a week, whether or not there's a match."
+      },
+      "talk": {
+        "title": "Talk",
+        "body": "A conversation with the team — no trick questions, just a genuine look at how we work."
+      },
+      "welcome": {
+        "title": "Welcome",
+        "body": "If it's a fit, you join a team that ships fast and gives you real ownership."
+      }
+    },
+    "cultureKicker": "// Life at Intwish",
+    "cultureTitle": "Serious about outcomes, not about ourselves",
+    "cultureBody": "Fast-moving, product-minded and global — with a culture of shipping, learning and candor.",
+    "photoPlaceholder": "PLACEHOLDER — office & team culture photos coming soon",
+    "ctaTitle": "Your next chapter could start here",
+    "ctaSubtitle": "Tell us what you'd build first. We read everything."
   },
   "services": {
     "kicker": "Services",
@@ -953,8 +1102,10 @@
       }
     },
     "data": {
+      "kicker": "// Data handling",
       "title": "We process only what the assessment needs",
-      "body": "Candidate and employee data is collected for explicit assessment purposes, minimized by design and never sold. Access is role-based and audited, and data is processed under written data-processing agreements on request."
+      "body": "Candidate and employee data is collected for explicit assessment purposes, minimized by design and never sold. Access is role-based and audited, and data is processed under written data-processing agreements on request.",
+      "privacyLink": "See our privacy summary"
     },
     "hosting": {
       "kicker": "Hosting & security",
@@ -979,8 +1130,16 @@
       }
     },
     "retention": {
+      "kicker": "// Retention & deletion",
       "title": "Kept only as long as needed",
       "body": "Assessment data is retained for the duration of your program and deleted or returned per your policy — with clear schedules documented in our DPA-ready terms."
+    },
+    "dpa": {
+      "kicker": "// DPA readiness",
+      "title": "Data-processing agreements on request",
+      "body": "We sign written data-processing agreements covering scope, sub-processors, retention and deletion. A template is available on request for procurement teams.",
+      "cta": "Request the DPA template",
+      "email": "security@intwish.com"
     },
     "roadmap": {
       "kicker": "Certification roadmap",
@@ -1187,6 +1346,7 @@
     "about": "About",
     "services": "Services",
     "caseStudies": "Case Studies",
+    "industries": "Industries",
     "contact": "Contact",
     "productsTitle": "Products",
     "intos": "intOS — Virtual OS Assessment Platform",
@@ -1226,7 +1386,65 @@
     "title": "Grounded in science, not just gamification",
     "body": "Our assessments are built on situational-judgement theory and psychometric game-based methods rooted in industrial & organizational psychology — validated, measured and tied to real job success.",
     "cta": "Read our methodology",
-    "placeholder": "PLACEHOLDER — methodology specifics pending (academic credentials, validation studies)"
+    "placeholder": "PLACEHOLDER — academic credential details pending from Faran (appointment title, research focus, publications)",
+    "heroTitle": "Built on science, not hype",
+    "heroSubtitle": "Every assessment we ship rests on established measurement research — situational-judgement theory, game-based cognitive assessment and industrial & organizational psychology.",
+    "exploreProduct": "Explore intOS",
+    "readResearch": "Read our research",
+    "statsKicker": "// The evidence",
+    "statsTitle": "Claims we can defend with data",
+    "statsSubtitle": "The research premises behind our methods, stated plainly.",
+    "stats": {
+      "validity": {
+        "value": "Decades",
+        "label": "of SJT criterion-related validity evidence"
+      },
+      "anxiety": {
+        "value": "Lower",
+        "label": "test-taking anxiety vs. high-pressure exams"
+      },
+      "bias": {
+        "value": "Same rubric",
+        "label": "applied to every candidate by automation"
+      },
+      "scale": {
+        "value": "300,000+",
+        "label": "professionals assessed in 10 years"
+      }
+    },
+    "methodologyKicker": "// How we design assessments",
+    "methodologyTitle": "From job analysis to a scored experience",
+    "methodologySubtitle": "A defensible method, applied consistently across every engagement.",
+    "methodology": {
+      "p1": "Situational-judgement method: candidates respond to realistic, job-relevant scenarios — measuring judgment and decision-making with less cultural bias and faking than traditional self-report tests.",
+      "p2": "Game-based cognitive assessment: validated games (e.g. Numbubbles, Numparision, Word Wizard) measure cognitive ability and personality traits in an engaging, anxiety-reducing format.",
+      "p3": "Construct mapping: every game and scenario maps to the competencies your role requires, so scores have clear meaning and connect to on-the-job success.",
+      "p4": "AI scoring with evidence: wherever AI grades, it applies one rubric consistently and quotes verbatim evidence — the same standard every candidate meets."
+    },
+    "biasKicker": "// Fair by design",
+    "biasTitle": "AI as a copilot, not a judge",
+    "biasIntro": "We design for fairness from the ground up — the human stays in the decision, and the machine shows its work.",
+    "bias": {
+      "p1": "One rubric for every candidate: the AI scores all candidates against the same criteria, removing interviewer-dependent variance.",
+      "p2": "Verbatim evidence: every AI rating cites exactly what a candidate said or did, so a human reviewer can verify each decision.",
+      "p3": "A human in the loop: AI surfaces patterns and ranked evidence; your panel makes the final call. We publish our fairness commitments as a roadmap."
+    },
+    "dataKicker": "// Data & ethics",
+    "dataTitle": "Handled with consent and care",
+    "dataSubtitle": "Every assessment is a data relationship we take seriously.",
+    "data": {
+      "p1": "Consent-first and minimized: we collect only what the assessment needs, with candidate consent and clear purpose.",
+      "p2": "Retention you control: data is kept for the length of your program and deleted or returned per your policy.",
+      "p3": "Ethical by default: candidate data is never sold, and access is role-based and audited."
+    },
+    "academicKicker": "// Research-backed",
+    "academicTitle": "Academic roots",
+    "academicSubtitle": "A founding tie to academic psychology underpins why our methods work.",
+    "academic": {
+      "p1": "Our assessment framework draws on industrial & organizational psychology and psychometric research on game-based and situational-judgement assessment.",
+      "p2": "This evidence base is cited in every client report — connecting our tools to published research rather than untested novelty.",
+      "p3": "We keep investing in research and invite scrutiny of our methods, treating validation as a discipline, not a marketing claim."
+    }
   },
   "megaMenu": {
     "products": {
