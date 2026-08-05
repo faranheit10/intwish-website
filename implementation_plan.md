@@ -17,11 +17,11 @@ I have audited both repositories (`c:\GitHub\intwish` — the old site + assets,
 
 **Primary narrative: Blend of options 1 + 3 from A3.**
 
-> *Intwish is a full-stack talent technology partner that owns every layer of the stack — gamified assessment (intOS), AI interview/proctoring (IntReview), gamified LMS, and the custom engineering capability that built all three. The tagline `DefineYourWish():` becomes the site's structural spine: visitors define a problem → Intwish compiles the solution → deployed results follow. This function-signature motif runs as a subtle "define → build → deploy" narrative arc across every page, expressed through monospace type accents, terminal-inspired UI flourishes, and a "compiled output" visual language for results/metrics — not as a gimmick, but as brand-authentic design DNA given the tagline already reads like code.*
+> *Intwish is a full-stack talent technology partner that owns every layer of the stack — gamified assessment (intOS), AI interview/proctoring (IntReview), gamified LMS, and the custom engineering capability that built all three. The tagline `DefineYourWish();` becomes the site's structural spine: visitors define a problem → Intwish compiles the solution → deployed results follow. This function-signature motif runs as a subtle "define → build → deploy" narrative arc across every page, expressed through monospace type accents, terminal-inspired UI flourishes, and a "compiled output" visual language for results/metrics — not as a gimmick, but as brand-authentic design DNA given the tagline already reads like code.*
 
 **Why this blend wins:**
 - **Option 1** (product-suite-led) lets the products be the proof of engineering depth — which is the strongest trust signal for enterprise buyers ("if they built intOS and IntReview themselves, they can build for us").
-- **Option 3** (`DefineYourWish():`) gives the site a distinctive structural device that no competitor uses. It unifies 33+ pages under one narrative arc instead of each page improvising its own story.
+- **Option 3** (`DefineYourWish();`) gives the site a distinctive structural device that no competitor uses. It unifies 33+ pages under one narrative arc instead of each page improvising its own story.
 - **Option 2** (services-led) is demoted because every generic IT company claims services. Products are the differentiator. Services are positioned as "the engineering capability behind the products above."
 
 ---
@@ -200,6 +200,13 @@ Single-page PHP site, 2018-era Bootstrap template. **No code to salvage**, but v
 | Card grids | `grid-cols-1 → 2 → 3` (sometimes 4 for small cards) | Standard responsive |
 | **Asymmetric layouts** | `grid-cols-[1.2fr_1fr]` or `grid-cols-[1fr_1.4fr]` | **New — breaks the centered symmetry** |
 
+### 3.8 BraceFraming & Card Specifications
+
+- **Metric styling:** Large numbers are framed as `{ 300,000+ }` instead of plain text.
+- **Hover states:** Text navigation links and cards reveal subtle, CSS-animated brackets `{ }` on hover.
+- **Asymmetric brackets:** Section transitions use light, 1px horizontal braces to anchor layout divisions.
+- **Card Specifications:** Explicitly mandate that cards use thin 1px blueprint-style grid framing without fake window chrome, letting the product showcase windows provide the high-end contrast.
+
 ---
 
 ## 4. Finalized Information Architecture (Sitemap)
@@ -284,7 +291,7 @@ Single-page PHP site, 2018-era Bootstrap template. **No code to salvage**, but v
 | Component | Used On | Purpose |
 |---|---|---|
 | `ProductShowcase` | Homepage, product index | Split-screen with real UI screenshot + floating feature callouts |
-| `DefineWishKicker` | All pages | Monospace kicker in the `DefineYourWish():` style — `define(problem) → build(solution) → deploy(result)` |
+| `DefineWishKicker` | All pages | Monospace kicker in the `DefineYourWish();` style — `define(problem) → build(solution) → deploy(result)` |
 | `IndustryHero` | Industry detail pages | Sector-specific hero with relevant iconography and case study count |
 | `TimelineVertical` | About page | Animated vertical timeline with year markers and expansion |
 | `TeamGrid` | About page | Team member cards with role, bio, LinkedIn — NOT generic stock photo grid |
@@ -296,6 +303,7 @@ Single-page PHP site, 2018-era Bootstrap template. **No code to salvage**, but v
 | `NewsletterSignup` | Footer, insights | Email capture for insights/reports |
 | `RelatedPages` | All interior pages | Cross-links to related content, powered by archetype relationships |
 | `SchemaRenderer` | All pages | Centralized JSON-LD structured data component |
+| `WindowFrame` | Product pages, Homepage | A wrapper component that automatically renders the macOS window bar (close/minimize/expand buttons, window title, tab triggers) and applies the soft hover-shadow. Used around all screenshots, gameplay videos, and demo embeds. |
 
 ---
 

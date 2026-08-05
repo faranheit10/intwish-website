@@ -84,7 +84,7 @@ The homepage uses an **editorial newspaper layout** — asymmetric, content-dens
 
 **2. Hero — Asymmetric Split (NOT centered)**
 - **Left column (55%):**
-  - Kicker: `DefineYourWish():` in Geist Mono, brand-400 color, with blinking cursor animation
+  - Kicker: `DefineYourWish();` in Geist Mono, brand-400 color, with blinking cursor animation
   - Headline: **"The full-stack talent technology company that builds what point solutions can't."** (Space Grotesk, display-xl)
   - Subtitle: "Gamified assessments, AI-scored interviews, and immersive simulations — built, deployed, and proven across 300,000+ professionals in 5 markets." (Geist Sans, body-lg, muted)
   - Proof line: "Trusted by Bank Alfalah · HBL · PTCL · Shell · K-Electric · Daraz" (mono, xs, faint)
@@ -147,7 +147,7 @@ The homepage uses an **editorial newspaper layout** — asymmetric, content-dens
 - Shield icons with certification names
 
 **10. Closing CTA Band**
-- Headline: "DefineYourWish(): — let's build yours."
+- Headline: "DefineYourWish(); — let's build yours."
 - Dual CTA: "Book a Demo" + "Try the intOS sandbox"
 - Trust signal row immediately below: client names + stat summary
 - Kicker: `}; // compiled and ready`
