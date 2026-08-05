@@ -355,7 +355,35 @@
     "canadaEntity": "كندا — كيان مسجل",
     "canadaEntityDesc": "جاهز لـ PIPEDA · كيان مسجل",
     "indonesiaEntity": "إندونيسيا — PT Intwish Global Solutions",
-    "indonesiaEntityDesc": "جاهز لـ UU PDP 27/2022 · PT Intwish Global Solutions"
+    "indonesiaEntityDesc": "جاهز لـ UU PDP 27/2022 · PT Intwish Global Solutions",
+    "segmentsLabel": "بماذا يمكننا مساعدتك؟",
+    "continue": "متابعة",
+    "company": "الشركة",
+    "optional": "اختياري",
+    "productInterest": "المنتج المهتم به",
+    "partnershipType": "نوع الشراكة",
+    "partnershipTypes": {
+      "reseller": "موزع / وكيل",
+      "integration": "تكامل تقني",
+      "academy": "شريك تدريب / أكاديمية",
+      "other": "أخرى"
+    },
+    "roleInterest": "الدور أو الفريق الذي يهمك",
+    "hints": {
+      "sales": "أخبرنا عن التحدي الذي تسعى لحله والجدول الزمني.",
+      "partnership": "أخبرنا عن نوع الشراكة التي تتصورها.",
+      "careers": "أخبرنا عن الدور أو الفريق الذي يهمك.",
+      "general": "هل هناك أي شيء آخر تود إخبارنا به؟"
+    },
+    "back": "رجوع",
+    "privacyNote": "تُعالج بياناتك وفق سياسة الخصوصية الخاصة بنا. نرد خلال 24–48 ساعة.",
+    "responseTime": "سنرد عليك خلال 24–48 ساعة.",
+    "segments": {
+      "sales": "المبيعات",
+      "partnership": "شراكة",
+      "careers": "الوظائف",
+      "general": "عام"
+    }
   },
   "productsIndex": {
     "kicker": "المنتجات",

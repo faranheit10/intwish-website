@@ -355,7 +355,35 @@
     "canadaEntity": "Kanada — entitas terdaftar",
     "canadaEntityDesc": "Siap PIPEDA · Entitas terdaftar",
     "indonesiaEntity": "Indonesia — PT Intwish Global Solutions",
-    "indonesiaEntityDesc": "Siap UU PDP 27/2022 · PT Intwish Global Solutions"
+    "indonesiaEntityDesc": "Siap UU PDP 27/2022 · PT Intwish Global Solutions",
+    "segmentsLabel": "Apa yang bisa kami bantu?",
+    "continue": "Lanjutkan",
+    "company": "Perusahaan",
+    "optional": "opsional",
+    "productInterest": "Produk yang diminati",
+    "partnershipType": "Tipe kemitraan",
+    "partnershipTypes": {
+      "reseller": "Reseller / distributor",
+      "integration": "Integrasi teknologi",
+      "academy": "Mitra pelatihan / akademi",
+      "other": "Lainnya"
+    },
+    "roleInterest": "Peran atau tim yang Anda minati",
+    "hints": {
+      "sales": "Ceritakan tantangan yang ingin Anda selesaikan dan jangka waktunya.",
+      "partnership": "Ceritakan tipe kemitraan yang Anda bayangkan.",
+      "careers": "Ceritakan peran atau tim yang Anda minati.",
+      "general": "Hal lain yang ingin Anda sampaikan?"
+    },
+    "back": "Kembali",
+    "privacyNote": "Data Anda diproses sesuai Kebijakan Privasi kami. Kami merespons dalam 24–48 jam.",
+    "responseTime": "Kami akan membalas dalam 24–48 jam.",
+    "segments": {
+      "sales": "Penjualan",
+      "partnership": "Kemitraan",
+      "careers": "Karier",
+      "general": "Umum"
+    }
   },
   "productsIndex": {
     "kicker": "Produk",

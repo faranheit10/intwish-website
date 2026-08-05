@@ -39,6 +39,11 @@
   --color-accent-400: #5eead4;
   --color-accent-300: #99f6e4;
 
+  /* ---------- Danger (form validation errors) ---------- */
+  --color-danger-500: #f0423d;
+  --color-danger-400: #f8716d;
+  --color-danger-300: #fca5a5;
+
   /* ---------- Text ---------- */
   --color-paper: #e9ecef;
   --color-muted: #9aa2ac;

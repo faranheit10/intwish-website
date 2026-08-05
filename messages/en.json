@@ -447,7 +447,35 @@
     "canadaEntity": "Canada — registered entity",
     "canadaEntityDesc": "PIPEDA-ready · Registered entity",
     "indonesiaEntity": "Indonesia — PT Intwish Global Solutions",
-    "indonesiaEntityDesc": "UU PDP 27/2022-ready · PT Intwish Global Solutions"
+    "indonesiaEntityDesc": "UU PDP 27/2022-ready · PT Intwish Global Solutions",
+    "segmentsLabel": "What can we help with?",
+    "continue": "Continue",
+    "company": "Company",
+    "optional": "optional",
+    "productInterest": "Product interest",
+    "partnershipType": "Partnership type",
+    "partnershipTypes": {
+      "reseller": "Reseller / distributor",
+      "integration": "Technology integration",
+      "academy": "Training / academy partner",
+      "other": "Other"
+    },
+    "roleInterest": "Role or team you're interested in",
+    "hints": {
+      "sales": "Tell us about the challenge you're solving and your timeline.",
+      "partnership": "Tell us what kind of partnership you have in mind.",
+      "careers": "Tell us about the role or team you're interested in.",
+      "general": "Anything else you'd like us to know?"
+    },
+    "back": "Back",
+    "privacyNote": "Your data is handled per our Privacy Policy. We respond within 24–48 hours.",
+    "responseTime": "We'll get back to you within 24–48 hours.",
+    "segments": {
+      "sales": "Sales",
+      "partnership": "Partnership",
+      "careers": "Careers",
+      "general": "General"
+    }
   },
   "productsIndex": {
     "kicker": "Products",

@@ -355,7 +355,35 @@
     "canadaEntity": "Canada — entité inscrite",
     "canadaEntityDesc": "Conforme PIPEDA · Entité inscrite",
     "indonesiaEntity": "Indonésie — PT Intwish Global Solutions",
-    "indonesiaEntityDesc": "Conforme UU PDP 27/2022 · PT Intwish Global Solutions"
+    "indonesiaEntityDesc": "Conforme UU PDP 27/2022 · PT Intwish Global Solutions",
+    "segmentsLabel": "Comment pouvons-nous aider ?",
+    "continue": "Continuer",
+    "company": "Entreprise",
+    "optional": "facultatif",
+    "productInterest": "Produit d'intérêt",
+    "partnershipType": "Type de partenariat",
+    "partnershipTypes": {
+      "reseller": "Revendeur / distributeur",
+      "integration": "Intégration technologique",
+      "academy": "Partenaire formation / académie",
+      "other": "Autre"
+    },
+    "roleInterest": "Poste ou équipe qui vous intéresse",
+    "hints": {
+      "sales": "Décrivez le défi à résoudre et votre échéancier.",
+      "partnership": "Décrivez le type de partenariat envisagé.",
+      "careers": "Décrivez le poste ou l'équipe qui vous intéresse.",
+      "general": "Autre chose que vous aimeriez nous faire savoir ?"
+    },
+    "back": "Retour",
+    "privacyNote": "Vos données sont traitées conformément à notre Politique de confidentialité. Nous répondons sous 24 à 48 heures.",
+    "responseTime": "Nous vous répondrons sous 24 à 48 heures.",
+    "segments": {
+      "sales": "Ventes",
+      "partnership": "Partenariat",
+      "careers": "Carrières",
+      "general": "Général"
+    }
   },
   "productsIndex": {
     "kicker": "Produits",

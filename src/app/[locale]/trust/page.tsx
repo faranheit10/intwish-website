@@ -119,7 +119,7 @@ export default async function TrustPage({
                   href="/privacy"
                   className="mt-6 inline-flex items-center gap-2 font-semibold text-brand-400 transition-colors hover:text-brand-300"
                 >
-                  {t("privacyLink")}
+                  {t("data.privacyLink")}
                   <ArrowRight className="h-4 w-4 rtl:rotate-180" aria-hidden="true" />
                 </Link>
               </div>
