@@ -11,7 +11,7 @@ interface SectionHeadingProps {
   /** Center-aligns the block (only for genuinely symmetric bands). */
   center?: boolean;
   className?: string;
-  as?: "h2" | "h3";
+  as?: "h1" | "h2" | "h3";
 }
 
 /**

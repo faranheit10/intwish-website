@@ -255,7 +255,18 @@
     "howTitle": "How we work",
     "howBody": "Every engagement starts from the outcome you need — a trained workforce, a better hiring funnel, a deeper talent picture. We then design the experience, automate the process and gamify the engagement to make it stick.",
     "relatedCaseStudies": "Related case studies",
-    "back": "Back to all services"
+    "back": "Back to all services",
+    "heroKicker": "// Engineering capabilities",
+    "seeDetails": "See details",
+    "proofKicker": "// Our products are the proof",
+    "proofTitle": "Built on the platforms we ship",
+    "proofBody": "Every capability below runs on technology we engineered, scaled and proved ourselves — the same platforms already live in your industry.",
+    "discussProjectCta": "Discuss a project",
+    "discussCta": "Discuss this capability",
+    "outcomesKicker": "// Proven outcomes",
+    "outcomesTitle": "Quantified outcomes",
+    "outcomesBody": "Real numbers from real deployments — what this capability has already delivered.",
+    "poweredBy": "Powered by"
   },
   "contact": {
     "kicker": "Contact",
@@ -1251,7 +1262,7 @@
         "tagline": "Structured learning and onboarding portals that scale."
       },
       "feedback": {
-        "slug": "360-feedback",
+        "slug": "feedback-360",
         "name": "360° Feedback",
         "tagline": "Automated, measured multi-rater feedback at scale."
       },

@@ -255,7 +255,18 @@
     "howTitle": "Comment nous travaillons",
     "howBody": "Chaque projet commence par le résultat dont vous avez besoin — une main-d'œuvre formée, un meilleur entonnoir d'embauche, une vision plus complète des talents. Nous concevons ensuite l'expérience, automatisons le processus et ludifions l'engagement pour garantir des résultats durables.",
     "relatedCaseStudies": "Études de cas connexes",
-    "back": "Retour à tous les services"
+    "back": "Retour à tous les services",
+    "heroKicker": "// Capacités d'ingénierie",
+    "seeDetails": "Voir les détails",
+    "proofKicker": "// Nos produits en sont la preuve",
+    "proofTitle": "Construit sur les plateformes que nous livrons",
+    "proofBody": "Chaque capacité ci-dessous repose sur une technologie que nous avons conçue, mise à l'échelle et prouvée nous-mêmes — les mêmes plateformes déjà en service dans votre secteur.",
+    "discussProjectCta": "Discutons d'un projet",
+    "discussCta": "Discuter de cette capacité",
+    "outcomesKicker": "// Résultats prouvés",
+    "outcomesTitle": "Résultats quantifiés",
+    "outcomesBody": "Des chiffres concrets issus de déploiements réels — ce que cette capacité a déjà livré.",
+    "poweredBy": "Propulsé par"
   },
   "contact": {
     "kicker": "Contact",
@@ -1251,7 +1262,7 @@
         "tagline": "Des portails d'apprentissage et d'intégration qui passent à l'échelle."
       },
       "feedback": {
-        "slug": "360-feedback",
+        "slug": "feedback-360",
         "name": "Rétroaction 360°",
         "tagline": "Rétroaction multi-évaluateurs automatisée et mesurée à grande échelle."
       },

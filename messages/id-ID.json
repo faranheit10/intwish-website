@@ -255,7 +255,18 @@
     "howTitle": "Cara kami bekerja",
     "howBody": "Setiap proyek dimulai dari hasil yang Anda butuhkan — tenaga kerja terlatih, funnel rekrutmen yang lebih baik, gambaran talenta yang lebih dalam. Kami lalu mendesain pengalamannya, mengotomatiskan prosesnya, dan menggamifikasi keterlibatannya agar melekat.",
     "relatedCaseStudies": "Studi kasus terkait",
-    "back": "Kembali ke semua layanan"
+    "back": "Kembali ke semua layanan",
+    "heroKicker": "// Kapabilitas rekayasa",
+    "seeDetails": "Lihat detailnya",
+    "proofKicker": "// Produk kami adalah buktinya",
+    "proofTitle": "Dibangun di atas platform yang kami kirimkan",
+    "proofBody": "Setiap kapabilitas di bawah ini berjalan di atas teknologi yang kami rekayasa, perbesar, dan buktikan sendiri — platform yang sama yang sudah beroperasi di industri Anda.",
+    "discussProjectCta": "Diskusikan sebuah proyek",
+    "discussCta": "Diskusikan kapabilitas ini",
+    "outcomesKicker": "// Hasil yang terbukti",
+    "outcomesTitle": "Hasil yang terukur",
+    "outcomesBody": "Angka nyata dari penerapan nyata — apa yang telah dihasilkan kapabilitas ini.",
+    "poweredBy": "Didukung oleh"
   },
   "contact": {
     "kicker": "Kontak",
@@ -1251,7 +1262,7 @@
         "tagline": "Portal pembelajaran dan onboarding terstruktur yang berskala."
       },
       "feedback": {
-        "slug": "360-feedback",
+        "slug": "feedback-360",
         "name": "Umpan Balik 360°",
         "tagline": "Umpan balik multi-penilai otomatis dan terukur dalam skala besar."
       },
