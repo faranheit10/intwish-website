@@ -334,7 +334,7 @@ export default async function IntOSPage({
                   const Icon = dashboardIcons[i];
                   return (
                     <Reveal key={key} variant="slide-start" staggerIndex={i} as="li">
-                      <li className="flex items-start gap-4">
+                      <div className="flex items-start gap-4">
                         <span className="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-lg border border-brand-500/30 bg-brand-500/10 text-brand-400">
                           <Icon className="h-5 w-5" aria-hidden="true" />
                         </span>
@@ -346,7 +346,7 @@ export default async function IntOSPage({
                             {t(`dashboard.items.${key}.body`)}
                           </p>
                         </div>
-                      </li>
+                      </div>
                     </Reveal>
                   );
                 })}

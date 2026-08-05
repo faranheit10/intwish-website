@@ -24,7 +24,7 @@ export function StepFlowDiagram({ steps, className }: StepFlowDiagramProps) {
         const isLast = i === steps.length - 1;
         return (
           <Reveal key={step.title} as="li" staggerIndex={i} className="relative">
-            <li className="relative flex h-full flex-col">
+            <div className="relative flex h-full flex-col">
               <div className="flex items-center gap-3">
                 <span className="inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-xl border border-brand-500/30 bg-brand-500/10 text-brand-400">
                   {step.icon}
@@ -44,7 +44,7 @@ export function StepFlowDiagram({ steps, className }: StepFlowDiagramProps) {
                 <h3 className="text-base font-semibold tracking-tight text-paper">{step.title}</h3>
                 <p className="mt-2 text-sm leading-relaxed text-muted">{step.body}</p>
               </div>
-            </li>
+            </div>
           </Reveal>
         );
       })}

@@ -39,7 +39,7 @@ export function ComparisonMatrix({ us, them, rows }: ComparisonMatrixProps) {
         <ul className="divide-y divide-line">
           {rows.map((row, i) => (
             <Reveal key={row.feature} staggerIndex={i} as="li">
-              <li className="grid gap-3 sm:grid-cols-[1.4fr_1fr_1fr] sm:gap-0">
+              <div className="grid gap-3 sm:grid-cols-[1.4fr_1fr_1fr] sm:gap-0">
                 <div className="px-5 pt-4 text-sm font-semibold tracking-tight text-paper sm:flex sm:items-center sm:py-4 sm:align-top">
                   {row.feature}
                 </div>
@@ -51,7 +51,7 @@ export function ComparisonMatrix({ us, them, rows }: ComparisonMatrixProps) {
                   <X className="mt-0.5 h-4 w-4 shrink-0 text-faint sm:mt-0" aria-hidden="true" />
                   <span className="text-sm leading-relaxed text-muted">{row.them}</span>
                 </div>
-              </li>
+              </div>
             </Reveal>
           ))}
         </ul>

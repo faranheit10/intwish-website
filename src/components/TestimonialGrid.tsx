@@ -22,7 +22,7 @@ export function TestimonialGrid({ items, cta }: TestimonialGridProps) {
     <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
       {items.map((item, i) => (
         <Reveal key={item.client} staggerIndex={i} as="figure">
-          <figure className="frame-blueprint flex h-full flex-col rounded-2xl bg-ink-850 p-7 transition-colors hover:border-brand-500/40">
+          <div className="frame-blueprint flex h-full flex-col rounded-2xl bg-ink-850 p-7 transition-colors hover:border-brand-500/40">
             <span
               aria-hidden="true"
               className="select-none font-mono text-5xl font-bold leading-none text-brand-500/40"
@@ -40,7 +40,7 @@ export function TestimonialGrid({ items, cta }: TestimonialGridProps) {
                 <span className="mt-0.5 block text-sm font-medium text-muted">{item.client}</span>
               </div>
             </figcaption>
-          </figure>
+          </div>
         </Reveal>
       ))}
       <Reveal staggerIndex={items.length}>

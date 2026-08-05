@@ -6,7 +6,6 @@ import { setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { NavigationAnnouncement } from "@/components/NavigationAnnouncement";
 import { Analytics } from "@/components/Analytics";
 import { ConsentManager } from "@/components/ConsentManager";
 import { ChatWidget } from "@/components/ChatWidget";
@@ -134,6 +133,7 @@ export default async function LocaleLayout({
       lang={locale}
       dir={isRtl ? "rtl" : "ltr"}
       suppressHydrationWarning
+      data-scroll-behavior="smooth"
       className={`${geistSans.variable} ${geistMono.variable} ${spaceGrotesk.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col antialiased">
@@ -150,7 +150,6 @@ export default async function LocaleLayout({
           >
             Skip to content
           </a>
-          <NavigationAnnouncement />
           <Analytics />
           <ConsentManager />
           <ChatWidget />
