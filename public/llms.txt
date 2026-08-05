@@ -1,0 +1,25 @@
+# Intwish
+
+> Intwish is a digital innovation company building gamified training, AI-powered assessment and immersive simulation platforms for banks, telecoms, energy, government and education. HQ Dubai (UAE), registered in Pakistan, UAE, Canada and Indonesia. 300,000+ professionals assessed across 5 markets in 10 years, including drives of 25,000+ candidates in days.
+
+## Key pages
+
+- [intOS — the virtual OS assessment platform](https://intwish.com/products/intos): A virtual-desktop assessment platform simulating the working world — email simulations, team messenger, situational-judgement meetings, psychometric games and an interlinked narrative engine. Used for management-trainee and graduate drives of 4,000–25,000+ candidates.
+- [IntReview — AI-assisted interviews & assessments](https://intwish.com/products/intreview): Asynchronous video interviews scored by AI against client competency rubrics, with proctoring, STAR analysis and instant evidence-quoted reports.
+- [Case studies](https://intwish.com/case-studies): 16 quantified deployments — Bank Alfalah (7,000+ employees trained), PTCL (25,000+ candidates in days), HBL (first 3D recruitment simulation), ICI Pakistan, Faysal Bank, K-Electric, Shell, Saudi Business Center and more.
+- [Insights & research](https://intwish.com/insights): Benchmark reports, whitepapers and industry playbooks from 300,000+ assessments — gamified assessment completion (90%+ vs 60–70% for traditional tests), SJT and game-based validity evidence, ROI frameworks and banking/telecom/energy/government playbooks.
+
+## Services
+
+- [Training & Learning](https://intwish.com/services/training-learning): Gamified compliance, onboarding and capability training that employees actually finish.
+- [Recruitment & Assessment](https://intwish.com/services/recruitment-assessment): High-volume gamified hiring with 3D simulations, cognitive games and automated candidate reports.
+- [Employee Engagement](https://intwish.com/services/employee-engagement): High-potential identification and culture-building games.
+- [Enterprise Portals & Automation](https://intwish.com/services/enterprise-portals): Government-grade portals, knowledge bases and mystery-shopper evaluations.
+- [360° Feedback Systems](https://intwish.com/services/feedback-360): Anonymous multi-rater feedback with automated 20-page reports.
+- [AR/VR Simulation](https://intwish.com/services/ar-vr-simulation): Immersive 3D training and assessment environments.
+
+## Optional
+
+- [About Intwish](https://intwish.com/about): Company history, timeline, leadership and entities since 2015.
+- [Trust & Security](https://intwish.com/trust): Data protection, hosting and compliance (PIPEDA, UU PDP 27/2022, GDPR-ready, PDPL).
+- [Contact](https://intwish.com/contact): Dubai, Karachi, Canada and Indonesia offices.

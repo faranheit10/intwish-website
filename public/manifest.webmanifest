@@ -1,0 +1,29 @@
+{
+  "name": "Intwish — The Full-Stack Talent Technology Company",
+  "short_name": "Intwish",
+  "description": "Gamified assessments, AI-scored interviews and immersive simulations — built, deployed and proven across 300,000+ professionals in 5 markets.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0d10",
+  "theme_color": "#0b0d10",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

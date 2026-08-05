@@ -1,51 +1,49 @@
-# Dependencies
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
 /node_modules
 /.pnp
-.pnp.js
-.yarn/install-state.gz
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
 
-# Testing
+# testing
 /coverage
 
-# Next.js build output
+# next.js
 /.next/
 /out/
 
-# Production build output
+# production
 /build
 
-# IDEs and editors
-/.idea/
-/.vscode/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-
-# System files
+# misc
 .DS_Store
-Thumbs.db
-desktop.ini
+*.pem
 
-# Logs
+# debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+.pnpm-debug.log*
 
-# Local environment variables files
-.env
-.env*.local
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# env files (can opt-in for committing if needed)
+.env*
 
-# Vercel
+# ssh key material / ssh-keygen transcripts — never commit real keys
+.sshkey
+*.pub
+id_rsa*
+id_ed25519*
+mock_intwish*
+*.pem
+
+# vercel
 .vercel
 
-# TypeScript build info
+# typescript
 *.tsbuildinfo
 next-env.d.ts

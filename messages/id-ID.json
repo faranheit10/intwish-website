@@ -1,0 +1,1204 @@
+{
+  "metadata": {
+    "siteName": "Intwish",
+    "ogImage": "/img/about/cover.png",
+    "defaultTitle": "Intwish — Pelatihan Gamifikasi, Asesmen AI & Simulasi Imersif",
+    "defaultDescription": "Pelatihan gamifikasi, asesmen bertenaga AI, dan simulasi imersif untuk bank, telekomunikasi, energi, dan pemerintahan. Lebih dari 300.000 profesional dinilai di 5 pasar dalam 10 tahun.",
+    "pages": {
+      "home": {
+        "title": "Intwish — Perusahaan Teknologi Talenta Full-Stack",
+        "description": "Asesmen gamifikasi, wawancara berbasis AI, dan simulasi imersif — dibangun, di-deploy, dan terbukti pada 300.000+ profesional di 5 pasar."
+      },
+      "about": {
+        "title": "Tentang Intwish — 10 Tahun Asesmen & Pelatihan Gamifikasi",
+        "description": "Bagaimana Intwish menjadi pelopor gamifikasi di Pakistan dan membangun platform pembelajaran, rekrutmen, dan keterlibatan untuk lebih dari 300.000 profesional di 5 pasar."
+      },
+      "services": {
+        "title": "Layanan — Pelatihan, Rekrutmen, Keterlibatan, Portal, 360° & AR/VR",
+        "description": "Layanan berbasis hasil: pelatihan & pembelajaran gamifikasi, rekrutmen & asesmen, keterlibatan karyawan, portal & otomatisasi perusahaan, umpan balik 360° dan simulasi AR/VR."
+      },
+      "servicesDetail": {
+        "title": "{service} — Layanan Intwish",
+        "description": "Intwish {service}: solusi berbasis hasil untuk bank, telekomunikasi, energi, dan pemerintahan."
+      },
+      "caseStudies": {
+        "title": "Studi Kasus — Hasil Terukur dari Implementasi Nyata",
+        "description": "Lebih dari 12 studi kasus terukur di sektor perbankan, telekomunikasi, energi, pendidikan, dan pemerintahan — dari kampanye pelatihan 7.000 karyawan hingga game rekrutmen 25.000 kandidat."
+      },
+      "caseStudyDetail": {
+        "title": "{title} — Studi Kasus Intwish",
+        "description": "{summary}"
+      },
+      "contact": {
+        "title": "Hubungi Intwish — Jadwalkan Demo atau Mulai Proyek",
+        "description": "Bicaralah dengan tim kami di Dubai, Karachi, Kanada, dan Indonesia. Jadwalkan demo intOS atau IntReview, atau mulai proyek pelatihan, asesmen, atau simulasi gamifikasi."
+      },
+      "productsIndex": {
+        "title": "Produk — Platform intOS OS Virtual & Wawancara AI IntReview",
+        "description": "intOS, platform asesmen OS virtual, dan IntReview, wawancara video asinkron berbantuan AI — platform yang kami bangun untuk klien terbesar kami, kini tersedia untuk Anda."
+      },
+      "intos": {
+        "title": "intOS — Platform Asesmen OS Virtual",
+        "description": "Platform asesmen pertama yang mensimulasikan dunia kerja. Desktop virtual langsung dengan simulasi email, messenger tim, pertemuan SJT, game psikometri, dan mesin naratif saling terhubung."
+      },
+      "intreview": {
+        "title": "IntReview — Wawancara & Asesmen Berbantuan AI",
+        "description": "Wawancara video asinkron dinilai oleh AI berdasarkan rubrik kompetensi Anda — dengan proctoring, analisis STAR, dan laporan instan berbasis data."
+      },
+      "demo": {
+        "title": "Jadwalkan Demo — intOS & IntReview",
+        "description": "Jadwalkan tur langsung 30 menit intOS dan IntReview bersama tim produk kami — dan dapatkan harga regional serta rencana pilot."
+      },
+      "trust": {
+        "title": "Pusat Kepercayaan & Keamanan — Kepatuhan, Penanganan Data & Hosting",
+        "description": "Bagaimana Intwish melindungi data kandidat dan karyawan: kepatuhan PIPEDA, UU PDP Indonesia, GDPR-ready dan PDPL, penanganan data, hosting, retensi, dan peta jalan sertifikasi kami."
+      },
+      "insights": {
+        "title": "Wawasan — Riset, Laporan & Playbook",
+        "description": "Laporan benchmark, whitepaper, dan playbook industri dari 300.000+ asesmen di 5 pasar dalam 10 tahun."
+      },
+      "insightDetail": {
+        "title": "{title} — Wawasan Intwish",
+        "description": "{excerpt}"
+      },
+      "media": {
+        "title": "Media & Penghargaan — Intwish",
+        "description": "Satu dekade pencapaian pertama dalam asesmen dan pelatihan gamifikasi di Asia Selatan dan Timur Tengah — liputan media, pengakuan, dan tonggak."
+      },
+      "privacy": {
+        "title": "Privasi — Cara Intwish Menangani Data Kandidat & Karyawan",
+        "description": "Cara Intwish melindungi data kandidat dan karyawan: kepatuhan PIPEDA, UU PDP Indonesia, siap-GDPR dan PDPL, penyimpanan dan penghapusan, serta cara menghubungi tim privasi kami."
+      },
+      "terms": {
+        "title": "Ketentuan Penggunaan — Intwish",
+        "description": "Ketentuan yang mengatur penggunaan situs web dan layanan Intwish, komitmen pemrosesan data kami, dan cara menghubungi kami."
+      }
+    }
+  },
+  "nav": {
+    "home": "Beranda",
+    "about": "Tentang",
+    "services": "Layanan",
+    "products": "Produk",
+    "caseStudies": "Studi Kasus",
+    "contact": "Kontak",
+    "bookDemo": "Jadwalkan Demo",
+    "openMenu": "Buka menu utama",
+    "closeMenu": "Tutup menu utama",
+    "insights": "Wawasan"
+  },
+  "localeSwitcher": {
+    "label": "Bahasa",
+    "en": "English",
+    "fr-CA": "Français (Canada)",
+    "id-ID": "Bahasa Indonesia",
+    "ar": "العربية"
+  },
+  "common": {
+    "learnMore": "Pelajari lebih lanjut",
+    "readCaseStudy": "Baca studi kasus",
+    "allCaseStudies": "Semua studi kasus",
+    "allServices": "Semua layanan",
+    "backToTop": "Kembali ke atas",
+    "skipToContent": "Langsung ke konten"
+  },
+  "hero": {
+    "kicker": "DefineYourWish();",
+    "title": "Perusahaan teknologi talenta full-stack yang",
+    "titleSuffix": "untuk perusahaan modern",
+    "subtitle": "Asesmen gamifikasi, wawancara berbasis AI, dan simulasi imersif — dibangun, di-deploy, dan terbukti pada 300.000+ profesional di 5 pasar.",
+    "primaryCta": "Jadwalkan Demo",
+    "secondaryCta": "Coba sandbox intOS",
+    "scrollCta": "Ceritakan lebih lanjut",
+    "titleAccent": "membangun apa yang tidak bisa dilakukan solusi point.",
+    "proofLine": "Dipercaya oleh Bank Alfalah · HBL · PTCL · Shell · K-Electric · Daraz",
+    "codeComment": "// define → build → deploy",
+    "placeholderLabel": "PLACEHOLDER — tangkapan desktop intOS diperlukan",
+    "osWindowTitle": "intOS — desktop virtual",
+    "aiReportWindowTitle": "IntReview — laporan kandidat"
+  },
+  "trustStrip": {
+    "title": "Dipercaya oleh pemimpin pasar",
+    "subtitle": "Dari bank nasional dan telekomunikasi hingga utilitas energi dan sektor publik",
+    "clientNamesLabel": "Klien mencakup",
+    "kicker": "Dipercaya pemimpin perusahaan di 5 pasar",
+    "statBadges": {
+      "assessed": "300.000+ dinilai",
+      "years": "10+ tahun",
+      "markets": "5 pasar"
+    }
+  },
+  "video": {
+    "title": "Ubah ide Anda menjadi realitas (virtual).",
+    "subtitle": "Dari pelatihan karyawan berskala besar hingga simulasi rekrutmen berisiko tinggi, kami menghidupkan pembelajaran dan kinerja.",
+    "videoTitle": "Video showcase Intwish"
+  },
+  "products": {
+    "kicker": "Produk",
+    "title": "Dua platform. Satu keunggulan.",
+    "subtitle": "Platform asesmen yang kami bangun untuk klien terbesar kami — kini tersedia untuk Anda.",
+    "intos": {
+      "name": "intOS",
+      "tagline": "Platform asesmen OS virtual",
+      "description": "Desktop virtual langsung yang benar-benar dioperasikan kandidat Anda — simulasi email, messenger tim, pertemuan penilaian situasional, game psikometri, dan mesin naratif saling terhubung.",
+      "cta": "Jelajahi intOS",
+      "eta": "Demo langsung · coba sekarang",
+      "metric": "25.000+ dalam satu kampanye",
+      "ctaPrimary": "Rasakan OS-nya",
+      "placeholder": "PLACEHOLDER — tangkapan desktop intOS diperlukan"
+    },
+    "intreview": {
+      "name": "IntReview",
+      "tagline": "Wawancara & asesmen berbantuan AI",
+      "description": "Wawancara video asinkron dinilai oleh AI berdasarkan rubrik kompetensi Anda — dengan proctoring, analisis STAR, dan laporan instan berbasis data.",
+      "cta": "Jelajahi IntReview",
+      "eta": "Demo langsung · coba sekarang",
+      "metric": "~80% lebih hemat waktu review",
+      "ctaPrimary": "Lihat penilaian AI bekerja",
+      "windowTitle": "IntReview — laporan kandidat AI",
+      "reportLabel": "Laporan kandidat AI IntReview"
+    },
+    "bentoKicker": "const products = compile(",
+    "bentoTitle": "Dua produk. Satu stack. Nol vendor sprawl.",
+    "bentoSubtitle": "Setiap lapisan stack — dibangun, dimiliki, dan di-deploy oleh tim yang sama."
+  },
+  "caseStudies": {
+    "kicker": "Bukti",
+    "title": "Hasil terukur dari implementasi nyata",
+    "subtitle": "Kondisi awal → solusi → hasil. Setiap proyek diukur.",
+    "industry": "Industri",
+    "client": "Klien",
+    "all": "Semua",
+    "readMore": "Baca kisah lengkapnya",
+    "impactLabel": "Dampak sekilas",
+    "back": "Kembali ke semua studi kasus",
+    "onePager": {
+      "kicker": "Studi Kasus · Ringkasan",
+      "download": "Unduh ringkasan (PDF)",
+      "print": "Simpan sebagai PDF",
+      "toolbarNote": "Cetak atau simpan sebagai PDF dari dialog cetak browser Anda.",
+      "summaryLabel": "Tantangannya",
+      "contactNote": "Ingin hasil seperti ini? Mari bicara.",
+      "generatedBy": "Disiapkan oleh Intwish — intwish.com"
+    },
+    "featuredLabel": "Studi kasus unggulan",
+    "secondaryLabel": "Lebih banyak bukti"
+  },
+  "stats": {
+    "title": "Angka berbicara sendiri",
+    "items": {
+      "users": {
+        "value": "300.000+",
+        "label": "Profesional dinilai"
+      },
+      "employees": {
+        "value": "7.000+",
+        "label": "Karyawan dalam satu kampanye pelatihan"
+      },
+      "candidates": {
+        "value": "25.000",
+        "label": "Kandidat dalam satu kampanye rekrutmen"
+      },
+      "reportPages": {
+        "value": "20",
+        "label": "Halaman laporan 360° otomatis"
+      }
+    },
+    "kicker": "return {"
+  },
+  "compliance": {
+    "title": "Dibangun untuk pengadaan teregulasi",
+    "subtitle": "Sinyal kepercayaan perusahaan untuk bank, telekomunikasi, dan pemerintahan",
+    "items": {
+      "pipeda": {
+        "name": "PIPEDA",
+        "note": "Kanada"
+      },
+      "pdp": {
+        "name": "UU PDP",
+        "note": "Indonesia"
+      },
+      "gdpr": {
+        "name": "GDPR-ready",
+        "note": "UE / global"
+      },
+      "pdpl": {
+        "name": "PDPL",
+        "note": "UEA / KSA"
+      },
+      "roadmap": {
+        "name": "ISO 27001 · SOC 2",
+        "note": "Peta jalan berjalan"
+      }
+    },
+    "kicker": "// compliance compiled"
+  },
+  "about": {
+    "kicker": "Tentang Intwish",
+    "title": "Pelopor asesmen gamifikasi selama 10 tahun",
+    "subtitle": "Dari pelatihan korporat gamifikasi pertama di Pakistan hingga perusahaan produk global — terdaftar di Pakistan, UEA, Kanada, dan Indonesia.",
+    "whoTitle": "Siapa kami?",
+    "whoBody": "Intwish adalah perusahaan inovasi digital yang membangun platform pembelajaran dan asesmen imersif untuk perusahaan, pemerintah, dan organisasi pembangunan. Solusi kami menggabungkan gamifikasi, AR/VR, dan AI untuk memberikan hasil terukur dalam pelatihan, rekrutmen, kinerja, dan keterlibatan pelanggan. AI tertanam di semua solusi kami berdasarkan asesmen ilmiah atas kebutuhan, hasil, dan kasus bisnis.",
+    "gamTitle": "Apa itu gamifikasi?",
+    "gamBody": "Gamifikasi menggunakan mekanika game — avatar, papan cerita, tahapan, skor, kompetisi, dan papan peringkat — dalam sistem non-game untuk meningkatkan keterlibatan. Dalam pelatihan dan rekrutmen, gamifikasi memberi karyawan pembelajaran langsung dan menilai kandidat terhadap situasi dunia nyata dalam realitas simulasi bermain peran. Dalam pengalaman pelanggan, gamifikasi mendorong kesadaran merek dan loyalitas melalui cash-back, hadiah, dan insentif. Intwish memelopori gamifikasi di Pakistan dan telah menilai serta melatih lebih dari 300.000 pengguna unik dalam 10 tahun.",
+    "statsTitle": "Dalam angka",
+    "timelineTitle": "Perjalanan kami",
+    "teamTitle": "Kepemimpinan",
+    "teamSubtitle": "Para visioner, insinyur, dan pencerita yang mendorong inovasi.",
+    "entitiesTitle": "Tempat kami beroperasi",
+    "entitiesSubtitle": "Entitas dan kantor terdaftar di empat negara, dengan rekam jejak proyek di Arab Saudi."
+  },
+  "services": {
+    "kicker": "Layanan",
+    "title": "Solusi berbasis hasil, dari ujung ke ujung",
+    "subtitle": "Enam kapabilitas, satu standar: dampak bisnis yang terukur.",
+    "howTitle": "Cara kami bekerja",
+    "howBody": "Setiap proyek dimulai dari hasil yang Anda butuhkan — tenaga kerja terlatih, funnel rekrutmen yang lebih baik, gambaran talenta yang lebih dalam. Kami lalu mendesain pengalamannya, mengotomatiskan prosesnya, dan menggamifikasi keterlibatannya agar melekat.",
+    "relatedCaseStudies": "Studi kasus terkait",
+    "back": "Kembali ke semua layanan"
+  },
+  "contact": {
+    "kicker": "Kontak",
+    "title": "Mari bicarakan proyek Anda berikutnya",
+    "subtitle": "Punya proyek, ide, atau masalah yang ingin diselesaikan? Hubungi tim kami di Dubai, Karachi, Kanada, atau Indonesia.",
+    "formTitle": "Kirim pesan kepada kami",
+    "subjectLabel": "Subjek",
+    "name": "Nama Anda",
+    "email": "Email Anda",
+    "phone": "Telepon Anda",
+    "message": "Pesan Anda",
+    "send": "Kirim pesan",
+    "sending": "Mengirim…",
+    "success": "Terima kasih — pesan Anda telah terkirim. Kami akan segera menghubungi Anda.",
+    "error": "Terjadi kesalahan. Silakan email kami langsung di info@intwish.com atau coba lagi.",
+    "notConfigured": "Formulir kontak belum dikonfigurasi. Silakan email info@intwish.com secara langsung.",
+    "requiredName": "Silakan masukkan nama Anda.",
+    "requiredEmail": "Silakan masukkan alamat email yang valid.",
+    "requiredMessage": "Silakan masukkan pesan.",
+    "officesTitle": "Kantor kami",
+    "emailUs": "Email kami",
+    "headOffice": "Kantor Pusat UEA",
+    "pakistanOffice": "Kantor Pakistan",
+    "dubaiAddress": "Suite 1702, Level 17, Boulevard Plaza Tower 1, Sheikh Mohammed Bin Rashid Boulevard, Downtown Dubai, PO Box 415049, UEA",
+    "karachiAddress": "C2 Lantai 3, Gedung 4C, Jalan Komersial 16, Defense Phase 2 Ext, DHA, Karachi, Pakistan",
+    "dubaiPhone": "+971 55 552 9973",
+    "karachiPhone": "+92 334 337 5919",
+    "canadaEntity": "Kanada — entitas terdaftar",
+    "canadaEntityDesc": "Siap PIPEDA · Entitas terdaftar",
+    "indonesiaEntity": "Indonesia — PT Intwish Global Solutions",
+    "indonesiaEntityDesc": "Siap UU PDP 27/2022 · PT Intwish Global Solutions"
+  },
+  "productsIndex": {
+    "kicker": "Produk",
+    "title": "Dua platform. Satu keunggulan.",
+    "subtitle": "Platform asesmen yang kami bangun untuk klien terbesar kami — kini tersedia untuk Anda. Coba langsung, atau jadwalkan pilot dengan tim kami.",
+    "intos": {
+      "name": "intOS",
+      "tagline": "Platform asesmen OS virtual",
+      "description": "Desktop virtual langsung yang benar-benar dioperasikan kandidat Anda — simulasi email, messenger tim, pertemuan penilaian situasional, game psikometri, dan mesin naratif saling terhubung. Dibangun untuk rekrutmen volume tinggi di skala apa pun.",
+      "cta": "Jelajahi intOS",
+      "sandbox": "Demo interaktif langsung"
+    },
+    "intreview": {
+      "name": "IntReview",
+      "tagline": "Wawancara & asesmen berbantuan AI",
+      "description": "Wawancara video asinkron dinilai oleh AI berdasarkan rubrik kompetensi Anda — dengan proctoring, analisis STAR, dan laporan instan berbasis data. Kandidat merekam sekali; Anda meninjau buktinya.",
+      "cta": "Jelajahi IntReview",
+      "sandbox": "Wawancara dinilai AI"
+    }
+  },
+  "intos": {
+    "kicker": "Produk · Asesmen",
+    "title": "Platform asesmen OS virtual",
+    "tagline": "Platform asesmen pertama yang mensimulasikan dunia kerja — OS yang benar-benar dioperasikan kandidat Anda.",
+    "description": "intOS menempatkan kandidat di desktop virtual yang realistis: kotak masuk email, messenger tim, pertemuan terjadwal, tugas langsung, dan aliran interupsi. Apa pun yang mereka lakukan di OS itu — setiap klik, balasan, dan keputusan — dinilai dan dilaporkan kepada Anda. Dibangun untuk program management trainee, skema lulusan baru, perekrutan lateral, dan kampanye 25.000+ kandidat.",
+    "ctaSandbox": "Coba sandbox langsung",
+    "ctaPilot": "Jadwalkan pilot dengan ahli",
+    "proof": {
+      "candidates": {
+        "value": "25.000+",
+        "label": "Kandidat dalam satu kampanye"
+      },
+      "conversion": {
+        "value": "hari",
+        "label": "Untuk menjalankan drive 25.000 kandidat"
+      },
+      "users": {
+        "value": "300.000+",
+        "label": "Profesional dinilai dalam 10 tahun"
+      },
+      "report": {
+        "value": "1 klik",
+        "label": "Laporan kandidat PDF, dapat diekspor"
+      }
+    },
+    "sandbox": {
+      "kicker": "Rasakan OS-nya",
+      "title": "Jelajahi desktop virtual",
+      "subtitle": "Ini adalah instance intOS yang nyata dan berfungsi. Klik simulasi email, jawab messenger tim, ikuti panggilan video — setiap tindakan dinilai, persis seperti kampanye sungguhan.",
+      "reload": "Muat ulang sandbox",
+      "openInNewTab": "Buka sandbox di tab baru",
+      "iframeTitle": "Sandbox interaktif intOS — demo.intwish.com",
+      "loading": "Memuat sandbox intOS…",
+      "fallbackTitle": "Sandbox langsung sedang disiapkan",
+      "fallbackBody": "Sandbox interaktif sedang dalam proses deploy dan akan segera muncul di sini. Sementara itu, jadwalkan pilot terpandu dengan tim kami — kami akan memandu Anda menjelajahi intOS langsung.",
+      "fallbackCta": "Jadwalkan pilot dengan ahli",
+      "privateNote": "Ingin tautan sandbox privat untuk tim Anda?",
+      "privateCta": "Dapatkan sandbox Anda sendiri"
+    },
+    "modules": {
+      "kicker": "Pengalaman",
+      "title": "Segala hal yang dilemparkan pekerjaan nyata kepada Anda",
+      "subtitle": "Enam modul saling terhubung menghadirkan kembali dunia kerja — tindakan di satu modul memicu konsekuensi di modul lain, persis seperti kerja nyata.",
+      "items": {
+        "email": {
+          "title": "Simulasi email",
+          "body": "Kotak masuk realistis dengan prioritas, ambiguitas, dan kebisingan. Kandidat menyeleksi, membalas, dan menindaklanjuti — dinilai dari penilaian, nada, dan prioritas."
+        },
+        "messenger": {
+          "title": "Messenger tim",
+          "body": "Kanal gaya Slack tempat pemangku kepentingan menulis, bertanya, dan mendesak. Setiap respons terekam sebagai bukti perilaku."
+        },
+        "meeting": {
+          "title": "Pertemuan virtual SJT",
+          "body": "Pertemuan penilaian situasional berlangsung sebagai panggilan video — kandidat merespons situasi secara real-time, seperti di assessment centre langsung."
+        },
+        "etray": {
+          "title": "Latihan e-tray",
+          "body": "Baki elektronik berisi tugas, tenggat, dan ketergantungan. Kandidat mengeksekusi, mendelegasikan, atau menaikkan — dan dinilai dari caranya."
+        },
+        "psychometric": {
+          "title": "Game psikometri",
+          "body": "Brain buster, Numbubbles, Numparision, Sentence Completion, Tetris, dan Word Wizard — ukuran kognitif dan kepribadian yang tervalidasi dalam bentuk game."
+        },
+        "narrative": {
+          "title": "Mesin naratif saling terhubung",
+          "body": "Tindakan berantai antar modul — balas email dan pesan Slack muncul, agenda pertemuan berubah, skor menguat. Satu cerita berkelanjutan."
+        }
+      }
+    },
+    "dashboard": {
+      "kicker": "Tampilan recruiter",
+      "title": "Pusat komando, bukan spreadsheet",
+      "subtitle": "Semua yang Anda butuhkan untuk menjalankan kampanye ribuan kandidat tanpa tenggelam dalam data.",
+      "items": {
+        "pulse": {
+          "title": "Kartu KPI real-time",
+          "body": "Tinjauan tertunda, tingkat penyelesaian, skor kecocokan rata-rata, dan status integritas — langsung, per kampanye, per kohort."
+        },
+        "funnel": {
+          "title": "Analitik funnel",
+          "body": "Kandidat dilacak dari diundang, dibuka, dimulai, selesai, hingga daftar pendek — dengan penurunan partisipasi ditandai di setiap tahap."
+        },
+        "timeSaved": {
+          "title": "Waktu dihemat",
+          "body": "Penilaian otomatis mengubah berminggu-minggu tinjauan manual menjadi hitungan detik membaca daftar pendek berperingkat."
+        },
+        "gems": {
+          "title": "Permata tersembunyi",
+          "body": "Dashboard menampilkan kandidat berpotensi tinggi yang mungkin terlewat oleh saringan Anda — para performer yang tenang namun menentukan."
+        },
+        "integrity": {
+          "title": "Daftar pantau integritas",
+          "body": "Penanda anomali untuk perpindahan tab, salin-tempel, dan perilaku sesi tidak wajar, agar skor tetap dapat dipercaya."
+        }
+      }
+    },
+    "candidate": {
+      "kicker": "Tampilan kandidat",
+      "title": "Dibangun untuk kandidat, bukan hanya recruiter",
+      "subtitle": "Asesmen tidak seharusnya terasa seperti ujian. intOS terasa seperti hari pertama di pekerjaan baru.",
+      "items": {
+        "anxiety": {
+          "title": "Mengurangi kecemasan",
+          "body": "Skenario kerja yang familiar menggantikan atmosfer ujian bertekanan tinggi — sehingga yang diukur adalah kemampuan, bukan kegugupan."
+        },
+        "mobile": {
+          "title": "Siap mobile",
+          "body": "OS virtual berjalan di ponsel dan tablet, sehingga kandidat dapat bermain dari mana saja, di perangkat apa pun."
+        },
+        "languages": {
+          "title": "Inggris & Arab, RTL",
+          "body": "Antarmuka lengkap dalam bahasa Inggris dan Arab dengan tata letak kanan-ke-kiri — menjangkau kandidat di Timur Tengah dan sekitarnya."
+        },
+        "themes": {
+          "title": "Tema gelap & terang",
+          "body": "Mode terang dan gelap yang aksesibel dengan kontras ramah WCAG, dipilih oleh setiap kandidat."
+        }
+      }
+    },
+    "useCases": {
+      "kicker": "Kasus penggunaan",
+      "title": "Dari kampanye lulusan baru hingga seleksi pemerintahan",
+      "subtitle": "intOS berskala dari seratus kandidat hingga puluhan ribu.",
+      "more": "Ada hal lain dalam pikiran?",
+      "items": {
+        "mt": {
+          "title": "Program management trainee",
+          "body": "Kasus penggunaan utama — kampanye 4.000 hingga 25.000 kandidat, selesai dalam hitungan hari."
+        },
+        "any": {
+          "title": "Semua posisi",
+          "body": "Modul dan rubrik yang dapat dikonfigurasi untuk perekrutan lateral, peran teknis, dan tim berhadapan dengan pelanggan."
+        },
+        "graduate": {
+          "title": "Skema lulusan baru",
+          "body": "Jalur karier awal dinilai dari potensi dan penilaian, bukan latar belakang."
+        },
+        "government": {
+          "title": "Seleksi pemerintahan",
+          "body": "Seleksi yang adil, dapat diaudit, dan berskala untuk entitas sektor publik — dipercaya dalam proyek Saudi Business Center."
+        },
+        "volume": {
+          "title": "Kampanye volume tinggi",
+          "body": "Infrastruktur yang menampung 25.000+ kandidat simultan tanpa hambatan."
+        }
+      }
+    },
+    "science": {
+      "kicker": "Ilmunya",
+      "title": "Psikometri yang bisa Anda pertanggungjawabkan",
+      "subtitle": "intOS dibangun di atas riset penilaian situasional dan kognitif — metode di balik 300.000+ pengguna yang kami nilai.",
+      "body": "Asesmen kognitif berbasis SJT dan game mengukur penilaian dan kemampuan dengan bias budaya dan kepura-puraan yang lebih rendah daripada tes laporan diri tradisional. Basis riset kami mencakup validasi lintas-negara asesmen kognitif berbasis game — bukti yang sama yang dikutip laporan klien kami."
+    },
+    "reporting": {
+      "kicker": "Analitik & pelaporan",
+      "title": "Laporan kandidat standar emas",
+      "subtitle": "Setiap kandidat berakhir dengan profil yang dapat dipertanggungjawabkan dan kaya data.",
+      "items": {
+        "report": {
+          "title": "Laporan kandidat instan",
+          "body": "Kompetensi, profil kognitif, bukti perilaku, dan rekomendasi — dihasilkan otomatis untuk setiap kandidat."
+        },
+        "pdf": {
+          "title": "Ekspor PDF satu klik",
+          "body": "Laporan bermerek siap cetak, dibangun sesuai spesifikasi pelaporan kandidat standar emas."
+        },
+        "shortlist": {
+          "title": "Daftar pendek berperingkat",
+          "body": "Skor dibobotkan sesuai rubrik Anda, sehingga kandidat terbaik otomatis naik ke atas."
+        },
+        "compare": {
+          "title": "Perbandingan kohort",
+          "body": "Bandingkan kandidat terhadap kohort, kampanye, dan baseline historis."
+        }
+      }
+    },
+    "security": {
+      "kicker": "Keamanan & kepatuhan",
+      "title": "Siap pengadaan, sejak desain",
+      "body": "Penanganan data selaras PIPEDA, UU PDP 27/2022, GDPR-ready, dan PDPL, akses berbasis peran, data terenkripsi saat diam dan dalam perjalanan, serta kebijakan cadangan terdokumentasi. Lihat gambaran lengkapnya di pusat Kepercayaan & Keamanan kami.",
+      "cta": "Kunjungi pusat Kepercayaan & Keamanan"
+    },
+    "videos": {
+      "kicker": "Aksi nyata",
+      "title": "Tonton game psikometrinya",
+      "subtitle": "Rekaman gameplay asli dari rangkaian asesmen intOS — game yang sama yang dimainkan kandidat dalam rekrutmen sungguhan."
+    },
+    "outcome": "Jalankan drive 25.000 kandidat dalam hitungan hari — penilaian otomatis mengubah berminggu-minggu tinjauan manual menjadi daftar pendek berperingkat yang dapat dipertanggungjawabkan.",
+    "testimonials": {
+      "kicker": "Terbukti dalam skala besar",
+      "title": "Hasil klien, dengan kata-kata mereka",
+      "subtitle": "Platform di balik intOS telah menjalankan drive yang kami jelaskan.",
+      "cta": "Drive Anda bisa jadi berikutnya",
+      "items": {
+        "ptcl": {
+          "client": "PTCL",
+          "value": "25.000+",
+          "quote": "Rekrutmen MT gamifikasi terbesar di Pakistan — lebih dari 25.000 kandidat di seluruh negeri menyelesaikan prosesnya hanya dalam beberapa hari."
+        },
+        "hbl": {
+          "client": "HBL",
+          "value": "2×",
+          "quote": "Simulasi rekrutmen 3D pertama di Pakistan — performer terbaik direkrut sebagai management trainee, dan HBL menggunakan kembali asesmen ini pada 2019 karena terbukti lebih efektif."
+        },
+        "ici": {
+          "client": "ICI Pakistan",
+          "value": "4.000+",
+          "quote": "Pelamar diuji dengan skenario kerja nyata — sinyal pemecahan masalah yang lebih andal daripada tes kertas."
+        },
+        "bankAlfalah": {
+          "client": "Bank Alfalah",
+          "value": "7.000+",
+          "quote": "Karyawan menyelesaikan pelatihan kepatuhan wajib di seluruh negeri melalui permainan peran detektif yang imersif — terukur, terlacak, dan dapat dilaporkan."
+        },
+        "faysal": {
+          "client": "Faysal Bank",
+          "value": "4–25rb",
+          "quote": "Pertama di industri perbankan meluncurkan rekrutmen gamifikasi pada 2018 — sejak itu digunakan oleh 4.000 hingga 25.000 kandidat per organisasi."
+        }
+      }
+    },
+    "comparison": {
+      "kicker": "Mengapa tim beralih",
+      "title": "intOS vs. pusat asesmen tradisional",
+      "subtitle": "Rigor asesmen yang sama — tanpa lokasi, pengawas, dan administrasi.",
+      "us": "intOS",
+      "them": "Asesmen tradisional",
+      "rows": {
+        "setup": {
+          "feature": "Setup & pengiriman",
+          "us": "Berhari-hari, bukan berminggu-minggu — modul dan rubrik yang dapat dikonfigurasi",
+          "them": "Berminggu-minggu perencanaan lokasi, pengawas, dan logistik"
+        },
+        "scale": {
+          "feature": "Skala",
+          "us": "25.000+ kandidat dalam satu drive",
+          "them": "Ratusan per pusat, dibatasi kapasitas"
+        },
+        "experience": {
+          "feature": "Pengalaman kandidat",
+          "us": "Desktop virtual yang familiar, di perangkat apa pun",
+          "them": "Ruang ujian bertekanan tinggi dan pengawas"
+        },
+        "objectivity": {
+          "feature": "Penilaian",
+          "us": "Satu rubrik, dinilai konsisten oleh otomatisasi",
+          "them": "Banyak penilai, variasi manusiawi"
+        },
+        "reporting": {
+          "feature": "Pelaporan",
+          "us": "Laporan PDF instan dan daftar pendek berperingkat",
+          "them": "Penilaian manual, disusun berhari-hari"
+        },
+        "audit": {
+          "feature": "Jejak audit",
+          "us": "Setiap tindakan tercatat dan dapat diekspor",
+          "them": "Catatan kertas atau spreadsheet"
+        }
+      }
+    },
+    "results": {
+      "kicker": "Bukti",
+      "title": "Hasil dari drive nyata",
+      "subtitle": "Setiap keterlibatan terukur: baseline → solusi → hasil.",
+      "cta": "Semua studi kasus"
+    },
+    "faq": {
+      "kicker": "FAQ",
+      "title": "Pertanyaan yang sering diajukan pembeli",
+      "subtitle": "Jawaban langsung — dan riset di baliknya.",
+      "items": {
+        "validity": {
+          "q": "Apakah intOS tervalidasi secara ilmiah?",
+          "a": "intOS dibangun di atas riset penilaian kognitif berbasis game dan penilaian situasional — metode dengan bukti validitas kriteria selama beberapa dekade. Basis bukti yang sama menopang 300.000+ pengguna yang telah dinilai dan dikutip di setiap laporan klien."
+        },
+        "experience": {
+          "q": "Bagaimana rasanya bagi kandidat?",
+          "a": "Seperti hari pertama di pekerjaan baru, bukan ujian. Kandidat mengoperasikan desktop virtual yang realistis — kotak masuk, messenger, rapat — di ponsel atau laptop, dalam bahasa Inggris atau Arab, dengan tema gelap atau terang. Skenario yang familiar mengurangi kecemasan, sehingga kemampuan, bukan kegugupan, yang diukur."
+        },
+        "scoring": {
+          "q": "Bagaimana sebenarnya cara penilaian bekerja?",
+          "a": "Setiap tindakan kandidat di OS — setiap balasan, prioritas, dan keputusan — dinilai terhadap rubrik yang Anda konfigurasi. Dashboard perekrut mengubahnya menjadi analitik funnel, daftar pendek berperingkat, dan laporan PDF sekali klik."
+        },
+        "scale": {
+          "q": "Seberapa besar sebuah drive?",
+          "a": "25.000+ kandidat dalam satu drive. Platform ini dibangun untuk rekrutmen volume tinggi — drive PTCL menilai 25.000+ kandidat di seluruh negeri dalam hitungan hari."
+        },
+        "languages": {
+          "q": "Bahasa apa saja yang didukung?",
+          "a": "Bahasa Inggris dan Arab dengan tata letak kanan-ke-kiri penuh, plus tema gelap dan terang dengan kontras ramah WCAG."
+        },
+        "pricing": {
+          "q": "Bagaimana cara kerja harga?",
+          "a": "Harga berbasis volume per kandidat, dilokalkan ke mata uang wilayah Anda. Sebagian besar tim memulai dengan drive pilot sebelum memperbesar. Jadwalkan panggilan dan kami akan membagikan harga regional dalam 24–48 jam."
+        }
+      }
+    },
+    "pricing": {
+      "kicker": "Harga",
+      "title": "Harga sederhana, berbasis kontak",
+      "subtitle": "Harga bervariasi menurut wilayah, volume, dan modul — begini cara kerjanya, tanpa misteri.",
+      "items": {
+        "volume": {
+          "title": "Harga volume per kandidat",
+          "body": "Dihitung per kandidat per modul, dilokalkan ke mata uang pasar Anda — AED, PKR, CAD, IDR, dan lainnya."
+        },
+        "pilot": {
+          "title": "Pilot sebelum berkomitmen",
+          "body": "Jalankan drive nyata dengan kandidat Anda lebih dulu — biasanya 25–100 — dan lihat daftar pendek berperingkat sebelum membeli dalam skala besar."
+        },
+        "quote": {
+          "title": "Kutipan regional dalam 24–48 jam",
+          "body": "Permintaan Anda dirutekan ke tim terdekat kami di Dubai, Karachi, Kanada, atau Indonesia untuk harga dalam mata uang Anda."
+        }
+      },
+      "cta": "Dapatkan kutipan regional",
+      "roiNote": "Lebih suka angka? Coba kalkulator ROI"
+    }
+  },
+  "intreview": {
+    "kicker": "Produk · Wawancara",
+    "title": "Wawancara & asesmen berbantuan AI",
+    "tagline": "Wawancara video asinkron dinilai oleh AI berdasarkan rubrik kompetensi Anda — dengan proctoring, analisis STAR, dan laporan instan berbasis data.",
+    "description": "Kandidat merekam jawaban video terstruktur sekali, sesuai waktu mereka. AI IntReview menilainya terhadap rubrik Anda — struktur STAR, peringkat 1–5, dan kutipan bukti — sementara proctoring mengawasi kecurangan. Anda meninjau bukti berperingkat, bukan berjam-jam rekaman mentah.",
+    "ctaDemo": "Minta demo langsung",
+    "ctaPilot": "Jadwalkan pilot dengan ahli",
+    "proof": {
+      "speed": {
+        "value": "~80%",
+        "label": "Waktu tinjauan lebih singkat dengan penilaian otomatis"
+      },
+      "consistency": {
+        "value": "Satu rubrik",
+        "label": "Standar yang sama untuk setiap kandidat"
+      },
+      "anxiety": {
+        "value": "Kapan saja",
+        "label": "Kandidat merekam saat siap"
+      },
+      "scale": {
+        "value": "4–25rb",
+        "label": "Kandidat per kampanye, dari program klien kami"
+      }
+    },
+    "features": {
+      "kicker": "Cara kerjanya",
+      "title": "Rekam sekali. Nilai instan. Putuskan dengan percaya diri.",
+      "subtitle": "Enam kapabilitas yang membawa wawancara asinkron dari rekaman mentah ke daftar pendek berperingkat yang dapat dipertanggungjawabkan.",
+      "items": {
+        "scoring": {
+          "title": "Penilaian kompetensi AI",
+          "body": "Analisis struktur STAR, peringkat rubrik 1–5, dan analisis kesenjangan — dengan kutipan bukti verbatim untuk setiap skor."
+        },
+        "questions": {
+          "title": "18+ tipe pertanyaan",
+          "body": "18 tipe — video, audio, teks, MCQ, coding, matriks/skala penilaian, urutan peringkat, seret-dan-lepas, dan lainnya — plus pertanyaan yang dihasilkan AI dari mesin pertanyaan platform."
+        },
+        "proctoring": {
+          "title": "Proctoring anti-kecurangan",
+          "body": "Pelacakan arah pandang, deteksi perpindahan tab, dan forensik audio multi-suara menandai sesi mencurigakan secara otomatis."
+        },
+        "reports": {
+          "title": "Laporan PDF kanvas tak terbatas",
+          "body": "Laporan mendalam yang dapat dicari dan memanjang hingga panjang apa pun — dibangun untuk komite perekrutan dan jejak audit."
+        },
+        "dashboard": {
+          "title": "Dashboard analitik",
+          "body": "Kesehatan funnel, tingkat penyelesaian, performa pertanyaan, dan benchmark kandidat sekilas."
+        },
+        "whiteLabel": {
+          "title": "Branding white-label",
+          "body": "Logo, warna, dan domain Anda — kandidat tidak pernah melihat merek pihak ketiga."
+        }
+      }
+    },
+    "languages": {
+      "title": "Inggris & Arab, RTL penuh",
+      "body": "Antarmuka, undangan, dan laporan dalam bahasa Inggris dan Arab dengan tata letak kanan-ke-kiri — dibangun untuk tim rekrutmen Timur Tengah."
+    },
+    "flow": {
+      "kicker": "Alur kandidat",
+      "title": "Pengalaman wawancara yang lebih baik",
+      "subtitle": "Asinkron sejak desain — kandidat merekam saat siap, dalam lingkungan yang tenang, dengan pengambilan ulang di tempat yang Anda izinkan.",
+      "items": {
+        "invite": {
+          "title": "Undang dalam skala besar",
+          "body": "Kirim undangan bermerek ke ribuan kandidat, dengan penjadwalan yang sesuai dengan kehidupan mereka."
+        },
+        "record": {
+          "title": "Rekam sekali",
+          "body": "Kandidat menjawab pertanyaan terstruktur di perangkat apa pun, dengan mode latihan untuk meredakan gugup."
+        },
+        "review": {
+          "title": "Tinjau buktinya",
+          "body": "Daftar pendek berperingkat dengan kutipan dan cap waktu — tidak perlu lagi menyisir rekaman berjam-jam."
+        },
+        "decide": {
+          "title": "Putuskan dengan data",
+          "body": "Keputusan konsisten berbasis rubrik yang tahan pengawasan — dan mudah dipertahankan di depan komite perekrutan."
+        }
+      }
+    },
+    "security": {
+      "kicker": "Keamanan & kepatuhan",
+      "title": "Keamanan perusahaan sebagai bawaan",
+      "body": "Autentikasi aman, penanganan media terenkripsi, dan pemantauan sesi — dengan pemrosesan data selaras PIPEDA, UU PDP 27/2022, GDPR-ready, dan PDPL. Lihat gambaran lengkapnya di pusat Kepercayaan & Keamanan kami.",
+      "cta": "Kunjungi pusat Kepercayaan & Keamanan"
+    },
+    "outcome": "Penilaian otomatis memangkas waktu tinjauan ~80% — satu rubrik untuk setiap kandidat, dengan kutipan bukti verbatim yang bisa dipertahankan komite Anda.",
+    "testimonials": {
+      "kicker": "Terbukti dalam skala besar",
+      "title": "Hasil asesmen di balik IntReview",
+      "subtitle": "Skala dan rigor yang diwarisi IntReview dari 10 tahun drive nyata.",
+      "cta": "Program wawancara Anda bisa jadi berikutnya",
+      "items": {
+        "ptcl": {
+          "client": "PTCL",
+          "value": "25.000+",
+          "quote": "Kandidat dinilai dalam hitungan hari — kumpulan talenta berperingkat yang kaya data dari mesin asesmen yang sama yang mendukung IntReview."
+        },
+        "hbl": {
+          "client": "HBL",
+          "value": "4.000+",
+          "quote": "Kandidat dievaluasi dengan game kognitif dan situasi nyata — performer terbaik direkrut sebagai management trainee."
+        },
+        "faysal": {
+          "client": "Faysal Bank",
+          "value": "4–25rb",
+          "quote": "Kandidat per organisasi melalui rekrutmen gamifikasi — pertama di industri saat diluncurkan pada 2018."
+        },
+        "ici": {
+          "client": "ICI Pakistan",
+          "value": "4.000+",
+          "quote": "Pelamar dinilai dengan skenario kerja nyata — sinyal yang lebih andal daripada tes kertas."
+        },
+        "bankAlfalah": {
+          "client": "Bank Alfalah",
+          "value": "7.000+",
+          "quote": "Karyawan terlibat dalam pelatihan kepatuhan wajib dalam skala nasional — terukur, terlacak, dapat dilaporkan."
+        }
+      }
+    },
+    "comparison": {
+      "kicker": "Mengapa tim beralih",
+      "title": "IntReview vs. tinjauan video manual",
+      "subtitle": "Wawancara yang sama, sebagian kecil dari waktu tinjauan.",
+      "us": "IntReview",
+      "them": "Tinjauan manual",
+      "rows": {
+        "time": {
+          "feature": "Waktu tinjauan",
+          "us": "~80% lebih sedikit dengan penilaian AI otomatis",
+          "them": "Berjam-jam rekaman per kandidat"
+        },
+        "consistency": {
+          "feature": "Konsistensi",
+          "us": "Satu rubrik, setiap kandidat",
+          "them": "Penilaian yang bergantung pada pewawancara"
+        },
+        "scheduling": {
+          "feature": "Penjadwalan",
+          "us": "Kandidat merekam kapan saja, di perangkat apa pun",
+          "them": "Mengoordinasikan slot wawancara langsung"
+        },
+        "evidence": {
+          "feature": "Bukti",
+          "us": "Kutipan verbatim dan cap waktu",
+          "them": "Catatan yang ditulis setelah panggilan"
+        },
+        "integrity": {
+          "feature": "Integritas",
+          "us": "Pelacakan tatapan, deteksi tab, dan forensik audio",
+          "them": "Rekaman tanpa pengawasan"
+        },
+        "scale": {
+          "feature": "Skala",
+          "us": "4.000–25.000 kandidat per drive",
+          "them": "Dibatasi kapasitas perekrut"
+        }
+      }
+    },
+    "results": {
+      "kicker": "Bukti",
+      "title": "Hasil dari program asesmen nyata",
+      "subtitle": "Platform di balik wawancara kami telah menjalankan volume yang Anda rencanakan.",
+      "cta": "Semua studi kasus"
+    },
+    "faq": {
+      "kicker": "FAQ",
+      "title": "Pertanyaan yang sering diajukan pembeli",
+      "subtitle": "Jawaban langsung — dan riset di baliknya.",
+      "items": {
+        "fairness": {
+          "q": "Apakah penilaian AI adil dan dapat dipertanggungjawabkan?",
+          "a": "Setiap kandidat dinilai terhadap rubrik yang sama, dengan kutipan bukti verbatim dan cap waktu pada setiap rating — sehingga komite perekrutan dapat memverifikasi setiap keputusan. Rubrik milik Anda; AI menerapkannya secara konsisten."
+        },
+        "proctoring": {
+          "q": "Bagaimana cara kerja proctoring anti-kecurangan?",
+          "a": "Pelacakan tatapan, deteksi perpindahan tab, dan forensik audio multi-suara menandai sesi mencurigakan secara otomatis — tanpa mempersulit kandidat yang jujur."
+        },
+        "questions": {
+          "q": "Jenis pertanyaan apa saja yang didukung?",
+          "a": "18+ jenis — video, audio, teks, pilihan ganda, coding, skala matriks/rating, urutan peringkat, drag-and-drop, dan lainnya — plus pertanyaan yang dihasilkan AI dari basis pengetahuan Anda."
+        },
+        "candidate": {
+          "q": "Seperti apa pengalaman kandidat?",
+          "a": "Kandidat merekam jawaban terstruktur sekali, di waktu mereka sendiri, di perangkat apa pun — dengan mode latihan untuk menenangkan saraf dan pengambilan ulang di tempat yang Anda izinkan. Tanpa unduhan."
+        },
+        "whiteLabel": {
+          "q": "Bisakah memakai merek kami?",
+          "a": "Ya — logo, warna, dan domain Anda, dari awal hingga akhir. Kandidat tidak pernah melihat merek pihak ketiga."
+        },
+        "pricing": {
+          "q": "Bagaimana cara kerja harga?",
+          "a": "Harga berbasis volume per kandidat, dilokalkan ke wilayah Anda. Mulai dengan pilot beberapa ratus kandidat, lalu perbesar. Jadwalkan panggilan untuk harga regional dalam 24–48 jam."
+        }
+      }
+    },
+    "pricing": {
+      "kicker": "Harga",
+      "title": "Harga sederhana, berbasis kontak",
+      "subtitle": "Harga bervariasi menurut wilayah, volume, dan modul — begini cara kerjanya, tanpa misteri.",
+      "items": {
+        "volume": {
+          "title": "Harga volume per kandidat",
+          "body": "Dihitung per kandidat per modul, dilokalkan ke mata uang pasar Anda — AED, PKR, CAD, IDR, dan lainnya."
+        },
+        "pilot": {
+          "title": "Pilot sebelum berkomitmen",
+          "body": "Jalankan drive nyata dengan kandidat Anda lebih dulu — biasanya 25–100 — dan lihat daftar pendek berperingkat sebelum membeli dalam skala besar."
+        },
+        "quote": {
+          "title": "Kutipan regional dalam 24–48 jam",
+          "body": "Permintaan Anda dirutekan ke tim terdekat kami di Dubai, Karachi, Kanada, atau Indonesia untuk harga dalam mata uang Anda."
+        }
+      },
+      "cta": "Dapatkan kutipan regional",
+      "roiNote": "Lebih suka angka? Coba kalkulator ROI"
+    }
+  },
+  "trust": {
+    "kicker": "Kepercayaan & Keamanan",
+    "title": "Kepercayaan kelas enterprise, wilayah demi wilayah",
+    "subtitle": "Bagaimana Intwish melindungi data kandidat dan karyawan di setiap pasar yang kami layani.",
+    "compliance": {
+      "kicker": "Kepatuhan",
+      "title": "Pengadaan teregulasi, tercakup",
+      "subtitle": "Pernyataan perlindungan data yang selaras dengan regulasi setiap pasar tempat kami beroperasi.",
+      "items": {
+        "pipeda": {
+          "name": "PIPEDA",
+          "region": "Kanada",
+          "body": "Entitas Kanada dengan pernyataan privasi dalam bahasa Inggris dan Prancis serta penanganan data yang mengutamakan persetujuan."
+        },
+        "pdp": {
+          "name": "UU PDP 27/2022",
+          "region": "Indonesia",
+          "body": "UU perlindungan data Indonesia ala GDPR — PT Intwish Global Solutions, pemberitahuan privasi bahasa Indonesia, perlindungan transfer lintas batas."
+        },
+        "gdpr": {
+          "name": "GDPR",
+          "region": "UE / global",
+          "body": "Persetujuan terperinci, jalur DSAR, dan perjanjian pemrosesan data untuk klien Eropa dan global."
+        },
+        "pdpl": {
+          "name": "PDPL",
+          "region": "UEA / KSA",
+          "body": "Pernyataan privasi bahasa Arab dan kantor pusat Dubai yang selaras dengan hukum perlindungan data UEA dan KSA."
+        }
+      }
+    },
+    "data": {
+      "title": "Kami hanya memproses apa yang dibutuhkan asesmen",
+      "body": "Data kandidat dan karyawan dikumpulkan untuk tujuan asesmen yang eksplisit, diminimalkan sejak desain, dan tidak pernah dijual. Akses berbasis peran dan diaudit, serta data diproses berdasarkan perjanjian pemrosesan data tertulis sesuai permintaan."
+    },
+    "hosting": {
+      "kicker": "Hosting & keamanan",
+      "title": "Terlindungi saat diam dan dalam perjalanan",
+      "items": {
+        "encryption": {
+          "title": "Enkripsi",
+          "body": "TLS dalam perjalanan dan terenkripsi saat diam, dengan header keamanan yang diterapkan di seluruh situs."
+        },
+        "access": {
+          "title": "Kontrol akses",
+          "body": "Akses berbasis peran dengan prinsip hak paling rendah dan pencatatan audit."
+        },
+        "uptime": {
+          "title": "Pemantauan uptime",
+          "body": "Pemantauan berkelanjutan dan kanal status untuk platform yang Anda andalkan."
+        },
+        "backup": {
+          "title": "Kebijakan cadangan",
+          "body": "Kebijakan pencadangan dan pemulihan yang terdokumentasi (Kebijakan Cadangan Intwish v1.0) dengan prosedur pemulihan teruji."
+        }
+      }
+    },
+    "retention": {
+      "title": "Disimpan hanya selama diperlukan",
+      "body": "Data asesmen disimpan selama durasi program Anda dan dihapus atau dikembalikan sesuai kebijakan Anda — dengan jadwal yang jelas didokumentasikan dalam ketentuan siap-DPA kami."
+    },
+    "roadmap": {
+      "kicker": "Peta jalan sertifikasi",
+      "title": "Jujur tentang posisi kami",
+      "body": "Kami sedang menempuh sertifikasi ISO 27001 dan SOC 2 Type 2 serta memublikasikan progres kami di sini. Hingga sertifikasi selesai, kami tidak pernah mengklaim status teraudit yang belum kami miliki — kontrol, kebijakan, dan praktiknya sudah ada.",
+      "status": "ISO 27001 · SOC 2 — peta jalan berjalan"
+    },
+    "contact": {
+      "title": "Laporkan masalah atau ajukan DPA",
+      "body": "Untuk pengungkapan keamanan, perjanjian pemrosesan data, atau pertanyaan kepatuhan, hubungi tim kami secara langsung.",
+      "cta": "Hubungi tim keamanan"
+    }
+  },
+  "roi": {
+    "kicker": "Kalkulator ROI",
+    "title": "Perkirakan waktu yang dihemat vs. rekrutmen tradisional",
+    "subtitle": "Geser pengatur ke angka Anda — lihat berapa banyak yang dihemat asesmen otomatis untuk tim Anda setiap tahun.",
+    "candidates": "Kandidat per tahun",
+    "screenMinutes": "Menit penyaringan manual per kandidat",
+    "recruiterCost": "Biaya rata-rata recruiter per jam",
+    "savedHours": "Jam dihemat per tahun",
+    "savedDays": "Hari kerja dihemat per tahun",
+    "savedCost": "Perkiraan biaya dihemat per tahun",
+    "teamsNote": "Itu kira-kira {teams} recruiter penuh waktu yang dibebaskan untuk pekerjaan bernilai lebih tinggi.",
+    "disclaimer": "Perkiraan berdasarkan input Anda dan benchmark otomatisasi asesmen yang umum. ROI akhir bergantung pada struktur program.",
+    "bookPilot": "Jadwalkan pilot untuk mendapatkan angka nyata",
+    "candidatesLabel": "kandidat/thn",
+    "minutesLabel": "mnt/kandidat",
+    "currencyLabel": "biaya/jam",
+    "currency": "Rp"
+  },
+  "notFound": {
+    "code": "404",
+    "title": "Halaman ini mengambil rute yang salah.",
+    "body": "Halaman yang Anda cari tidak ada atau telah dipindahkan.",
+    "cta": "Kembali ke beranda"
+  },
+  "insights": {
+    "kicker": "Wawasan & Riset",
+    "title": "Bukti di balik hasil",
+    "subtitle": "Laporan benchmark, whitepaper, dan playbook yang dibangun dari 10 tahun dan 300.000+ asesmen di Asia Selatan, Timur Tengah, dan sekitarnya.",
+    "readTime": "{count} mnt baca",
+    "readCta": "Baca",
+    "gatedLabel": "Dibatasi",
+    "types": {
+      "report": "Laporan",
+      "whitepaper": "Whitepaper",
+      "playbook": "Playbook",
+      "article": "Artikel",
+      "webinar": "Webinar"
+    },
+    "filters": {
+      "all": "Semua",
+      "report": "Laporan",
+      "whitepaper": "Whitepaper",
+      "playbook": "Playbook",
+      "article": "Artikel",
+      "webinar": "Webinar"
+    },
+    "featured": {
+      "kicker": "Laporan unggulan",
+      "cta": "Dapatkan laporan"
+    },
+    "hub": {
+      "title": "Wawasan terbaru",
+      "subtitle": "Riset, benchmark, dan playbook dari program asesmen kami"
+    },
+    "webinar": {
+      "kicker": "Demo langsung",
+      "note": "30 menit bersama tim produk kami — tanpa slide, hanya platform aslinya."
+    },
+    "gate": {
+      "teaserTitle": "Isi laporan",
+      "kicker": "Sumber daya terbatas",
+      "title": "Dapatkan laporan lengkap",
+      "subtitle": "Masukkan detail Anda dan kami akan mengirimkan laporan lengkap melalui email — gratis, tanpa panggilan penjualan.",
+      "name": "Nama Anda",
+      "email": "Email kerja Anda",
+      "company": "Perusahaan (opsional)",
+      "submit": "Kirim saya laporannya",
+      "sending": "Mengirim…",
+      "success": "Periksa kotak masuk Anda",
+      "successNote": "Salinan laporan Anda sedang dalam perjalanan. Jika tidak tiba dalam beberapa menit, periksa folder spam.",
+      "error": "Terjadi kesalahan. Silakan coba lagi atau hubungi kami di info@intwish.com.",
+      "notConfigured": "Layanan unduhan belum dikonfigurasi. Kirim email ke info@intwish.com dan kami akan mengirimkannya langsung kepada Anda.",
+      "required": "Masukkan nama dan alamat email yang valid.",
+      "privacy": "Kami menggunakan detail Anda hanya untuk mengirim sumber daya dan wawasan yang relevan. Tanpa spam — berhenti berlangganan kapan saja.",
+      "lockedNote": "Laporan lengkap terbuka setelah Anda mengonfirmasi email di atas."
+    },
+    "sourcesLabel": "Sumber & data",
+    "relatedTitle": "Studi kasus terkait",
+    "relatedProducts": "Jelajahi platform",
+    "back": "Kembali ke wawasan"
+  },
+  "media": {
+    "kicker": "Media & Penghargaan",
+    "title": "Pengakuan yang terukur",
+    "subtitle": "Satu dekade pencapaian pertama di Asia Selatan dan Timur Tengah — tonggak yang dicatat klien, mitra, dan pers kami.",
+    "awards": {
+      "kicker": "Pengakuan",
+      "title": "Pertama, dalam skala besar",
+      "subtitle": "Tonggak yang menandai perjalanan kami — dan standar untuk apa yang berikutnya.",
+      "items": {
+        "pioneer": {
+          "title": "Pelopor gamifikasi di Pakistan",
+          "body": "Memperkenalkan gamifikasi ke dunia korporat Pakistan, dimulai dari pelatihan 4.000+ karyawan Bank Alfalah pada 2016."
+        },
+        "first3d": {
+          "title": "Simulasi rekrutmen 3D pertama",
+          "body": "Meluncurkan simulasi rekrutmen 3D pertama di Pakistan untuk HBL — 4.000+ kandidat, dengan performer terbaik direkrut sebagai management trainee."
+        },
+        "largest": {
+          "title": "Rekrutmen MT gamifikasi terbesar",
+          "body": "Menilai 25.000+ kandidat di seluruh negeri untuk PTCL dalam hitungan hari — pada skala yang tidak mampu ditampung tes tradisional."
+        },
+        "firstIndustry": {
+          "title": "Pertama di industri",
+          "body": "Faysal Bank menjadi bank pertama yang meluncurkan rekrutmen gamifikasi pada 2018."
+        },
+        "scale": {
+          "title": "Skala perusahaan",
+          "body": "Platform yang digunakan 7.000+ karyawan per organisasi, dari umpan balik 360° hingga pelatihan kepatuhan."
+        },
+        "reach": {
+          "title": "300.000+ profesional",
+          "body": "Lebih dari 300.000 pengguna unik dinilai dan dilatih di lima pasar dalam sepuluh tahun."
+        }
+      }
+    },
+    "media": {
+      "title": "Di media",
+      "body": "Karya kami telah diliput pers bisnis dan teknologi nasional di pasar yang kami layani — dari pelatihan perbankan gamifikasi hingga seleksi sektor publik.",
+      "items": [
+        "Liputan pers nasional di Pakistan dan UEA",
+        "Tampil di publikasi bisnis dan teknologi",
+        "Pembicaraan dan panel di acara industri",
+        "Studi kasus yang dirujuk tim HR perusahaan"
+      ]
+    },
+    "contact": {
+      "title": "Pertanyaan pers & media",
+      "body": "Untuk wawancara, komentar, permintaan berbicara, atau materi pers, tim kami merespons dalam satu hari kerja.",
+      "cta": "Hubungi meja media"
+    }
+  },
+  "consent": {
+    "title": "Kami menghormati privasi Anda",
+    "body": "Kami menggunakan cookie dan analitik untuk memahami cara situs digunakan dan memperbaikinya. Anda dapat menerima atau menolak sebelum kami memuat alat analitik atau obrolan pihak ketiga. Pilihan Anda hanya disimpan di perangkat ini.",
+    "accept": "Terima semua",
+    "decline": "Tolak"
+  },
+  "terms": {
+    "intro": "Ketentuan yang berlaku saat Anda menggunakan situs web ini atau menggunakan layanan Intwish. Platform itu sendiri — intOS dan IntReview — diatur oleh perjanjian yang Anda tandatangani dengan kami.",
+    "servicesTitle": "Layanan & keterlibatan kami",
+    "servicesBody": "Keterlibatan pelatihan, rekrutmen, dan asesmen disampaikan berdasarkan perjanjian tertulis yang mendefinisikan cakupan, harga, pemrosesan data, dan hasil. Tidak ada apa pun di situs web ini yang merupakan penawaran atau kontrak kecuali disepakati secara tertulis.",
+    "disclaimer": "Halaman ini adalah ringkasan ketentuan kami dan bukan nasihat hukum. Perjanjian disimpulkan secara tertulis per keterlibatan."
+  },
+  "demo": {
+    "intosDemo": "Jadwalkan demo intOS",
+    "intreviewDemo": "Jadwalkan demo IntReview",
+    "project": "Mulai proyek gamifikasi",
+    "general": "Pertanyaan umum",
+    "kicker": "Demo & pilot",
+    "title": "Lihat langsung, dengan angka Anda",
+    "subtitle": "Sesi 30 menit bersama tim produk kami — tanpa slide, hanya platform aslinya. Kami akan menyusun pilot untuk volume Anda dan membagikan harga regional.",
+    "formTitle": "Ajukan demo Anda",
+    "name": "Nama Anda",
+    "email": "Email kerja Anda",
+    "company": "Perusahaan",
+    "companyOptional": "opsional",
+    "intent": "Saya tertarik pada",
+    "notes": "Ada yang perlu kami ketahui? (opsional)",
+    "submit": "Ajukan demo",
+    "sending": "Mengirim…",
+    "success": "Terima kasih — kami akan menghubungi Anda dalam satu hari kerja.",
+    "successNote": "Spesialis regional akan menghubungi Anda untuk menjadwalkan tur langsung dan membagikan harga.",
+    "error": "Terjadi kesalahan. Silakan coba lagi atau kirim email langsung ke info@intwish.com.",
+    "notConfigured": "Layanan pemesanan belum dikonfigurasi. Kirim email ke info@intwish.com.",
+    "required": "Masukkan nama dan email kerja yang valid.",
+    "nextTitle": "Langkah selanjutnya",
+    "steps": {
+      "confirm": {
+        "title": "Konfirmasi cepat",
+        "body": "Spesialis regional merespons dalam satu hari kerja — dari Dubai, Karachi, Kanada, atau Indonesia."
+      },
+      "walkthrough": {
+        "title": "Tur langsung",
+        "body": "Sesi 30 menit di platform asli, disesuaikan dengan volume rekrutmen dan pengalaman kandidat Anda."
+      },
+      "pilot": {
+        "title": "Proposal pilot",
+        "body": "Anda mendapat rencana pilot dan harga regional — sehingga bisa menjalankan drive nyata sebelum berkomitmen."
+      }
+    },
+    "privacy": "Kami hanya menggunakan data Anda untuk mengatur demo. Tanpa spam — berhenti berlangganan kapan saja."
+  },
+  "privacy": {
+    "intro": "Ringkasan dalam bahasa sederhana tentang cara Intwish mengumpulkan, menggunakan, melindungi, dan menyimpan data pribadi di pasar yang kami layani. Untuk dokumen resmi — perjanjian pemrosesan data, permintaan DPA, dan pengungkapan keamanan — hubungi tim kami secara langsung.",
+    "disclaimer": "Halaman ini adalah ringkasan praktik privasi kami dan bukan nasihat hukum. Ketentuan kontrak, DPA, dan kewajiban spesifik disepakati secara tertulis per keterlibatan."
+  },
+  "footer": {
+    "blurb": "Platform pembelajaran, asesmen, dan simulasi imersif untuk organisasi paling menuntut di dunia.",
+    "explore": "Jelajahi",
+    "about": "Tentang",
+    "services": "Layanan",
+    "caseStudies": "Studi Kasus",
+    "contact": "Kontak",
+    "productsTitle": "Produk",
+    "intos": "intOS — Platform Asesmen OS Virtual",
+    "intreview": "IntReview — Wawancara Berbantuan AI",
+    "sandboxNote": "Pusat produk dengan sandbox langsung sudah aktif — coba sekarang.",
+    "contactTitle": "Kontak",
+    "rights": "Hak cipta dilindungi.",
+    "regions": "Terdaftar: Pakistan · UEA · Kanada · Indonesia",
+    "privacy": "Privasi",
+    "terms": "Ketentuan",
+    "security": "Kepercayaan & Keamanan",
+    "linkedin": "Intwish di LinkedIn",
+    "facebook": "Intwish di Facebook",
+    "insights": "Wawasan & Riset",
+    "media": "Media & Penghargaan",
+    "cookieSettings": "Pengaturan cookie",
+    "science": "Sains & Metodologi"
+  },
+  "cta": {
+    "title": "DefineYourWish(); — mari bangun milik Anda.",
+    "subtitle": "Jadwalkan demo intOS dan IntReview — atau mulai proyek pelatihan, asesmen, atau simulasi gamifikasi dengan tim yang memeloporinya di Pakistan.",
+    "sandboxCta": "Coba sandbox intOS",
+    "kicker": "}; // compiled and ready",
+    "trustLine": "Bank Alfalah · HBL · PTCL · Shell · K-Electric · Daraz · 300.000+ profesional dinilai"
+  },
+  "announcement": {
+    "message": "Sandbox intOS sudah live — coba sekarang",
+    "dismiss": "Tutup pengumuman"
+  },
+  "servicesBand": {
+    "kicker": "const services = deploy(",
+    "title": "Kapabilitas engineering di balik produk di atas",
+    "subtitle": "Tim yang sama yang membangun intOS dan IntReview mengirim program pelatihan, rekrutmen, engagement, portal, dan 360° Anda."
+  },
+  "science": {
+    "kicker": "const science = prove(",
+    "title": "Berakar pada sains, bukan sekadar gamifikasi",
+    "body": "Asesmen kami dibangun di atas teori situational-judgement dan metode psikometri berbasis game yang berakar pada psikologi industri & organisasi — tervalidasi, terukur, dan terkait pada kesuksesan kerja nyata.",
+    "cta": "Baca metodologi kami",
+    "placeholder": "PLACEHOLDER — detail metodologi menyusul"
+  },
+  "megaMenu": {
+    "products": {
+      "intos": {
+        "name": "intOS",
+        "tagline": "Platform asesmen OS virtual"
+      },
+      "intreview": {
+        "name": "IntReview",
+        "tagline": "Wawancara & asesmen berbantuan AI"
+      },
+      "sandbox": "Jalankan sesi live dari OS virtual persis yang digunakan kandidat Anda.",
+      "trySandbox": "Coba sandbox intOS"
+    },
+    "services": {
+      "training": {
+        "slug": "training-learning",
+        "name": "Pelatihan & Pembelajaran",
+        "tagline": "Pembelajaran gamifikasi yang diselesaikan — dan diingat."
+      },
+      "recruitment": {
+        "slug": "recruitment-assessment",
+        "name": "Rekrutmen & Asesmen",
+        "tagline": "Perekrutan gamifikasi volume tinggi yang menyaring kompetensi nyata."
+      },
+      "engagement": {
+        "slug": "employee-engagement",
+        "name": "Engagement Karyawan",
+        "tagline": "Pengalaman imersif yang menggerakkan metrik engagement."
+      },
+      "portals": {
+        "slug": "enterprise-portals",
+        "name": "Portal Perusahaan",
+        "tagline": "Portal pembelajaran dan onboarding terstruktur yang berskala."
+      },
+      "feedback": {
+        "slug": "360-feedback",
+        "name": "Umpan Balik 360°",
+        "tagline": "Umpan balik multi-penilai otomatis dan terukur dalam skala besar."
+      },
+      "arVr": {
+        "slug": "ar-vr-simulation",
+        "name": "Simulasi AR / VR",
+        "tagline": "Simulasi imersif untuk peran berisiko tinggi."
+      }
+    }
+  }
+}

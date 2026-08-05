@@ -1,0 +1,1204 @@
+{
+  "metadata": {
+    "siteName": "Intwish",
+    "ogImage": "/img/about/cover.png",
+    "defaultTitle": "Intwish — Gamified Training, AI Assessments & Immersive Simulations",
+    "defaultDescription": "Gamified training, AI-powered assessments and immersive simulations for banks, telecoms, energy and government. 300,000+ professionals assessed across 5 markets in 10 years.",
+    "pages": {
+      "home": {
+        "title": "Intwish — The Full-Stack Talent Technology Company",
+        "description": "Gamified assessments, AI-scored interviews and immersive simulations — built, deployed and proven across 300,000+ professionals in 5 markets."
+      },
+      "about": {
+        "title": "About Intwish — 10 Years of Gamified Assessment & Training",
+        "description": "How Intwish became the pioneer of gamification in Pakistan and built learning, recruitment and engagement platforms for 300,000+ professionals across 5 markets."
+      },
+      "services": {
+        "title": "Services — Training, Recruitment, Engagement, Portals, 360° & AR/VR",
+        "description": "Outcome-based services: gamified training & learning, recruitment & assessment, employee engagement, enterprise portals & automation, 360° feedback and AR/VR simulation."
+      },
+      "servicesDetail": {
+        "title": "{service} — Intwish Services",
+        "description": "Intwish {service}: outcome-driven solutions for banks, telecoms, energy and government."
+      },
+      "caseStudies": {
+        "title": "Case Studies — Quantified Results from Real Deployments",
+        "description": "12+ quantified case studies across banking, telecom, energy, education and government — from 7,000-employee training drives to 25,000-candidate recruitment games."
+      },
+      "caseStudyDetail": {
+        "title": "{title} — Intwish Case Study",
+        "description": "{summary}"
+      },
+      "contact": {
+        "title": "Contact Intwish — Book a Demo or Start a Project",
+        "description": "Talk to our teams in Dubai, Karachi, Canada and Indonesia. Book a demo of intOS or IntReview, or start a gamified training, assessment or simulation project."
+      },
+      "productsIndex": {
+        "title": "Products — intOS Virtual OS Platform & IntReview AI Interviews",
+        "description": "intOS, the virtual-OS assessment platform, and IntReview, AI-assisted asynchronous video interviews — the platforms we built for our largest clients, now available to yours."
+      },
+      "intos": {
+        "title": "intOS — The Virtual OS Assessment Platform",
+        "description": "The first assessment platform that simulates the working world. A live virtual desktop with email simulations, team messenger, SJT meetings, psychometric games and an interlinked narrative engine."
+      },
+      "intreview": {
+        "title": "IntReview — AI-Assisted Interviews & Assessments",
+        "description": "Asynchronous video interviews scored by AI against your competency rubrics — with proctoring, STAR analysis and instant, data-driven reports."
+      },
+      "demo": {
+        "title": "Book a Demo — intOS & IntReview",
+        "description": "Book a 30-minute live walkthrough of intOS and IntReview with our product team — and get regional pricing and a pilot plan."
+      },
+      "trust": {
+        "title": "Trust & Security Hub — Compliance, Data Handling & Hosting",
+        "description": "How Intwish protects candidate and employee data: PIPEDA, Indonesia PDP Law, GDPR-ready and PDPL compliance, data handling, hosting, retention and our certification roadmap."
+      },
+      "insights": {
+        "title": "Insights — Research, Reports & Playbooks",
+        "description": "Benchmark reports, whitepapers and industry playbooks from 300,000+ assessments across 5 markets in 10 years."
+      },
+      "insightDetail": {
+        "title": "{title} — Intwish Insights",
+        "description": "{excerpt}"
+      },
+      "media": {
+        "title": "Media & Awards — Intwish",
+        "description": "A decade of firsts in gamified assessment and training across South Asia and MENA — media coverage, recognition and milestones."
+      },
+      "privacy": {
+        "title": "Privacy — How Intwish Handles Candidate & Employee Data",
+        "description": "How Intwish protects candidate and employee data: PIPEDA, Indonesia PDP Law, GDPR-ready and PDPL compliance, retention and deletion, and how to reach our privacy team."
+      },
+      "terms": {
+        "title": "Terms of Use — Intwish",
+        "description": "The terms that govern use of the Intwish website and its services, our data-processing commitments and how to reach us."
+      }
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "products": "Products",
+    "caseStudies": "Case Studies",
+    "contact": "Contact",
+    "bookDemo": "Book a Demo",
+    "openMenu": "Open main menu",
+    "closeMenu": "Close main menu",
+    "insights": "Insights"
+  },
+  "localeSwitcher": {
+    "label": "Language",
+    "en": "English",
+    "fr-CA": "Français (Canada)",
+    "id-ID": "Bahasa Indonesia",
+    "ar": "العربية"
+  },
+  "common": {
+    "learnMore": "Learn more",
+    "readCaseStudy": "Read case study",
+    "allCaseStudies": "All case studies",
+    "allServices": "All services",
+    "backToTop": "Back to top",
+    "skipToContent": "Skip to content"
+  },
+  "hero": {
+    "kicker": "DefineYourWish();",
+    "title": "The full-stack talent technology company that",
+    "titleSuffix": "for the modern enterprise",
+    "subtitle": "Gamified assessments, AI-scored interviews, and immersive simulations — built, deployed, and proven across 300,000+ professionals in 5 markets.",
+    "primaryCta": "Book a Demo",
+    "secondaryCta": "Try the intOS sandbox",
+    "scrollCta": "Tell me more",
+    "titleAccent": "builds what point solutions can't.",
+    "proofLine": "Trusted by Bank Alfalah · HBL · PTCL · Shell · K-Electric · Daraz",
+    "codeComment": "// define → build → deploy",
+    "placeholderLabel": "PLACEHOLDER — intOS desktop screenshot needed",
+    "osWindowTitle": "intOS — virtual desktop",
+    "aiReportWindowTitle": "IntReview — candidate report"
+  },
+  "trustStrip": {
+    "title": "Trusted by market leaders",
+    "subtitle": "From national banks and telecoms to energy utilities and the public sector",
+    "clientNamesLabel": "Clients include",
+    "kicker": "Trusted by enterprise leaders across 5 markets",
+    "statBadges": {
+      "assessed": "300,000+ assessed",
+      "years": "10+ years",
+      "markets": "5 markets"
+    }
+  },
+  "video": {
+    "title": "Transform your ideas into (virtual) reality.",
+    "subtitle": "From large-scale employee training to high-stakes recruitment simulations, we bring learning and performance to life.",
+    "videoTitle": "Intwish showcase video"
+  },
+  "products": {
+    "kicker": "Products",
+    "title": "Two platforms. One advantage.",
+    "subtitle": "The assessment platforms we built for our largest clients — now available to yours.",
+    "intos": {
+      "name": "intOS",
+      "tagline": "The virtual OS assessment platform",
+      "description": "A live virtual desktop your candidates actually operate — email simulations, team messenger, situational-judgement meetings, psychometric games and an interlinked narrative engine.",
+      "cta": "Explore intOS",
+      "eta": "Live demo · try it now",
+      "metric": "25,000+ in one drive",
+      "ctaPrimary": "Experience the OS",
+      "placeholder": "PLACEHOLDER — intOS desktop screenshot needed"
+    },
+    "intreview": {
+      "name": "IntReview",
+      "tagline": "AI-assisted interviews & assessments",
+      "description": "Asynchronous video interviews scored by AI against your competency rubrics — with proctoring, STAR analysis and instant, data-driven reports.",
+      "cta": "Explore IntReview",
+      "eta": "Live demo · try it now",
+      "metric": "~80% less review time",
+      "ctaPrimary": "See AI scoring in action",
+      "windowTitle": "IntReview — AI candidate report",
+      "reportLabel": "IntReview AI candidate report"
+    },
+    "bentoKicker": "const products = compile(",
+    "bentoTitle": "Two products. One stack. Zero vendor sprawl.",
+    "bentoSubtitle": "Every layer of the stack — built, owned and deployed by the same team."
+  },
+  "caseStudies": {
+    "kicker": "Proof",
+    "title": "Quantified results from real deployments",
+    "subtitle": "Baseline → solution → outcome. Every engagement measured.",
+    "industry": "Industry",
+    "client": "Client",
+    "all": "All",
+    "readMore": "Read the full story",
+    "impactLabel": "Impact at a glance",
+    "back": "Back to all case studies",
+    "onePager": {
+      "kicker": "Case Study · One-Pager",
+      "download": "Download one-pager (PDF)",
+      "print": "Save as PDF",
+      "toolbarNote": "Print or save as PDF from your browser's print dialog.",
+      "summaryLabel": "The challenge",
+      "contactNote": "Want results like this? Let's talk.",
+      "generatedBy": "Prepared by Intwish — intwish.com"
+    },
+    "featuredLabel": "Featured case study",
+    "secondaryLabel": "More proof"
+  },
+  "stats": {
+    "title": "The numbers speak for themselves",
+    "items": {
+      "users": {
+        "value": "300,000+",
+        "label": "Professionals assessed"
+      },
+      "employees": {
+        "value": "7,000+",
+        "label": "Employees in a single training drive"
+      },
+      "candidates": {
+        "value": "25,000",
+        "label": "Candidates in one recruitment drive"
+      },
+      "reportPages": {
+        "value": "20",
+        "label": "Pages of automated 360° reports"
+      }
+    },
+    "kicker": "return {"
+  },
+  "compliance": {
+    "title": "Built for regulated procurement",
+    "subtitle": "Enterprise trust signals for banks, telecoms and government",
+    "items": {
+      "pipeda": {
+        "name": "PIPEDA",
+        "note": "Canada"
+      },
+      "pdp": {
+        "name": "PDP Law",
+        "note": "Indonesia"
+      },
+      "gdpr": {
+        "name": "GDPR-ready",
+        "note": "EU / global"
+      },
+      "pdpl": {
+        "name": "PDPL",
+        "note": "UAE / KSA"
+      },
+      "roadmap": {
+        "name": "ISO 27001 · SOC 2",
+        "note": "Roadmap in progress"
+      }
+    },
+    "kicker": "// compliance compiled"
+  },
+  "about": {
+    "kicker": "About Intwish",
+    "title": "A 10-year pioneer of gamified assessment",
+    "subtitle": "From Pakistan's first gamified corporate training to a global product company — registered in Pakistan, UAE, Canada and Indonesia.",
+    "whoTitle": "Who are we?",
+    "whoBody": "Intwish is a digital innovation company building immersive learning and assessment platforms for enterprises, governments and development organizations. Our solutions combine gamification, AR/VR and AI to deliver measurable outcomes in training, recruitment, performance and customer engagement. AI is embedded in all of our solutions based on a scientific assessment of the need, outcome and business case.",
+    "gamTitle": "What is gamification?",
+    "gamBody": "Gamification uses game mechanics — avatars, storyboards, stages, scoring, competition and leaderboards — in non-game systems to improve engagement. In training and recruitment it gives employees hands-on learning and assesses candidates against real-world situations in a role-playing, simulated reality. In customer experience it drives brand awareness and loyalty through cash-backs, rewards and incentives. Intwish pioneered gamification in Pakistan and has assessed and trained over 300,000 unique users in 10 years.",
+    "statsTitle": "By the numbers",
+    "timelineTitle": "Our journey",
+    "teamTitle": "Leadership",
+    "teamSubtitle": "Visionaries, engineers and storytellers driving innovation.",
+    "entitiesTitle": "Where we operate",
+    "entitiesSubtitle": "Registered entities and offices across four countries, with project history in Saudi Arabia."
+  },
+  "services": {
+    "kicker": "Services",
+    "title": "Outcome-based solutions, end to end",
+    "subtitle": "Six capabilities, one standard: measurable business impact.",
+    "howTitle": "How we work",
+    "howBody": "Every engagement starts from the outcome you need — a trained workforce, a better hiring funnel, a deeper talent picture. We then design the experience, automate the process and gamify the engagement to make it stick.",
+    "relatedCaseStudies": "Related case studies",
+    "back": "Back to all services"
+  },
+  "contact": {
+    "kicker": "Contact",
+    "title": "Let's talk about your next project",
+    "subtitle": "Have a project, idea or problem to solve? Reach our teams in Dubai, Karachi, Canada or Indonesia.",
+    "formTitle": "Send us a message",
+    "subjectLabel": "Subject",
+    "name": "Your name",
+    "email": "Your email",
+    "phone": "Your phone",
+    "message": "Your message",
+    "send": "Send message",
+    "sending": "Sending…",
+    "success": "Thanks — your message has been sent. We'll get back to you soon.",
+    "error": "Something went wrong. Please email us directly at info@intwish.com or try again.",
+    "notConfigured": "The contact form is not configured yet. Please email info@intwish.com directly.",
+    "requiredName": "Please enter your name.",
+    "requiredEmail": "Please enter a valid email address.",
+    "requiredMessage": "Please enter a message.",
+    "officesTitle": "Our offices",
+    "emailUs": "Email us",
+    "headOffice": "UAE Head Office",
+    "pakistanOffice": "Pakistan Office",
+    "dubaiAddress": "Suite 1702, Level 17, Boulevard Plaza Tower 1, Sheikh Mohammed Bin Rashid Boulevard, Downtown Dubai, PO Box 415049, UAE",
+    "karachiAddress": "C2 3rd Floor, Building 4C, 16th Commercial Street, Defense Phase 2 Ext, DHA, Karachi, Pakistan",
+    "dubaiPhone": "+971 55 552 9973",
+    "karachiPhone": "+92 334 337 5919",
+    "canadaEntity": "Canada — registered entity",
+    "canadaEntityDesc": "PIPEDA-ready · Registered entity",
+    "indonesiaEntity": "Indonesia — PT Intwish Global Solutions",
+    "indonesiaEntityDesc": "UU PDP 27/2022-ready · PT Intwish Global Solutions"
+  },
+  "productsIndex": {
+    "kicker": "Products",
+    "title": "Two platforms. One advantage.",
+    "subtitle": "The assessment platforms we built for our largest clients — now available to yours. Experience them live, or book a pilot with our team.",
+    "intos": {
+      "name": "intOS",
+      "tagline": "The virtual OS assessment platform",
+      "description": "A live virtual desktop your candidates actually operate — email simulations, team messenger, situational-judgement meetings, psychometric games and an interlinked narrative engine. Built for high-volume hiring at any scale.",
+      "cta": "Explore intOS",
+      "sandbox": "Live interactive demo"
+    },
+    "intreview": {
+      "name": "IntReview",
+      "tagline": "AI-assisted interviews & assessments",
+      "description": "Asynchronous video interviews scored by AI against your competency rubrics — with proctoring, STAR analysis and instant, data-driven reports. Candidates record once; you review the evidence.",
+      "cta": "Explore IntReview",
+      "sandbox": "AI-scored interviews"
+    }
+  },
+  "intos": {
+    "kicker": "Product · Assessment",
+    "title": "The virtual OS assessment platform",
+    "tagline": "The first assessment platform that simulates the working world — an OS your candidates actually operate.",
+    "description": "intOS drops candidates into a realistic virtual desktop: an email inbox, a team messenger, scheduled meetings, live tasks and a stream of interruptions. What they do in that OS — every click, reply and decision — is scored and reported back to you. Built for management trainee programs, graduate schemes, lateral hires and drives of 25,000+ candidates.",
+    "ctaSandbox": "Try the live sandbox",
+    "ctaPilot": "Book a pilot with an expert",
+    "proof": {
+      "candidates": {
+        "value": "25,000+",
+        "label": "Candidates in a single drive"
+      },
+      "conversion": {
+        "value": "days",
+        "label": "To run a 25,000-candidate drive"
+      },
+      "users": {
+        "value": "300,000+",
+        "label": "Professionals assessed in 10 years"
+      },
+      "report": {
+        "value": "1-click",
+        "label": "PDF candidate reports, exportable"
+      }
+    },
+    "sandbox": {
+      "kicker": "Experience the OS",
+      "title": "Walk through the virtual desktop",
+      "subtitle": "This is a live, working instance of intOS. Click through the email simulation, answer the team messenger, take the video call — every action is scored, exactly like a real drive.",
+      "reload": "Reload sandbox",
+      "openInNewTab": "Open sandbox in a new tab",
+      "iframeTitle": "intOS interactive sandbox — demo.intwish.com",
+      "loading": "Loading the intOS sandbox…",
+      "fallbackTitle": "The live sandbox is warming up",
+      "fallbackBody": "The interactive sandbox is being deployed and will appear here shortly. Meanwhile, book a guided pilot with our team — we'll walk you through intOS live.",
+      "fallbackCta": "Book a pilot with an expert",
+      "privateNote": "Want a private sandbox link for your team?",
+      "privateCta": "Get your own sandbox"
+    },
+    "modules": {
+      "kicker": "The experience",
+      "title": "Everything a real job throws at you",
+      "subtitle": "Six interlinked modules recreate the working world — actions in one module trigger consequences in another, exactly like real work.",
+      "items": {
+        "email": {
+          "title": "Email simulation",
+          "body": "A realistic inbox with priorities, ambiguity and noise. Candidates triage, reply and follow up — scored on judgment, tone and prioritization."
+        },
+        "messenger": {
+          "title": "Team messenger",
+          "body": "A Slack-style channel where stakeholders ping, ask and push back. Every response is captured as behavioral evidence."
+        },
+        "meeting": {
+          "title": "SJT virtual meetings",
+          "body": "Situational-judgement meetings unfold as video calls — candidates respond to the situation in real time, just like a live assessment centre."
+        },
+        "etray": {
+          "title": "E-tray exercises",
+          "body": "An electronic in-tray of tasks, deadlines and dependencies. Candidates execute, delegate or escalate — and are scored on how."
+        },
+        "psychometric": {
+          "title": "Psychometric games",
+          "body": "Brain buster, Numbubbles, Numparision, Sentence Completion, Tetris and Word Wizard — validated cognitive and personality measures in game form."
+        },
+        "narrative": {
+          "title": "Interlinked narrative engine",
+          "body": "Actions chain across modules — reply to the email and a Slack message fires, the meeting agenda changes, the score deepens. One continuous story."
+        }
+      }
+    },
+    "dashboard": {
+      "kicker": "The recruiter view",
+      "title": "A command center, not a spreadsheet",
+      "subtitle": "Everything you need to run a drive of thousands without drowning in data.",
+      "items": {
+        "pulse": {
+          "title": "KPI pulse cards",
+          "body": "Pending reviews, completion rate, average match score and integrity status — live, per drive, per cohort."
+        },
+        "funnel": {
+          "title": "Funnel analytics",
+          "body": "Candidates tracked from invited → opened → started → completed → shortlisted, with drop-off flagged at every stage."
+        },
+        "timeSaved": {
+          "title": "Time saved",
+          "body": "Automated scoring turns weeks of manual review into seconds of reading ranked shortlists."
+        },
+        "gems": {
+          "title": "Hidden gems",
+          "body": "The dashboard surfaces high-potential candidates your screen might have missed — the quiet but decisive performers."
+        },
+        "integrity": {
+          "title": "Integrity watchlist",
+          "body": "Anomaly flags for tab-switching, copy-paste and irregular session behavior, so scores stay trustworthy."
+        }
+      }
+    },
+    "candidate": {
+      "kicker": "The candidate view",
+      "title": "Built for candidates, not just recruiters",
+      "subtitle": "Assessment shouldn't feel like an exam. intOS feels like the first day of a new job.",
+      "items": {
+        "anxiety": {
+          "title": "Anxiety-reducing",
+          "body": "Familiar workplace scenarios replace high-pressure exam atmospheres — so ability, not nerves, is measured."
+        },
+        "mobile": {
+          "title": "Mobile-ready",
+          "body": "The virtual OS runs on phones and tablets, so candidates play from anywhere, on any device."
+        },
+        "languages": {
+          "title": "English & Arabic, RTL",
+          "body": "Full English and Arabic interfaces with right-to-left layout — meeting candidates where they are in MENA and beyond."
+        },
+        "themes": {
+          "title": "Dark & light themes",
+          "body": "Accessible light and dark modes with WCAG-friendly contrast, chosen by each candidate."
+        }
+      }
+    },
+    "useCases": {
+      "kicker": "Use cases",
+      "title": "From graduate drives to government selection",
+      "subtitle": "intOS scales from a hundred candidates to tens of thousands.",
+      "more": "Something else in mind?",
+      "items": {
+        "mt": {
+          "title": "Management trainee programs",
+          "body": "The flagship use case — 4,000 to 25,000-candidate drives, run in days."
+        },
+        "any": {
+          "title": "Any position",
+          "body": "Configurable modules and rubrics for lateral hires, technical roles and customer-facing teams."
+        },
+        "graduate": {
+          "title": "Graduate schemes",
+          "body": "Early-career pipelines assessed on potential and judgment, not pedigree."
+        },
+        "government": {
+          "title": "Government selection",
+          "body": "Fair, auditable and scalable selection for public-sector entities — trusted by Saudi Business Center engagements."
+        },
+        "volume": {
+          "title": "High-volume drives",
+          "body": "Infrastructure that absorbs 25,000+ simultaneous candidates without a hitch."
+        }
+      }
+    },
+    "science": {
+      "kicker": "The science",
+      "title": "Psychometrics you can defend",
+      "subtitle": "intOS is built on situational-judgement and cognitive-assessment research — the methods behind our 300,000+ assessed users.",
+      "body": "SJT and game-based cognitive assessments measure judgment and ability with less cultural bias and faking than traditional self-report tests. Our research base spans cross-national validation of game-based cognitive assessment — the same evidence our client-facing reports cite."
+    },
+    "reporting": {
+      "kicker": "Analytics & reporting",
+      "title": "Gold-standard candidate reports",
+      "subtitle": "Every candidate ends with a defensible, data-rich profile.",
+      "items": {
+        "report": {
+          "title": "Instant candidate reports",
+          "body": "Competencies, cognitive profile, behavioral evidence and recommendations — generated automatically for every candidate."
+        },
+        "pdf": {
+          "title": "One-click PDF export",
+          "body": "Branded, print-ready reports built to the Gold-Standard Candidate Reporting spec."
+        },
+        "shortlist": {
+          "title": "Ranked shortlists",
+          "body": "Scores weighted to your rubrics, so the best fit rises to the top automatically."
+        },
+        "compare": {
+          "title": "Cohort comparison",
+          "body": "Benchmark candidates against cohorts, drives and historical baselines."
+        }
+      }
+    },
+    "security": {
+      "kicker": "Security & compliance",
+      "title": "Procurement-ready by design",
+      "body": "PIPEDA, UU PDP 27/2022, GDPR-ready and PDPL-aligned data handling, role-based access, encrypted data at rest and in transit, and a documented backup policy. See the full picture on our Trust & Security hub.",
+      "cta": "Visit Trust & Security hub"
+    },
+    "videos": {
+      "kicker": "In action",
+      "title": "Watch the psychometric games",
+      "subtitle": "Real gameplay recordings from the intOS assessment suite — the same games candidates play in a live drive."
+    },
+    "outcome": "Run a 25,000-candidate drive in days — automated scoring turns weeks of manual review into ranked, defensible shortlists.",
+    "testimonials": {
+      "kicker": "Proven at scale",
+      "title": "Client outcomes, in their words",
+      "subtitle": "The platforms behind intOS have already run the drives we're describing.",
+      "cta": "Your drive could be next",
+      "items": {
+        "ptcl": {
+          "client": "PTCL",
+          "value": "25,000+",
+          "quote": "The largest gamified MT recruitment in Pakistan — over 25,000 candidates across the country completed the process in only a few days."
+        },
+        "hbl": {
+          "client": "HBL",
+          "value": "2×",
+          "quote": "Pakistan's first 3D recruitment simulation — top performers hired as management trainees, and HBL ran the assessment again in 2019 because it proved more effective."
+        },
+        "ici": {
+          "client": "ICI Pakistan",
+          "value": "4,000+",
+          "quote": "Applicants put through real-life work scenarios — a more reliable signal of problem-solving than a paper test."
+        },
+        "bankAlfalah": {
+          "client": "Bank Alfalah",
+          "value": "7,000+",
+          "quote": "Employees completed mandatory compliance training nationwide through an immersive detective role-play — measurable, trackable, reportable."
+        },
+        "faysal": {
+          "client": "Faysal Bank",
+          "value": "4–25k",
+          "quote": "First in the banking industry to launch gamified recruitment in 2018 — since used by 4,000 to 25,000 candidates per organization."
+        }
+      }
+    },
+    "comparison": {
+      "kicker": "Why teams switch",
+      "title": "intOS vs. the traditional assessment centre",
+      "subtitle": "The same assessment rigour — without the venue, the proctors and the paperwork.",
+      "us": "intOS",
+      "them": "Traditional assessment",
+      "rows": {
+        "setup": {
+          "feature": "Setup & delivery",
+          "us": "Days, not weeks — configurable modules and rubrics",
+          "them": "Weeks of venue, invigilator and logistics planning"
+        },
+        "scale": {
+          "feature": "Scale",
+          "us": "25,000+ candidates in a single drive",
+          "them": "Hundreds per centre, capped by capacity"
+        },
+        "experience": {
+          "feature": "Candidate experience",
+          "us": "A familiar virtual desktop, on any device",
+          "them": "High-pressure exam halls and proctors"
+        },
+        "objectivity": {
+          "feature": "Scoring",
+          "us": "One rubric, scored consistently by automation",
+          "them": "Multiple assessors, human variance"
+        },
+        "reporting": {
+          "feature": "Reporting",
+          "us": "Instant PDF reports and ranked shortlists",
+          "them": "Manual scoring, compiled over days"
+        },
+        "audit": {
+          "feature": "Audit trail",
+          "us": "Every action logged and exportable",
+          "them": "Paper or spreadsheet records"
+        }
+      }
+    },
+    "results": {
+      "kicker": "Proof",
+      "title": "Results from real drives",
+      "subtitle": "Every engagement measured: baseline → solution → outcome.",
+      "cta": "All case studies"
+    },
+    "faq": {
+      "kicker": "FAQ",
+      "title": "Questions buyers ask us",
+      "subtitle": "Straight answers — and the research behind them.",
+      "items": {
+        "validity": {
+          "q": "Is intOS scientifically validated?",
+          "a": "intOS is built on situational-judgement and game-based cognitive assessment research — methods with decades of criterion-related validity evidence. The same evidence base underpins our 300,000+ assessed users and is cited in every client report."
+        },
+        "experience": {
+          "q": "What does the experience feel like for candidates?",
+          "a": "Like the first day of a new job, not an exam. Candidates operate a realistic virtual desktop — inbox, messenger, meetings — on phone or laptop, in English or Arabic, with dark or light themes. Familiar scenarios reduce anxiety, so ability rather than nerves is measured."
+        },
+        "scoring": {
+          "q": "How does scoring actually work?",
+          "a": "Every action a candidate takes in the OS — every reply, prioritisation and decision — is scored against the rubric you configure. The recruiter dashboard turns that into funnel analytics, ranked shortlists and one-click PDF reports."
+        },
+        "scale": {
+          "q": "How big can a drive be?",
+          "a": "25,000+ candidates in a single drive. The platform is built for high-volume hiring — PTCL's drive assessed 25,000+ candidates nationwide in days."
+        },
+        "languages": {
+          "q": "Which languages are supported?",
+          "a": "English and Arabic with full right-to-left layout, plus dark and light themes with WCAG-friendly contrast."
+        },
+        "pricing": {
+          "q": "How does pricing work?",
+          "a": "Per-candidate, volume-based pricing localized to your region's currency. Most teams start with a pilot drive before scaling. Book a call and we'll share regional pricing within 24–48 hours."
+        }
+      }
+    },
+    "pricing": {
+      "kicker": "Pricing",
+      "title": "Simple, contact-based pricing",
+      "subtitle": "Pricing varies by region, volume and modules — here's how it works, with no mystery.",
+      "items": {
+        "volume": {
+          "title": "Per-candidate volume pricing",
+          "body": "Priced per candidate per module, localized to your market's currency — AED, PKR, CAD, IDR and more."
+        },
+        "pilot": {
+          "title": "Pilot before you commit",
+          "body": "Run a real drive with your candidates first — typically 25–100 — and see the ranked shortlists before buying at scale."
+        },
+        "quote": {
+          "title": "A regional quote in 24–48h",
+          "body": "Your request routes to the nearest of our Dubai, Karachi, Canada or Indonesia teams for pricing in your currency."
+        }
+      },
+      "cta": "Get a regional quote",
+      "roiNote": "Prefer numbers? Try the ROI calculator"
+    }
+  },
+  "intreview": {
+    "kicker": "Product · Interviews",
+    "title": "AI-assisted interviews & assessments",
+    "tagline": "Asynchronous video interviews scored by AI against your competency rubrics — with proctoring, STAR analysis and instant, data-driven reports.",
+    "description": "Candidates record structured video answers once, on their own time. IntReview's AI scores them against your rubric — STAR structure, 1–5 ratings and evidence quotes — while proctoring watches for cheating. You review ranked evidence, not raw hours of footage.",
+    "ctaDemo": "Request a live walkthrough",
+    "ctaPilot": "Book a pilot with an expert",
+    "proof": {
+      "speed": {
+        "value": "~80%",
+        "label": "Less review time with auto-scoring"
+      },
+      "consistency": {
+        "value": "One rubric",
+        "label": "The same standard for every candidate"
+      },
+      "anxiety": {
+        "value": "Anytime",
+        "label": "Candidates record when they're ready"
+      },
+      "scale": {
+        "value": "4–25k",
+        "label": "Candidates per drive, from our client programs"
+      }
+    },
+    "features": {
+      "kicker": "How it works",
+      "title": "Record once. Score instantly. Decide confidently.",
+      "subtitle": "Six capabilities that take asynchronous interviewing from raw footage to ranked, defensible shortlists.",
+      "items": {
+        "scoring": {
+          "title": "AI competency scoring",
+          "body": "STAR structure analysis, 1–5 rubric ratings and gap analysis — with verbatim evidence quotes for every score."
+        },
+        "questions": {
+          "title": "18+ question types",
+          "body": "18 types — video, audio, text, MCQ, coding, matrix/rating scale, rank order, drag-and-drop and more — plus AI-generated questions from the platform's question engine."
+        },
+        "proctoring": {
+          "title": "Anti-cheat proctoring",
+          "body": "Gaze tracking, tab-switch detection and multi-voice audio forensics flag suspicious sessions automatically."
+        },
+        "reports": {
+          "title": "Infinite-canvas PDF reports",
+          "body": "Deep, searchable reports that scale to any length — built for hiring committees and audit trails."
+        },
+        "dashboard": {
+          "title": "Analytics dashboard",
+          "body": "Funnel health, completion rates, question performance and candidate benchmarks at a glance."
+        },
+        "whiteLabel": {
+          "title": "White-label branding",
+          "body": "Your logo, your colors, your domain — the candidate never sees a third-party brand."
+        }
+      }
+    },
+    "languages": {
+      "title": "English & Arabic, full RTL",
+      "body": "Interfaces, invites and reports in English and Arabic with right-to-left layout — built for MENA hiring teams."
+    },
+    "flow": {
+      "kicker": "The candidate flow",
+      "title": "A better interview experience",
+      "subtitle": "Asynchronous by design — candidates record when they're ready, in a calm environment, with retakes where you allow them.",
+      "items": {
+        "invite": {
+          "title": "Invite at scale",
+          "body": "Send branded invites to thousands of candidates, with scheduling that fits their lives."
+        },
+        "record": {
+          "title": "Record once",
+          "body": "Candidates answer structured prompts on any device, with practice mode to settle nerves."
+        },
+        "review": {
+          "title": "Review the evidence",
+          "body": "Ranked shortlists with quotes and timestamps — no more scrubbing through hours of footage."
+        },
+        "decide": {
+          "title": "Decide with data",
+          "body": "Consistent, rubric-based decisions that survive scrutiny — and are easy to defend to hiring committees."
+        }
+      }
+    },
+    "security": {
+      "kicker": "Security & compliance",
+      "title": "Enterprise security as the default",
+      "body": "Secure authentication, encrypted media handling and session monitoring — with PIPEDA, UU PDP 27/2022, GDPR-ready and PDPL-aligned data processing. See the full picture on our Trust & Security hub.",
+      "cta": "Visit Trust & Security hub"
+    },
+    "outcome": "Auto-scoring cuts review time by ~80% — one rubric for every candidate, with verbatim evidence quotes your committee can defend.",
+    "testimonials": {
+      "kicker": "Proven at scale",
+      "title": "Assessment results behind IntReview",
+      "subtitle": "The scale and rigour IntReview inherits from 10 years of real drives.",
+      "cta": "Your interview program could be next",
+      "items": {
+        "ptcl": {
+          "client": "PTCL",
+          "value": "25,000+",
+          "quote": "Candidates assessed in a matter of days — ranked, data-rich talent pools from the same assessment engine that powers IntReview."
+        },
+        "hbl": {
+          "client": "HBL",
+          "value": "4,000+",
+          "quote": "Candidates evaluated on cognitive games and real-life situations — top performers hired as management trainees."
+        },
+        "faysal": {
+          "client": "Faysal Bank",
+          "value": "4–25k",
+          "quote": "Candidates per organization through gamified recruitment — first in the industry when it launched in 2018."
+        },
+        "ici": {
+          "client": "ICI Pakistan",
+          "value": "4,000+",
+          "quote": "Applicants assessed on real work scenarios — a more reliable signal than a paper test."
+        },
+        "bankAlfalah": {
+          "client": "Bank Alfalah",
+          "value": "7,000+",
+          "quote": "Employees engaged in mandatory compliance training at national scale — measurable, trackable, reportable."
+        }
+      }
+    },
+    "comparison": {
+      "kicker": "Why teams switch",
+      "title": "IntReview vs. manual video review",
+      "subtitle": "The same interviews, a fraction of the review time.",
+      "us": "IntReview",
+      "them": "Manual review",
+      "rows": {
+        "time": {
+          "feature": "Review time",
+          "us": "~80% less with AI auto-scoring",
+          "them": "Hours of footage per candidate"
+        },
+        "consistency": {
+          "feature": "Consistency",
+          "us": "One rubric, every candidate",
+          "them": "Interviewer-dependent judgment"
+        },
+        "scheduling": {
+          "feature": "Scheduling",
+          "us": "Candidates record anytime, on any device",
+          "them": "Coordinating live interview slots"
+        },
+        "evidence": {
+          "feature": "Evidence",
+          "us": "Verbatim quotes and timestamps",
+          "them": "Notes written after the call"
+        },
+        "integrity": {
+          "feature": "Integrity",
+          "us": "Gaze, tab-switch and audio forensics",
+          "them": "Unmonitored recordings"
+        },
+        "scale": {
+          "feature": "Scale",
+          "us": "4,000–25,000 candidates per drive",
+          "them": "Limited by recruiter capacity"
+        }
+      }
+    },
+    "results": {
+      "kicker": "Proof",
+      "title": "Results from real assessment programs",
+      "subtitle": "The platforms behind our interviews have already run the volume you're planning.",
+      "cta": "All case studies"
+    },
+    "faq": {
+      "kicker": "FAQ",
+      "title": "Questions buyers ask us",
+      "subtitle": "Straight answers — and the research behind them.",
+      "items": {
+        "fairness": {
+          "q": "Is AI scoring fair and defensible?",
+          "a": "Every candidate is scored against the same rubric, with verbatim evidence quotes and timestamps on every rating — so a hiring committee can verify each decision. The rubric is yours; the AI applies it consistently."
+        },
+        "proctoring": {
+          "q": "How does anti-cheat proctoring work?",
+          "a": "Gaze tracking, tab-switch detection and multi-voice audio forensics flag suspicious sessions automatically — without making honest candidates jump through hoops."
+        },
+        "questions": {
+          "q": "What question types are supported?",
+          "a": "18+ types — video, audio, text, multiple-choice, coding, matrix and rating scales, rank order, drag-and-drop and more — plus AI-generated questions from your own knowledge base."
+        },
+        "candidate": {
+          "q": "What does the candidate experience look like?",
+          "a": "Candidates record structured answers once, on their own time, on any device — with practice mode to settle nerves and retakes where you allow them. No downloads required."
+        },
+        "whiteLabel": {
+          "q": "Can it carry our brand?",
+          "a": "Yes — your logo, your colours, your domain, end to end. Candidates never see a third-party brand."
+        },
+        "pricing": {
+          "q": "How does pricing work?",
+          "a": "Per-candidate, volume-based pricing localized to your region. Start with a pilot of a few hundred candidates, then scale. Book a call for regional pricing within 24–48 hours."
+        }
+      }
+    },
+    "pricing": {
+      "kicker": "Pricing",
+      "title": "Simple, contact-based pricing",
+      "subtitle": "Pricing varies by region, volume and modules — here's how it works, with no mystery.",
+      "items": {
+        "volume": {
+          "title": "Per-candidate volume pricing",
+          "body": "Priced per candidate per module, localized to your market's currency — AED, PKR, CAD, IDR and more."
+        },
+        "pilot": {
+          "title": "Pilot before you commit",
+          "body": "Run a real drive with your candidates first — typically 25–100 — and see the ranked shortlists before buying at scale."
+        },
+        "quote": {
+          "title": "A regional quote in 24–48h",
+          "body": "Your request routes to the nearest of our Dubai, Karachi, Canada or Indonesia teams for pricing in your currency."
+        }
+      },
+      "cta": "Get a regional quote",
+      "roiNote": "Prefer numbers? Try the ROI calculator"
+    }
+  },
+  "trust": {
+    "kicker": "Trust & Security",
+    "title": "Enterprise-grade trust, region by region",
+    "subtitle": "How Intwish protects candidate and employee data across every market we serve.",
+    "compliance": {
+      "kicker": "Compliance",
+      "title": "Regulated procurement, covered",
+      "subtitle": "Data protection statements aligned to the regulations of each market we operate in.",
+      "items": {
+        "pipeda": {
+          "name": "PIPEDA",
+          "region": "Canada",
+          "body": "Canadian entity with English and French privacy statements and consent-first data handling."
+        },
+        "pdp": {
+          "name": "UU PDP 27/2022",
+          "region": "Indonesia",
+          "body": "GDPR-like Indonesian data protection law — PT Intwish Global Solutions, Bahasa privacy notice, cross-border transfer safeguards."
+        },
+        "gdpr": {
+          "name": "GDPR",
+          "region": "EU / global",
+          "body": "Granular consent, DSAR pathway and data-processing agreements for European and global clients."
+        },
+        "pdpl": {
+          "name": "PDPL",
+          "region": "UAE / KSA",
+          "body": "Arabic privacy statements and a Dubai headquarters aligned to UAE and KSA data protection law."
+        }
+      }
+    },
+    "data": {
+      "title": "We process only what the assessment needs",
+      "body": "Candidate and employee data is collected for explicit assessment purposes, minimized by design and never sold. Access is role-based and audited, and data is processed under written data-processing agreements on request."
+    },
+    "hosting": {
+      "kicker": "Hosting & security",
+      "title": "Protected at rest and in transit",
+      "items": {
+        "encryption": {
+          "title": "Encryption",
+          "body": "TLS in transit and encrypted at rest, with security headers enforced site-wide."
+        },
+        "access": {
+          "title": "Access control",
+          "body": "Role-based access with least-privilege defaults and audit logging."
+        },
+        "uptime": {
+          "title": "Uptime monitoring",
+          "body": "Continuous monitoring and a status channel for the platforms you depend on."
+        },
+        "backup": {
+          "title": "Backup policy",
+          "body": "A documented backup and recovery policy (Intwish Backup Policy v1.0) with tested restore procedures."
+        }
+      }
+    },
+    "retention": {
+      "title": "Kept only as long as needed",
+      "body": "Assessment data is retained for the duration of your program and deleted or returned per your policy — with clear schedules documented in our DPA-ready terms."
+    },
+    "roadmap": {
+      "kicker": "Certification roadmap",
+      "title": "Honest about where we are",
+      "body": "We are pursuing ISO 27001 and SOC 2 Type 2 certification and publish our progress here. Until certification is complete, we never claim audited status we don't have — the controls, policies and practices are already in place.",
+      "status": "ISO 27001 · SOC 2 — roadmap in progress"
+    },
+    "contact": {
+      "title": "Report an issue or request a DPA",
+      "body": "For security disclosures, data-processing agreements or compliance questions, reach our team directly.",
+      "cta": "Contact the security team"
+    }
+  },
+  "roi": {
+    "kicker": "ROI calculator",
+    "title": "Estimate time saved vs. traditional recruitment",
+    "subtitle": "Move the sliders to your numbers — see what automated assessment saves your team every year.",
+    "candidates": "Candidates per year",
+    "screenMinutes": "Manual screening minutes per candidate",
+    "recruiterCost": "Average recruiter cost per hour",
+    "savedHours": "Hours saved per year",
+    "savedDays": "Working days saved per year",
+    "savedCost": "Estimated cost saved per year",
+    "teamsNote": "That's roughly {teams} full-time recruiters freed for higher-value work.",
+    "disclaimer": "Estimates based on your inputs and typical assessment-automation benchmarks. Final ROI depends on program structure.",
+    "bookPilot": "Book a pilot to get real numbers",
+    "candidatesLabel": "candidates/yr",
+    "minutesLabel": "min/candidate",
+    "currencyLabel": "cost/hr",
+    "currency": "$"
+  },
+  "notFound": {
+    "code": "404",
+    "title": "This page took the wrong route.",
+    "body": "The page you're looking for doesn't exist or has moved.",
+    "cta": "Back to home"
+  },
+  "insights": {
+    "kicker": "Insights & Research",
+    "title": "Evidence behind the outcome",
+    "subtitle": "Benchmark reports, whitepapers and playbooks built from 10 years and 300,000+ assessments across South Asia, MENA and beyond.",
+    "readTime": "{count} min read",
+    "readCta": "Read",
+    "gatedLabel": "Gated",
+    "types": {
+      "report": "Report",
+      "whitepaper": "Whitepaper",
+      "playbook": "Playbook",
+      "article": "Article",
+      "webinar": "Webinar"
+    },
+    "filters": {
+      "all": "All",
+      "report": "Reports",
+      "whitepaper": "Whitepapers",
+      "playbook": "Playbooks",
+      "article": "Articles",
+      "webinar": "Webinars"
+    },
+    "featured": {
+      "kicker": "Flagship report",
+      "cta": "Get the report"
+    },
+    "hub": {
+      "title": "Latest insights",
+      "subtitle": "Research, benchmarks and playbooks from our assessment programs"
+    },
+    "webinar": {
+      "kicker": "Live demo",
+      "note": "30 minutes with our product team — no slides, just the real platform."
+    },
+    "gate": {
+      "teaserTitle": "What's inside",
+      "kicker": "Gated resource",
+      "title": "Get the full report",
+      "subtitle": "Enter your details and we'll email you the full report — free, no sales call required.",
+      "name": "Your name",
+      "email": "Your work email",
+      "company": "Company (optional)",
+      "submit": "Send me the report",
+      "sending": "Sending…",
+      "success": "Check your inbox",
+      "successNote": "Your copy of the report is on its way. If it doesn't arrive in a few minutes, check your spam folder.",
+      "error": "Something went wrong. Please try again or email us at info@intwish.com.",
+      "notConfigured": "The download service isn't configured yet. Email info@intwish.com and we'll send it to you directly.",
+      "required": "Please enter your name and a valid email address.",
+      "privacy": "We use your details only to send the resource and relevant insights. No spam — unsubscribe anytime.",
+      "lockedNote": "The full report unlocks after you confirm your email above."
+    },
+    "sourcesLabel": "Sources & data",
+    "relatedTitle": "Related case studies",
+    "relatedProducts": "Explore the platforms",
+    "back": "Back to insights"
+  },
+  "media": {
+    "kicker": "Media & Awards",
+    "title": "Recognition that measures up",
+    "subtitle": "A decade of firsts across South Asia and the Middle East — milestones our clients, partners and the press have noted along the way.",
+    "awards": {
+      "kicker": "Recognition",
+      "title": "Firsts, at scale",
+      "subtitle": "Milestones that mark where we've been — and the bar we set for what comes next.",
+      "items": {
+        "pioneer": {
+          "title": "Pioneer of gamification in Pakistan",
+          "body": "Brought gamification to corporate Pakistan, starting with Bank Alfalah's 4,000+ employee training in 2016."
+        },
+        "first3d": {
+          "title": "First 3D recruitment simulation",
+          "body": "Launched Pakistan's first 3D recruitment simulation for HBL — 4,000+ candidates, with top performers hired as management trainees."
+        },
+        "largest": {
+          "title": "Largest gamified MT drive",
+          "body": "Assessed 25,000+ candidates nationwide for PTCL in a matter of days — at a scale traditional testing could never absorb."
+        },
+        "firstIndustry": {
+          "title": "First in industry",
+          "body": "Faysal Bank became the first in the banking industry to launch gamified recruitment in 2018."
+        },
+        "scale": {
+          "title": "Enterprise scale",
+          "body": "Platforms used by 7,000+ employees per organization, from 360° feedback to compliance training."
+        },
+        "reach": {
+          "title": "300,000+ professionals",
+          "body": "Over 300,000 unique users assessed and trained across five markets in ten years."
+        }
+      }
+    },
+    "media": {
+      "title": "In the media",
+      "body": "Our work has been covered in national business and technology press across the markets we serve — from gamified banking training to public-sector selection drives.",
+      "items": [
+        "National press coverage across Pakistan and the UAE",
+        "Featured in business and technology publications",
+        "Speaking and panel appearances at industry events",
+        "Case studies referenced by enterprise HR teams"
+      ]
+    },
+    "contact": {
+      "title": "Press & media inquiries",
+      "body": "For interviews, commentary, speaking requests or press assets, our team responds within one business day.",
+      "cta": "Email the media desk"
+    }
+  },
+  "consent": {
+    "title": "We respect your privacy",
+    "body": "We use cookies and analytics to understand how the site is used and to improve it. You can accept or decline before we load any third-party analytics or chat tools. Your choice is stored on this device only.",
+    "accept": "Accept all",
+    "decline": "Decline"
+  },
+  "terms": {
+    "intro": "The terms that apply when you use this website or engage Intwish services. The platforms themselves — intOS and IntReview — are governed by the agreements you sign with us.",
+    "servicesTitle": "Our services & engagements",
+    "servicesBody": "Training, recruitment and assessment engagements are delivered under written agreements that define scope, pricing, data handling and deliverables. Nothing on this website constitutes an offer or contract unless agreed in writing.",
+    "disclaimer": "This page is a summary of our terms and is not legal advice. Agreements are concluded in writing per engagement."
+  },
+  "demo": {
+    "intosDemo": "Book a demo of intOS",
+    "intreviewDemo": "Book a demo of IntReview",
+    "project": "Start a gamification project",
+    "general": "General inquiry",
+    "kicker": "Demo & pilots",
+    "title": "See it live, with your numbers",
+    "subtitle": "A 30-minute session with our product team — no slides, just the real platform. We'll scope a pilot for your volume and share regional pricing.",
+    "formTitle": "Request your demo",
+    "name": "Your name",
+    "email": "Your work email",
+    "company": "Company",
+    "companyOptional": "optional",
+    "intent": "I'm interested in",
+    "notes": "Anything we should know? (optional)",
+    "submit": "Request demo",
+    "sending": "Sending…",
+    "success": "Thanks — we'll be in touch within one business day.",
+    "successNote": "A regional specialist will reach out to schedule your walkthrough and share pricing.",
+    "error": "Something went wrong. Please try again or email us directly at info@intwish.com.",
+    "notConfigured": "The booking service isn't configured yet. Email info@intwish.com directly.",
+    "required": "Please enter your name and a valid work email.",
+    "nextTitle": "What happens next",
+    "steps": {
+      "confirm": {
+        "title": "We confirm fast",
+        "body": "A regional specialist responds within one business day — from Dubai, Karachi, Canada or Indonesia."
+      },
+      "walkthrough": {
+        "title": "Live walkthrough",
+        "body": "A 30-minute session on the real platform, scoped to your hiring volume and candidate experience."
+      },
+      "pilot": {
+        "title": "Pilot proposal",
+        "body": "You get a pilot plan and regional pricing — so you can run a real drive before committing."
+      }
+    },
+    "privacy": "We use your details only to arrange your demo. No spam — unsubscribe anytime."
+  },
+  "privacy": {
+    "intro": "A plain-English summary of how Intwish collects, uses, protects and retains personal data across the markets we serve. For formal documents — data-processing agreements, DPA requests and security disclosures — contact our team directly.",
+    "disclaimer": "This page is a summary of our privacy practices and is not legal advice. Contractual terms, DPAs and specific obligations are agreed in writing per engagement."
+  },
+  "footer": {
+    "blurb": "Immersive learning, assessment and simulation platforms for the world's most demanding organizations.",
+    "explore": "Explore",
+    "about": "About",
+    "services": "Services",
+    "caseStudies": "Case Studies",
+    "contact": "Contact",
+    "productsTitle": "Products",
+    "intos": "intOS — Virtual OS Assessment Platform",
+    "intreview": "IntReview — AI-assisted Interviews",
+    "sandboxNote": "Product centers with live sandboxes are live — try them.",
+    "contactTitle": "Contact",
+    "rights": "All rights reserved.",
+    "regions": "Registered: Pakistan · UAE · Canada · Indonesia",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "security": "Trust & Security",
+    "linkedin": "Intwish on LinkedIn",
+    "facebook": "Intwish on Facebook",
+    "insights": "Insights & Research",
+    "media": "Media & Awards",
+    "cookieSettings": "Cookie settings",
+    "science": "Science & Methodology"
+  },
+  "cta": {
+    "title": "DefineYourWish(); — let's build yours.",
+    "subtitle": "Book a demo of intOS and IntReview — or start a gamified training, assessment or simulation project with the team that pioneered it in Pakistan.",
+    "sandboxCta": "Try the intOS sandbox",
+    "kicker": "}; // compiled and ready",
+    "trustLine": "Bank Alfalah · HBL · PTCL · Shell · K-Electric · Daraz · 300,000+ professionals assessed"
+  },
+  "announcement": {
+    "message": "intOS sandbox is live — try it now",
+    "dismiss": "Dismiss announcement"
+  },
+  "servicesBand": {
+    "kicker": "const services = deploy(",
+    "title": "The engineering capability behind the products above",
+    "subtitle": "The same team that builds intOS and IntReview ships your training, recruitment, engagement, portal and 360° programs."
+  },
+  "science": {
+    "kicker": "const science = prove(",
+    "title": "Grounded in science, not just gamification",
+    "body": "Our assessments are built on situational-judgement theory and psychometric game-based methods rooted in industrial & organizational psychology — validated, measured and tied to real job success.",
+    "cta": "Read our methodology",
+    "placeholder": "PLACEHOLDER — methodology specifics pending (academic credentials, validation studies)"
+  },
+  "megaMenu": {
+    "products": {
+      "intos": {
+        "name": "intOS",
+        "tagline": "The virtual OS assessment platform"
+      },
+      "intreview": {
+        "name": "IntReview",
+        "tagline": "AI-assisted interviews & assessments"
+      },
+      "sandbox": "Run a live session of the exact virtual OS your candidates use.",
+      "trySandbox": "Try the intOS sandbox"
+    },
+    "services": {
+      "training": {
+        "slug": "training-learning",
+        "name": "Training & Learning",
+        "tagline": "Gamified learning that employees finish — and remember."
+      },
+      "recruitment": {
+        "slug": "recruitment-assessment",
+        "name": "Recruitment & Assessment",
+        "tagline": "High-volume gamified hiring that filters for real competency."
+      },
+      "engagement": {
+        "slug": "employee-engagement",
+        "name": "Employee Engagement",
+        "tagline": "Immersive experiences that move engagement metrics."
+      },
+      "portals": {
+        "slug": "enterprise-portals",
+        "name": "Enterprise Portals",
+        "tagline": "Structured learning and onboarding portals that scale."
+      },
+      "feedback": {
+        "slug": "360-feedback",
+        "name": "360° Feedback",
+        "tagline": "Automated, measured multi-rater feedback at scale."
+      },
+      "arVr": {
+        "slug": "ar-vr-simulation",
+        "name": "AR / VR Simulation",
+        "tagline": "Immersive sims for high-risk, high-stakes roles."
+      }
+    }
+  }
+}

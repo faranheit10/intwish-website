@@ -1,0 +1,1204 @@
+{
+  "metadata": {
+    "siteName": "Intwish",
+    "ogImage": "/img/about/cover.png",
+    "defaultTitle": "Intwish — Formation ludifiée, évaluations IA et simulations immersives",
+    "defaultDescription": "Formation ludifiée, évaluations propulsées par l'IA et simulations immersives pour les banques, les télécommunications, l'énergie et le gouvernement. Plus de 300 000 professionnels évalués dans 5 marchés en 10 ans.",
+    "pages": {
+      "home": {
+        "title": "Intwish — L'entreprise technologique complète de talents",
+        "description": "Évaluations ludifiées, entrevues notées par IA et simulations immersives — conçues, déployées et éprouvées auprès de 300 000+ professionnels dans 5 marchés."
+      },
+      "about": {
+        "title": "À propos d'Intwish — 10 ans d'évaluation et de formation ludifiées",
+        "description": "Comment Intwish est devenu le pionnier de la ludification au Pakistan et a bâti des plateformes d'apprentissage, de recrutement et d'engagement pour plus de 300 000 professionnels dans 5 marchés."
+      },
+      "services": {
+        "title": "Services — Formation, recrutement, engagement, portails, évaluation 360° et RA/RV",
+        "description": "Des services axés sur les résultats : formation et apprentissage ludifiés, recrutement et évaluation, engagement des employés, portails et automatisation d'entreprise, rétroaction 360° et simulation RA/RV."
+      },
+      "servicesDetail": {
+        "title": "{service} — Services Intwish",
+        "description": "Intwish {service} : des solutions axées sur les résultats pour les banques, les télécommunications, l'énergie et le gouvernement."
+      },
+      "caseStudies": {
+        "title": "Études de cas — Résultats quantifiés de déploiements réels",
+        "description": "Plus de 12 études de cas quantifiées dans les secteurs bancaire, des télécommunications, de l'énergie, de l'éducation et du gouvernement — des campagnes de formation de 7 000 employés aux jeux de recrutement de 25 000 candidats."
+      },
+      "caseStudyDetail": {
+        "title": "{title} — Étude de cas Intwish",
+        "description": "{summary}"
+      },
+      "contact": {
+        "title": "Contactez Intwish — Réservez une démo ou démarrez un projet",
+        "description": "Parlez à nos équipes à Dubaï, Karachi, au Canada et en Indonésie. Réservez une démo d'intOS ou d'IntReview, ou démarrez un projet de formation, d'évaluation ou de simulation ludifiée."
+      },
+      "productsIndex": {
+        "title": "Produits — Plateforme intOS à OS virtuel et entrevues IA IntReview",
+        "description": "intOS, la plateforme d'évaluation à OS virtuel, et IntReview, les entrevues vidéo asynchrones assistées par IA — les plateformes que nous avons bâties pour nos plus grands clients, maintenant à votre disposition."
+      },
+      "intos": {
+        "title": "intOS — La plateforme d'évaluation à OS virtuel",
+        "description": "La première plateforme d'évaluation qui simule le monde du travail. Un bureau virtuel en direct avec simulations de courriels, messagerie d'équipe, réunions SJT, jeux psychométriques et moteur narratif interconnecté."
+      },
+      "intreview": {
+        "title": "IntReview — Entrevues et évaluations assistées par IA",
+        "description": "Entrevues vidéo asynchrones évaluées par IA selon vos grilles de compétences — avec surveillance anti-triche, analyse STAR et rapports instantanés fondés sur les données."
+      },
+      "demo": {
+        "title": "Réserver une démo — intOS et IntReview",
+        "description": "Réservez une visite en direct de 30 minutes d'intOS et IntReview avec notre équipe produit — et obtenez des prix régionaux et un plan pilote."
+      },
+      "trust": {
+        "title": "Centre de confiance et sécurité — Conformité, traitement des données et hébergement",
+        "description": "Comment Intwish protège les données des candidats et des employés : conformité PIPEDA, loi indonésienne sur la protection des données, RGPD et PDPL, traitement des données, hébergement, conservation et notre feuille de route de certification."
+      },
+      "insights": {
+        "title": "Perspectives — Recherche, rapports et guides",
+        "description": "Rapports de référence, livres blancs et guides pratiques issus de plus de 300 000 évaluations dans 5 marchés en 10 ans."
+      },
+      "insightDetail": {
+        "title": "{title} — Perspectives Intwish",
+        "description": "{excerpt}"
+      },
+      "media": {
+        "title": "Médias et distinctions — Intwish",
+        "description": "Une décennie de premières en évaluation et formation ludifiées en Asie du Sud et au Moyen-Orient — couverture médiatique, reconnaissances et jalons."
+      },
+      "privacy": {
+        "title": "Confidentialité — Comment Intwish traite les données des candidats et des employés",
+        "description": "Comment Intwish protège les données des candidats et des employés : PIPEDA, loi PDP indonésienne, conformité RGPD et PDPL, conservation et suppression, et comment joindre notre équipe confidentialité."
+      },
+      "terms": {
+        "title": "Conditions d'utilisation — Intwish",
+        "description": "Les conditions qui régissent l'utilisation du site web et des services d'Intwish, nos engagements en matière de traitement des données et comment nous joindre."
+      }
+    }
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "products": "Produits",
+    "caseStudies": "Études de cas",
+    "contact": "Contact",
+    "bookDemo": "Réserver une démo",
+    "openMenu": "Ouvrir le menu principal",
+    "closeMenu": "Fermer le menu principal",
+    "insights": "Perspectives"
+  },
+  "localeSwitcher": {
+    "label": "Langue",
+    "en": "English",
+    "fr-CA": "Français (Canada)",
+    "id-ID": "Bahasa Indonesia",
+    "ar": "العربية"
+  },
+  "common": {
+    "learnMore": "En savoir plus",
+    "readCaseStudy": "Lire l'étude de cas",
+    "allCaseStudies": "Toutes les études de cas",
+    "allServices": "Tous les services",
+    "backToTop": "Retour en haut",
+    "skipToContent": "Aller au contenu"
+  },
+  "hero": {
+    "kicker": "DefineYourWish();",
+    "title": "L'entreprise technologique en talent, complète qui",
+    "titleSuffix": "pour l'entreprise moderne",
+    "subtitle": "Évaluations ludifiées, entrevues notées par IA et simulations immersives — conçues, déployées et éprouvées auprès de plus de 300 000 professionnels dans 5 marchés.",
+    "primaryCta": "Réserver une démo",
+    "secondaryCta": "Essayer le bac à sable intOS",
+    "scrollCta": "Dites-m'en plus",
+    "titleAccent": "bâtit ce que les solutions ponctuelles ne peuvent pas.",
+    "proofLine": "Fait confiance à Bank Alfalah · HBL · PTCL · Shell · K-Electric · Daraz",
+    "codeComment": "// define → build → deploy",
+    "placeholderLabel": "À RÉSERVER — capture du bureau intOS requise",
+    "osWindowTitle": "intOS — bureau virtuel",
+    "aiReportWindowTitle": "IntReview — rapport de candidat"
+  },
+  "trustStrip": {
+    "title": "La confiance des leaders du marché",
+    "subtitle": "Des banques nationales et des télécommunications aux services publics d'énergie et au secteur public",
+    "clientNamesLabel": "Nos clients comprennent",
+    "kicker": "La confiance des leaders d'entreprise dans 5 marchés",
+    "statBadges": {
+      "assessed": "300 000+ évalués",
+      "years": "10+ ans",
+      "markets": "5 marchés"
+    }
+  },
+  "video": {
+    "title": "Transformez vos idées en réalité (virtuelle).",
+    "subtitle": "De la formation à grande échelle aux simulations de recrutement à enjeux élevés, nous donnons vie à l'apprentissage et à la performance.",
+    "videoTitle": "Vidéo de démonstration Intwish"
+  },
+  "products": {
+    "kicker": "Produits",
+    "title": "Deux plateformes. Un seul avantage.",
+    "subtitle": "Les plateformes d'évaluation que nous avons bâties pour nos plus grands clients — maintenant à votre disposition.",
+    "intos": {
+      "name": "intOS",
+      "tagline": "La plateforme d'évaluation à OS virtuel",
+      "description": "Un bureau virtuel en direct que vos candidats utilisent réellement — simulations de courriels, messagerie d'équipe, réunions de jugement situationnel, jeux psychométriques et moteur narratif interconnecté.",
+      "cta": "Explorer intOS",
+      "eta": "Démo en direct · essayez-la",
+      "metric": "Plus de 25 000 en une campagne",
+      "ctaPrimary": "Découvrir l'OS",
+      "placeholder": "À RÉSERVER — capture du bureau intOS requise"
+    },
+    "intreview": {
+      "name": "IntReview",
+      "tagline": "Entrevues et évaluations assistées par IA",
+      "description": "Entrevues vidéo asynchrones évaluées par IA selon vos grilles de compétences — avec surveillance anti-triche, analyse STAR et rapports instantanés fondés sur les données.",
+      "cta": "Explorer IntReview",
+      "eta": "Démo en direct · essayez-la",
+      "metric": "≈80 % moins de temps de révision",
+      "ctaPrimary": "Voir la notation IA en action",
+      "windowTitle": "IntReview — rapport de candidat IA",
+      "reportLabel": "Rapport de candidat IA IntReview"
+    },
+    "bentoKicker": "const products = compile(",
+    "bentoTitle": "Deux produits. Une pile. Zéro prolifération de fournisseurs.",
+    "bentoSubtitle": "Chaque couche de la pile — conçue, détenue et déployée par la même équipe."
+  },
+  "caseStudies": {
+    "kicker": "Preuve",
+    "title": "Des résultats quantifiés de déploiements réels",
+    "subtitle": "Situation de départ → solution → résultats. Chaque projet est mesuré.",
+    "industry": "Secteur",
+    "client": "Client",
+    "all": "Tous",
+    "readMore": "Lire l'histoire complète",
+    "impactLabel": "Impact en un coup d'œil",
+    "back": "Retour à toutes les études de cas",
+    "onePager": {
+      "kicker": "Étude de cas · Fiche",
+      "download": "Télécharger la fiche (PDF)",
+      "print": "Enregistrer en PDF",
+      "toolbarNote": "Imprimez ou enregistrez en PDF depuis la boîte de dialogue d'impression de votre navigateur.",
+      "summaryLabel": "Le défi",
+      "contactNote": "Vous voulez des résultats semblables ? Parlons-en.",
+      "generatedBy": "Préparé par Intwish — intwish.com"
+    },
+    "featuredLabel": "Étude de cas vedette",
+    "secondaryLabel": "D'autres preuves"
+  },
+  "stats": {
+    "title": "Les chiffres parlent d'eux-mêmes",
+    "items": {
+      "users": {
+        "value": "300 000+",
+        "label": "Professionnels évalués"
+      },
+      "employees": {
+        "value": "7 000+",
+        "label": "Employés dans une seule campagne de formation"
+      },
+      "candidates": {
+        "value": "25 000",
+        "label": "Candidats lors d'une campagne de recrutement"
+      },
+      "reportPages": {
+        "value": "20",
+        "label": "Pages de rapports 360° automatisés"
+      }
+    },
+    "kicker": "return {"
+  },
+  "compliance": {
+    "title": "Conçu pour les marchés publics réglementés",
+    "subtitle": "Signaux de confiance d'entreprise pour les banques, les télécommunications et le gouvernement",
+    "items": {
+      "pipeda": {
+        "name": "PIPEDA",
+        "note": "Canada"
+      },
+      "pdp": {
+        "name": "Loi sur la PDP",
+        "note": "Indonésie"
+      },
+      "gdpr": {
+        "name": "Conforme RGPD",
+        "note": "UE / mondial"
+      },
+      "pdpl": {
+        "name": "PDPL",
+        "note": "EAU / Arabie saoudite"
+      },
+      "roadmap": {
+        "name": "ISO 27001 · SOC 2",
+        "note": "Feuille de route en cours"
+      }
+    },
+    "kicker": "// compliance compiled"
+  },
+  "about": {
+    "kicker": "À propos d'Intwish",
+    "title": "Un pionnier de l'évaluation ludifiée depuis 10 ans",
+    "subtitle": "De la première formation d'entreprise ludifiée au Pakistan à une entreprise de produits mondiale — inscrite au Pakistan, aux EAU, au Canada et en Indonésie.",
+    "whoTitle": "Qui sommes-nous ?",
+    "whoBody": "Intwish est une entreprise d'innovation numérique qui crée des plateformes immersives d'apprentissage et d'évaluation pour les entreprises, les gouvernements et les organismes de développement. Nos solutions combinent ludification, RA/RV et IA pour offrir des résultats mesurables en matière de formation, de recrutement, de performance et d'engagement client. L'IA est intégrée à toutes nos solutions sur la base d'une évaluation scientifique du besoin, du résultat et du modèle d'affaires.",
+    "gamTitle": "Qu'est-ce que la ludification ?",
+    "gamBody": "La ludification utilise des mécaniques de jeu — avatars, scénarios, étapes, pointage, compétition et classements — dans des systèmes non ludiques pour améliorer l'engagement. En formation et en recrutement, elle offre aux employés un apprentissage pratique et évalue les candidats dans des situations réelles en réalité simulée de jeu de rôle. En expérience client, elle stimule la notoriété et la fidélité par des remises en argent, des récompenses et des incitatifs. Intwish a fait œuvre de pionnier au Pakistan et a évalué et formé plus de 300 000 utilisateurs uniques en 10 ans.",
+    "statsTitle": "En chiffres",
+    "timelineTitle": "Notre parcours",
+    "teamTitle": "Direction",
+    "teamSubtitle": "Des visionnaires, des ingénieurs et des conteurs qui animent l'innovation.",
+    "entitiesTitle": "Où nous opérons",
+    "entitiesSubtitle": "Entités et bureaux inscrits dans quatre pays, avec un historique de projets en Arabie saoudite."
+  },
+  "services": {
+    "kicker": "Services",
+    "title": "Des solutions axées sur les résultats, de bout en bout",
+    "subtitle": "Six capacités, une norme : un impact commercial mesurable.",
+    "howTitle": "Comment nous travaillons",
+    "howBody": "Chaque projet commence par le résultat dont vous avez besoin — une main-d'œuvre formée, un meilleur entonnoir d'embauche, une vision plus complète des talents. Nous concevons ensuite l'expérience, automatisons le processus et ludifions l'engagement pour garantir des résultats durables.",
+    "relatedCaseStudies": "Études de cas connexes",
+    "back": "Retour à tous les services"
+  },
+  "contact": {
+    "kicker": "Contact",
+    "title": "Parlons de votre prochain projet",
+    "subtitle": "Un projet, une idée ou un problème à résoudre ? Joignez nos équipes à Dubaï, Karachi, au Canada ou en Indonésie.",
+    "formTitle": "Envoyez-nous un message",
+    "subjectLabel": "Objet",
+    "name": "Votre nom",
+    "email": "Votre courriel",
+    "phone": "Votre téléphone",
+    "message": "Votre message",
+    "send": "Envoyer le message",
+    "sending": "Envoi…",
+    "success": "Merci — votre message a été envoyé. Nous vous répondrons bientôt.",
+    "error": "Une erreur est survenue. Veuillez nous écrire directement à info@intwish.com ou réessayer.",
+    "notConfigured": "Le formulaire de contact n'est pas encore configuré. Veuillez écrire directement à info@intwish.com.",
+    "requiredName": "Veuillez saisir votre nom.",
+    "requiredEmail": "Veuillez saisir une adresse courriel valide.",
+    "requiredMessage": "Veuillez saisir un message.",
+    "officesTitle": "Nos bureaux",
+    "emailUs": "Écrivez-nous",
+    "headOffice": "Siège social — EAU",
+    "pakistanOffice": "Bureau — Pakistan",
+    "dubaiAddress": "Bureau 1702, 17e étage, Boulevard Plaza Tour 1, boulevard Sheikh Mohammed Bin Rashid, centre-ville de Dubaï, CP 415049, EAU",
+    "karachiAddress": "C2 3e étage, Immeuble 4C, 16e rue commerciale, Defense Phase 2 Ext, DHA, Karachi, Pakistan",
+    "dubaiPhone": "+971 55 552 9973",
+    "karachiPhone": "+92 334 337 5919",
+    "canadaEntity": "Canada — entité inscrite",
+    "canadaEntityDesc": "Conforme PIPEDA · Entité inscrite",
+    "indonesiaEntity": "Indonésie — PT Intwish Global Solutions",
+    "indonesiaEntityDesc": "Conforme UU PDP 27/2022 · PT Intwish Global Solutions"
+  },
+  "productsIndex": {
+    "kicker": "Produits",
+    "title": "Deux plateformes. Un seul avantage.",
+    "subtitle": "Les plateformes d'évaluation que nous avons bâties pour nos plus grands clients — maintenant à votre disposition. Essayez-les en direct, ou réservez un projet pilote avec notre équipe.",
+    "intos": {
+      "name": "intOS",
+      "tagline": "La plateforme d'évaluation à OS virtuel",
+      "description": "Un bureau virtuel en direct que vos candidats utilisent réellement — simulations de courriels, messagerie d'équipe, réunions de jugement situationnel, jeux psychométriques et moteur narratif interconnecté. Conçu pour l'embauche à grand volume, à toute échelle.",
+      "cta": "Explorer intOS",
+      "sandbox": "Démo interactive en direct"
+    },
+    "intreview": {
+      "name": "IntReview",
+      "tagline": "Entrevues et évaluations assistées par IA",
+      "description": "Entrevues vidéo asynchrones évaluées par IA selon vos grilles de compétences — avec surveillance anti-triche, analyse STAR et rapports instantanés fondés sur les données. Les candidats enregistrent une fois ; vous examinez les preuves.",
+      "cta": "Explorer IntReview",
+      "sandbox": "Entrevues évaluées par IA"
+    }
+  },
+  "intos": {
+    "kicker": "Produit · Évaluation",
+    "title": "La plateforme d'évaluation à OS virtuel",
+    "tagline": "La première plateforme d'évaluation qui simule le monde du travail — un OS que vos candidats utilisent réellement.",
+    "description": "intOS plonge les candidats dans un bureau virtuel réaliste : une boîte de réception, une messagerie d'équipe, des réunions planifiées, des tâches en direct et un flot d'interruptions. Chaque geste dans cet OS — chaque clic, chaque réponse, chaque décision — est évalué et consigné pour vous. Conçu pour les programmes de stagiaires en gestion, les programmes pour diplômés, l'embauche latérale et les campagnes de 25 000+ candidats.",
+    "ctaSandbox": "Essayer le bac à sable en direct",
+    "ctaPilot": "Réserver un projet pilote avec un expert",
+    "proof": {
+      "candidates": {
+        "value": "25 000+",
+        "label": "Candidats lors d'une seule campagne"
+      },
+      "conversion": {
+        "value": "jours",
+        "label": "Pour lancer une campagne de 25 000 candidats"
+      },
+      "users": {
+        "value": "300 000+",
+        "label": "Professionnels évalués en 10 ans"
+      },
+      "report": {
+        "value": "1 clic",
+        "label": "Rapports de candidats PDF exportables"
+      }
+    },
+    "sandbox": {
+      "kicker": "Expérimentez l'OS",
+      "title": "Parcourez le bureau virtuel",
+      "subtitle": "Il s'agit d'une instance réelle et fonctionnelle d'intOS. Cliquez dans la simulation de courriels, répondez à la messagerie d'équipe, prenez l'appel vidéo — chaque action est évaluée, exactement comme dans une vraie campagne.",
+      "reload": "Recharger le bac à sable",
+      "openInNewTab": "Ouvrir le bac à sable dans un nouvel onglet",
+      "iframeTitle": "Bac à sable interactif intOS — demo.intwish.com",
+      "loading": "Chargement du bac à sable intOS…",
+      "fallbackTitle": "Le bac à sable en direct se prépare",
+      "fallbackBody": "Le bac à sable interactif est en cours de déploiement et apparaîtra ici sous peu. Entre-temps, réservez un projet pilote guidé avec notre équipe — nous vous présenterons intOS en direct.",
+      "fallbackCta": "Réserver un projet pilote avec un expert",
+      "privateNote": "Vous voulez un lien de démonstration privé pour votre équipe ?",
+      "privateCta": "Obtenez votre propre démonstration"
+    },
+    "modules": {
+      "kicker": "L'expérience",
+      "title": "Tout ce qu'un vrai emploi vous lance",
+      "subtitle": "Six modules interconnectés recréent le monde du travail — les actions dans un module déclenchent des conséquences dans un autre, exactement comme au travail.",
+      "items": {
+        "email": {
+          "title": "Simulation de courriels",
+          "body": "Une boîte de réception réaliste avec priorités, ambiguïté et bruit. Les candidats trient, répondent et assurent le suivi — évalués sur le jugement, le ton et la priorisation."
+        },
+        "messenger": {
+          "title": "Messagerie d'équipe",
+          "body": "Un canal de type Slack où les parties prenantes écrivent, questionnent et insistent. Chaque réponse est capturée comme preuve comportementale."
+        },
+        "meeting": {
+          "title": "Réunions SJT virtuelles",
+          "body": "Les réunions de jugement situationnel se déroulent en appels vidéo — les candidats réagissent à la situation en temps réel, comme dans un centre d'évaluation en direct."
+        },
+        "etray": {
+          "title": "Exercices de corbeille électronique",
+          "body": "Une corbeille électronique de tâches, d'échéances et de dépendances. Les candidats exécutent, délèguent ou escaladent — et sont évalués sur la manière."
+        },
+        "psychometric": {
+          "title": "Jeux psychométriques",
+          "body": "Brain buster, Numbubbles, Numparision, Sentence Completion, Tetris et Word Wizard — des mesures cognitives et de personnalité validées sous forme de jeux."
+        },
+        "narrative": {
+          "title": "Moteur narratif interconnecté",
+          "body": "Les actions s'enchaînent entre les modules — répondez au courriel et un message Slack s'active, l'ordre du jour change, le score s'approfondit. Une seule histoire continue."
+        }
+      }
+    },
+    "dashboard": {
+      "kicker": "La vue recruteur",
+      "title": "Un centre de commandement, pas un tableur",
+      "subtitle": "Tout ce qu'il faut pour mener une campagne de milliers de candidats sans se noyer dans les données.",
+      "items": {
+        "pulse": {
+          "title": "Cartes KPI en direct",
+          "body": "Révisions en attente, taux d'achèvement, score de correspondance moyen et état de l'intégrité — en direct, par campagne, par cohorte."
+        },
+        "funnel": {
+          "title": "Analytique de l'entonnoir",
+          "body": "Candidats suivis de l'invitation à l'ouverture, au démarrage, à l'achèvement puis à la présélection, avec décrochages signalés à chaque étape."
+        },
+        "timeSaved": {
+          "title": "Temps économisé",
+          "body": "L'évaluation automatisée transforme des semaines d'examen manuel en secondes de lecture de listes classées."
+        },
+        "gems": {
+          "title": "Perles cachées",
+          "body": "Le tableau de bord fait ressortir les candidats à fort potentiel que votre filtrage aurait pu manquer — les performeurs discrets mais décisifs."
+        },
+        "integrity": {
+          "title": "Liste de surveillance d'intégrité",
+          "body": "Des alertes d'anomalie pour les changements d'onglet, le copier-coller et les comportements de session irréguliers, afin que les scores demeurent fiables."
+        }
+      }
+    },
+    "candidate": {
+      "kicker": "La vue candidat",
+      "title": "Conçu pour les candidats, pas seulement les recruteurs",
+      "subtitle": "Une évaluation ne devrait pas ressembler à un examen. intOS ressemble au premier jour d'un nouvel emploi.",
+      "items": {
+        "anxiety": {
+          "title": "Réduit l'anxiété",
+          "body": "Des scénarios de travail familiers remplacent les atmosphères d'examen à haute pression — on mesure l'aptitude, pas la nervosité."
+        },
+        "mobile": {
+          "title": "Prêt pour le mobile",
+          "body": "L'OS virtuel fonctionne sur téléphones et tablettes, pour que les candidats jouent de partout, sur n'importe quel appareil."
+        },
+        "languages": {
+          "title": "Anglais et arabe, RTL",
+          "body": "Interfaces complètes en anglais et en arabe avec mise en page de droite à gauche — pour rejoindre les candidats au Moyen-Orient et ailleurs."
+        },
+        "themes": {
+          "title": "Thèmes sombre et clair",
+          "body": "Des modes clair et sombre accessibles avec un contraste convivial WCAG, choisis par chaque candidat."
+        }
+      }
+    },
+    "useCases": {
+      "kicker": "Cas d'utilisation",
+      "title": "Des campagnes pour diplômés à la sélection gouvernementale",
+      "subtitle": "intOS s'adapte d'une centaine de candidats à des dizaines de milliers.",
+      "more": "Autre chose en tête ?",
+      "items": {
+        "mt": {
+          "title": "Programmes de stagiaires en gestion",
+          "body": "Le cas d'utilisation phare — des campagnes de 4 000 à 25 000 candidats, menées en quelques jours."
+        },
+        "any": {
+          "title": "Tout poste",
+          "body": "Modules et grilles configurables pour l'embauche latérale, les rôles techniques et les équipes client."
+        },
+        "graduate": {
+          "title": "Programmes pour diplômés",
+          "body": "Des filières en début de carrière évaluées sur le potentiel et le jugement, pas sur le pedigree."
+        },
+        "government": {
+          "title": "Sélection gouvernementale",
+          "body": "Une sélection juste, vérifiable et évolutive pour le secteur public — une confiance gagnée auprès du Saudi Business Center."
+        },
+        "volume": {
+          "title": "Campagnes à grand volume",
+          "body": "Une infrastructure qui absorbe 25 000+ candidats simultanés sans accroc."
+        }
+      }
+    },
+    "science": {
+      "kicker": "La science",
+      "title": "Une psychométrie défendable",
+      "subtitle": "intOS repose sur la recherche en jugement situationnel et en évaluation cognitive — les méthodes derrière nos 300 000+ utilisateurs évalués.",
+      "body": "Les évaluations cognitives par SJT et par jeu mesurent le jugement et l'aptitude avec moins de biais culturel et de tricherie que les tests d'auto-évaluation traditionnels. Notre base de recherche comprend la validation transnationale de l'évaluation cognitive par jeu — les mêmes preuves que citent nos rapports clients."
+    },
+    "reporting": {
+      "kicker": "Analytique et rapports",
+      "title": "Des rapports de candidats de calibre or",
+      "subtitle": "Chaque candidat aboutit à un profil défendable et riche en données.",
+      "items": {
+        "report": {
+          "title": "Rapports instantanés",
+          "body": "Compétences, profil cognitif, preuves comportementales et recommandations — générés automatiquement pour chaque candidat."
+        },
+        "pdf": {
+          "title": "Export PDF en un clic",
+          "body": "Des rapports de marque prêts à imprimer, conformes à la spécification de rapport de candidat de calibre or."
+        },
+        "shortlist": {
+          "title": "Listes classées",
+          "body": "Des scores pondérés selon vos grilles, pour que la meilleure personne remonte automatiquement."
+        },
+        "compare": {
+          "title": "Comparaison de cohortes",
+          "body": "Comparez les candidats à des cohortes, des campagnes et des références historiques."
+        }
+      }
+    },
+    "security": {
+      "kicker": "Sécurité et conformité",
+      "title": "Prêt pour les marchés publics, par conception",
+      "body": "Traitement des données conforme à la PIPEDA, à la loi UU PDP 27/2022, au RGPD et à la PDPL, accès par rôles, chiffrement des données au repos et en transit, et politique de sauvegarde documentée. Voyez l'ensemble sur notre centre de confiance et sécurité.",
+      "cta": "Visiter le centre de confiance et sécurité"
+    },
+    "videos": {
+      "kicker": "En action",
+      "title": "Regardez les jeux psychométriques",
+      "subtitle": "De véritables enregistrements de jeu de la suite d'évaluation intOS — les mêmes jeux que jouent les candidats lors d'une campagne réelle."
+    },
+    "outcome": "Lancez une campagne de 25 000 candidats en quelques jours — la notation automatisée transforme des semaines de révision manuelle en listes classées et défendables.",
+    "testimonials": {
+      "kicker": "Prouvé à grande échelle",
+      "title": "Des résultats clients, dans leurs mots",
+      "subtitle": "Les plateformes derrière intOS ont déjà mené les campagnes que nous décrivons.",
+      "cta": "Votre campagne pourrait être la prochaine",
+      "items": {
+        "ptcl": {
+          "client": "PTCL",
+          "value": "25 000+",
+          "quote": "Le plus grand recrutement de stagiaires en gestion ludifié au Pakistan — plus de 25 000 candidats à travers le pays ont complété le processus en quelques jours à peine."
+        },
+        "hbl": {
+          "client": "HBL",
+          "value": "2×",
+          "quote": "La première simulation de recrutement 3D au Pakistan — les meilleurs embauchés comme stagiaires en gestion, et HBL a réutilisé l'évaluation en 2019 car elle s'est avérée plus efficace."
+        },
+        "ici": {
+          "client": "ICI Pakistan",
+          "value": "4 000+",
+          "quote": "Des candidats soumis à des scénarios de travail réels — un signal de résolution de problèmes plus fiable qu'un test papier."
+        },
+        "bankAlfalah": {
+          "client": "Bank Alfalah",
+          "value": "7 000+",
+          "quote": "Des employés ont complété une formation de conformité obligatoire à l'échelle nationale via un jeu de rôle policier immersif — mesurable, traçable et rapportable."
+        },
+        "faysal": {
+          "client": "Faysal Bank",
+          "value": "4–25 k",
+          "quote": "Premier du secteur bancaire à lancer le recrutement ludifié en 2018 — utilisé depuis par 4 000 à 25 000 candidats par organisation."
+        }
+      }
+    },
+    "comparison": {
+      "kicker": "Pourquoi les équipes changent",
+      "title": "intOS contre le centre d'évaluation traditionnel",
+      "subtitle": "La même rigueur d'évaluation — sans la salle, les surveillants et la paperasse.",
+      "us": "intOS",
+      "them": "Évaluation traditionnelle",
+      "rows": {
+        "setup": {
+          "feature": "Mise en place et livraison",
+          "us": "Des jours, pas des semaines — modules et grilles configurables",
+          "them": "Des semaines de logistique de salle et de surveillance"
+        },
+        "scale": {
+          "feature": "Échelle",
+          "us": "25 000+ candidats en une seule campagne",
+          "them": "Des centaines par centre, plafonnées par la capacité"
+        },
+        "experience": {
+          "feature": "Expérience candidat",
+          "us": "Un bureau virtuel familier, sur tout appareil",
+          "them": "Des salles d'examen très stressantes"
+        },
+        "objectivity": {
+          "feature": "Notation",
+          "us": "Une grille, notée de façon constante par l'automatisation",
+          "them": "Plusieurs évaluateurs, variations humaines"
+        },
+        "reporting": {
+          "feature": "Rapports",
+          "us": "Rapports PDF instantanés et listes classées",
+          "them": "Notation manuelle, compilée sur des jours"
+        },
+        "audit": {
+          "feature": "Traçabilité",
+          "us": "Chaque action consignée et exportable",
+          "them": "Des dossiers papier ou tableurs"
+        }
+      }
+    },
+    "results": {
+      "kicker": "Preuve",
+      "title": "Des résultats issus de campagnes réelles",
+      "subtitle": "Chaque engagement mesuré : état initial → solution → résultat.",
+      "cta": "Toutes les études de cas"
+    },
+    "faq": {
+      "kicker": "FAQ",
+      "title": "Les questions que nous posent les acheteurs",
+      "subtitle": "Des réponses directes — et la recherche qui les appuie.",
+      "items": {
+        "validity": {
+          "q": "intOS est-il scientifiquement validé ?",
+          "a": "intOS repose sur la recherche en jugement situationnel et en évaluation cognitive par jeux — des méthodes avec des décennies de preuves de validité de critère. La même base de preuves sous-tend nos 300 000+ utilisateurs évalués et est citée dans chaque rapport client."
+        },
+        "experience": {
+          "q": "À quoi ressemble l'expérience pour les candidats ?",
+          "a": "Au premier jour d'un nouvel emploi, pas à un examen. Les candidats opèrent un bureau virtuel réaliste — boîte de réception, messagerie, réunions — sur téléphone ou ordinateur, en anglais ou en arabe, avec thèmes sombres ou clairs. Les scénarios familiers réduisent l'anxiété, si bien que c'est l'aptitude, et non la nervosité, qui est mesurée."
+        },
+        "scoring": {
+          "q": "Comment fonctionne réellement la notation ?",
+          "a": "Chaque action d'un candidat dans l'OS — chaque réponse, priorisation et décision — est notée selon la grille que vous configurez. Le tableau de bord du recruteur la transforme en analyses d'entonnoir, listes classées et rapports PDF en un clic."
+        },
+        "scale": {
+          "q": "Quelle taille peut atteindre une campagne ?",
+          "a": "25 000+ candidats en une seule campagne. La plateforme est conçue pour l'embauche à grand volume — la campagne de PTCL a évalué 25 000+ candidats à l'échelle nationale en quelques jours."
+        },
+        "languages": {
+          "q": "Quelles langues sont prises en charge ?",
+          "a": "L'anglais et l'arabe avec une mise en page droite-à-gauche complète, plus des thèmes sombres et clairs au contraste conforme aux normes WCAG."
+        },
+        "pricing": {
+          "q": "Comment fonctionne la tarification ?",
+          "a": "Un prix par candidat et par module, localisé dans la devise de votre région. La plupart des équipes commencent par une campagne pilote avant de passer à l'échelle. Réservez un appel et nous partagerons les prix régionaux sous 24 à 48 heures."
+        }
+      }
+    },
+    "pricing": {
+      "kicker": "Tarification",
+      "title": "Une tarification simple, basée sur le contact",
+      "subtitle": "Le prix varie selon la région, le volume et les modules — voici comment cela fonctionne, sans mystère.",
+      "items": {
+        "volume": {
+          "title": "Tarification au volume, par candidat",
+          "body": "Facturé par candidat et par module, localisé dans la devise de votre marché — AED, PKR, CAD, IDR et plus."
+        },
+        "pilot": {
+          "title": "Un pilote avant de vous engager",
+          "body": "Menez d'abord une vraie campagne avec vos candidats — généralement 25 à 100 — et voyez les listes classées avant d'acheter à grande échelle."
+        },
+        "quote": {
+          "title": "Un devis régional sous 24 à 48 h",
+          "body": "Votre demande est acheminée à la plus proche de nos équipes à Dubaï, Karachi, au Canada ou en Indonésie pour un prix dans votre devise."
+        }
+      },
+      "cta": "Obtenir un devis régional",
+      "roiNote": "Vous préférez les chiffres ? Essayez le calculateur de ROI"
+    }
+  },
+  "intreview": {
+    "kicker": "Produit · Entrevues",
+    "title": "Entrevues et évaluations assistées par IA",
+    "tagline": "Entrevues vidéo asynchrones évaluées par IA selon vos grilles de compétences — avec surveillance anti-triche, analyse STAR et rapports instantanés fondés sur les données.",
+    "description": "Les candidats enregistrent une fois des réponses vidéo structurées, à leur rythme. L'IA d'IntReview les évalue selon votre grille — structure STAR, cotes de 1 à 5 et citations de preuves — tandis que la surveillance veille à la tricherie. Vous examinez des preuves classées, pas des heures de vidéo brute.",
+    "ctaDemo": "Demander une démonstration en direct",
+    "ctaPilot": "Réserver un projet pilote avec un expert",
+    "proof": {
+      "speed": {
+        "value": "~80 %",
+        "label": "Moins de temps d'examen grâce à l'évaluation automatique"
+      },
+      "consistency": {
+        "value": "Une grille",
+        "label": "La même norme pour chaque candidat"
+      },
+      "anxiety": {
+        "value": "Quand vous voulez",
+        "label": "Les candidats enregistrent quand ils sont prêts"
+      },
+      "scale": {
+        "value": "4–25 k",
+        "label": "Candidats par campagne, tirés de nos programmes clients"
+      }
+    },
+    "features": {
+      "kicker": "Comment ça marche",
+      "title": "Enregistrez une fois. Évaluez instantanément. Décidez en confiance.",
+      "subtitle": "Six capacités qui font passer l'entrevue asynchrone de la vidéo brute aux listes classées et défendables.",
+      "items": {
+        "scoring": {
+          "title": "Évaluation des compétences par IA",
+          "body": "Analyse de la structure STAR, cotes de 1 à 5 et analyse des écarts — avec des citations de preuves textuelles pour chaque cote."
+        },
+        "questions": {
+          "title": "Plus de 18 types de questions",
+          "body": "18 types — vidéo, audio, texte, QCM, codage, matrice/échelle d'évaluation, classement, glisser-déposer et plus — ainsi que des questions générées par IA depuis le moteur de questions de la plateforme."
+        },
+        "proctoring": {
+          "title": "Surveillance anti-triche",
+          "body": "Suivi du regard, détection des changements d'onglet et analyse audio multi-voix signalent automatiquement les sessions suspectes."
+        },
+        "reports": {
+          "title": "Rapports PDF sur canevas infini",
+          "body": "Des rapports approfondis et consultables qui s'adaptent à toute longueur — conçus pour les comités d'embauche et les pistes d'audit."
+        },
+        "dashboard": {
+          "title": "Tableau de bord analytique",
+          "body": "Santé de l'entonnoir, taux de complétion, performance des questions et repères candidats en un coup d'œil."
+        },
+        "whiteLabel": {
+          "title": "Image de marque privée",
+          "body": "Votre logo, vos couleurs, votre domaine — le candidat ne voit jamais de marque tierce."
+        }
+      }
+    },
+    "languages": {
+      "title": "Anglais et arabe, RTL complet",
+      "body": "Interfaces, invitations et rapports en anglais et en arabe avec mise en page de droite à gauche — conçus pour les équipes d'embauche du Moyen-Orient."
+    },
+    "flow": {
+      "kicker": "Le parcours candidat",
+      "title": "Une meilleure expérience d'entrevue",
+      "subtitle": "Asynchrone par conception — les candidats enregistrent quand ils sont prêts, dans un environnement calme, avec des reprises là où vous les autorisez.",
+      "items": {
+        "invite": {
+          "title": "Invitez à grande échelle",
+          "body": "Envoyez des invitations de marque à des milliers de candidats, avec une planification qui s'adapte à leur vie."
+        },
+        "record": {
+          "title": "Enregistrez une fois",
+          "body": "Les candidats répondent à des questions structurées sur n'importe quel appareil, avec un mode pratique pour calmer les nerfs."
+        },
+        "review": {
+          "title": "Examinez les preuves",
+          "body": "Des listes classées avec citations et horodatages — plus besoin de parcourir des heures de vidéo."
+        },
+        "decide": {
+          "title": "Décidez avec les données",
+          "body": "Des décisions cohérentes fondées sur des grilles, qui résistent à l'examen — et faciles à défendre devant les comités d'embauche."
+        }
+      }
+    },
+    "security": {
+      "kicker": "Sécurité et conformité",
+      "title": "La sécurité d'entreprise par défaut",
+      "body": "Authentification sécurisée, traitement chiffré des médias et surveillance des sessions — avec un traitement des données conforme à la PIPEDA, à la loi UU PDP 27/2022, au RGPD et à la PDPL. Voyez l'ensemble sur notre centre de confiance et sécurité.",
+      "cta": "Visiter le centre de confiance et sécurité"
+    },
+    "outcome": "La notation automatique réduit le temps de révision d'environ 80 % — une grille pour chaque candidat, avec des citations de preuves textuelles que votre comité peut défendre.",
+    "testimonials": {
+      "kicker": "Prouvé à grande échelle",
+      "title": "Les résultats d'évaluation derrière IntReview",
+      "subtitle": "L'échelle et la rigueur qu'IntReview hérite de 10 ans de campagnes réelles.",
+      "cta": "Votre programme d'entrevues pourrait être le prochain",
+      "items": {
+        "ptcl": {
+          "client": "PTCL",
+          "value": "25 000+",
+          "quote": "Des candidats évalués en quelques jours — des bassins de talents classés et riches en données issus du même moteur d'évaluation qui alimente IntReview."
+        },
+        "hbl": {
+          "client": "HBL",
+          "value": "4 000+",
+          "quote": "Des candidats évalués sur des jeux cognitifs et des situations réelles — les meilleurs embauchés comme stagiaires en gestion."
+        },
+        "faysal": {
+          "client": "Faysal Bank",
+          "value": "4–25 k",
+          "quote": "Des candidats par organisation via le recrutement ludifié — premier du secteur lors de son lancement en 2018."
+        },
+        "ici": {
+          "client": "ICI Pakistan",
+          "value": "4 000+",
+          "quote": "Des candidats évalués sur des scénarios de travail réels — un signal plus fiable qu'un test papier."
+        },
+        "bankAlfalah": {
+          "client": "Bank Alfalah",
+          "value": "7 000+",
+          "quote": "Des employés engagés dans une formation de conformité obligatoire à l'échelle nationale — mesurable, traçable et rapportable."
+        }
+      }
+    },
+    "comparison": {
+      "kicker": "Pourquoi les équipes changent",
+      "title": "IntReview contre la révision manuelle des entrevues",
+      "subtitle": "Les mêmes entrevues, une fraction du temps de révision.",
+      "us": "IntReview",
+      "them": "Révision manuelle",
+      "rows": {
+        "time": {
+          "feature": "Temps de révision",
+          "us": "~80 % de moins avec la notation IA",
+          "them": "Des heures de vidéo par candidat"
+        },
+        "consistency": {
+          "feature": "Cohérence",
+          "us": "Une grille, pour chaque candidat",
+          "them": "Un jugement qui dépend de l'intervieweur"
+        },
+        "scheduling": {
+          "feature": "Planification",
+          "us": "Les candidats enregistrent à leur convenance, sur tout appareil",
+          "them": "Coordonner des créneaux d'entrevue en direct"
+        },
+        "evidence": {
+          "feature": "Preuves",
+          "us": "Citations textuelles et horodatages",
+          "them": "Des notes prises après l'appel"
+        },
+        "integrity": {
+          "feature": "Intégrité",
+          "us": "Suivi du regard, changements d'onglet et analyse audio",
+          "them": "Des enregistrements non surveillés"
+        },
+        "scale": {
+          "feature": "Échelle",
+          "us": "4 000 à 25 000 candidats par campagne",
+          "them": "Limité par la capacité des recruteurs"
+        }
+      }
+    },
+    "results": {
+      "kicker": "Preuve",
+      "title": "Des résultats issus de programmes d'évaluation réels",
+      "subtitle": "Les plateformes derrière nos entrevues ont déjà géré le volume que vous planifiez.",
+      "cta": "Toutes les études de cas"
+    },
+    "faq": {
+      "kicker": "FAQ",
+      "title": "Les questions que nous posent les acheteurs",
+      "subtitle": "Des réponses directes — et la recherche qui les appuie.",
+      "items": {
+        "fairness": {
+          "q": "La notation IA est-elle juste et défendable ?",
+          "a": "Chaque candidat est noté selon la même grille, avec des citations de preuves textuelles et des horodatages pour chaque cote — pour qu'un comité d'embauche puisse vérifier chaque décision. La grille est la vôtre ; l'IA l'applique de façon constante."
+        },
+        "proctoring": {
+          "q": "Comment fonctionne la surveillance anti-triche ?",
+          "a": "Le suivi du regard, la détection de changements d'onglet et l'analyse audio multi-voix signalent automatiquement les sessions suspectes — sans faire de l'embauche un parcours du combattant pour les candidats honnêtes."
+        },
+        "questions": {
+          "q": "Quels types de questions sont pris en charge ?",
+          "a": "Plus de 18 types — vidéo, audio, texte, choix multiples, codage, échelles matricielles et d'évaluation, ordre de classement, glisser-déposer et plus — plus des questions générées par IA à partir de votre base de connaissances."
+        },
+        "candidate": {
+          "q": "À quoi ressemble l'expérience candidat ?",
+          "a": "Les candidats enregistrent des réponses structurées une seule fois, à leur convenance, sur tout appareil — avec un mode pratique pour apaiser les nerfs et des reprises là où vous les autorisez. Aucun téléchargement requis."
+        },
+        "whiteLabel": {
+          "q": "Peut-elle porter notre marque ?",
+          "a": "Oui — votre logo, vos couleurs, votre domaine, de bout en bout. Les candidats ne voient jamais une marque tierce."
+        },
+        "pricing": {
+          "q": "Comment fonctionne la tarification ?",
+          "a": "Un prix par candidat et par volume, localisé selon votre région. Commencez par un pilote de quelques centaines de candidats, puis passez à l'échelle. Réservez un appel pour les prix régionaux sous 24 à 48 heures."
+        }
+      }
+    },
+    "pricing": {
+      "kicker": "Tarification",
+      "title": "Une tarification simple, basée sur le contact",
+      "subtitle": "Le prix varie selon la région, le volume et les modules — voici comment cela fonctionne, sans mystère.",
+      "items": {
+        "volume": {
+          "title": "Tarification au volume, par candidat",
+          "body": "Facturé par candidat et par module, localisé dans la devise de votre marché — AED, PKR, CAD, IDR et plus."
+        },
+        "pilot": {
+          "title": "Un pilote avant de vous engager",
+          "body": "Menez d'abord une vraie campagne avec vos candidats — généralement 25 à 100 — et voyez les listes classées avant d'acheter à grande échelle."
+        },
+        "quote": {
+          "title": "Un devis régional sous 24 à 48 h",
+          "body": "Votre demande est acheminée à la plus proche de nos équipes à Dubaï, Karachi, au Canada ou en Indonésie pour un prix dans votre devise."
+        }
+      },
+      "cta": "Obtenir un devis régional",
+      "roiNote": "Vous préférez les chiffres ? Essayez le calculateur de ROI"
+    }
+  },
+  "trust": {
+    "kicker": "Confiance et sécurité",
+    "title": "Une confiance de calibre entreprise, région par région",
+    "subtitle": "Comment Intwish protège les données des candidats et des employés dans chaque marché que nous desservons.",
+    "compliance": {
+      "kicker": "Conformité",
+      "title": "Les marchés publics réglementés, couverts",
+      "subtitle": "Des déclarations de protection des données alignées sur les règlements de chaque marché où nous opérons.",
+      "items": {
+        "pipeda": {
+          "name": "PIPEDA",
+          "region": "Canada",
+          "body": "Entité canadienne avec déclarations de confidentialité en anglais et en français du Canada, et traitement des données fondé sur le consentement."
+        },
+        "pdp": {
+          "name": "UU PDP 27/2022",
+          "region": "Indonésie",
+          "body": "Loi indonésienne de protection des données de type RGPD — PT Intwish Global Solutions, avis de confidentialité en bahasa, garanties de transfert transfrontalier."
+        },
+        "gdpr": {
+          "name": "RGPD",
+          "region": "UE / mondial",
+          "body": "Consentement granulaire, voie de demande d'accès (DSAR) et accords de traitement des données pour les clients européens et mondiaux."
+        },
+        "pdpl": {
+          "name": "PDPL",
+          "region": "EAU / Arabie saoudite",
+          "body": "Déclarations de confidentialité en arabe et siège social à Dubaï, alignés sur la loi de protection des données des EAU et de l'Arabie saoudite."
+        }
+      }
+    },
+    "data": {
+      "title": "Nous traitons uniquement ce dont l'évaluation a besoin",
+      "body": "Les données des candidats et des employés sont recueillies à des fins d'évaluation explicites, réduites au minimum par conception et jamais vendues. L'accès est fondé sur les rôles et audité, et les données sont traitées en vertu d'accords écrits de traitement des données sur demande."
+    },
+    "hosting": {
+      "kicker": "Hébergement et sécurité",
+      "title": "Protégées au repos et en transit",
+      "items": {
+        "encryption": {
+          "title": "Chiffrement",
+          "body": "TLS en transit et chiffrement au repos, avec des en-têtes de sécurité appliqués à l'ensemble du site."
+        },
+        "access": {
+          "title": "Contrôle d'accès",
+          "body": "Accès fondé sur les rôles avec principes du moindre privilège et journalisation d'audit."
+        },
+        "uptime": {
+          "title": "Surveillance de la disponibilité",
+          "body": "Surveillance continue et canal de statut pour les plateformes dont vous dépendez."
+        },
+        "backup": {
+          "title": "Politique de sauvegarde",
+          "body": "Une politique documentée de sauvegarde et de récupération (Politique de sauvegarde Intwish v1.0) avec des procédures de restauration testées."
+        }
+      }
+    },
+    "retention": {
+      "title": "Conservées uniquement le temps nécessaire",
+      "body": "Les données d'évaluation sont conservées pendant la durée de votre programme, puis supprimées ou retournées selon votre politique — avec des calendriers clairs documentés dans nos conditions prêtes pour les conventions de traitement."
+    },
+    "roadmap": {
+      "kicker": "Feuille de route de certification",
+      "title": "Transparents sur où nous en sommes",
+      "body": "Nous poursuivons les certifications ISO 27001 et SOC 2 Type 2 et publions nos progrès ici. Tant que la certification n'est pas complétée, nous ne revendiquons jamais un statut audité que nous n'avons pas — les contrôles, politiques et pratiques sont déjà en place.",
+      "status": "ISO 27001 · SOC 2 — feuille de route en cours"
+    },
+    "contact": {
+      "title": "Signaler un problème ou demander une convention de traitement",
+      "body": "Pour les divulgations de sécurité, les accords de traitement des données ou les questions de conformité, joignez directement notre équipe.",
+      "cta": "Contacter l'équipe de sécurité"
+    }
+  },
+  "roi": {
+    "kicker": "Calculateur de ROI",
+    "title": "Estimez le temps économisé par rapport au recrutement traditionnel",
+    "subtitle": "Déplacez les curseurs selon vos chiffres — voyez ce que l'évaluation automatisée fait économiser à votre équipe chaque année.",
+    "candidates": "Candidats par année",
+    "screenMinutes": "Minutes d'examen manuel par candidat",
+    "recruiterCost": "Coût horaire moyen d'un recruteur",
+    "savedHours": "Heures économisées par année",
+    "savedDays": "Jours ouvrables économisés par année",
+    "savedCost": "Coût estimé économisé par année",
+    "teamsNote": "C'est environ {teams} recruteurs à temps plein libérés pour un travail à plus forte valeur.",
+    "disclaimer": "Estimations fondées sur vos données et les repères typiques d'automatisation de l'évaluation. Le ROI final dépend de la structure du programme.",
+    "bookPilot": "Réserver un projet pilote pour obtenir de vrais chiffres",
+    "candidatesLabel": "candidats/an",
+    "minutesLabel": "min/candidat",
+    "currencyLabel": "coût/h",
+    "currency": "C$"
+  },
+  "notFound": {
+    "code": "404",
+    "title": "Cette page a pris le mauvais chemin.",
+    "body": "La page que vous cherchez n'existe pas ou a été déplacée.",
+    "cta": "Retour à l'accueil"
+  },
+  "insights": {
+    "kicker": "Recherche et perspectives",
+    "title": "Des données probantes derrière les résultats",
+    "subtitle": "Rapports de référence, livres blancs et guides pratiques issus de 10 ans et de plus de 300 000 évaluations en Asie du Sud, au Moyen-Orient et ailleurs.",
+    "readTime": "{count} min de lecture",
+    "readCta": "Lire",
+    "gatedLabel": "Accès contrôlé",
+    "types": {
+      "report": "Rapport",
+      "whitepaper": "Livre blanc",
+      "playbook": "Guide pratique",
+      "article": "Article",
+      "webinar": "Webinaire"
+    },
+    "filters": {
+      "all": "Tout",
+      "report": "Rapports",
+      "whitepaper": "Livres blancs",
+      "playbook": "Guides pratiques",
+      "article": "Articles",
+      "webinar": "Webinaires"
+    },
+    "featured": {
+      "kicker": "Rapport phare",
+      "cta": "Obtenir le rapport"
+    },
+    "hub": {
+      "title": "Dernières publications",
+      "subtitle": "Recherches, références et guides pratiques issus de nos programmes d'évaluation"
+    },
+    "webinar": {
+      "kicker": "Démo en direct",
+      "note": "30 minutes avec notre équipe produit — pas de diapositives, la vraie plateforme."
+    },
+    "gate": {
+      "teaserTitle": "Ce qu'il contient",
+      "kicker": "Ressource à accès contrôlé",
+      "title": "Obtenir le rapport complet",
+      "subtitle": "Saisissez vos coordonnées et nous vous enverrons le rapport complet par courriel — gratuitement, sans appel commercial.",
+      "name": "Votre nom",
+      "email": "Votre courriel professionnel",
+      "company": "Entreprise (facultatif)",
+      "submit": "Envoyez-moi le rapport",
+      "sending": "Envoi…",
+      "success": "Vérifiez votre boîte de réception",
+      "successNote": "Votre exemplaire du rapport est en route. S'il n'arrive pas sous quelques minutes, vérifiez votre dossier de courrier indésirable.",
+      "error": "Une erreur est survenue. Veuillez réessayer ou nous écrire à info@intwish.com.",
+      "notConfigured": "Le service de téléchargement n'est pas encore configuré. Écrivez à info@intwish.com et nous vous l'enverrons directement.",
+      "required": "Veuillez saisir votre nom et une adresse courriel valide.",
+      "privacy": "Nous utilisons vos coordonnées uniquement pour envoyer la ressource et des informations pertinentes. Pas de pourriel — désinscription à tout moment.",
+      "lockedNote": "Le rapport complet se déverrouille après confirmation de votre courriel ci-dessus."
+    },
+    "sourcesLabel": "Sources et données",
+    "relatedTitle": "Études de cas connexes",
+    "relatedProducts": "Découvrir les plateformes",
+    "back": "Retour aux publications"
+  },
+  "media": {
+    "kicker": "Médias et distinctions",
+    "title": "Une reconnaissance à la hauteur",
+    "subtitle": "Une décennie de premières en Asie du Sud et au Moyen-Orient — des jalons remarqués par nos clients, partenaires et la presse.",
+    "awards": {
+      "kicker": "Distinctions",
+      "title": "Des premières, à grande échelle",
+      "subtitle": "Des jalons qui marquent notre parcours — et la barre que nous fixons pour la suite.",
+      "items": {
+        "pioneer": {
+          "title": "Pionnier de la ludification au Pakistan",
+          "body": "A introduit la ludification dans l'entreprise pakistanaise, dès la formation de 4 000+ employés de Bank Alfalah en 2016."
+        },
+        "first3d": {
+          "title": "Première simulation de recrutement 3D",
+          "body": "Lancé la première simulation de recrutement 3D au Pakistan pour HBL — 4 000+ candidats, les meilleurs embauchés comme stagiaires en gestion."
+        },
+        "largest": {
+          "title": "Plus grande campagne MT ludifiée",
+          "body": "Évalué 25 000+ candidats à travers le pays pour PTCL en quelques jours — à une échelle que les tests traditionnels ne pouvaient absorber."
+        },
+        "firstIndustry": {
+          "title": "Premier du secteur",
+          "body": "Faysal Bank est devenue la première banque à lancer le recrutement ludifié en 2018."
+        },
+        "scale": {
+          "title": "Échelle d'entreprise",
+          "body": "Des plateformes utilisées par 7 000+ employés par organisation, de la rétroaction 360° à la formation à la conformité."
+        },
+        "reach": {
+          "title": "300 000+ professionnels",
+          "body": "Plus de 300 000 utilisateurs uniques évalués et formés dans cinq marchés en dix ans."
+        }
+      }
+    },
+    "media": {
+      "title": "Dans les médias",
+      "body": "Nos travaux ont été couverts par la presse économique et technologique nationale des marchés que nous servons — de la formation bancaire ludifiée aux campagnes de sélection du secteur public.",
+      "items": [
+        "Couverture de presse nationale au Pakistan et aux Émirats arabes unis",
+        "Présence dans des publications économiques et technologiques",
+        "Conférences et panels lors d'événements de l'industrie",
+        "Études de cas citées par des équipes RH d'entreprise"
+      ]
+    },
+    "contact": {
+      "title": "Demandes de presse et médias",
+      "body": "Pour des entrevues, commentaires, demandes de conférence ou documents de presse, notre équipe répond sous un jour ouvrable.",
+      "cta": "Écrire au bureau des médias"
+    }
+  },
+  "consent": {
+    "title": "Nous respectons votre vie privée",
+    "body": "Nous utilisons des témoins (cookies) et des outils d'analyse pour comprendre l'utilisation du site et l'améliorer. Acceptez ou refusez avant que nous chargions tout outil d'analyse ou de clavardage tiers. Votre choix est enregistré uniquement sur cet appareil.",
+    "accept": "Tout accepter",
+    "decline": "Refuser"
+  },
+  "terms": {
+    "intro": "Les conditions qui s'appliquent lorsque vous utilisez ce site web ou faites appel aux services d'Intwish. Les plateformes elles-mêmes — intOS et IntReview — sont régies par les accords que vous signez avec nous.",
+    "servicesTitle": "Nos services et engagements",
+    "servicesBody": "Les engagements de formation, de recrutement et d'évaluation sont fournis dans le cadre d'accords écrits qui définissent la portée, les prix, le traitement des données et les livrables. Rien sur ce site web ne constitue une offre ou un contrat, sauf convention écrite.",
+    "disclaimer": "Cette page est un résumé de nos conditions et ne constitue pas un avis juridique. Les accords sont conclus par écrit pour chaque engagement."
+  },
+  "demo": {
+    "intosDemo": "Réserver une démo d'intOS",
+    "intreviewDemo": "Réserver une démo d'IntReview",
+    "project": "Démarrer un projet de ludification",
+    "general": "Demande générale",
+    "kicker": "Démo et projets pilotes",
+    "title": "Voyez-le en direct, avec vos chiffres",
+    "subtitle": "Une session de 30 minutes avec notre équipe produit — pas de diapositives, juste la vraie plateforme. Nous cadrerons un projet pilote adapté à votre volume et partagerons nos prix régionaux.",
+    "formTitle": "Demander votre démo",
+    "name": "Votre nom",
+    "email": "Votre courriel professionnel",
+    "company": "Entreprise",
+    "companyOptional": "facultatif",
+    "intent": "Je m'intéresse à",
+    "notes": "Quelque chose à savoir ? (facultatif)",
+    "submit": "Demander une démo",
+    "sending": "Envoi…",
+    "success": "Merci — nous vous répondrons sous un jour ouvrable.",
+    "successNote": "Un spécialiste régional vous contactera pour planifier la démonstration et vous communiquer les prix.",
+    "error": "Une erreur est survenue. Veuillez réessayer ou nous écrire directement à info@intwish.com.",
+    "notConfigured": "Le service de réservation n'est pas encore configuré. Écrivez-nous à info@intwish.com.",
+    "required": "Veuillez saisir votre nom et un courriel professionnel valide.",
+    "nextTitle": "Ce qui se passe ensuite",
+    "steps": {
+      "confirm": {
+        "title": "Réponse rapide",
+        "body": "Un spécialiste régional répond sous un jour ouvrable — depuis Dubaï, Karachi, le Canada ou l'Indonésie."
+      },
+      "walkthrough": {
+        "title": "Démonstration en direct",
+        "body": "Une session de 30 minutes sur la vraie plateforme, adaptée à votre volume d'embauche et à l'expérience candidat."
+      },
+      "pilot": {
+        "title": "Proposition pilote",
+        "body": "Vous recevez un plan pilote et des prix régionaux — pour tester une vraie campagne avant de vous engager."
+      }
+    },
+    "privacy": "Nous n'utilisons vos coordonnées que pour organiser votre démo. Pas de courriels indésirables — désinscription à tout moment."
+  },
+  "privacy": {
+    "intro": "Un résumé en langage clair de la façon dont Intwish collecte, utilise, protège et conserve les données personnelles dans les marchés que nous servons. Pour les documents officiels — accords de traitement des données, demandes DPA et divulgations de sécurité — contactez directement notre équipe.",
+    "disclaimer": "Cette page est un résumé de nos pratiques en matière de confidentialité et ne constitue pas un avis juridique. Les conditions contractuelles, les DPA et les obligations spécifiques sont convenues par écrit pour chaque engagement."
+  },
+  "footer": {
+    "blurb": "Des plateformes d'apprentissage, d'évaluation et de simulation immersives pour les organisations les plus exigeantes au monde.",
+    "explore": "Explorer",
+    "about": "À propos",
+    "services": "Services",
+    "caseStudies": "Études de cas",
+    "contact": "Contact",
+    "productsTitle": "Produits",
+    "intos": "intOS — Plateforme d'évaluation à OS virtuel",
+    "intreview": "IntReview — Entrevues assistées par IA",
+    "sandboxNote": "Les centres produits avec démonstrations en direct sont en ligne — essayez-les.",
+    "contactTitle": "Contact",
+    "rights": "Tous droits réservés.",
+    "regions": "Immatriculé : Pakistan · EAU · Canada · Indonésie",
+    "privacy": "Confidentialité",
+    "terms": "Conditions",
+    "security": "Confiance et sécurité",
+    "linkedin": "Intwish sur LinkedIn",
+    "facebook": "Intwish sur Facebook",
+    "insights": "Perspectives et recherche",
+    "media": "Médias et prix",
+    "cookieSettings": "Paramètres des témoins",
+    "science": "Science et méthodologie"
+  },
+  "cta": {
+    "title": "DefineYourWish(); — construisons la vôtre.",
+    "subtitle": "Réservez une démo d'intOS et d'IntReview — ou démarrez un projet de formation, d'évaluation ou de simulation ludifiée avec l'équipe qui l'a inaugurée au Pakistan.",
+    "sandboxCta": "Essayez la démo intOS",
+    "kicker": "}; // compiled and ready",
+    "trustLine": "Bank Alfalah · HBL · PTCL · Shell · K-Electric · Daraz · plus de 300 000 professionnels évalués"
+  },
+  "announcement": {
+    "message": "Le bac à sable intOS est en ligne — essayez-le dès maintenant",
+    "dismiss": "Fermer l'annonce"
+  },
+  "servicesBand": {
+    "kicker": "const services = deploy(",
+    "title": "La capacité d'ingénierie derrière les produits ci-dessus",
+    "subtitle": "La même équipe qui bâtit intOS et IntReview déploie vos programmes de formation, de recrutement, d'engagement, de portails et de 360°."
+  },
+  "science": {
+    "kicker": "const science = prove(",
+    "title": "Fondé sur la science, pas seulement la ludification",
+    "body": "Nos évaluations reposent sur la théorie du jugement situationnel et des méthodes psychométriques issues de la psychologie industrielle et organisationnelle — validées, mesurées et liées à la réussite réelle en poste.",
+    "cta": "Lire notre méthodologie",
+    "placeholder": "À RÉSERVER — précisions méthodologiques à venir"
+  },
+  "megaMenu": {
+    "products": {
+      "intos": {
+        "name": "intOS",
+        "tagline": "La plateforme d'évaluation à OS virtuel"
+      },
+      "intreview": {
+        "name": "IntReview",
+        "tagline": "Entrevues et évaluations assistées par IA"
+      },
+      "sandbox": "Testez une session en direct de l'OS virtuel exact qu'utilisent vos candidats.",
+      "trySandbox": "Essayer le bac à sable intOS"
+    },
+    "services": {
+      "training": {
+        "slug": "training-learning",
+        "name": "Formation et apprentissage",
+        "tagline": "Un apprentissage ludifié que les employés terminent — et dont ils se souviennent."
+      },
+      "recruitment": {
+        "slug": "recruitment-assessment",
+        "name": "Recrutement et évaluation",
+        "tagline": "Embauche ludifiée à grand volume qui filtre la vraie compétence."
+      },
+      "engagement": {
+        "slug": "employee-engagement",
+        "name": "Engagement des employés",
+        "tagline": "Des expériences immersives qui font bouger les mesures d'engagement."
+      },
+      "portals": {
+        "slug": "enterprise-portals",
+        "name": "Portails d'entreprise",
+        "tagline": "Des portails d'apprentissage et d'intégration qui passent à l'échelle."
+      },
+      "feedback": {
+        "slug": "360-feedback",
+        "name": "Rétroaction 360°",
+        "tagline": "Rétroaction multi-évaluateurs automatisée et mesurée à grande échelle."
+      },
+      "arVr": {
+        "slug": "ar-vr-simulation",
+        "name": "Simulation RA / RV",
+        "tagline": "Simulations immersives pour les postes à haut risque."
+      }
+    }
+  }
+}
