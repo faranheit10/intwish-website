@@ -10,7 +10,7 @@ import { Analytics } from "@/components/Analytics";
 import { ConsentManager } from "@/components/ConsentManager";
 import { ChatWidget } from "@/components/ChatWidget";
 import { BackToTop } from "@/components/BackToTop";
-import { NavigationAnnouncement } from "@/components/NavigationAnnouncement";
+
 import { StickyMobileCTA } from "@/components/StickyMobileCTA";
 import { company, team } from "@/content/site";
 import { SITE_URL } from "@/lib/site-url";
@@ -156,7 +156,6 @@ export default async function LocaleLayout({
           <Analytics />
           <ConsentManager />
           <ChatWidget />
-          <NavigationAnnouncement />
           <Header />
           <main id="main">{children}</main>
           <Footer />

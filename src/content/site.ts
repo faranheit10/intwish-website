@@ -1,4 +1,4 @@
-﻿import type { Localized } from "./types";
+import type { Localized } from "./types";
 
 /** Company-wide facts (contacts, entities, socials). */
 export const company = {
@@ -27,7 +27,7 @@ export const clientNames: string[] = [
   "ICI Pakistan",
   "Faysal Bank",
   "Descon",
-  "Saudi Business Center",
+  "Saudi Competitiveness & Business Center (SCBC)",
   "Foundation Public School",
   "IRD",
 ];

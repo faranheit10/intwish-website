@@ -117,7 +117,7 @@ export const insightPosts: Insight[] = [
         en: "Intwish assessment platform data, 2016–2026 — 300,000+ assessments across five markets",
       },
       {
-        en: "Completion and validity benchmarks from internal deployments (Bank Alfalah, PTCL, HBL, ICI Pakistan, K-Electric, Saudi Business Center)",
+        en: "Completion and validity benchmarks from internal deployments (Bank Alfalah, PTCL, HBL, ICI Pakistan, K-Electric, Saudi Competitiveness & Business Center - SCBC)",
       },
     ],
     gated: true,
@@ -728,12 +728,12 @@ export const insightPosts: Insight[] = [
         },
         paragraphs: [
           {
-            en: "Simulation-based assessment with automated scoring, integrity watchlists and full audit trails — the same machinery trusted by Saudi Business Center and public-sector engagements across the region.",
+            en: "Simulation-based assessment with automated scoring, integrity watchlists and full audit trails — the same machinery trusted by Saudi Competitiveness & Business Center (SCBC) and public-sector engagements across the region.",
             "fr-CA":
-              "Une évaluation fondée sur la simulation avec notation automatisée, listes de surveillance de l'intégrité et pistes d'audit complètes — la même machinerie à laquelle font confiance le Saudi Business Center et les engagements du secteur public dans toute la région.",
+              "Une évaluation fondée sur la simulation avec notation automatisée, listes de surveillance de l'intégrité et pistes d'audit complètes — la même machinerie à laquelle font confiance le Saudi Competitiveness & Business Center (SCBC) et les engagements du secteur public dans toute la région.",
             "id-ID":
-              "Asesmen berbasis simulasi dengan penilaian otomatis, daftar pantau integritas, dan jejak audit lengkap — mesin yang sama yang dipercaya Saudi Business Center dan keterlibatan sektor publik di seluruh kawasan.",
-            ar: "تقييم قائم على المحاكاة مع تصحيح آلي وقوائم مراقبة نزاهة وسجلات تدقيق كاملة — الآلية ذاتها التي يثق بها مركز الأعمال السعودي والجهات العامة في جميع أنحاء المنطقة.",
+              "Asesmen berbasis simulasi dengan penilaian otomatis, daftar pantau integritas, dan jejak audit lengkap — mesin yang sama yang dipercaya Saudi Competitiveness & Business Center (SCBC) dan keterlibatan sektor publik di seluruh kawasan.",
+            ar: "تقييم قائم على المحاكاة مع تصحيح آلي وقوائم مراقبة نزاهة وسجلات تدقيق كاملة — الآلية ذاتها التي يثق بها المركز السعودي للتنافسية والأعمال والجهات العامة في جميع أنحاء المنطقة.",
           },
         ],
       },

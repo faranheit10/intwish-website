@@ -202,11 +202,10 @@ export const services: Service[] = [
       ar: "منصات معيارية تتمركز حول الخدمات والتدريب والجودة.",
     },
     description: {
-      en: "Enterprise-grade portals with custom dashboards, role-based access, knowledge bases, mystery-shopper evaluations and training modules. The Knowledge Gate Portal for the Saudi Business Center serves ministries and public-service entities across the Kingdom.",
-      
-      "fr-CA": "Des portails de calibre entreprise avec tableaux de bord personnalisés, accès fondé sur les rôles, bases de connaissances, évaluations de client mystère et modules de formation. Le portail Knowledge Gate du Saudi Business Center dessert des ministères et des entités de service public dans tout le Royaume.",
-      "id-ID": "Portal kelas enterprise dengan dashboard khusus, akses berbasis peran, basis pengetahuan, evaluasi mystery shopper, dan modul pelatihan. Portal Knowledge Gate untuk Saudi Business Center melayani kementerian dan entitas layanan publik di seluruh Kerajaan.",
-      ar: "بوابات مؤسسية بمعايير عالية مع لوحات تحكم مخصصة، ووصول حسب الأدوار، وقواعد معرفة، وتقييمات المتسوق الخفي، ووحدات تدريب. تخدم بوابة Knowledge Gate لمركز الأعمال السعودي الوزارات والجهات الحكومية في جميع أنحاء المملكة.",
+      en: "Enterprise-grade portals with custom dashboards, role-based access, knowledge bases, mystery-shopper evaluations and training modules. The Knowledge Gate Portal for the Saudi Competitiveness & Business Center (SCBC) serves ministries and public-service entities across the Kingdom.",
+      "fr-CA": "Des portails de calibre entreprise avec tableaux de bord personnalisés, accès fondé sur les rôles, bases de connaissances, évaluations de client mystère et modules de formation. Le portail Knowledge Gate du Saudi Competitiveness & Business Center (SCBC) dessert des ministères et des entités de service public dans tout le Royaume.",
+      "id-ID": "Portal kelas enterprise dengan dashboard khusus, akses berbasis peran, basis pengetahuan, evaluasi mystery shopper, dan modul pelatihan. Portal Knowledge Gate untuk Saudi Competitiveness & Business Center (SCBC) melayani kementerian dan entitas layanan publik di seluruh Kerajaan.",
+      ar: "بوابات مؤسسية بمعايير عالية مع لوحات تحكم مخصصة، ووصول حسب الأدوار، وقواعد معرفة، وتقييمات المتسوق الخفي، ووحدات تدريب. تخدم بوابة Knowledge Gate للمركز السعودي للتنافسية والأعمال الوزارات والجهات الحكومية في جميع أنحاء المملكة.",
     },
     outcomes: {
       en: [

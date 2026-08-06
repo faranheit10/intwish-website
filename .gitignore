@@ -47,3 +47,7 @@ mock_intwish*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# research/raw case study material
+case_studies/
+

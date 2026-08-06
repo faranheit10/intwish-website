@@ -1,4 +1,4 @@
-﻿import type { Localized } from "./types";
+import type { Localized } from "./types";
 
 export interface CaseStudy {
   slug: string;
@@ -361,6 +361,7 @@ export const caseStudies: CaseStudy[] = [
   {
     slug: "fps-entry-test",
     client: "Foundation Public School",
+    date: "2018",
     industry: {
       en: "Education",
       
@@ -524,6 +525,7 @@ export const caseStudies: CaseStudy[] = [
   {
     slug: "kelectric-360",
     client: "K-Electric",
+    date: "2019",
     industry: {
       en: "Energy",
       
@@ -576,11 +578,22 @@ export const caseStudies: CaseStudy[] = [
           ar: "صفحة من التحليل الآلي",
         },
       },
+      {
+        value: { en: "100",  "fr-CA": "100", "id-ID": "100", ar: "100" },
+        label: {
+          en: "Higher management employees",
+          
+          "fr-CA": "Employés de la haute direction",
+          "id-ID": "Karyawan manajemen senior",
+          ar: "موظف من الإدارة العليا",
+        },
+      },
     ],
   },
   {
     slug: "ird-epi-rehnuma",
     client: "IRD",
+    date: "2021",
     industry: {
       en: "Public Health",
       
@@ -607,25 +620,42 @@ export const caseStudies: CaseStudy[] = [
       en: [
         "Intwish created a gamified learning application for vaccinators under the EPI Rehnuma initiative.",
         "The app includes levels, storylines, assessments and rewards to teach vaccine management, birth dose protocols, COVID-19 SOPs, waste disposal and communication skills — with video learning, interactive quizzes, a scoring system and a leaderboard.",
+        "Launched in 2021 with 6 learning modules, a seventh module was added in 2022 and a further five by 2024 — bringing the app to 13 modules covering vaccine stock management, zero dose, adverse events following immunization, cold chain, outbreak response and caregiver counselling.",
       ],
       
       "fr-CA": [
         "Intwish a créé une application d'apprentissage ludifiée pour les vaccinateurs dans le cadre de l'initiative EPI Rehnuma.",
         "L'application comprend des niveaux, des scénarios, des évaluations et des récompenses pour enseigner la gestion des vaccins, les protocoles de dose néonatale, les protocoles COVID-19, l'élimination des déchets et les compétences en communication — avec apprentissage vidéo, quiz interactifs, système de pointage et classement.",
+        "Lancée en 2021 avec 6 modules de formation, un septième module a été ajouté en 2022 et cinq de plus d'ici 2024 — portant l'application à 13 modules couvrant la gestion des stocks de vaccins, la dose zéro, les manifestations post-vaccinales indésirables, la chaîne du froid, la réponse aux flambées et le conseil aux proches aidants.",
       ],
       "id-ID": [
         "Intwish membuat aplikasi pembelajaran gamifikasi untuk vaksinator dalam inisiatif EPI Rehnuma.",
         "Aplikasi ini mencakup level, alur cerita, asesmen, dan penghargaan untuk mengajarkan manajemen vaksin, protokol dosis lahir, SOP COVID-19, pembuangan limbah, dan keterampilan komunikasi — dengan pembelajaran video, kuis interaktif, sistem penilaian, dan papan peringkat.",
+        "Diluncurkan pada 2021 dengan 6 modul pembelajaran, modul ketujuh ditambahkan pada 2022 dan lima modul lagi pada 2024 — menjadikan aplikasi memiliki 13 modul yang mencakup manajemen stok vaksin, zero dose, kejadian ikutan pasca imunisasi (KIPI), rantai dingin, respons wabah, dan konseling pengasuh.",
       ],
       ar: [
         "أنشأت إنترويش تطبيقاً تفاعلياً للتعلم للملقّحين ضمن مبادرة EPI Rehnuma.",
         "يتضمن التطبيق مراحل وقصصاً وتقييمات ومكافآت لتعليم إدارة اللقاحات وبروتوكولات جرعة الولادة وإجراءات كوفيد-19 والتخلص من النفايات ومهارات التواصل — مع تعلم بالفيديو واختبارات تفاعلية ونظام تنقيط ولوحة متصدرين.",
+        "أُطلق التطبيق في 2021 بعدة وحدات تعليمية (6)، وأُضيفت وحدة سابعة في 2022 ثم خمس وحدات إضافية بحلول 2024 — ليصل إلى 13 وحدة تغطي إدارة مخزون اللقاحات والجرعة الصفرية والآثار الجانبية التالية للتمنيع وحفظ سلسلة التبريد والاستجابة للفاشيات وإرشاد مقدّمي الرعاية.",
       ],
     },
+    metrics: [
+      {
+        value: { en: "2,000+",  "fr-CA": "2 000+", "id-ID": "2.000+", ar: "+2,000" },
+        label: {
+          en: "Vaccinators trained",
+          
+          "fr-CA": "Vaccinateurs formés",
+          "id-ID": "Vaksinator dilatih",
+          ar: "مُلقّح تلقى التدريب",
+        },
+      },
+    ],
   },
   {
     slug: "hbl-design-thinking",
     client: "HBL",
+    date: "2022",
     industry: {
       en: "Banking",
       
@@ -683,6 +713,7 @@ export const caseStudies: CaseStudy[] = [
   {
     slug: "hbl-agile",
     client: "HBL",
+    date: "2022",
     industry: {
       en: "Banking",
       
@@ -740,6 +771,7 @@ export const caseStudies: CaseStudy[] = [
   {
     slug: "daraz-academy",
     client: "Daraz",
+    date: "2022",
     industry: {
       en: "E-commerce & Logistics",
       
@@ -781,10 +813,23 @@ export const caseStudies: CaseStudy[] = [
         "شمل التطبيق وحدات عن تجهيز المسار والتفاعل مع العملاء والسلوك المهني. وتم تتبع الدرجات والتقدم على لوحة تحكم إلكترونية لمراقبة فعالية التدريب وجاهزية كل بطل توصيل في جميع أنحاء باكستان.",
       ],
     },
+    metrics: [
+      {
+        value: { en: "2,000+",  "fr-CA": "2 000+", "id-ID": "2.000+", ar: "+2,000" },
+        label: {
+          en: "Riders trained & hired since",
+          
+          "fr-CA": "Coursiers formés et embauchés depuis",
+          "id-ID": "Pengendara dilatih & direkrut sejak",
+          ar: "سائق تدرب وعُيّن منذ ذلك الحين",
+        },
+      },
+    ],
   },
   {
     slug: "shell-driver-training",
     client: "Shell",
+    date: "2021",
     industry: {
       en: "Energy",
       
@@ -828,119 +873,535 @@ export const caseStudies: CaseStudy[] = [
     },
     metrics: [
       {
-        value: { en: "Fleet-wide",  "fr-CA": "Toute la flotte", "id-ID": "Seluruh armada", ar: "الأسطول كاملاً" },
+        value: { en: "2,000",  "fr-CA": "2 000", "id-ID": "2.000", ar: "2,000" },
         label: {
-          en: "Standardized safety training",
+          en: "Truck drivers trained",
           
-          "fr-CA": "Formation à la sécurité normalisée",
-          "id-ID": "Pelatihan keselamatan terstandarisasi",
-          ar: "تدريب سلامة معياري",
+          "fr-CA": "Conducteurs de camions formés",
+          "id-ID": "Pengemudi truk dilatih",
+          ar: "سائق شاحنة تلقى التدريب",
         },
       },
     ],
   },
   {
     slug: "sbc-knowledge-gate",
-    client: "Saudi Business Center",
+    client: "Saudi Competitiveness & Business Center (SCBC)",
     date: "2021",
     industry: {
       en: "Government",
-      
       "fr-CA": "Gouvernement",
       "id-ID": "Pemerintahan",
       ar: "القطاع الحكومي",
     },
     image: "/img/portfolio/Portfolio15.webp",
     title: {
-      en: "Knowledge Gate Portal",
-      
-      "fr-CA": "Portail Knowledge Gate",
-      "id-ID": "Portal Knowledge Gate",
-      ar: "بوابة Knowledge Gate",
+      en: "Knowledge Gate Portal — Enterprise Knowledge & Performance Engine",
+      "fr-CA": "Portail Knowledge Gate — Moteur de connaissances et de performance d'entreprise",
+      "id-ID": "Portal Knowledge Gate — Mesin Pengetahuan & Performa Enterprise",
+      ar: "بوابة Knowledge Gate — المنظومة المؤسسية لإدارة المعرفة والأداء",
     },
     summary: {
-      en: "An enterprise-grade modular portal centralizing government service data, performance, training and quality monitoring across Saudi ministries.",
-      
-      "fr-CA": "Un portail modulaire de calibre entreprise centralisant les données des services gouvernementaux, la performance, la formation et le suivi de la qualité dans les ministères saoudiens.",
-      "id-ID": "Portal modular kelas enterprise yang mensentralisasi data layanan pemerintah, performa, pelatihan, dan pemantauan kualitas di kementerian Arab Saudi.",
-      ar: "بوابة معيارية بمعايير مؤسسية تتمركز حول بيانات الخدمات الحكومية والأداء والتدريب ومراقبة الجودة في الوزارات السعودية.",
+      en: "An enterprise-grade modular portal centralizing service procedures, performance management, training, and quality monitoring across 10+ Saudi government entities for all SCBC employees nationwide.",
+      "fr-CA": "Un portail modulaire de calibre entreprise centralisant les procédures de service, la gestion de la performance, la formation et le suivi de la qualité dans plus de 10 entités gouvernementales saoudiennes pour tous les employés de SCBC à l'échelle nationale.",
+      "id-ID": "Portal modular kelas enterprise yang mensentralisasi prosedur layanan, manajemen performa, pelatihan, dan pemantauan kualitas di 10+ entitas pemerintah Arab Saudi untuk seluruh karyawan SCBC secara nasional.",
+      ar: "بوابة معيارية بمعايير مؤسسية تتمركز حول إجراءات الخدمات الحكومية وإدارة الأداء والتدريب ومراقبة الجودة عبر أكثر من 10 جهات حكومية لكافة موظفي المركز السعودي للتنافسية والأعمال على مستوى المملكة.",
     },
     body: {
       en: [
-        "Intwish developed the Knowledge Gate Portal for the Saudi Business Center (SBC) — a modular, enterprise-grade platform centralizing government service data and supporting performance management, training and quality monitoring across Saudi ministries and public service entities.",
-        "Core modules: a Knowledge Base & Search Engine with expert-led updates and structured taxonomy; Assessments & Surveys with 15+ question types, access controls and real-time analytics; Mystery Shopper evaluations with customizable criteria, auto-scoring and consolidated reporting; and full Training Management — planning, content delivery, session tracking and external provider integration.",
+        "Intwish developed the Knowledge Gate Portal for the Saudi Competitiveness & Business Center (SCBC, formerly SBC) — a modular, enterprise-grade digital platform commissioned to centralize government service data, elevate public service delivery standards, and support operational decision-making across Saudi ministries and public service entities in line with Saudi Vision 2030.",
+        "Engineered around a Google-inspired smart search engine, Knowledge Gate integrates service data across 10+ partner entities — including the Ministry of Commerce, ZATCA, Qiwa, MISA, MOMRAH, MHRSD, and the Federation of Saudi Chambers. The engine features predictive search-as-you-type, automated query suggestion algorithms, personalized recently searched items, and organization-wide common query highlights. By structuring complex government procedures, fees, documentation requirements, and SLAs into intuitive digital taxonomy cards, the portal drastically reduces query resolution Turn-Around-Time (TAT) for front-desk staff and call center representatives.",
+        "To maintain content accuracy in a dynamic regulatory environment, the platform incorporates a Wikipedia-style community content update framework. Frontline representatives can suggest updates, submit procedural clarifications, and recommend helpful shortcuts, which pass through a multi-stage administrative review workflow before live publication. Complementing search capability is an integrated Online Assessment & Survey Suite capable of rendering 15+ question types — enabling L&D administrators to deploy knowledge checks, survey employee operational feedback, track individual skill gaps, and export granular demographic analytics.",
+        "Knowledge Gate serves as a unified digital ecosystem by offering single sign-on (SSO) integration with the SCBC gamified training suite ('Reaching the Top'). Employees maintain a single profile tracking both reference activity and training achievements, skill badges, trust meters, and workshop schedules. Built on a resilient Node.js, Express, and MongoDB multi-tier architecture with JWT/RSA security, the solution supports 300+ concurrent active sessions with zero latency across browser and government intranet environments.",
       ],
-      
       "fr-CA": [
-        "Intwish a développé le portail Knowledge Gate pour le Saudi Business Center (SBC) — une plateforme modulaire de calibre entreprise centralisant les données des services gouvernementaux et soutenant la gestion de la performance, la formation et le suivi de la qualité dans les ministères et les entités de service public saoudiens.",
-        "Modules principaux : une base de connaissances et un moteur de recherche avec des mises à jour menées par des experts et une taxonomie structurée ; des évaluations et sondages avec plus de 15 types de questions, des contrôles d'accès et des analyses en temps réel ; des évaluations de client mystère avec des critères personnalisables, une correction automatique et des rapports consolidés ; et une gestion complète de la formation — planification, diffusion du contenu, suivi des sessions et intégration de fournisseurs externes.",
+        "Intwish a développé le portail Knowledge Gate pour le Saudi Competitiveness & Business Center (SCBC, anciennement SBC) — une plateforme numérique modulaire de calibre entreprise conçue pour centraliser les données des services gouvernementaux, élever les normes de prestation des services publics et soutenir la prise de décision opérationnelle dans les ministères et entités publiques saoudiens conformément à la Vision 2030 saoudienne.",
+        "Conçu autour d'un moteur de recherche intelligent inspiré de Google, Knowledge Gate intègre les données de service de plus de 10 entités partenaires — notamment le ministère du Commerce, ZATCA, Qiwa, MISA, MOMRAH, MHRSD et la Fédération des chambres saoudiennes. Le moteur intègre la saisie intuitive prédictive, des algorithmes de suggestion automatique de requêtes, des éléments récents personnalisés et des raccourcis de requêtes courantes. En structurant les procédures complexes, frais, documents requis et SLA en cartes taxonomiques numériques, le portail réduit drastiquement le temps de traitement (TAT) des demandes pour le personnel de réception et les agents du centre d'appels.",
+        "Pour maintenir l'exactitude du contenu dans un environnement réglementaire dynamique, la plateforme intègre un cadre de mise à jour communautaire de style Wikipédia. Les représentants de première ligne peuvent suggérer des mises à jour, soumettre des clarifications de procédure et recommander des raccourcis utiles, qui passent par un flux de travail d'approbation administrative multi-étapes avant publication. Complétant la recherche, une suite d'évaluations et de sondages en ligne prend en charge plus de 15 types de questions — permettant aux administrateurs RH de déployer des tests de connaissances, sonder le personnel et exporter des analyses démographiques.",
+        "Knowledge Gate sert d'écosystème numérique unifié en offrant une intégration à authentification unique (SSO) avec la suite de formation ludifiée de SCBC (« Reaching the Top »). Les employés conservent un profil unique suivant à la fois l'activité de référence et les réalisations de formation, badges de compétences, métriques de confiance et calendriers d'ateliers. Conçue sur une architecture multi-niveaux résiliente Node.js, Express et MongoDB avec sécurité JWT/RSA, la solution prend en charge 300+ sessions actives simultanées sans latence.",
       ],
       "id-ID": [
-        "Intwish mengembangkan Portal Knowledge Gate untuk Saudi Business Center (SBC) — platform modular kelas enterprise yang mensentralisasi data layanan pemerintah dan mendukung manajemen performa, pelatihan, serta pemantauan kualitas di kementerian dan entitas layanan publik Arab Saudi.",
-        "Modul inti: Basis Pengetahuan & Mesin Pencari dengan pembaruan yang dipimpin ahli dan taksonomi terstruktur; Asesmen & Survei dengan 15+ tipe pertanyaan, kontrol akses, dan analitik real-time; evaluasi Mystery Shopper dengan kriteria yang dapat disesuaikan, penilaian otomatis, dan pelaporan terpadu; serta Manajemen Pelatihan lengkap — perencanaan, penyampaian konten, pelacakan sesi, dan integrasi penyedia eksternal.",
+        "Intwish mengembangkan Portal Knowledge Gate untuk Saudi Competitiveness & Business Center (SCBC, sebelumnya SBC) — platform digital modular kelas enterprise yang dipesan untuk mensentralisasi data layanan pemerintah, meningkatkan standar layanan publik, dan mendukung pengambilan keputusan operasional di seluruh kementerian dan entitas publik Arab Saudi sejalan dengan Visi Saudi 2030.",
+        "Dirancang di sekitar mesin pencari cerdas terinspirasi Google, Knowledge Gate mengintegrasikan data layanan di 10+ entitas mitra — termasuk Kementerian Perdagangan, ZATCA, Qiwa, MISA, MOMRAH, MHRSD, dan Federasi Kamar Saudi. Mesin ini memiliki pencarian prediktif saat mengetik, algoritma saran kueri otomatis, item yang baru saja dicari secara personal, dan sorotan kueri umum seluruh organisasi. Dengan menyusun prosedur pemerintah yang kompleks, biaya, persyaratan dokumen, dan SLA ke dalam kartu taksonomi digital yang intuitif, portal ini secara drastis mengurangi waktu penyelesaian kueri (TAT) untuk staf meja depan dan perwakilan pusat panggilan.",
+        "Untuk mempertahankan akurasi konten dalam lingkungan regulasi yang dinamis, platform ini menggabungkan kerangka kerja pembaruan konten komunitas bergaya Wikipedia. Perwakilan garis depan dapat menyarankan pembaruan, mengajukan klarifikasi prosedur, dan merekomendasikan pintasan yang berguna, yang melalui alur kerja peninjauan administratif multi-tahap sebelum publikasi langsung. Melengkapi kemampuan pencarian adalah Suite Asesmen & Survei Online terintegrasi yang mampu menampilkan 15+ tipe pertanyaan — memungkinkan administrator L&D menerapkan pemeriksaan pengetahuan, mengukur umpan balik operasional karyawan, dan mengekspor analitik demografis terperinci.",
+        "Knowledge Gate berfungsi sebagai ekosistem digital terpadu dengan menawarkan integrasi single sign-on (SSO) dengan suite pelatihan gamifikasi SCBC ('Reaching the Top'). Karyawan mempertahankan satu profil yang melacak aktivitas referensi dan pencapaian pelatihan, lencana keterampilan, meteran kepercayaan, dan jadwal lokakarya. Dibangun di atas arsitektur multi-tingkat Node.js, Express, dan MongoDB yang tangguh dengan keamanan JWT/RSA, solusi ini mendukung 300+ sesi aktif bersamaan dengan nol latensi di seluruh lingkungan browser dan intranet pemerintah.",
       ],
       ar: [
-        "طورت إنترويش بوابة Knowledge Gate لمركز الأعمال السعودي — منصة معيارية بمعايير مؤسسية تتمركز حول بيانات الخدمات الحكومية وتدعم إدارة الأداء والتدريب ومراقبة الجودة في الوزارات والجهات الحكومية السعودية.",
-        "الوحدات الأساسية: قاعدة معرفة ومحرك بحث بتحديثات من الخبراء وتصنيف منظم؛ وتقييمات واستبيانات بأكثر من 15 نوع أسئلة مع ضوابط وصول وتحليلات فورية؛ وتقييمات المتسوق الخفي بمعايير قابلة للتخصيص وتصحيح تلقائي وتقارير موحدة؛ وإدارة تدريب شاملة — تخطيطاً وتسليم محتوى وتتبع جلسات وتكاملاً مع مزودين خارجيين.",
+        "طورت إنترويش بوابة Knowledge Gate لصالح المركز السعودي للتنافسية والأعمال (SCBC) — وهي منصة رقمية معيارية بمعايير مؤسسية صُممت لمركزة بيانات الخدمات الحكومية، ورفع معايير تقديم الخدمات العامة، ودعم اتخاذ القرارات التشغيلية في كافة الوزارات والجهات الحكومية السعودية تماشياً مع رؤية السعودية 2030.",
+        "بُنيت المنصة وحول محرك بحث ذكي مستوحى من تقنيات Google، حيث تجعل بوابة Knowledge Gate بيانات الخدمات متاحة ومترابطة عبر أكثر من 10 جهات حكومية شريكة — تشمل وزارة التجارة، وهيئة الزكاة والضريبة والجمارك (ZATCA)، ومنصة قوى، ووزارة الاستثمار، ووزارة الشؤون البلدية والقروية والإسكان، ووزارة الموارد البشرية، وإتحاد الغرف السعودية. ويتضمن محرك البحث خاصية الإكمال التلقائي والتنبؤ بالاستعلامات، والبحث السريع، والروابط السريعة بناءً على عمليات البحث الأخيرة والبحث الشائع. ومن خلال تنظيم الإجراءات الحكومية المعقدة، والرسوم، والمتطلبات، والمدد الزمنية في بطاقات تصنيف رقمية منظمة، تساهم المنصة في خفض زمن الاستجابة (TAT) لموظفي الخطوط الأمامية ومراكز الاتصال بشكل حاسم.",
+        "ولضمان دقة واستمرارية تحديث البيانات في البيئة التنظيمية والتشريعية، تتضمن المنصة إطار عمل مجتمعي لتحديث المحتوى مستوحى من نظام Wikipedia، حيث يمكن لموظفي الخطوط الأمامية اقتراح التعديلات وإضافة الملاحظات التوضيحية والتي تمر عبر مسار تدقيق واعتماد إداري محكم قبل نشرها. وتتكامل البوابة مع محرك تقييمات واستبيانات إلكتروني متطور يغطي أكثر من 15 نوعاً من الأسئلة — مما يتيح لإدارات التطوير والتدريب قياس المعرفة، وتتبع الفجوات المهارية، واستخراج تقارير التحليلات الديموغرافية والتنظيمية بصيغ متعددة (Excel/PDF).",
+        "وتشكل البوابة بيئة رقمية موحدة بفضل تكاملها عبر نظام الدخول الموحد (SSO) مع منصة التدريب والتأهيل اللعبي التابعة للمركز ('Reaching the Top'). حيث يمتلك كل موظف ملفاً شخصياً موحداً يربط بين الأداء المعرفي وإنجازات التدريب، والشارات المهارية، ومؤشرات الثقة، وجدول الدورات. بُنيت المنصة على بنية تحتية مؤسسية متعددة الطبقات باستخدام Node.js وExpress وMongoDB مع حماية عالية عبر بروتوكولات JWT/RSA، لتدعم أكثر من 300 جلسة نشطة متزامنة بدون أي تأخير عبر شبكة المتصفحات والشبكات الداخلية الحكومية.",
       ],
     },
     metrics: [
       {
-        value: { en: "15+",  "fr-CA": "15+", "id-ID": "15+", ar: "+15" },
+        value: { en: "10+", "fr-CA": "10+", "id-ID": "10+", ar: "+10" },
         label: {
-          en: "Question types in survey engine",
-          
-          "fr-CA": "Types de questions dans le moteur de sondages",
-          "id-ID": "Tipe pertanyaan di mesin survei",
-          ar: "نوع أسئلة في محرك الاستبيانات",
+          en: "Integrated Saudi ministries & government entities",
+          "fr-CA": "Ministères saoudiens & entités gouvernementales intégrés",
+          "id-ID": "Kementerian & entitas pemerintah Arab Saudi terintegrasi",
+          ar: "وزارة وجهة حكومية سعودية مرتبطة بالمنظومة",
+        },
+      },
+      {
+        value: { en: "15+", "fr-CA": "15+", "id-ID": "15+", ar: "+15" },
+        label: {
+          en: "Question types in survey & assessment engine",
+          "fr-CA": "Types de questions dans le moteur d'évaluation",
+          "id-ID": "Tipe pertanyaan di mesin survei & asesmen",
+          ar: "نوع أسئلة في محرك التقييمات والاستبيانات",
+        },
+      },
+      {
+        value: { en: "TAT Reduction", "fr-CA": "Réduction du TAT", "id-ID": "Reduksi TAT", ar: "خفض زمن الاستجابة" },
+        label: {
+          en: "Instant query resolution via smart search & autosuggest",
+          "fr-CA": "Résolution instantanée grâce à la recherche intelligente",
+          "id-ID": "Resolusi kueri instan via pencarian cerdas & autosuggest",
+          ar: "حل فوري للاستفسارات عبر البحث الذكي والإكمال التلقائي",
+        },
+      },
+      {
+        value: { en: "100%", "fr-CA": "100 %", "id-ID": "100%", ar: "100%" },
+        label: {
+          en: "Unified SSO & profile integration for all SCBC staff",
+          "fr-CA": "Intégration SSO & profil unifié pour tout le personnel SCBC",
+          "id-ID": "Integrasi SSO & profil terpadu untuk seluruh staf SCBC",
+          ar: "ربط موحد للدخول والملفات الشخصية لكافة موظفي المركز",
         },
       },
     ],
   },
   {
     slug: "sbc-reaching-top",
-    client: "Saudi Business Center",
+    client: "Saudi Competitiveness & Business Center (SCBC)",
+    date: "2023",
     industry: {
-      en: "Government",
-      
-      "fr-CA": "Gouvernement",
-      "id-ID": "Pemerintahan",
-      ar: "القطاع الحكومي",
+      en: "Government & Customer Service",
+      "fr-CA": "Gouvernement et service à la clientèle",
+      "id-ID": "Pemerintahan & Layanan Pelanggan",
+      ar: "القطاع الحكومي وخدمة العملاء",
     },
     image: "/img/portfolio/Portfolio16.webp",
     title: {
-      en: "Reaching the Top — Customer Service Simulation",
-      
-      "fr-CA": "Reaching the Top — Simulation de service à la clientèle",
-      "id-ID": "Reaching the Top — Simulasi Layanan Pelanggan",
-      ar: "Reaching the Top — محاكاة خدمة العملاء",
+      en: "Reaching the Top — Mandatory Gamified Customer Service Training Suite",
+      "fr-CA": "Reaching the Top — Suite ludifiée de formation obligatoire au service client",
+      "id-ID": "Reaching the Top — Suite Pelatihan Layanan Pelanggan Gamifikasi Wajib",
+      ar: "Reaching the Top — منصة التدريب والتأهيل اللعبي الإلزامي لخدمة العملاء",
     },
     summary: {
-      en: "A career-simulation game taking Saudi government employees from new joiners to service leaders through realistic workplace scenarios.",
-      
-      "fr-CA": "Un jeu de simulation de carrière qui fait passer les employés du gouvernement saoudien de nouveaux arrivants à leaders du service grâce à des scénarios de travail réalistes.",
-      "id-ID": "Game simulasi karier yang membawa karyawan pemerintah Saudi dari karyawan baru menjadi pemimpin layanan melalui skenario kerja yang realistis.",
-      ar: "لعبة محاكاة مهنية تنقل موظفي القطاع الحكومي السعودي من موظفين جدد إلى قادة خدمة عبر سيناريوهات عمل واقعية.",
+      en: "Reaching the Top — A 3-part 30-day gamified career simulation transforming mandatory customer service training for all Saudi Competitiveness & Business Center (SCBC) employees nationwide into an interactive learning journey.",
+      "fr-CA": "Reaching the Top — Une simulation de carrière ludifiée de 30 jours en 3 parties transformant la formation obligatoire au service client pour tous les employés du Saudi Competitiveness & Business Center (SCBC) à l'échelle nationale.",
+      "id-ID": "Reaching the Top — Simulasi karir gamifikasi 30 hari 3 bagian yang mengubah pelatihan layanan pelanggan wajib untuk seluruh karyawan Saudi Competitiveness & Business Center (SCBC) secara nasional.",
+      ar: "Reaching the Top — محاكاة مهنية تفاعلية مقسمة إلى 3 أجزاء على مدار 30 يوماً تحول التدريب الإلزامي لخدمة العملاء لكافة موظفي المركز السعودي للتنافسية والأعمال على مستوى المملكة إلى رحلة تعلم غامرة.",
     },
     body: {
       en: [
-        "Intwish developed \"Reaching the Top\" — a career-simulation game for government employees under the Saudi Business Center (SBC). Players journey from new joiners to service leaders by navigating realistic workplace scenarios.",
-        "The game focuses on teaching key soft skills through immersive challenges that simulate real public service situations — communication, service excellence, handling difficult customers and professional conduct.",
+        "Intwish developed 'Reaching the Top' — a comprehensive digital customer service training transformation commissioned by the Saudi Competitiveness & Business Center (SCBC, formerly SBC). Deployed as mandatory onboarding and operational training for all customer service personnel across Saudi Arabia, the platform replaced traditional lectures and static manuals with a multi-phase gamified career simulation designed to elevate public service delivery standards.",
+        "The core experience unfolds over a 3-part, 30-day narrative simulation arc. In Part 1 (Days 1–14), new recruits step into the SCBC building under the guidance of line manager Abdullah, mastering foundational service etiquette, customer personality assessment, data privacy protocols, and handling complex inquiries to qualify for promotion to Branch Manager. In Part 2 (Days 15–21), players manage branch operations independently while peer-training junior staff. In Part 3 (Days 22–30), players enter an 8-day friendly leadership competition against Abdullah to earn the Regional Branch Manager role.",
+        "Engineered around real-world Saudi public sector interactions, the simulation incorporates Situational Judgment Questions (SJQs), interactive dialogue trees with 4 distinct customer personality types, crisis de-escalation scenarios, and data security compliance. Gamification mechanics — including custom avatar creation, an in-game skill shop, performance points, and achievement badges like 'Survived a Sunday' — drive engagement, backed by 100% bilingual story scripts in Modern Standard Arabic and English.",
+        "Built using HTML5 and JavaScript for seamless cross-platform performance across browser and intranet environments, the platform integrates directly into Active Directory and SCORM-compliant Learning Management Systems (LMS). A real-time Admin Analytics Dashboard gives HR and L&D leaders full visibility into employee completion status, skill competency scores, and regional branch performance benchmarks.",
+      ],
+      "fr-CA": [
+        "Intwish a développé « Reaching the Top » — une transformation numérique complète de la formation au service client commandée par le Saudi Competitiveness & Business Center (SCBC, anciennement SBC). Déployée en tant que formation initiale et opérationnelle obligatoire pour tout le personnel du service client en Arabie Saoudite, la plateforme a remplacé les cours traditionnels et les manuels statiques par une simulation de carrière ludifiée à plusieurs phases conçue pour élever les normes de prestation de services publics.",
+        "L'expérience principale se déroule sur un arc de simulation narrative en 3 parties et 30 jours. Dans la partie 1 (jours 1 à 14), les nouvelles recrues découvrent le centre SCBC sous la direction du responsable Abdullah, maîtrisant l'étiquette du service, l'évaluation des personnalités des clients, les protocoles de confidentialité des données et la gestion des demandes complexes pour être promus au poste de gestionnaire de succursale. Dans la partie 2 (jours 15 à 21), les joueurs gèrent de manière autonome les opérations de succursale tout en formant de jeunes collaborateurs. Dans la partie 3 (jours 22 à 30), les joueurs s'engagent dans un défi de leadership amical de 8 jours contre Abdullah pour obtenir le poste de directeur régional.",
+        "Conçue autour d'interactions réelles du secteur public saoudien, la simulation intègre des questions de jugement situationnel (SJQ), des arbres de dialogue interactifs avec 4 types de personnalité de clients, des scénarios de désescalade de crise et le respect de la sécurité des données. Les mécaniques de ludification — créations d'avatars, boutique de compétences, points de performance et badges d'accomplissement — stimulent l'engagement, soutenues par des scripts de story 100 % bilingues en arabe moderne et en anglais.",
+        "Développée en HTML5 et JavaScript pour des performances fluides sur les navigateurs et intranets, la plateforme s'intègre directement à Active Directory et aux systèmes LMS compatibles SCORM. Un tableau de bord d'analyse d'administration en temps réel offre aux responsables RH une visibilité complète sur le statut d'achèvement, les scores de compétences et les benchmarks régionaux.",
+      ],
+      "id-ID": [
+        "Intwish mengembangkan 'Reaching the Top' — transformasi pelatihan layanan pelanggan digital komprehensif yang dipesan oleh Saudi Competitiveness & Business Center (SCBC, sebelumnya SBC). Diimplementasikan sebagai pelatihan onboarding dan operasional wajib bagi seluruh personel layanan pelanggan di Saudi Arabia, platform ini menggantikan kuliah tradisional dan manual statis dengan simulasi karir gamifikasi multi-fase yang dirancang untuk meningkatkan standar layanan publik.",
+        "Pengalaman utama berlangsung dalam alur simulasi naratif 3 bagian selama 30 hari. Pada Bagian 1 (Hari 1–14), rekrutan baru memasuki gedung SCBC di bawah bimbingan manajer linis Abdullah, menguasai etika layanan dasar, penilaian kepribadian pelanggan, protokol privasi data, dan penanganan pertanyaan kompleks hingga dipromosikan menjadi Manajer Cabang. Pada Bagian 2 (Hari 15–21), pemain mengelola operasi cabang secara independen sambil melatih staf junior. Pada Bagian 3 (Hari 22–30), pemain mengikuti kompetisi kepemimpinan 8 hari melawan Abdullah untuk meraih posisi Manajer Cabang Regional.",
+        "Dirancang di sekitar interaksi sektor publik Saudi dunia nyata, simulasi ini menggabungkan Pertanyaan Penilaian Situasi (SJQ), pohon dialog interaktif dengan 4 tipe kepribadian pelanggan, skenario de-eskalasi krisis, dan kepatuhan keamanan data. Mekanika gamifikasi — pembuatan avatar kustom, toko keterampilan in-game, poin kinerja, dan lencana pencapaian seperti 'Survived a Sunday' — mendorong keterlibatan, didukung oleh skrip cerita 100% bilingual dalam Bahasa Arab Standar Modern dan Bahasa Inggris.",
+        "Berasaskan HTML5 dan JavaScript untuk kinerja lintas platform yang lancar di lingkungan browser dan intranet, platform ini terintegrasi langsung ke Active Directory dan LMS yang kompatibel dengan SCORM. Panel Analitik Admin real-time memberikan kepemimpinan SDM visibilitas penuh atas status penyelesaian karyawan, skor kompetensi keterampilan, dan tolok ukur kinerja cabang regional.",
+      ],
+      ar: [
+        "طورت إنترويش برنامج \"Reaching the Top\" — وهو التحول الرقمي الشامل لتدريب خدمة العملاء بتكليف من المركز السعودي للتنافسية والأعمال (SCBC). تم إطلاقه كتدريب إلزامي للتأهيل والعمليات لجميع موظفي خدمة العملاء في جميع أنحاء المملكة العربية السعودية، حيث استبدلت المنظومة المحاضرات التقليدية والأدولة الثابتة بمحاكاة مهنية معبأة بالألعاب متعددة المراحل لرفع أداء الخدمة الحكومية.",
+        "تتوزع التجربة عبر محاكاة سردية مقسمة إلى 3 أجزاء على مدار 30 يوماً. في الجزء الأول (الأيام 1–14)، يبدأ الموظفون الجدد رحلتهم في مقر المركز السعودي للتنافسية والأعمال تحت إشراف المدير المباشر عبدالله، ويتعلمون قواعد اللياقة والتعامل مع العملاء، وتقييم شخصيات المراجعين، وحماية البيانات، وإدارة الحالات المعقدة حتى الترقي لمنصب مدير فرع. في الجزء الثاني (الأيام 15–21)، يدير الموظفون العمليات اليومية للفرع باستقلالية مع تدريب زميل جديد. في الجزء الثالث (الأيام 22–30)، يدخل اللاعبون تحدي قيادة ودياً لمدة 8 أيام ضد عبدالله للفوز بمنصب مدير الفرع الإقليمي.",
+        "صُممت المحاكاة بناءً على سيناريوهات واقعية من القطاع الحكومي السعودي، وتضمنت أسئلة تقييم المواقف (SJQs)، وشجرات حوار تفاعلية تغطي 4 شخصيات مختلفة للعملاء، وسيناريوهات احتواء الأزمات، والامتثال لأمن المعلومات. وتعمل آليات التحفيز باللعب — كإنشاء الصور الرمزية (Avatar)، ومتجر المهارات، ونقاط الأداء، وأوسمة الإنجاز — على تعزيز المشاركة، مع دعم كامل للغتين العربية والإنجليزية بنسبة 100%.",
+        "بُنيت المنصة باستخدام HTML5 وJavaScript لضمان أداء عالي السرعة عبر المتصفحات والشبكة الداخلية، وتتكامل مباشرة مع Active Directory وأنظمة إدارة التعلم LMS المتوافقة مع SCORM. وتوفر لوحة تحكم الإدارة تحليلات فورية تمنح قيادات الموارد البشرية والتدريب رؤية شاملة لمعدلات الإكمال، ودرجات الكفاءة، ومؤشرات الأداء عبر فروع المركز السعودي للتنافسية والأعمال.",
+      ],
+    },
+    metrics: [
+      {
+        value: { en: "100%", "fr-CA": "100 %", "id-ID": "100%", ar: "100%" },
+        label: {
+          en: "Mandatory training for all SCBC CS employees",
+          "fr-CA": "Formation obligatoire pour tous les employés SC de SCBC",
+          "id-ID": "Pelatihan wajib untuk semua karyawan CS SCBC",
+          ar: "تدريب إلزامي لجميع موظفي خدمة العملاء بالمركز",
+        },
+      },
+      {
+        value: { en: "30 Days", "fr-CA": "30 jours", "id-ID": "30 Hari", ar: "30 يوماً" },
+        label: {
+          en: "3-part gamified career simulation journey",
+          "fr-CA": "Simulation de carrière ludifiée en 3 parties",
+          "id-ID": "Perjalanan simulasi karir gamifikasi 3 bagian",
+          ar: "رحلة محاكاة مهنية تفاعلية من 3 أجزاء",
+        },
+      },
+      {
+        value: { en: "4", "fr-CA": "4", "id-ID": "4", ar: "4" },
+        label: {
+          en: "Customer personality types & scenario SJQs",
+          "fr-CA": "Types de personnalité client & SJQs de scénario",
+          "id-ID": "Tipe kepribadian pelanggan & SJQ skenario",
+          ar: "أنماط شخصيات العملاء وسيناريوهات تقييم المواقف",
+        },
+      },
+      {
+        value: { en: "100%", "fr-CA": "100 %", "id-ID": "100%", ar: "100%" },
+        label: {
+          en: "Bilingual Arabic & English LMS tracking",
+          "fr-CA": "Suivi LMS bilingue arabe et anglais",
+          "id-ID": "Pelacakan LMS bilingual Arab & Inggris",
+          ar: "تتبع أنظمة التعلم ثنائي اللغة (عربي وإنجليزي)",
+        },
+      },
+    ],
+  },
+  {
+    slug: "parco-internship",
+    client: "PARCO",
+    date: "2020",
+    industry: {
+      en: "Oil & Gas / Energy",
+      "fr-CA": "Pétrole et gaz / Énergie",
+      "id-ID": "Minyak & Gas / Energi",
+      ar: "النفط والغاز / الطاقة",
+    },
+    image: "/img/case_studies/parco-internship.png",
+    title: {
+      en: "Elevate — Gamified Internship Recruitment Assessment",
+      "fr-CA": "Elevate — Évaluation ludifiée de recrutement des stagiaires",
+      "id-ID": "Elevate — Asesmen Rekrutmen Magang Gamifikasi",
+      ar: "Elevate — تقييم توظيف المتدربين التفاعلي",
+    },
+    summary: {
+      en: "Elevate — A customized digital internship assessment drive for PAK-ARAB REFINERY LIMITED (PARCO), evaluating engineering and business interns across refinery scenarios, cognitive games, and E-Tray simulations.",
+      "fr-CA": "Elevate — Une campagne d'évaluation numérique des stages pour PAK-ARAB REFINERY LIMITED (PARCO), évaluant les stagiaires ingénieurs et de gestion.",
+      "id-ID": "Elevate — Kampanye asesmen magang digital kustom untuk PAK-ARAB REFINERY LIMITED (PARCO), menilai pemagang teknik dan bisnis.",
+      ar: "Elevate — حملة تقييم رقمية مخصصة لاختيار المتدربين في شركة PARCO عبر سيناريوهات التكرير وألعاب كوجنيتيف ومحاكاة الصندوق الإلكتروني.",
+    },
+    body: {
+      en: [
+        "Intwish developed 'Elevate', a gamified internship recruitment platform for Pak-Arab Refinery Limited (PARCO), Pakistan's premier energy and logistics joint venture. The initiative transformed their internship selection into a high-engagement digital workplace assessment.",
+        "The candidate journey immersed applicants in refinery logistics, pipeline operations, and energy management scenarios. The experience opened with timed cognitive mini-games measuring numerical agility, spatial reasoning, and analytical problem-solving.",
+        "Applicants then completed energy sector Situational Judgment Tests (SJTs) measuring operational safety, environmental compliance, and cross-functional collaboration, followed by an E-Tray Inbox Simulation for high-volume task prioritization.",
+        "The system streamed real-time evaluation metrics into PARCO's HR Portal, featuring automated psychometric scoring, university benchmarking, and ranked intern profiles for data-driven selection.",
+      ],
+      "fr-CA": [
+        "Intwish a développé « Elevate », une plateforme de recrutement ludifiée de stagiaires pour Pak-Arab Refinery Limited (PARCO). L'initiative a transformé la sélection des stagiaires en une évaluation numérique engageante.",
+        "Le parcours des candidats plongeait les postulants dans des scénarios de logistique de raffinerie et d'exploitation de pipelines. L'évaluation s'ouvrait sur des mini-jeux cognitifs chrono-métrés.",
+        "Les candidats complétaient ensuite des tests de jugement situationnel (SJT) axés sur la sécurité opérationnelle et la conformité environnementale, suivis d'une simulation E-Tray.",
+        "Le système transmettait les métriques d'évaluation en temps réel vers le portail RH de PARCO, fournissant un classement automatisé des candidats.",
+      ],
+      "id-ID": [
+        "Intwish mengembangkan 'Elevate', platform rekrutmen magang gamifikasi untuk Pak-Arab Refinery Limited (PARCO). Inisiatif ini mengubah seleksi magang menjadi asesmen digital yang imersif.",
+        "Perjalanan kandidat membenamkan pelamar dalam skenario logistik kilang, operasi pipa, dan manajemen energi. Pengalaman dibuka dengan mini-game kognitif berbatas waktu.",
+        "Pelamar kemudian menyelesaikan Tes Penilaian Situasi (SJT) sektor energi yang mengukur keselamatan operasional dan kepatuhan lingkungan, diikuti oleh Simulasi E-Tray.",
+        "Sistem mengalirkan metrik evaluasi real-time ke Portal SDM PARCO, menyediakan penilaian psikometri otomatis dan pemeringkatan kandidat.",
+      ],
+      ar: [
+        "طورت إنترويش منصة 'Elevate' للتوظيف التفاعلي لاختيار المتدربين لصالح شركة مصفاة الباكستان والعرب المحدودة (PARCO). وجددت المبادرة اختيار المتدربين عبر بيئة تقييم رقمية.",
+        "خاض المتدربون المتقدمون سيناريوهات عمليات تكرير النفط والخدمات اللوجستية للأنابيب. وأطلقت المنظومة ألعاباً معرفية مؤطرة بزمن لقياس التحليل والرؤية الهندسية.",
+        "ثم أكمل المتقدمون اختبارات تقييم المواقف (SJQs) في السلامة التشغيلية والامتثال البيئي، متبوعة بمحاكاة الصندوق الإلكتروني E-Tray.",
+        "وضخت المنصة البيانات فورياً إلى لوحة تحكم الموارد البشرية لتصنيف خريجي الهندسة وإدارة الأعمال بدقة متناهية.",
+      ],
+    },
+    metrics: [
+      {
+        value: { en: "Elevate", "fr-CA": "Elevate", "id-ID": "Elevate", ar: "Elevate" },
+        label: {
+          en: "Flagship internship assessment platform",
+          "fr-CA": "Plateforme d'évaluation des stages phare",
+          "id-ID": "Platform asesmen magang unggulan",
+          ar: "منصة تقييم المتدربين التفاعلية",
+        },
+      },
+      {
+        value: { en: "50%", "fr-CA": "50 %", "id-ID": "50%", ar: "50%" },
+        label: {
+          en: "Faster candidate shortlisting turnaround",
+          "fr-CA": "Présélection plus rapide des candidats",
+          "id-ID": "Proses seleksi kandidat lebih cepat",
+          ar: "تسريع فرز وتصفية المتقدمين",
+        },
+      },
+      {
+        value: { en: "3", "fr-CA": "3", "id-ID": "3", ar: "3" },
+        label: {
+          en: "Assessment modules (Cognitive, SJT, E-Tray)",
+          "fr-CA": "Modules d'évaluation (Cognitif, SJT, E-Tray)",
+          "id-ID": "Modul asesmen (Kognitif, SJT, E-Tray)",
+          ar: "وحدات تقييم (معرفي، مواقف، صندوق إلكتروني)",
+        },
+      },
+      {
+        value: { en: "100%", "fr-CA": "100 %", "id-ID": "100%", ar: "100%" },
+        label: {
+          en: "Automated candidate ranking engine",
+          "fr-CA": "Moteur de classement automatisé",
+          "id-ID": "Mesin pemeringkat kandidat otomatis",
+          ar: "محرك تصنيف آلي للمرشحين",
+        },
+      },
+    ],
+  },
+  {
+    slug: "ubl-recruitment",
+    client: "UBL",
+    industry: {
+      en: "Banking",
+      
+      "fr-CA": "Secteur bancaire",
+      "id-ID": "Perbankan",
+      ar: "القطاع المصرفي",
+    },
+    image: "/img/case_studies/ubl-recruitment.png",
+    title: {
+      en: "Gamification of Management Trainee Recruitment",
+      
+      "fr-CA": "Ludification du recrutement des stagiaires en gestion",
+      "id-ID": "Gamifikasi Rekrutmen Management Trainee",
+      ar: "تحويل توظيف المتدربين الإداريين إلى لعبة",
+    },
+    summary: {
+      en: "A gamified management trainee recruitment drive for UBL — 4,000+ applicants assessed through real-life work scenarios.",
+      
+      "fr-CA": "Une campagne de recrutement ludifiée de stagiaires en gestion pour UBL — plus de 4 000 candidats évalués via des scénarios de travail réels.",
+      "id-ID": "Rekrutmen management trainee bergamifikasi untuk UBL — 4.000+ pelamar dinilai melalui skenario kerja nyata.",
+      ar: "حملة توظيف تفاعلية للمتدربين الإداريين لصالح بنك UBL — تم تقييم أكثر من 4,000 متقدم عبر سيناريوهات عمل واقعية.",
+    },
+    body: {
+      en: [
+        "Intwish gamified United Bank Limited's (UBL) management trainee recruitment, replacing the traditional test with an engaging, scenario-driven assessment.",
+        "Applicants were immersed in real-life work situations designed to surface the competencies and judgment UBL's talent team wanted to see.",
+        "Over 4,000 assessments were completed, giving UBL a ranked, data-rich talent pool to shortlist from.",
       ],
       
       "fr-CA": [
-        "Intwish a développé « Reaching the Top » — un jeu de simulation de carrière pour les employés du gouvernement dans le cadre du Saudi Business Center (SBC). Les joueurs passent de nouveaux arrivants à leaders du service en naviguant dans des scénarios de travail réalistes.",
-        "Le jeu se concentre sur l'enseignement de compétences interpersonnelles clés par des défis immersifs qui simulent de véritables situations de service public — communication, excellence du service, gestion des clients difficiles et conduite professionnelle.",
+        "Intwish a ludifié le recrutement des stagiaires en gestion d'United Bank Limited (UBL), remplaçant le test traditionnel par une évaluation engageante fondée sur des scénarios.",
+        "Les candidats ont été plongés dans des situations de travail réelles conçues pour révéler les compétences et le jugement recherchés par l'équipe des talents d'UBL.",
+        "Plus de 4 000 évaluations ont été complétées, offrant à UBL un vivier de talents classé et riche en données.",
       ],
       "id-ID": [
-        "Intwish mengembangkan \"Reaching the Top\" — game simulasi karier untuk karyawan pemerintah di bawah Saudi Business Center (SBC). Pemain berjalan dari karyawan baru menjadi pemimpin layanan dengan menavigasi skenario kerja yang realistis.",
-        "Game ini berfokus pada pengajaran keterampilan soft skill utama melalui tantangan imersif yang mensimulasikan situasi layanan publik nyata — komunikasi, keunggulan layanan, menangani pelanggan sulit, dan perilaku profesional.",
+        "Intwish menggamifikasi rekrutmen management trainee United Bank Limited (UBL), menggantikan tes tradisional dengan asesmen berbasis skenario yang menarik.",
+        "Pelamar dibenamkan dalam situasi kerja nyata yang dirancang untuk mengungkap kompetensi dan penilaian yang diinginkan tim talenta UBL.",
+        "Lebih dari 4.000 asesmen diselesaikan, memberi UBL kumpulan talenta berperingkat dan kaya data untuk disaring.",
       ],
       ar: [
-        "طورت إنترويش لعبة \\\"Reaching the Top\\\" — محاكاة مهنية لموظفي القطاع الحكومي ضمن مركز الأعمال السعودي. ينطلق اللاعبون من موظفين جدد إلى قادة خدمة عبر سيناريوهات عمل واقعية.",
-        "تركز اللعبة على تعليم المهارات الشخصية الأساسية عبر تحديات غامرة تحاكي مواقف الخدمة العامة الحقيقية — التواصل، وتميز الخدمة، والتعامل مع العملاء الصعبين، والسلوك المهني.",
+        "حوّلت إنترويش توظيف المتدربين الإداريين لدى بنك يونايتد ليمتد (UBL) إلى لعبة، فاستبدلت الاختبار التقليدي بتقييم تفاعلي قائم على سيناريوهات.",
+        "انغمس المتقدمون في مواقف عمل واقعية صُممت لإبراز الكفاءات والحكم الذي تريده فرقة المواهب في UBL.",
+        "أُنجز أكثر من 4,000 تقييم، مما منح UBL مجموعة مواهب مصنّفة وغنية بالبيانات لاختيار المرشحين.",
       ],
     },
+    metrics: [
+      {
+        value: { en: "4,000+",  "fr-CA": "4 000+", "id-ID": "4.000+", ar: "+4,000" },
+        label: {
+          en: "Completed assessments",
+          
+          "fr-CA": "Évaluations complétées",
+          "id-ID": "Asesmen selesai",
+          ar: "تقييم مكتمل",
+        },
+      },
+    ],
+  },
+  {
+    slug: "abu-dawood-recruitment",
+    client: "Abu Dawood",
+    industry: {
+      en: "FMCG / Consumer Goods",
+      
+      "fr-CA": "BGC / Biens de consommation",
+      "id-ID": "FMCG / Barang Konsumen",
+      ar: "السلع الاستهلاكية سريعة الحركة",
+    },
+    image: "/img/case_studies/abu-dawood-recruitment.png",
+    title: {
+      en: "Gamification of Management Trainee Recruitment",
+      
+      "fr-CA": "Ludification du recrutement des stagiaires en gestion",
+      "id-ID": "Gamifikasi Rekrutmen Management Trainee",
+      ar: "تحويل توظيف المتدربين الإداريين إلى لعبة",
+    },
+    summary: {
+      en: "A gamified management trainee recruitment drive for Abu Dawood — 2,500+ applicants assessed through immersive real-life work scenarios.",
+      
+      "fr-CA": "Une campagne de recrutement ludifiée de stagiaires en gestion pour Abu Dawood — plus de 2 500 candidats évalués via des scénarios de travail immersifs.",
+      "id-ID": "Rekrutmen management trainee bergamifikasi untuk Abu Dawood — 2.500+ pelamar dinilai melalui skenario kerja nyata yang imersif.",
+      ar: "حملة توظيف تفاعلية للمتدربين الإداريين لصالح أبو داود — تم تقييم أكثر من 2,500 متقدم عبر سيناريوهات عمل واقعية غامرة.",
+    },
+    body: {
+      en: [
+        "Intwish gamified Abu Dawood's management trainee recruitment, moving it from a traditional test to an engaging, scenario-driven assessment.",
+        "Candidates were placed in real-life work situations that revealed the competencies, judgment and fit Abu Dawood's talent team was looking for.",
+        "More than 2,500 assessments were completed, delivering a ranked, high-quality candidate pool for final selection.",
+      ],
+      
+      "fr-CA": [
+        "Intwish a ludifié le recrutement des stagiaires en gestion d'Abu Dawood, passant d'un test traditionnel à une évaluation engageante fondée sur des scénarios.",
+        "Les candidats ont été placés dans des situations de travail réelles qui ont révélé les compétences, le jugement et l'adéquation recherchés par l'équipe des talents d'Abu Dawood.",
+        "Plus de 2 500 évaluations ont été complétées, offrant un vivier de candidats classé et de grande qualité pour la sélection finale.",
+      ],
+      "id-ID": [
+        "Intwish menggamifikasi rekrutmen management trainee Abu Dawood, mengubahnya dari tes tradisional menjadi asesmen berbasis skenario yang menarik.",
+        "Kandidat ditempatkan dalam situasi kerja nyata yang mengungkap kompetensi, penilaian, dan kesesuaian yang dicari tim talenta Abu Dawood.",
+        "Lebih dari 2.500 asesmen diselesaikan, menghasilkan kumpulan kandidat berperingkat dan berkualitas tinggi untuk seleksi akhir.",
+      ],
+      ar: [
+        "حوّلت إنترويش توظيف المتدربين الإداريين لدى أبو داود إلى لعبة، فاستبدلت الاختبار التقليدي بتقييم تفاعلي قائم على سيناريوهات.",
+        "وُضع المرشحون في مواقف عمل واقعية كشفت عن الكفاءات والحكم والتوافق الذي تسعى إليه فرقة المواهب في أبو داود.",
+        "أُنجز أكثر من 2,500 تقييم، مما وفّر مجموعة مرشحين مصنّفة وعالية الجودة للاختيار النهائي.",
+      ],
+    },
+    metrics: [
+      {
+        value: { en: "2,500+",  "fr-CA": "2 500+", "id-ID": "2.500+", ar: "+2,500" },
+        label: {
+          en: "Completed assessments",
+          
+          "fr-CA": "Évaluations complétées",
+          "id-ID": "Asesmen selesai",
+          ar: "تقييم مكتمل",
+        },
+      },
+    ],
+  },
+  {
+    slug: "parco-recruitment",
+    client: "PARCO (Parco-Gunvor)",
+    date: "2024",
+    industry: {
+      en: "Oil & Gas / Energy",
+      
+      "fr-CA": "Pétrole et gaz / Énergie",
+      "id-ID": "Minyak & Gas / Energi",
+      ar: "النفط والغاز / الطاقة",
+    },
+    image: "/img/case_studies/parco-recruitment.png",
+    title: {
+      en: "Gamified Graduate Recruitment — Parco-Gunvor",
+      
+      "fr-CA": "Recrutement ludifié des diplômés — Parco-Gunvor",
+      "id-ID": "Rekrutmen Lulusan Bergamifikasi — Parco-Gunvor",
+      ar: "توظيف تفاعلي للخريجين — Parco-Gunvor",
+    },
+    summary: {
+      en: "A gamified graduate recruitment drive run annually by Parco-Gunvor — 3,000 completed assessments every year across three consecutive years.",
+      
+      "fr-CA": "Une campagne de recrutement ludifiée des diplômés menée annuellement par Parco-Gunvor — 3 000 évaluations complétées chaque année durant trois années consécutives.",
+      "id-ID": "Rekrutmen lulusan bergamifikasi yang dijalankan setiap tahun oleh Parco-Gunvor — 3.000 asesmen selesai setiap tahun selama tiga tahun berturut-turut.",
+      ar: "حملة توظيف تفاعلية للخريجين تجري سنوياً لدى Parco-Gunvor — 3,000 تقييم مكتمل سنوياً على مدى ثلاث سنوات متتالية.",
+    },
+    body: {
+      en: [
+        "Intwish delivered Parco-Gunvor's gamified graduate recruitment assessment, run once a year for three consecutive years from 2024 to 2026.",
+        "Each annual drive took thousands of applicants through immersive work scenarios, aptitude items and situational-judgement assessments aligned to the energy sector.",
+        "With 3,000 completions every year, Parco-Gunvor gained a consistent, comparable and data-rich candidate pool for shortlisting and selection.",
+      ],
+      
+      "fr-CA": [
+        "Intwish a livré l'évaluation de recrutement ludifiée des diplômés de Parco-Gunvor, menée une fois par an durant trois années consécutives, de 2024 à 2026.",
+        "Chaque campagne annuelle a fait passer des milliers de candidats par des scénarios de travail immersifs, des items d'aptitude et des évaluations de jugement situationnel adaptés au secteur de l'énergie.",
+        "Avec 3 000 complétions chaque année, Parco-Gunvor a obtenu un vivier de candidats cohérent, comparable et riche en données pour la sélection.",
+      ],
+      "id-ID": [
+        "Intwish menghadirkan asesmen rekrutmen lulusan bergamifikasi Parco-Gunvor, yang dijalankan setahun sekali selama tiga tahun berturut-turut dari 2024 hingga 2026.",
+        "Setiap drive tahunan membawa ribuan pelamar melalui skenario kerja imersif, item aptitude, dan asesmen penilaian situasional yang selaras dengan sektor energi.",
+        "Dengan 3.000 penyelesaian setiap tahun, Parco-Gunvor memperoleh kumpulan kandidat yang konsisten, sebanding, dan kaya data untuk disaring dan dipilih.",
+      ],
+      ar: [
+        "قدّمت إنترويش تقييم التوظيف التفاعلي للخريجين لدى Parco-Gunvor، ويُجرى مرة كل عام على مدى ثلاث سنوات متتالية من 2024 إلى 2026.",
+        "أخذت كل حملة سنوية آلاف المتقدمين عبر سيناريوهات عمل غامرة وبنود قدرات وتقييمات حكم مواقف تماشياً مع قطاع الطاقة.",
+        "ومع 3,000 إكمال كل عام، حصل Parco-Gunvor على مجموعة مرشحين متسقة وقابلة للمقارنة وغنية بالبيانات لاختيارهم.",
+      ],
+    },
+    metrics: [
+      {
+        value: { en: "3,000",  "fr-CA": "3 000", "id-ID": "3.000", ar: "3,000" },
+        label: {
+          en: "Completions per year",
+          
+          "fr-CA": "Complétions par an",
+          "id-ID": "Penyelesaian per tahun",
+          ar: "إكمال سنوي",
+        },
+      },
+      {
+        value: { en: "3",  "fr-CA": "3", "id-ID": "3", ar: "3" },
+        label: {
+          en: "Consecutive years run (2024–2026)",
+          
+          "fr-CA": "Trois années consécutives (2024-2026)",
+          "id-ID": "Berturut-turut (2024–2026)",
+          ar: "ثلاث سنوات متتالية (2024–2026)",
+        },
+      },
+    ],
+  },
+  {
+    slug: "descon-360",
+    client: "Descon",
+    industry: {
+      en: "Engineering / Industrial",
+      
+      "fr-CA": "Ingénierie / Industriel",
+      "id-ID": "Teknik / Industri",
+      ar: "الهندسة / الصناعة",
+    },
+    image: "/img/case_studies/descon-360.png",
+    title: {
+      en: "360° Feedback System",
+      
+      "fr-CA": "Système de rétroaction 360°",
+      "id-ID": "Sistem Umpan Balik 360°",
+      ar: "نظام التقييم 360 درجة",
+    },
+    summary: {
+      en: "A 360° feedback system for Descon — 300 employees assessed through a guided interface with automated, insight-rich reports.",
+      
+      "fr-CA": "Un système de rétroaction 360° pour Descon — 300 employés évalués via une interface guidée avec des rapports automatisés et riches en insights.",
+      "id-ID": "Sistem umpan balik 360° untuk Descon — 300 karyawan dinilai melalui antarmuka terpandu dengan laporan otomatis yang kaya wawasan.",
+      ar: "نظام تقييم 360 درجة لصالح Descon — تم تقييم 300 موظف عبر واجهة موجّهة مع تقارير آلية غنية بالرؤى.",
+    },
+    body: {
+      en: [
+        "Intwish deployed its 360° feedback platform for Descon, supporting leadership development, performance evaluation and self-awareness.",
+        "The system offered a simple, guided experience for raters, automated report generation and assured progress saving.",
+        "Used by 300 employees, it helped Descon identify leadership readiness, strengths and gaps with data-driven insight.",
+      ],
+      
+      "fr-CA": [
+        "Intwish a déployé sa plateforme de rétroaction 360° pour Descon, soutenant le développement du leadership, l'évaluation de la performance et la conscience de soi.",
+        "Le système offrait une expérience simple et guidée pour les évaluateurs, une génération automatisée de rapports et une sauvegarde garantie de la progression.",
+        "Utilisé par 300 employés, il a aidé Descon à identifier l'état de préparation au leadership, les forces et les lacunes avec des données.",
+      ],
+      "id-ID": [
+        "Intwish menerapkan platform umpan balik 360° untuk Descon, mendukung pengembangan kepemimpinan, evaluasi kinerja, dan kesadaran diri.",
+        "Sistem menawarkan pengalaman sederhana dan terpandu bagi penilai, pembuatan laporan otomatis, dan penyimpanan progres yang terjamin.",
+        "Digunakan oleh 300 karyawan, membantu Descon mengidentifikasi kesiapan kepemimpinan, kekuatan, dan kesenjangan dengan wawasan berbasis data.",
+      ],
+      ar: [
+        "طرحت إنترويش منصة التقييم 360 درجة لصالح Descon، لدعم تطوير القيادة وتقييم الأداء والوعي الذاتي.",
+        "أوفّر النظام تجربة بسيطة وموجّهة للمقيّمين وتوليداً آلياً للتقارير وحفظاً مضموناً للتقدم.",
+        "استخدمه 300 موظف، فساعد Descon على تحديد الجاهزية القيادية ونقاط القوة والفجوات برؤى قائمة على البيانات.",
+      ],
+    },
+    metrics: [
+      {
+        value: { en: "300",  "fr-CA": "300", "id-ID": "300", ar: "300" },
+        label: {
+          en: "Employees assessed",
+          
+          "fr-CA": "Employés évalués",
+          "id-ID": "Karyawan dinilai",
+          ar: "موظف تم تقييمهم",
+        },
+      },
+    ],
   },
 ];
 
