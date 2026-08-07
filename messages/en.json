@@ -557,15 +557,15 @@
     }
   },
   "intos": {
-    "kicker": "Product · Assessment",
-    "title": "The virtual OS assessment platform",
-    "tagline": "The first assessment platform that simulates the working world — an OS your candidates actually operate.",
-    "description": "intOS drops candidates into a realistic virtual desktop: an email inbox, a team messenger, scheduled meetings, live tasks and a stream of interruptions. What they do in that OS — every click, reply and decision — is scored and reported back to you. Built for management trainee programs, graduate schemes, lateral hires and drives of 25,000+ candidates.",
+    "kicker": "Product · Gamified Pre-Employment Assessment Platform",
+    "title": "intOS — The Gamified Pre-Employment Assessment Platform",
+    "tagline": "A live virtual OS desktop candidates operate — email simulations, team messenger, SJT meetings, CHC-grounded cognitive mini-games, and a recruiter scenario builder.",
+    "description": "intOS is the candidate-facing gamified pre-employment assessment platform. Candidates step inside a live virtual desktop featuring email inbox triage, team chat, SJT video calls, and CHC cognitive games — backend-configurable per role with real decision-branching consequences.",
     "hero": {
-      "kicker": "define(assessment):",
-      "headline": "The first assessment platform that simulates the working world",
-      "tagline": "Candidates step inside a live virtual desktop — inbox, messenger, meetings and games — where every click, reply and decision is scored against your rubric.",
-      "outcome": "25,000+ candidates assessed in a single drive",
+      "kicker": "define(assessment_platform):",
+      "headline": "The Gamified Pre-Employment Assessment Platform Built for the Real Workplace",
+      "tagline": "Candidates operate a live virtual OS desktop — inbox triage, team chat, SJT meetings, and CHC cognitive mini-games — where every choice triggers real workplace consequences.",
+      "outcome": "97% Completion Rate · 25,000+ Candidates in a Single Drive",
       "ctaSandbox": "Experience the OS",
       "ctaPilot": "Book a Pilot",
       "windowTitle": "intOS — virtual desktop"
@@ -574,26 +574,47 @@
     "ctaPilot": "Book a pilot with an expert",
     "proof": {
       "candidates": {
-        "value": "25,000+",
-        "label": "Candidates in a single drive"
-      },
-      "conversion": {
-        "value": "days",
-        "label": "To run a 25,000-candidate drive"
-      },
-      "users": {
         "value": "300,000+",
-        "label": "Professionals assessed in 10 years"
+        "label": "Candidates assessed across 5 markets"
+      },
+      "completion": {
+        "value": "97%",
+        "label": "Average candidate completion rate"
+      },
+      "games": {
+        "value": "6 Games",
+        "label": "CHC-theory cognitive battery"
       },
       "report": {
-        "value": "1-click",
-        "label": "PDF candidate reports, exportable"
+        "value": "1-Click",
+        "label": "Defensible candidate reports & ATS sync"
+      }
+    },
+    "scienceStrip": {
+      "kicker": "// Validated Science & Adverse-Impact Transparency",
+      "title": "Built on Psychometric Science, Designed for Fair Selection",
+      "subtitle": "Assessment-category buyers lead evaluation with validity and adverse-impact transparency — not unbacked AI hype.",
+      "sample": {
+        "title": "300,000+ Assessed",
+        "body": "Grounded in 10 years of cross-national psychometric data across South Asia, MENA & North America."
+      },
+      "validity": {
+        "title": "CHC & Big Five Science",
+        "body": "Measures g-factor cognitive ability & workplace behavior through 6 CHC-grounded mini-games and job simulations."
+      },
+      "adverseImpact": {
+        "title": "EEOC 4/5ths Transparency",
+        "body": "Designed against established psychometric frameworks to reduce cultural bias and support fair selection auditing."
+      },
+      "compliance": {
+        "title": "KSA & Pakistan Data Residency",
+        "body": "In-region data hosting compliant with PDPL, SAMA, SBP & NDMO regulations — native structural advantage over Western retrofits."
       }
     },
     "sandbox": {
-      "kicker": "Experience the OS",
-      "title": "Walk through the virtual desktop",
-      "subtitle": "This is a live, working instance of intOS. Click through the email simulation, answer the team messenger, take the video call — every action is scored, exactly like a real drive.",
+      "kicker": "Interactive Product Proof",
+      "title": "Walk through the live virtual desktop",
+      "subtitle": "This is a live, working instance of intOS. Triage emails, answer the team messenger, respond to SJT video calls, and play cognitive mini-games.",
       "reload": "Reload sandbox",
       "openInNewTab": "Open sandbox in a new tab",
       "iframeTitle": "intOS interactive sandbox — demo.intwish.com",
@@ -605,44 +626,61 @@
       "privateCta": "Get your own sandbox"
     },
     "modules": {
-      "kicker": "The experience",
-      "title": "Everything a real job throws at you",
-      "subtitle": "Six interlinked modules recreate the working world — actions in one module trigger consequences in another, exactly like real work.",
+      "kicker": "Platform Architecture",
+      "title": "Workplace simulations & CHC cognitive games",
+      "subtitle": "Seven core modules simulate real work environments with branching decision consequences — backend-configurable per role and group.",
       "items": {
         "email": {
-          "title": "Email simulation",
-          "body": "A realistic inbox with priorities, ambiguity and noise. Candidates triage, reply and follow up — scored on judgment, tone and prioritization."
+          "title": "E-Tray / Email simulation",
+          "body": "Inbox triage with a decision-node panel. Candidates manage priorities, reply to stakeholders, and resolve ambiguities — with choices altering downstream scenarios."
         },
         "messenger": {
-          "title": "Team messenger",
-          "body": "A Slack-style channel where stakeholders ping, ask and push back. Every response is captured as behavioral evidence."
+          "title": "Team messenger (Slack-style)",
+          "body": "Real-time team chat channels with embedded decision-prompt cards during live crisis scenarios and project emergencies."
         },
         "meeting": {
-          "title": "SJT virtual meetings",
-          "body": "Situational-judgement meetings unfold as video calls — candidates respond to the situation in real time, just like a live assessment centre."
+          "title": "Meeting SJT (Video call)",
+          "body": "Simulated video-call situational judgment test with a live decision overlay, countdown timer, and stakeholder pushback."
         },
-        "etray": {
-          "title": "E-tray exercises",
-          "body": "An electronic in-tray of tasks, deadlines and dependencies. Candidates execute, delegate or escalate — and are scored on how."
+        "calendar": {
+          "title": "Calendar & scheduler",
+          "body": "Time-management and conflict-resolution module testing candidate ability to re-prioritize shifting deadlines."
         },
         "psychometric": {
-          "title": "Psychometric games",
-          "body": "Brain buster, Numbubbles, Numparision, Sentence Completion, Tetris and Word Wizard — validated cognitive and personality measures in game form."
+          "title": "6 CHC cognitive mini-games",
+          "body": "Numbubbles, Numparison, Word Wizard, Brain Buster, Grid Lock, and Shortcuts — evaluating g-factor abilities based on Cattell-Horn-Carroll theory."
+        },
+        "videoRecorder": {
+          "title": "Structured async video recorder",
+          "body": "Candidate video response recorder separate from SJT meetings, capturing structured presentation and communication skills."
         },
         "narrative": {
-          "title": "Interlinked narrative engine",
-          "body": "Actions chain across modules — reply to the email and a Slack message fires, the meeting agenda changes, the score deepens. One continuous story."
+          "title": "Interlinked decision narrative engine",
+          "body": "The core differentiator: choices chain across modules. Replying to an email triggers a Slack alert, alters meeting agendas, and deepens competency scores."
         }
       }
     },
+    "dualProof": {
+      "kicker": "Dual-Sided Proof",
+      "title": "Built for candidate immersion, controlled by recruiters",
+      "subtitle": "Most assessment tools only show the candidate side. intOS gives recruiters a drag-and-drop Scenario Builder to configure custom assessment flows.",
+      "candidateSide": {
+        "title": "Candidate experience: first day at a new job",
+        "body": "Anxiety-reducing virtual desktop with mobile-readiness, English & Arabic (RTL) localization, and WCAG dark & light themes."
+      },
+      "recruiterSide": {
+        "title": "Recruiter canvas: Scenario & Assessment Builder",
+        "body": "Drag-and-drop canvas with asset library sidebar, inspector panel, validation & simulation tools, candidate directory, competency management, and telemetry."
+      }
+    },
     "dashboard": {
-      "kicker": "The recruiter view",
+      "kicker": "Recruiter Command Center",
       "title": "A command center, not a spreadsheet",
-      "subtitle": "Everything you need to run a drive of thousands without drowning in data.",
+      "subtitle": "Everything you need to configure assessments, track candidates, and review ranked shortlists.",
       "items": {
         "pulse": {
           "title": "KPI pulse cards",
-          "body": "Pending reviews, completion rate, average match score and integrity status — live, per drive, per cohort."
+          "body": "Pending reviews, completion rate, average match score, and integrity status — live per drive and cohort."
         },
         "funnel": {
           "title": "Funnel analytics",
@@ -654,80 +692,91 @@
         },
         "gems": {
           "title": "Hidden gems",
-          "body": "The dashboard surfaces high-potential candidates your screen might have missed — the quiet but decisive performers."
+          "body": "Surfaces high-potential candidates who might be missed by resume filters — quiet but decisive performers."
         },
         "integrity": {
           "title": "Integrity watchlist",
-          "body": "Anomaly flags for tab-switching, copy-paste and irregular session behavior, so scores stay trustworthy."
+          "body": "Anomaly flags for tab-switching, copy-paste, and irregular session behavior to keep scores trustworthy."
         }
       }
     },
     "candidate": {
-      "kicker": "The candidate view",
+      "kicker": "Candidate Experience",
       "title": "Built for candidates, not just recruiters",
       "subtitle": "Assessment shouldn't feel like an exam. intOS feels like the first day of a new job.",
       "items": {
         "anxiety": {
           "title": "Anxiety-reducing",
-          "body": "Familiar workplace scenarios replace high-pressure exam atmospheres — so ability, not nerves, is measured."
+          "body": "Familiar workplace scenarios replace high-pressure exam atmospheres — so true ability, not nerves, is measured."
         },
         "mobile": {
           "title": "Mobile-ready",
-          "body": "The virtual OS runs on phones and tablets, so candidates play from anywhere, on any device."
+          "body": "The virtual OS runs seamlessly on smartphones, tablets, and laptops from anywhere."
         },
         "languages": {
           "title": "English & Arabic, RTL",
-          "body": "Full English and Arabic interfaces with right-to-left layout — meeting candidates where they are in MENA and beyond."
+          "body": "Full English and Arabic interfaces with right-to-left layout — meeting candidates natively in MENA and South Asia."
         },
         "themes": {
           "title": "Dark & light themes",
-          "body": "Accessible light and dark modes with WCAG-friendly contrast, chosen by each candidate."
+          "body": "Accessible light and dark modes with WCAG-friendly contrast, selected by the candidate."
         }
       }
     },
+    "gamesSection": {
+      "kicker": "CHC-Grounded Cognitive Battery",
+      "title": "6 validated cognitive mini-games",
+      "subtitle": "Built on Cattell-Horn-Carroll (CHC) theory to measure g-factor cognitive abilities without traditional test fatigue.",
+      "items": {
+        "numbubbles": { "name": "Numbubbles", "factor": "Quantitative Reasoning & Speed" },
+        "numparison": { "name": "Numparison", "factor": "Numerical Comparison & Processing" },
+        "wordWizard": { "name": "Word Wizard", "factor": "Verbal Ability & Comprehension" },
+        "brainBuster": { "name": "Brain Buster", "factor": "Working Memory & Spatial Reasoning" },
+        "gridLock": { "name": "Grid Lock", "factor": "Spatial Logic & Pattern Recognition" },
+        "shortcuts": { "name": "Shortcuts", "factor": "Cognitive Flexibility & Rule Switching" }
+      }
+    },
+    "ats": {
+      "kicker": "Integration Ecosystem",
+      "title": "Syncs natively with your existing HR stack",
+      "subtitle": "Trigger intOS assessments automatically from your ATS and sync candidate scores and PDF reports back to candidate profiles."
+    },
     "useCases": {
-      "kicker": "Use cases",
+      "kicker": "Use Cases",
       "title": "From graduate drives to government selection",
-      "subtitle": "intOS scales from a hundred candidates to tens of thousands.",
-      "more": "Something else in mind?",
+      "subtitle": "intOS scales effortlessly from 100 lateral hires to 25,000+ candidate national drives.",
+      "more": "Need a customized assessment flow?",
       "items": {
         "mt": {
           "title": "Management trainee programs",
-          "body": "The flagship use case — 4,000 to 25,000-candidate drives, run in days."
+          "body": "Flagship use case — 4,000 to 25,000-candidate drives evaluated in days with defensible shortlists."
         },
         "any": {
-          "title": "Any position",
-          "body": "Configurable modules and rubrics for lateral hires, technical roles and customer-facing teams."
+          "title": "Lateral & technical roles",
+          "body": "Configurable workplace scenarios and rubrics for engineering, sales, and customer-facing teams."
         },
         "graduate": {
           "title": "Graduate schemes",
-          "body": "Early-career pipelines assessed on potential and judgment, not pedigree."
+          "body": "Early-career pipelines assessed on real-world judgment and potential, not resume pedigree."
         },
         "government": {
-          "title": "Government selection",
-          "body": "Fair, auditable and scalable selection for public-sector entities — trusted by Saudi Business Center engagements."
+          "title": "Government & public sector",
+          "body": "Auditable, fair, and scalable selection for public entities with local KSA & Pakistan data hosting."
         },
         "volume": {
-          "title": "High-volume drives",
-          "body": "Infrastructure that absorbs 25,000+ simultaneous candidates without a hitch."
+          "title": "High-volume recruitment drives",
+          "body": "Robust infrastructure that absorbs 25,000+ simultaneous candidates without latency or drop-offs."
         }
       }
     },
-    "science": {
-      "kicker": "The science",
-      "title": "Psychometrics you can defend",
-      "subtitle": "intOS is built on situational-judgement and cognitive-assessment research — the methods behind our 300,000+ assessed users.",
-      "body": "SJT and game-based cognitive assessments measure judgment and ability with less cultural bias and faking than traditional self-report tests. Our research base spans cross-national validation of game-based cognitive assessment — the same evidence our client-facing reports cite.",
-      "cta": "Read our methodology"
-    },
     "reporting": {
-      "kicker": "Analytics & reporting",
+      "kicker": "Analytics & Reporting",
       "title": "Gold-standard candidate reports",
-      "subtitle": "Every candidate ends with a defensible, data-rich profile.",
+      "subtitle": "Every candidate finishes with a defensible, data-rich profile.",
       "items": {
         "report": {
-          "title": "Instant candidate reports",
-          "body": "Competencies, cognitive profile, behavioral evidence and recommendations — generated automatically for every candidate."
+          "title": "Instant candidate profiles",
+          "body": "Competencies, cognitive profile, behavioral evidence, and recommendations generated automatically."
         },
         "pdf": {
           "title": "One-click PDF export",
@@ -735,155 +784,109 @@
         },
         "shortlist": {
           "title": "Ranked shortlists",
-          "body": "Scores weighted to your rubrics, so the best fit rises to the top automatically."
+          "body": "Scores weighted to your rubric, so top performers rise to the top automatically."
         },
         "compare": {
           "title": "Cohort comparison",
-          "body": "Benchmark candidates against cohorts, drives and historical baselines."
-        }
-      }
-    },
-    "security": {
-      "kicker": "Security & compliance",
-      "title": "Procurement-ready by design",
-      "body": "PIPEDA, UU PDP 27/2022, GDPR-ready and PDPL-aligned data handling, role-based access, encrypted data at rest and in transit, and a documented backup policy. See the full picture on our Trust & Security hub.",
-      "cta": "Visit Trust & Security hub"
-    },
-    "videos": {
-      "kicker": "In action",
-      "title": "Watch the psychometric games",
-      "subtitle": "Real gameplay recordings from the intOS assessment suite — the same games candidates play in a live drive."
-    },
-    "outcome": "Run a 25,000-candidate drive in days — automated scoring turns weeks of manual review into ranked, defensible shortlists.",
-    "testimonials": {
-      "kicker": "Proven at scale",
-      "title": "Client outcomes, in their words",
-      "subtitle": "The platforms behind intOS have already run the drives we're describing.",
-      "cta": "Your drive could be next",
-      "items": {
-        "ptcl": {
-          "client": "PTCL",
-          "value": "25,000+",
-          "quote": "The largest gamified MT recruitment in Pakistan — over 25,000 candidates across the country completed the process in only a few days."
-        },
-        "hbl": {
-          "client": "HBL",
-          "value": "2×",
-          "quote": "Pakistan's first 3D recruitment simulation — top performers hired as management trainees, and HBL ran the assessment again in 2019 because it proved more effective."
-        },
-        "ici": {
-          "client": "ICI Pakistan",
-          "value": "4,000+",
-          "quote": "Applicants put through real-life work scenarios — a more reliable signal of problem-solving than a paper test."
-        },
-        "bankAlfalah": {
-          "client": "Bank Alfalah",
-          "value": "7,000+",
-          "quote": "Employees completed mandatory compliance training nationwide through an immersive detective role-play — measurable, trackable, reportable."
-        },
-        "faysal": {
-          "client": "Faysal Bank",
-          "value": "4–25k",
-          "quote": "First in the banking industry to launch gamified recruitment in 2018 — since used by 4,000 to 25,000 candidates per organization."
+          "body": "Benchmark candidates against cohorts, drives, and historical organizational baselines."
         }
       }
     },
     "comparison": {
-      "kicker": "Why teams switch",
-      "title": "intOS vs. the traditional assessment centre",
-      "subtitle": "The same assessment rigour — without the venue, the proctors and the paperwork.",
-      "us": "intOS",
-      "them": "Traditional assessment",
+      "kicker": "Competitive Benchmark",
+      "title": "intOS vs. Category Competitors",
+      "subtitle": "Benchmarked against Pymetrics/Harver, Arctic Shores, Vervoe, SHL, Criteria Corp, and TestGorilla.",
+      "us": "intOS Platform",
+      "them": "Competitors (Pymetrics, SHL, Vervoe, TestGorilla)",
       "rows": {
-        "setup": {
-          "feature": "Setup & delivery",
-          "us": "Days, not weeks — configurable modules and rubrics",
-          "them": "Weeks of venue, invigilator and logistics planning"
+        "env": {
+          "feature": "Assessment environment",
+          "us": "Full live virtual OS desktop (email, chat, meetings, games)",
+          "them": "Isolated game batteries or standalone video forms"
         },
-        "scale": {
-          "feature": "Scale",
-          "us": "25,000+ candidates in a single drive",
-          "them": "Hundreds per centre, capped by capacity"
+        "builder": {
+          "feature": "Scenario & role customization",
+          "us": "Drag-and-drop Scenario Builder per role & group",
+          "them": "Fixed pre-baked questionnaires or static test sets"
         },
-        "experience": {
-          "feature": "Candidate experience",
-          "us": "A familiar virtual desktop, on any device",
-          "them": "High-pressure exam halls and proctors"
+        "consequence": {
+          "feature": "Decision consequence mechanics",
+          "us": "Interlinked decision branching across modules",
+          "them": "Static scoring without decision consequences"
         },
-        "objectivity": {
-          "feature": "Scoring",
-          "us": "One rubric, scored consistently by automation",
-          "them": "Multiple assessors, human variance"
+        "dataResidency": {
+          "feature": "Regional data residency & compliance",
+          "us": "Native KSA & Pakistan hosting; PDPL/SAMA/SBP/NDMO compliant",
+          "them": "Western US/EU cloud retrofits without local residency"
         },
-        "reporting": {
-          "feature": "Reporting",
-          "us": "Instant PDF reports and ranked shortlists",
-          "them": "Manual scoring, compiled over days"
-        },
-        "audit": {
-          "feature": "Audit trail",
-          "us": "Every action logged and exportable",
-          "them": "Paper or spreadsheet records"
+        "whiteLabel": {
+          "feature": "Branding & localization",
+          "us": "Full white-label branding + native Arabic (RTL) & English",
+          "them": "Vendor-branded portal with limited Arabic support"
         }
       }
     },
     "results": {
-      "kicker": "Proof",
-      "title": "Results from real drives",
-      "subtitle": "Every engagement measured: baseline → solution → outcome.",
-      "cta": "All case studies"
+      "kicker": "Proven Outcomes",
+      "title": "Results from real recruitment drives",
+      "subtitle": "Quantified metrics from intOS platform deployments across banking, telecom, and enterprise.",
+      "cta": "View all case studies"
     },
     "faq": {
       "kicker": "FAQ",
       "title": "Questions buyers ask us",
-      "subtitle": "Straight answers — and the research behind them.",
+      "subtitle": "Straight answers regarding validity, candidate experience, compliance, and pricing.",
       "items": {
         "validity": {
           "q": "Is intOS scientifically validated?",
-          "a": "intOS is built on situational-judgement and game-based cognitive assessment research — methods with decades of criterion-related validity evidence. The same evidence base underpins our 300,000+ assessed users and is cited in every client report."
+          "a": "Yes. intOS is built on Cattell-Horn-Carroll (CHC) cognitive theory and Situational Judgment Test (SJT) research — psychometric frameworks with decades of criterion-related validity evidence. The platform has been validated across 300,000+ candidates in 5 markets."
+        },
+        "differs": {
+          "q": "How does intOS differ from Pymetrics, Arctic Shores, or Vervoe?",
+          "a": "intOS is the only platform that combines a full virtual OS environment (email, messenger, video SJT, calendar) with branching decision consequences, CHC cognitive games, and a recruiter drag-and-drop Scenario Builder — while providing native KSA and Pakistan data residency."
         },
         "experience": {
           "q": "What does the experience feel like for candidates?",
-          "a": "Like the first day of a new job, not an exam. Candidates operate a realistic virtual desktop — inbox, messenger, meetings — on phone or laptop, in English or Arabic, with dark or light themes. Familiar scenarios reduce anxiety, so ability rather than nerves is measured."
+          "a": "Like the first day of a new job. Candidates operate a realistic virtual desktop on phone or laptop, in English or Arabic, with light or dark themes. Familiar workplace scenarios reduce anxiety, measuring real ability rather than test nerves."
         },
         "scoring": {
-          "q": "How does scoring actually work?",
-          "a": "Every action a candidate takes in the OS — every reply, prioritisation and decision — is scored against the rubric you configure. The recruiter dashboard turns that into funnel analytics, ranked shortlists and one-click PDF reports."
+          "q": "How does scoring work?",
+          "a": "Every click, email reply, chat response, and SJT decision is scored automatically against your configured competency rubric. The recruiter dashboard surfaces ranked shortlists, funnel analytics, and 1-click PDF reports."
         },
-        "scale": {
-          "q": "How big can a drive be?",
-          "a": "25,000+ candidates in a single drive. The platform is built for high-volume hiring — PTCL's drive assessed 25,000+ candidates nationwide in days."
+        "ats": {
+          "q": "Does intOS integrate with our ATS?",
+          "a": "Yes. intOS integrates natively with major ATS platforms including Workday, SAP SuccessFactors, Oracle Taleo, Greenhouse, and Lever for automated candidate invites and score sync."
         },
-        "languages": {
-          "q": "Which languages are supported?",
-          "a": "English and Arabic with full right-to-left layout, plus dark and light themes with WCAG-friendly contrast."
+        "compliance": {
+          "q": "Where is candidate data hosted?",
+          "a": "intOS offers native local data residency in Saudi Arabia (KSA) and Pakistan, complying fully with PDPL, SAMA, SBP, and NDMO data regulations."
         },
         "pricing": {
           "q": "How does pricing work?",
-          "a": "Per-candidate, volume-based pricing localized to your region's currency. Most teams start with a pilot drive before scaling. Book a call and we'll share regional pricing within 24–48 hours."
+          "a": "Priced per candidate per volume band, localized to your market's currency (AED, SAR, PKR, CAD, USD). Teams typically start with a pilot drive before scaling. Contact us for a custom quote within 24–48 hours."
         }
       }
     },
     "pricing": {
-      "kicker": "Pricing",
-      "title": "Simple, contact-based pricing",
-      "subtitle": "Pricing varies by region, volume and modules — here's how it works, with no mystery.",
+      "kicker": "Pricing & Pilot",
+      "title": "Transparent, volume-based pricing",
+      "subtitle": "Flexible per-candidate pricing designed for high-volume recruitment drives and enterprise hiring.",
       "items": {
         "volume": {
           "title": "Per-candidate volume pricing",
-          "body": "Priced per candidate per module, localized to your market's currency — AED, PKR, CAD, IDR and more."
+          "body": "Priced per candidate drive, localized to your market's currency — AED, SAR, PKR, CAD, USD, IDR."
         },
         "pilot": {
-          "title": "Pilot before you commit",
-          "body": "Run a real drive with your candidates first — typically 25–100 — and see the ranked shortlists before buying at scale."
+          "title": "Pilot before you scale",
+          "body": "Run a pilot drive with 25–100 candidates to experience the live scenario builder, shortlists, and PDF reports."
         },
         "quote": {
-          "title": "A regional quote in 24–48h",
-          "body": "Your request routes to the nearest of our Dubai, Karachi, Canada or Indonesia teams for pricing in your currency."
+          "title": "Regional quote in 24–48h",
+          "body": "Requests route to our Dubai, Karachi, Canada, or Indonesia teams for localized proposals."
         }
       },
       "cta": "Get a regional quote",
-      "roiNote": "Prefer numbers? Try the ROI calculator"
+      "roiNote": "Want to calculate expected ROI? Try our calculator below"
     },
     "proofLabel": "Proven at scale"
   },
