@@ -71,7 +71,7 @@ export default async function CaseStudiesPage({
         </div>
       </Section>
 
-      {/* ============ Filterable grid — 16 studies by industry ============ */}
+      {/* ============ Filterable grid — all 21 studies by industry ============ */}
       <Section bg="ink-900" className="pt-4 sm:pt-4">
         <div className="mx-auto max-w-7xl px-5 sm:px-8">
           <FilterableGrid items={previews} locale={l} />

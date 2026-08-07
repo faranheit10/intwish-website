@@ -6,6 +6,7 @@ import { buildMetadata } from "@/lib/seo";
 import { Link } from "@/i18n/navigation";
 import { localize } from "@/content/types";
 import { caseStudies, getCaseStudy } from "@/content/caseStudies";
+import { getCaseStudyMeta } from "@/content/caseStudiesMeta";
 import { company } from "@/content/site";
 import { PrintPdfButton } from "@/components/PrintPdfButton";
 
@@ -44,6 +45,15 @@ export default async function CaseStudyOnePagerPage({ params }: PageProps) {
   if (!study) notFound();
 
   const t = await getTranslations("caseStudies");
+
+  // Enrich with structured metadata; strip unverified "N/A" slots so the
+  // printed one-pager only shows confirmed outcome numbers.
+  const meta = getCaseStudyMeta(slug);
+  const printMetrics = meta
+    ? meta.metrics
+        .map((m) => ({ value: localize(l, m.value), label: localize(l, m.label) }))
+        .filter((m) => m.value !== "N/A")
+    : [];
 
   const title = localize(l, study.title);
   const industry = localize(l, study.industry);
@@ -105,22 +115,22 @@ export default async function CaseStudyOnePagerPage({ params }: PageProps) {
         </section>
 
         {/* Impact metrics */}
-        {study.metrics && study.metrics.length > 0 ? (
+        {printMetrics.length > 0 ? (
           <section className="mt-10">
             <h2 className="text-sm font-bold uppercase tracking-wider text-neutral-500">
               {t("impactLabel")}
             </h2>
             <div className="mt-4 grid gap-4 sm:grid-cols-3">
-              {study.metrics.map((metric) => (
+              {printMetrics.map((metric) => (
                 <div
-                  key={metric.label.en}
+                  key={metric.label}
                   className="rounded-2xl border border-neutral-200 bg-neutral-50 p-5"
                 >
                   <p className="text-3xl font-bold tracking-tight text-brand-600">
-                    {localize(l, metric.value)}
+                    {metric.value}
                   </p>
                   <p className="mt-1 text-sm text-neutral-600">
-                    {localize(l, metric.label)}
+                    {metric.label}
                   </p>
                 </div>
               ))}
