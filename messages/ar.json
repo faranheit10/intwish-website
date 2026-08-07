@@ -496,6 +496,14 @@
       "report": {
         "value": "بنقرة واحدة",
         "label": "تقارير مرشحين PDF قابلة للتصدير"
+      },
+      "completion": {
+        "value": "97%",
+        "label": "Average candidate completion rate"
+      },
+      "games": {
+        "value": "6 Games",
+        "label": "CHC-theory cognitive battery"
       }
     },
     "sandbox": {
@@ -540,6 +548,14 @@
         "narrative": {
           "title": "محرك سردي مترابط",
           "body": "تتسلسل الأفعال عبر الوحدات — رُد على البريد فتنطلق رسالة في Slack، ويتغير جدول الاجتماع، ويتعمق التقييم. قصة واحدة متصلة."
+        },
+        "calendar": {
+          "title": "Calendar & scheduler",
+          "body": "Time-management and conflict-resolution module testing candidate ability to re-prioritize shifting deadlines."
+        },
+        "videoRecorder": {
+          "title": "Structured async video recorder",
+          "body": "Candidate video response recorder separate from SJT meetings, capturing structured presentation and communication skills."
         }
       }
     },
@@ -732,6 +748,31 @@
           "feature": "سجل التدقيق",
           "us": "كل إجراء مسجل وقابل للتصدير",
           "them": "سجلات ورقية أو جداول بيانات"
+        },
+        "env": {
+          "feature": "Assessment environment",
+          "us": "Full live virtual OS desktop (email, chat, meetings, games)",
+          "them": "Isolated game batteries or standalone video forms"
+        },
+        "builder": {
+          "feature": "Scenario & role customization",
+          "us": "Drag-and-drop Scenario Builder per role & group",
+          "them": "Fixed pre-baked questionnaires or static test sets"
+        },
+        "consequence": {
+          "feature": "Decision consequence mechanics",
+          "us": "Interlinked decision branching across modules",
+          "them": "Static scoring without decision consequences"
+        },
+        "dataResidency": {
+          "feature": "Regional data residency & compliance",
+          "us": "Native KSA & Pakistan hosting; PDPL/SAMA/SBP/NDMO compliant",
+          "them": "Western US/EU cloud retrofits without local residency"
+        },
+        "whiteLabel": {
+          "feature": "Branding & localization",
+          "us": "Full white-label branding + native Arabic (RTL) & English",
+          "them": "Vendor-branded portal with limited Arabic support"
         }
       }
     },
@@ -769,6 +810,18 @@
         "pricing": {
           "q": "كيف تعمل الأسعار؟",
           "a": "تسعير لكل مرشح وعلى أساس الحجم، مخصص لعملة منطقتك. تبدأ معظم الفرق بحملة تجريبية قبل التوسع. احجز مكالمة وسنشاركك الأسعار الإقليمية خلال 24–48 ساعة."
+        },
+        "differs": {
+          "q": "How does intOS differ from Pymetrics, Arctic Shores, or Vervoe?",
+          "a": "intOS is the only platform that combines a full virtual OS environment (email, messenger, video SJT, calendar) with branching decision consequences, CHC cognitive games, and a recruiter drag-and-drop Scenario Builder — while providing native KSA and Pakistan data residency."
+        },
+        "ats": {
+          "q": "Does intOS integrate with our ATS?",
+          "a": "Yes. intOS integrates natively with major ATS platforms including Workday, SAP SuccessFactors, Oracle Taleo, Greenhouse, and Lever for automated candidate invites and score sync."
+        },
+        "compliance": {
+          "q": "Where is candidate data hosted?",
+          "a": "intOS offers native local data residency in Saudi Arabia (KSA) and Pakistan, complying fully with PDPL, SAMA, SBP, and NDMO data regulations."
         }
       }
     },
@@ -793,7 +846,77 @@
       "cta": "احصل على عرض سعر إقليمي",
       "roiNote": "تفضل الأرقام؟ جرب حاسبة العائد على الاستثمار"
     },
-    "proofLabel": "مجرب على نطاق واسع"
+    "proofLabel": "مجرب على نطاق واسع",
+    "scienceStrip": {
+      "kicker": "// Validated Science & Adverse-Impact Transparency",
+      "title": "Built on Psychometric Science, Designed for Fair Selection",
+      "subtitle": "Assessment-category buyers lead evaluation with validity and adverse-impact transparency — not unbacked AI hype.",
+      "sample": {
+        "title": "300,000+ Assessed",
+        "body": "Grounded in 10 years of cross-national psychometric data across South Asia, MENA & North America."
+      },
+      "validity": {
+        "title": "CHC & Big Five Science",
+        "body": "Measures g-factor cognitive ability & workplace behavior through 6 CHC-grounded mini-games and job simulations."
+      },
+      "adverseImpact": {
+        "title": "EEOC 4/5ths Transparency",
+        "body": "Designed against established psychometric frameworks to reduce cultural bias and support fair selection auditing."
+      },
+      "compliance": {
+        "title": "KSA & Pakistan Data Residency",
+        "body": "In-region data hosting compliant with PDPL, SAMA, SBP & NDMO regulations — native structural advantage over Western retrofits."
+      }
+    },
+    "dualProof": {
+      "kicker": "Dual-Sided Proof",
+      "title": "Built for candidate immersion, controlled by recruiters",
+      "subtitle": "Most assessment tools only show the candidate side. intOS gives recruiters a drag-and-drop Scenario Builder to configure custom assessment flows.",
+      "candidateSide": {
+        "title": "Candidate experience: first day at a new job",
+        "body": "Anxiety-reducing virtual desktop with mobile-readiness, English & Arabic (RTL) localization, and WCAG dark & light themes."
+      },
+      "recruiterSide": {
+        "title": "Recruiter canvas: Scenario & Assessment Builder",
+        "body": "Drag-and-drop canvas with asset library sidebar, inspector panel, validation & simulation tools, candidate directory, competency management, and telemetry."
+      }
+    },
+    "gamesSection": {
+      "kicker": "CHC-Grounded Cognitive Battery",
+      "title": "6 validated cognitive mini-games",
+      "subtitle": "Built on Cattell-Horn-Carroll (CHC) theory to measure g-factor cognitive abilities without traditional test fatigue.",
+      "items": {
+        "numbubbles": {
+          "name": "Numbubbles",
+          "factor": "Quantitative Reasoning & Speed"
+        },
+        "numparison": {
+          "name": "Numparison",
+          "factor": "Numerical Comparison & Processing"
+        },
+        "wordWizard": {
+          "name": "Word Wizard",
+          "factor": "Verbal Ability & Comprehension"
+        },
+        "brainBuster": {
+          "name": "Brain Buster",
+          "factor": "Working Memory & Spatial Reasoning"
+        },
+        "gridLock": {
+          "name": "Grid Lock",
+          "factor": "Spatial Logic & Pattern Recognition"
+        },
+        "shortcuts": {
+          "name": "Shortcuts",
+          "factor": "Cognitive Flexibility & Rule Switching"
+        }
+      }
+    },
+    "ats": {
+      "kicker": "Integration Ecosystem",
+      "title": "Syncs natively with your existing HR stack",
+      "subtitle": "Trigger intOS assessments automatically from your ATS and sync candidate scores and PDF reports back to candidate profiles."
+    }
   },
   "intreview": {
     "kicker": "منتج · مقابلات",
