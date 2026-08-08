@@ -609,6 +609,68 @@
         }
       }
     },
+    "antiCheat": {
+      "kicker": "Mesin Integritas Enterprise",
+      "title": "Pengawasan Anti-Kecurangan 4 Tingkat & Forensik",
+      "subtitle": "Pemantauan sesi berkelanjutan setara dengan IntReview — menggabungkan verifikasi identitas, pelacakan tatapan & fokus, deteksi anomali akustik, dan kontrol evaluator manusia.",
+      "tiers": {
+        "tier1": {
+          "title": "Tingkat 1: Verifikasi Identitas & Lingkungan",
+          "body": "Pencocokan wajah biometrik, pengambilan foto ID, dan pemeriksaan perangkat keras sebelum simulasi dimulai."
+        },
+        "tier2": {
+          "title": "Tingkat 2: Pelacakan Tatapan & Fokus",
+          "body": "Pelacakan tatapan webcam berkelanjutan, pemantauan posisi kepala, dan deteksi multi-monitor."
+        },
+        "tier3": {
+          "title": "Tingkat 3: Penguncian Sistem & Papan Klip",
+          "body": "Pencegahan perpindahan tab peramban, blokir salin-tempel, kunci klik-kanan, dan pemantauan penekanan tombol."
+        },
+        "tier4": {
+          "title": "Tingkat 4: Forensik Akustik & AI",
+          "body": "Analisis akustik multi-suara, deteksi audio perangkat sekunder, dan pencatatan stempel waktu anomali otomatis."
+        }
+      },
+      "overrideCallout": {
+        "title": "Wewenang Pembatalan Evaluator 100% & Audit Bukti",
+        "body": "AI memberi tanda pada anomali tanpa pernah menolak kandidat secara otomatis. Tim perekrut mempertahankan kontrol penuh atas pembatalan skor dengan bukti video dan audio berstempel waktu."
+      }
+    },
+    "modules": {
+      "kicker": "Arsitektur Platform",
+      "title": "Simulasi Tempat Kerja & Game Kognitif CHC",
+      "subtitle": "Tujuh modul inti mensimulasikan lingkungan kerja nyata dengan konsekuensi keputusan bercabang.",
+      "items": {
+        "email": {
+          "title": "Simulasi Email / E-Tray",
+          "body": "Pemeriksaan kotak masuk dengan panel simpul keputusan. Kandidat mengelola prioritas dan merespons pemangku kepentingan."
+        },
+        "messenger": {
+          "title": "Pesan Tim (Gaya Slack)",
+          "body": "Saluran obrolan tim real-time dengan kartu perintah keputusan tertanam selama skenario krisis."
+        },
+        "meeting": {
+          "title": "SJT Rapat (Panggilan Video)",
+          "body": "Tes penilaian situasi panggilan video terstimulasi dengan penghitung waktu mundur dan tanggapan pemangku kepentingan."
+        },
+        "calendar": {
+          "title": "Kalender & Penjadwalan",
+          "body": "Modul manajemen waktu dan resolusi konflik yang menguji kemampuan kandidat dalam mengatur ulang prioritas."
+        },
+        "psychometric": {
+          "title": "Paket Game Kognitif LMS & CHC",
+          "body": "6 game mini kognitif yang mengevaluasi kemampuan faktor-g CHC bersama modul pembelajaran LMS."
+        },
+        "videoRecorder": {
+          "title": "Mesin Pengawasan Anti-Kecurangan 4 Tingkat",
+          "body": "Sistem proctoring bawaan yang setara dengan IntReview — perekaman bukti webcam, pelacakan tatapan, dan kunci peramban."
+        },
+        "narrative": {
+          "title": "Mesin Narasi Keputusan Terhubung",
+          "body": "Pembeda utama: pilihan terhubung antar modul. Membalas email memicu peringatan pesan tim dan mengubah agenda rapat."
+        }
+      }
+    },
     "useCases": {
       "kicker": "Kasus penggunaan",
       "title": "Dari kampanye lulusan baru hingga seleksi pemerintahan",
@@ -952,6 +1014,110 @@
         "label": "Kandidat per kampanye, dari program klien kami"
       }
     },
+    "questionTypes": {
+      "kicker": "Serbaguna Multi-Format",
+      "title": "Lebih dari Sekadar Video Satu Arah — 4 Format Wawancara Inti",
+      "subtitle": "Sementara alat standar pasar membatasi kandidat pada rekaman video dasar, IntReview mendukung asesmen multi-format komprehensif.",
+      "starNotice": "Panel Panduan SAO: Kandidat melihat petunjuk Situasi / Tindakan / Hasil secara langsung saat menjawab.",
+      "items": {
+        "video": {
+          "title": "Tanggapan Video",
+          "body": "Jawaban video HD asinkron dengan pengatur waktu persiapan yang dapat disesuaikan dan transkripsi instan."
+        },
+        "select": {
+          "title": "Pilihan Ganda & Pilihan Tunggal",
+          "body": "Pertanyaan pilihan ganda, benar/salah, pilihan tunggal, dan daftar tarik-turun untuk penilaian otomatis instan."
+        },
+        "text": {
+          "title": "Teks & Jawaban Singkat / Esai",
+          "body": "Kotak teks terbuka untuk perintah situasional tertulis, analisis kasus, dan penjelasan mendalam."
+        },
+        "scale": {
+          "title": "Skala Rating & Urutan Peringkat",
+          "body": "Skala Likert multi-poin, kriteria multi-pilihan, dan item urutan peringkat untuk evaluasi mandiri kandidat."
+        }
+      }
+    },
+    "antiCheat": {
+      "kicker": "Tumpukan Integritas",
+      "title": "Mesin Pengawasan Anti-Kecurangan 4 Tingkat",
+      "subtitle": "Tumpukan keamanan berlapis yang dirancang untuk mencegah penyamaran dan bantuan yang tidak sah.",
+      "overrideCallout": {
+        "title": "Pembatalan Skor Manusia",
+        "body": "IntReview mempertahankan perekrut manusia dalam kontrol penuh. Setiap nilai AI didasarkan pada kutipan verbatim dan stempel waktu."
+      },
+      "tiers": {
+        "tier1": {
+          "title": "Tingkat 1: Penguncian Identitas & Perangkat",
+          "body": "Verifikasi webcam dan perangkat keras, konfirmasi identitas, dan penguncian sesi tunggal."
+        },
+        "tier2": {
+          "title": "Tingkat 2: Pemantauan Sesi Aktif",
+          "body": "Deteksi perpindahan tab, peringatan kabur jendela, layar penuh paksa, dan penguncian salin-tempel."
+        },
+        "tier3": {
+          "title": "Tingkat 3: Integritas Sistem & Input",
+          "body": "Penguncian peramban, pemblokiran DevTools, dan deteksi layar sekunder."
+        },
+        "tier4": {
+          "title": "Tingkat 4: Forensik Lanjutan",
+          "body": "Deteksi anomali akustik (suara latar belakang), pemantauan pelacakan tatapan mata, dan gerakan bibir."
+        }
+      }
+    },
+    "scoring": {
+      "kicker": "Mesin Penilaian",
+      "title": "Dekomposisi SAO & Bukti Transparan",
+      "subtitle": "IntReview tidak hanya mengembalikan skor — ini menguraikan setiap tanggapan kandidat menjadi bukti yang dapat diverifikasi.",
+      "items": {
+        "star": {
+          "title": "Kerangka Kerja SAO",
+          "body": "Menguraikan tanggapan secara otomatis menjadi indikator Situasi, Tindakan, dan Hasil."
+        },
+        "radar": {
+          "title": "Grafik Radar Kompetensi",
+          "body": "Memvisualisasikan profil keterampilan kandidat terhadap rubrik kustom 5 tingkat Anda."
+        },
+        "quotes": {
+          "title": "Kutipan Bukti Verbatim",
+          "body": "Setiap rating terhubung langsung ke kutipan berstempel waktu di transkrip."
+        }
+      }
+    },
+    "dashboard": {
+      "kicker": "Permukaan Kontrol Perekrut",
+      "title": "Cakupan Administratif & Alur Kerja Total",
+      "subtitle": "Dibangun untuk tim talenta yang mengevaluasi terhadap alat enterprise warisan.",
+      "items": {
+        "builder": {
+          "title": "Pembuat Asesmen Mode Ganda",
+          "body": "Buat secara manual dengan seret-dan-lepas atau gunakan generator AI dari deskripsi pekerjaan."
+        },
+        "bank": {
+          "title": "Manajer Bank Pertanyaan",
+          "body": "Repositori pertanyaan terpusat dengan asisten pembuatan pertanyaan AI."
+        },
+        "rubric": {
+          "title": "Manajer Kerangka Kerja Kompetensi",
+          "body": "Editor rubrik 5 tingkat dengan alat impor/ekspor dan kriteria kustom."
+        },
+        "rbac": {
+          "title": "Kontrol Akses Berbasis Peran 4 Tingkat",
+          "body": "Peran izin terperinci: Pemilik, Admin, Perekrut, dan Evaluator."
+        },
+        "integrations": {
+          "title": "Integrasi ATS & HRIS",
+          "body": "Dukungan webhook instan untuk Greenhouse, Lever, Workday, dan BambooHR."
+        }
+      }
+    },
+    "compliance": {
+      "kicker": "Kepatuhan & Residensi",
+      "title": "Awan Berdaulat & Standar AI Global",
+      "subtitle": "Dirancang khusus untuk kedaulatan data regional dan patuh pada mandat perekrutan AI global.",
+      "body": "IntReview menyediakan penyebaran awan berdaulat lokal yang patuh pada regulasi data.",
+      "cta": "Jelajahi Spesifikasi"
+    },
     "features": {
       "kicker": "Cara kerjanya",
       "title": "Rekam sekali. Nilai instan. Putuskan dengan percaya diri.",
@@ -1051,41 +1217,41 @@
       }
     },
     "comparison": {
-      "kicker": "Mengapa tim beralih",
-      "title": "IntReview vs. tinjauan video manual",
-      "subtitle": "Wawancara yang sama, sebagian kecil dari waktu tinjauan.",
+      "kicker": "Perbandingan Langsung",
+      "title": "IntReview vs. Vendor Standar Industri",
+      "subtitle": "Lihat bagaimana IntReview dibandingkan langsung dengan HireVue, VidCruiter, Spark Hire, dan Willo.",
       "us": "IntReview",
-      "them": "Tinjauan manual",
+      "them": "Pesaing (HireVue / VidCruiter / Spark Hire / Willo)",
       "rows": {
-        "time": {
-          "feature": "Waktu tinjauan",
-          "us": "~80% lebih sedikit dengan penilaian AI otomatis",
-          "them": "Berjam-jam rekaman per kandidat"
+        "formats": {
+          "feature": "Format Pertanyaan",
+          "us": "Multi-format (Video, MCQ/Pilihan, Teks/Esai, Skala Rating)",
+          "them": "Utamanya hanya tanggapan video standar"
         },
-        "consistency": {
-          "feature": "Konsistensi",
-          "us": "Satu rubrik, setiap kandidat",
-          "them": "Penilaian yang bergantung pada pewawancara"
+        "proctoring": {
+          "feature": "Kedalaman Anti-Kecurangan",
+          "us": "Tumpukan 4 tingkat (tatapan, akustik, tab, kunci perangkat)",
+          "them": "Deteksi tab dasar atau tanpa pengawasan asli"
         },
-        "scheduling": {
-          "feature": "Penjadwalan",
-          "us": "Kandidat merekam kapan saja, di perangkat apa pun",
-          "them": "Mengoordinasikan slot wawancara langsung"
+        "transparency": {
+          "feature": "Auditabilitas Penilaian",
+          "us": "Kutipan bukti verbatim & pembatalan skor manusia",
+          "them": "Skor AI tidak transparan tanpa kutipan bukti"
         },
-        "evidence": {
-          "feature": "Bukti",
-          "us": "Kutipan verbatim dan cap waktu",
-          "them": "Catatan yang ditulis setelah panggilan"
+        "compliance": {
+          "feature": "Residensi Berdaulat",
+          "us": "Awan berdaulat lokal KSA / GCC & siap PDPL",
+          "them": "Hanya hosting awan standar AS / UE"
         },
-        "integrity": {
-          "feature": "Integritas",
-          "us": "Pelacakan tatapan, deteksi tab, dan forensik audio",
-          "them": "Rekaman tanpa pengawasan"
+        "builder": {
+          "feature": "Pembuatan Asesmen",
+          "us": "Mode ganda (Manual + Generator AI Perintah-ke-Asesmen)",
+          "them": "Entri pertanyaan manual atau templat statis yang kaku"
         },
-        "scale": {
-          "feature": "Skala",
-          "us": "4.000–25.000 kandidat per drive",
-          "them": "Dibatasi kapasitas perekrut"
+        "rbac": {
+          "feature": "Kontrol Akses Peran",
+          "us": "4 peran terperinci (Pemilik, Admin, Perekrut, Evaluator)",
+          "them": "Izin akun dasar admin vs pengguna"
         }
       }
     },

@@ -6,6 +6,7 @@ import {
   Calendar,
   CheckCircle2,
   Cpu,
+  Eye,
   FileCheck,
   FileDown,
   FileText,
@@ -26,6 +27,7 @@ import {
   Smartphone,
   Sliders,
   Timer,
+  UserCheck,
   Users,
   Video,
 } from "lucide-react";
@@ -50,6 +52,7 @@ import { ComparisonMatrix } from "@/components/ComparisonMatrix";
 import { FAQ } from "@/components/FAQ";
 import { PricingBand } from "@/components/PricingBand";
 import { CaseStudyCard } from "@/components/CaseStudyCard";
+import { StepFlowDiagram } from "@/components/StepFlowDiagram";
 import { clientNames } from "@/content/site";
 import { caseStudies } from "@/content/caseStudies";
 import { cn } from "@/lib/cn";
@@ -67,6 +70,7 @@ export function generateMetadata({ params }: { params: Promise<{ locale: string 
 }
 
 const proofKeys = ["candidates", "completion", "games", "report"] as const;
+const antiCheatTierKeys = ["tier1", "tier2", "tier3", "tier4"] as const;
 const dashboardKeys = ["pulse", "funnel", "timeSaved", "gems", "integrity"] as const;
 const dashboardIcons = [Activity, BarChart3, Timer, Brain, ShieldCheck] as const;
 const candidateKeys = ["anxiety", "mobile", "languages", "themes"] as const;
@@ -166,11 +170,7 @@ export default async function IntOSPage({
         trustLine={`${clientNames.slice(0, 4).join(" · ")} · 300,000+ candidates assessed`}
         visual={
           <div className="relative">
-            <WindowFrame title={t("hero.windowTitle")} bodyClassName="bg-ink-900 overflow-hidden">
-              <div className="relative h-[440px] sm:h-[500px] w-full">
-                <OSSandbox />
-              </div>
-            </WindowFrame>
+            <OSSandbox heightClassName="h-[440px] sm:h-[500px]" />
           </div>
         }
         proofLabel={t("proofLabel")}
@@ -299,10 +299,16 @@ export default async function IntOSPage({
                     {t("modules.items.email.body")}
                   </p>
                 </div>
-                <div className="mt-6 rounded-xl border border-dashed border-accent-500/50 bg-ink-900 p-4 text-center">
-                  <span className="font-mono text-xs text-accent-300">
-                    PLACEHOLDER — E-Tray / Email simulation screenshot needed
-                  </span>
+                <div className="mt-6 overflow-hidden rounded-xl border border-line bg-ink-900 shadow-card">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src="/img/intos/etray-email-sim.png"
+                    alt="intOS E-Tray Email Simulation Interface"
+                    className="w-full h-auto object-cover rounded-xl transition-transform duration-300 hover:scale-[1.01]"
+                    width={1200}
+                    height={675}
+                    loading="lazy"
+                  />
                 </div>
               </div>
             </Reveal>
@@ -326,10 +332,16 @@ export default async function IntOSPage({
                     {t("modules.items.messenger.body")}
                   </p>
                 </div>
-                <div className="mt-5 rounded-lg border border-dashed border-accent-500/50 bg-ink-900 p-3 text-center">
-                  <span className="font-mono text-[11px] text-accent-300">
-                    PLACEHOLDER — Team Messenger screenshot needed
-                  </span>
+                <div className="mt-5 overflow-hidden rounded-lg border border-line bg-ink-900 shadow-card">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src="/img/intos/team-messenger.png"
+                    alt="intOS Workplace Team Messenger Simulator"
+                    className="w-full h-auto object-cover rounded-lg transition-transform duration-300 hover:scale-[1.01]"
+                    width={800}
+                    height={450}
+                    loading="lazy"
+                  />
                 </div>
               </div>
             </Reveal>
@@ -353,10 +365,16 @@ export default async function IntOSPage({
                     {t("modules.items.meeting.body")}
                   </p>
                 </div>
-                <div className="mt-5 rounded-lg border border-dashed border-accent-500/50 bg-ink-900 p-3 text-center">
-                  <span className="font-mono text-[11px] text-accent-300">
-                    PLACEHOLDER — Meeting SJT video call screenshot needed
-                  </span>
+                <div className="mt-5 overflow-hidden rounded-lg border border-line bg-ink-900 shadow-card">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src="/img/intos/meeting-sjt.png"
+                    alt="intOS Executive SJT Video Call Meeting Simulation"
+                    className="w-full h-auto object-cover rounded-lg transition-transform duration-300 hover:scale-[1.01]"
+                    width={800}
+                    height={450}
+                    loading="lazy"
+                  />
                 </div>
               </div>
             </Reveal>
@@ -380,37 +398,49 @@ export default async function IntOSPage({
                     {t("modules.items.calendar.body")}
                   </p>
                 </div>
-                <div className="mt-5 rounded-lg border border-dashed border-accent-500/50 bg-ink-900 p-3 text-center">
-                  <span className="font-mono text-[11px] text-accent-300">
-                    PLACEHOLDER — Calendar & Scheduler screenshot needed
-                  </span>
+                <div className="mt-5 overflow-hidden rounded-lg border border-line bg-ink-900 shadow-card">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src="/img/intos/calendar-scheduler.png"
+                    alt="intOS Work Calendar and Task Prioritization Simulator"
+                    className="w-full h-auto object-cover rounded-lg transition-transform duration-300 hover:scale-[1.01]"
+                    width={800}
+                    height={450}
+                    loading="lazy"
+                  />
                 </div>
               </div>
             </Reveal>
 
-            {/* Structured Async Video Recorder */}
+            {/* Behavioral & Cognitive Game Suite */}
             <Reveal variant="slide-end">
               <div className="frame-blueprint h-full rounded-2xl bg-ink-850 p-7 flex flex-col justify-between">
                 <div>
                   <div className="flex items-center justify-between">
                     <span className="inline-flex h-11 w-11 items-center justify-center rounded-xl border border-brand-500/30 bg-brand-500/10 text-brand-400">
-                      <MonitorPlay className="h-5 w-5" aria-hidden="true" />
+                      <Brain className="h-5 w-5" aria-hidden="true" />
                     </span>
                     <span className="rounded-full border border-line bg-ink-900 px-2.5 py-0.5 font-mono text-[10px] text-faint">
                       Module 05
                     </span>
                   </div>
                   <h3 className="mt-4 text-lg font-semibold tracking-tight text-paper">
-                    {t("modules.items.videoRecorder.title")}
+                    {t("modules.items.psychometric.title")}
                   </h3>
                   <p className="mt-2 text-sm leading-relaxed text-muted">
-                    {t("modules.items.videoRecorder.body")}
+                    {t("modules.items.psychometric.body")}
                   </p>
                 </div>
-                <div className="mt-5 rounded-lg border border-dashed border-accent-500/50 bg-ink-900 p-3 text-center">
-                  <span className="font-mono text-[11px] text-accent-300">
-                    PLACEHOLDER — Structured Async Video Recorder screenshot needed
-                  </span>
+                <div className="mt-5 overflow-hidden rounded-lg border border-line bg-ink-900 shadow-card">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src="/img/intos/cognitive-games-hub.png"
+                    alt="intOS Behavioral Assessment and CHC Cognitive Mini-Games Suite"
+                    className="w-full h-auto object-cover rounded-lg transition-transform duration-300 hover:scale-[1.01]"
+                    width={800}
+                    height={450}
+                    loading="lazy"
+                  />
                 </div>
               </div>
             </Reveal>
@@ -478,10 +508,16 @@ export default async function IntOSPage({
             ))}
           </div>
 
-          <div className="mt-12 rounded-xl border border-line bg-ink-850 p-4 text-center">
-            <span className="font-mono text-xs text-accent-300">
-              PLACEHOLDER — Cognitive Mini-Games Hub & In-Game gameplay screenshots needed
-            </span>
+          <div className="mt-12 overflow-hidden rounded-2xl border border-line bg-ink-850 shadow-card">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/img/intos/cognitive-games-hub.png"
+              alt="intOS Psychometric Cognitive Mini-Games Suite Hub"
+              className="w-full h-auto object-cover rounded-2xl transition-transform duration-300 hover:scale-[1.005]"
+              width={1200}
+              height={675}
+              loading="lazy"
+            />
           </div>
 
           {/* Gameplay video recordings grid */}
@@ -497,6 +533,51 @@ export default async function IntOSPage({
               ))}
             </div>
           </div>
+        </div>
+      </Section>
+
+      {/* ============ 6. Anti-Cheat Integrity Suite (#anti-cheat) ============ */}
+      <Section bg="ink" id="anti-cheat">
+        <div className="mx-auto max-w-7xl px-5 sm:px-8">
+          <SectionHeading
+            kicker={t("antiCheat.kicker")}
+            title={t("antiCheat.title")}
+            subtitle={t("antiCheat.subtitle")}
+          />
+
+          {/* Tiered Diagram built with StepFlowDiagram */}
+          <div className="mt-12">
+            <StepFlowDiagram
+              steps={antiCheatTierKeys.map((key, i) => {
+                const icons = [UserCheck, Eye, Lock, ShieldCheck];
+                const Icon = icons[i];
+                return {
+                  icon: <Icon className="h-5 w-5" aria-hidden="true" />,
+                  title: t(`antiCheat.tiers.${key}.title`),
+                  body: t(`antiCheat.tiers.${key}.body`),
+                };
+              })}
+            />
+          </div>
+
+          {/* Human-in-the-Loop Proctoring & Evidence Audit Callout */}
+          <Reveal variant="fade-up" className="mt-12">
+            <div className="frame-blueprint relative overflow-hidden rounded-2xl bg-ink-850 p-8 border-s-4 border-s-accent-500 sm:p-10">
+              <div className="flex flex-col sm:flex-row items-start gap-6">
+                <span className="inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-xl border border-accent-500/30 bg-accent-500/10 text-accent-400">
+                  <ShieldCheck className="h-6 w-6" aria-hidden="true" />
+                </span>
+                <div>
+                  <h3 className="text-xl font-semibold tracking-tight text-paper">
+                    {t("antiCheat.overrideCallout.title")}
+                  </h3>
+                  <p className="mt-2 leading-relaxed text-muted max-w-4xl">
+                    {t("antiCheat.overrideCallout.body")}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </Reveal>
         </div>
       </Section>
 
@@ -528,10 +609,16 @@ export default async function IntOSPage({
 
                 <div className="mt-6">
                   <WindowFrame title="intOS — candidate desktop view" bodyClassName="bg-ink-900">
-                    <div className="relative aspect-[16/10] w-full overflow-hidden bg-grid-dense flex items-center justify-center p-6 text-center">
-                      <span className="font-mono text-xs text-accent-300">
-                        PLACEHOLDER — Candidate Virtual OS Desktop (Light/Dark & Mobile) screenshot needed
-                      </span>
+                    <div className="relative aspect-[16/10] w-full overflow-hidden bg-ink-900">
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src="/img/intos/candidate-virtual-os.png"
+                        alt="intOS Candidate Virtual OS Multitasking Desktop Environment"
+                        className="w-full h-full object-cover transition-transform duration-300 hover:scale-[1.01]"
+                        width={1200}
+                        height={750}
+                        loading="lazy"
+                      />
                     </div>
                   </WindowFrame>
                 </div>
@@ -555,10 +642,16 @@ export default async function IntOSPage({
 
                 <div className="mt-6">
                   <WindowFrame title="intOS — recruiter scenario builder canvas" bodyClassName="bg-ink-900">
-                    <div className="relative aspect-[16/10] w-full overflow-hidden bg-grid-dense flex items-center justify-center p-6 text-center">
-                      <span className="font-mono text-xs text-accent-300">
-                        PLACEHOLDER — Recruiter Scenario & Assessment Builder canvas screenshot needed
-                      </span>
+                    <div className="relative aspect-[16/10] w-full overflow-hidden bg-ink-900">
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src="/img/intos/recruiter-scenario-builder.png"
+                        alt="intOS Recruiter Scenario and Assessment Node Builder Canvas"
+                        className="w-full h-full object-cover transition-transform duration-300 hover:scale-[1.01]"
+                        width={1200}
+                        height={750}
+                        loading="lazy"
+                      />
                     </div>
                   </WindowFrame>
                 </div>
@@ -637,9 +730,17 @@ export default async function IntOSPage({
                       </div>
                     ))}
                   </div>
-                  <span className="absolute -top-2.5 start-4 rounded border border-dashed border-accent-500/70 bg-ink-950/90 px-2 py-0.5 font-mono text-[10px] text-accent-300">
-                    PLACEHOLDER — Recruiter analytics dashboard screenshot needed
-                  </span>
+                  <div className="mt-4 overflow-hidden rounded-lg border border-line bg-ink-900">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src="/img/intos/recruiter-analytics-dashboard.png"
+                      alt="intOS Recruiter Analytics Command Center Dashboard"
+                      className="w-full h-auto object-cover rounded-lg"
+                      width={1200}
+                      height={750}
+                      loading="lazy"
+                    />
+                  </div>
                 </div>
               </WindowFrame>
             </Reveal>

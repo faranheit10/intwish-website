@@ -24,7 +24,7 @@ interface ProductShowcaseProps {
 }
 
 /**
- * Product suite overview — 2-column bento grid (60/40), NOT three cards.
+ * Product suite overview — 2-column equal-width grid.
  * intOS carries the real OS surface; IntReview shows the real AI report
  * screenshot with a data-visualization motif background.
  */
@@ -53,9 +53,9 @@ export function ProductShowcase({
         ) : null}
       </div>
 
-      <div className="grid gap-6 lg:grid-cols-5">
-        {/* intOS — 60% */}
-        <Reveal variant="slide-start" className="lg:col-span-3">
+      <div className="grid gap-6 lg:grid-cols-2">
+        {/* intOS — 50% */}
+        <Reveal variant="slide-start">
           <article className="frame-blueprint group flex h-full flex-col overflow-hidden rounded-2xl">
             <div className="bg-grid-dense relative flex-1 p-5 sm:p-6">
               <IntOSDesktopMock className="transition-transform duration-500 group-hover:scale-[1.01]" />
@@ -92,8 +92,8 @@ export function ProductShowcase({
           </article>
         </Reveal>
 
-        {/* IntReview — 40% */}
-        <Reveal variant="slide-end" className="lg:col-span-2">
+        {/* IntReview — 50% */}
+        <Reveal variant="slide-end">
           <article className="frame-blueprint group relative flex h-full flex-col overflow-hidden rounded-2xl">
             <div className="bg-data-viz relative flex-1 p-5 sm:p-6">
               <div className="relative">
@@ -103,7 +103,7 @@ export function ProductShowcase({
                       src="/img/products/ai-report.webp"
                       alt={intreview.reportLabel}
                       fill
-                      sizes="(max-width: 1024px) 100vw, 40vw"
+                      sizes="(max-width: 1024px) 100vw, 50vw"
                       className="object-cover object-top opacity-90 transition-opacity duration-500 group-hover:opacity-100"
                     />
                   </div>

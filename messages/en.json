@@ -625,6 +625,33 @@
       "privateNote": "Want a private sandbox link for your team?",
       "privateCta": "Get your own sandbox"
     },
+    "antiCheat": {
+      "kicker": "Enterprise Integrity Engine",
+      "title": "4-Tier Anti-Cheat Proctoring & Forensics",
+      "subtitle": "Continuous session monitoring equal to IntReview — combining identity verification, gaze & focus locks, acoustic anomaly detection, and human evaluator override.",
+      "tiers": {
+        "tier1": {
+          "title": "Tier 1: Identity & Environment Check",
+          "body": "Biometric face matching, photo ID capture, and system hardware checks before simulation start."
+        },
+        "tier2": {
+          "title": "Tier 2: Focus & Gaze Tracking",
+          "body": "Continuous webcam gaze tracking, head position monitoring, and multi-monitor detection."
+        },
+        "tier3": {
+          "title": "Tier 3: System & Clipboard Lockout",
+          "body": "Browser tab-switch prevention, copy-paste block, right-click lock, and external keystroke monitoring."
+        },
+        "tier4": {
+          "title": "Tier 4: Acoustic & AI Forensics",
+          "body": "Multi-voice acoustic analysis, secondary device audio detection, and automated anomaly timestamp logging."
+        }
+      },
+      "overrideCallout": {
+        "title": "100% Evaluator Override & Verbatim Audit",
+        "body": "AI proctoring flags anomalies but never auto-rejects candidates. Talent teams retain total score override control with timestamped video and audio evidence."
+      }
+    },
     "modules": {
       "kicker": "Platform Architecture",
       "title": "Workplace simulations & CHC cognitive games",
@@ -647,12 +674,12 @@
           "body": "Time-management and conflict-resolution module testing candidate ability to re-prioritize shifting deadlines."
         },
         "psychometric": {
-          "title": "6 CHC cognitive mini-games",
-          "body": "Numbubbles, Numparison, Word Wizard, Brain Buster, Grid Lock, and Shortcuts — evaluating g-factor abilities based on Cattell-Horn-Carroll theory."
+          "title": "LMS & 6 CHC cognitive mini-games",
+          "body": "Numbubbles, Numparison, Word Wizard, Brain Buster, Grid Lock, and Shortcuts — evaluating g-factor abilities alongside interactive LMS learning modules."
         },
         "videoRecorder": {
-          "title": "Structured async video recorder",
-          "body": "Candidate video response recorder separate from SJT meetings, capturing structured presentation and communication skills."
+          "title": "4-tier anti-cheat proctoring engine",
+          "body": "Built-in enterprise anti-cheating equal to IntReview — continuous webcam evidence capture, gaze tracking, facial detection, and browser locks across every OS simulation."
         },
         "narrative": {
           "title": "Interlinked decision narrative engine",
@@ -728,12 +755,30 @@
       "title": "6 validated cognitive mini-games",
       "subtitle": "Built on Cattell-Horn-Carroll (CHC) theory to measure g-factor cognitive abilities without traditional test fatigue.",
       "items": {
-        "numbubbles": { "name": "Numbubbles", "factor": "Quantitative Reasoning & Speed" },
-        "numparison": { "name": "Numparison", "factor": "Numerical Comparison & Processing" },
-        "wordWizard": { "name": "Word Wizard", "factor": "Verbal Ability & Comprehension" },
-        "brainBuster": { "name": "Brain Buster", "factor": "Working Memory & Spatial Reasoning" },
-        "gridLock": { "name": "Grid Lock", "factor": "Spatial Logic & Pattern Recognition" },
-        "shortcuts": { "name": "Shortcuts", "factor": "Cognitive Flexibility & Rule Switching" }
+        "numbubbles": {
+          "name": "Numbubbles",
+          "factor": "Quantitative Reasoning & Speed"
+        },
+        "numparison": {
+          "name": "Numparison",
+          "factor": "Numerical Comparison & Processing"
+        },
+        "wordWizard": {
+          "name": "Word Wizard",
+          "factor": "Verbal Ability & Comprehension"
+        },
+        "brainBuster": {
+          "name": "Brain Buster",
+          "factor": "Working Memory & Spatial Reasoning"
+        },
+        "gridLock": {
+          "name": "Grid Lock",
+          "factor": "Spatial Logic & Pattern Recognition"
+        },
+        "shortcuts": {
+          "name": "Shortcuts",
+          "factor": "Cognitive Flexibility & Rule Switching"
+        }
       }
     },
     "ats": {
@@ -892,93 +937,236 @@
   },
   "intreview": {
     "kicker": "Product · Interviews",
-    "title": "AI-assisted interviews & assessments",
-    "tagline": "Asynchronous video interviews scored by AI against your competency rubrics — with proctoring, STAR analysis and instant, data-driven reports.",
-    "description": "Candidates record structured video answers once, on their own time. IntReview's AI scores them against your rubric — STAR structure, 1–5 ratings and evidence quotes — while proctoring watches for cheating. You review ranked evidence, not raw hours of footage.",
+    "title": "IntReview — Standalone & Integrated AI Candidate Screening",
+    "tagline": "Asynchronous, multi-format AI candidate interviewing with tiered anti-cheat proctoring, SAO evidence scoring, and total recruiter control.",
+    "description": "IntReview is an AI-scored candidate screening platform built as an independent standalone SaaS or a deep pipeline stage after broad assessments like intOS. Multi-format questions (video, MCQ/select, text/essay, rating scales), 4-tier anti-cheat proctoring, SAO rubric analysis with verbatim evidence quotes, and full recruiter override controls.",
     "hero": {
       "kicker": "define(interview):",
-      "headline": "AI-powered interviews that show their work",
-      "tagline": "Candidates record once, on their own time. IntReview scores against your rubric with verbatim evidence quotes and timestamps — while proctoring watches for cheating.",
-      "outcome": "~80% less review time, with evidence you can defend",
-      "ctaDemo": "See AI scoring in action",
-      "ctaPilot": "Book a Pilot",
-      "windowTitle": "IntReview — AI candidate report"
+      "headline": "Multi-Format AI Candidate Interviewing with Uncompromising Integrity",
+      "tagline": "Built both as a standalone AI interview SaaS and as a deep pipeline stage following intOS drives. Evaluate candidates across video, structured MCQs, open text responses, and rating scales — backed by 4-tier anti-cheat proctoring and transparent SAO evidence scoring.",
+      "outcome": "~80% less review time, transparent evidence quotes, and full recruiter score override control",
+      "ctaDemo": "See AI Scoring & Proctoring",
+      "ctaPilot": "Book an Enterprise Pilot",
+      "windowTitle": "IntReview — Candidate Recording & Live Recruiter Proctoring Feed"
     },
     "ctaDemo": "Request a live walkthrough",
     "ctaPilot": "Book a pilot with an expert",
     "proof": {
       "speed": {
         "value": "~80%",
-        "label": "Less review time with auto-scoring"
+        "label": "Less review time with AI SAO scoring"
       },
       "consistency": {
-        "value": "One rubric",
-        "label": "The same standard for every candidate"
+        "value": "4 Formats",
+        "label": "Video, MCQ/Select, Text & Rating responses"
       },
       "anxiety": {
-        "value": "Anytime",
-        "label": "Candidates record when they're ready"
+        "value": "4 Tiers",
+        "label": "Layered anti-cheat proctoring safeguards"
       },
       "scale": {
-        "value": "4–25k",
-        "label": "Candidates per drive, from our client programs"
+        "value": "100% Audit",
+        "label": "Verbatim quotes & human score override"
+      }
+    },
+    "questionTypes": {
+      "kicker": "Multi-Format Versatility",
+      "title": "Beyond One-Way Video — 4 Core Interview Formats",
+      "subtitle": "While standard market tools limit candidates to basic video recordings, IntReview supports comprehensive multi-format screening tailored to every role.",
+      "starNotice": "SAO Guidance Panel: Candidates see live Situation / Action / Outcome prompts while answering to structure high-quality responses.",
+      "items": {
+        "video": {
+          "title": "Video Response",
+          "body": "Asynchronous HD video answers with customizable prep timers, allowed retakes, and instant speech-to-text transcript generation."
+        },
+        "select": {
+          "title": "MCQ & Single Select",
+          "body": "Multiple-choice, true/false, single select, and dropdown selection questions for instant automated scoring."
+        },
+        "text": {
+          "title": "Text & Short Answer / Essay",
+          "body": "Open-ended text and comment boxes for written situational prompts, case analyses, and detailed explanations."
+        },
+        "scale": {
+          "title": "Rating Scales & Rank Ordering",
+          "body": "Multi-point Likert scales, multi-select criteria, and rank-ordering items for candidate prioritization and self-assessment."
+        }
+      }
+    },
+    "antiCheat": {
+      "kicker": "Integrity Stack",
+      "title": "4-Tiered Anti-Cheat Proctoring Engine",
+      "subtitle": "A layered security stack designed to prevent impersonation, unauthorized assistance, and external leakage — while keeping honest candidates at ease.",
+      "overrideCallout": {
+        "title": "Human-in-the-Loop Score Override",
+        "body": "Unlike opaque competitor scoring engines that black-box candidate evaluation, IntReview keeps human recruiters in full control. Every AI rating is grounded in verbatim quotes and timestamps, with instant recruiter override authority."
+      },
+      "tiers": {
+        "tier1": {
+          "title": "Tier 1: Identity & Device Lock",
+          "body": "Webcam and hardware verification, identity confirmation, and single-device session locking before question playback begins."
+        },
+        "tier2": {
+          "title": "Tier 2: Active Session Monitoring",
+          "body": "Tab-switch detection, window blur alerts, forced fullscreen enforcement, and right-click & copy-paste restriction locks."
+        },
+        "tier3": {
+          "title": "Tier 3: System & Input Integrity",
+          "body": "Browser lockdown, DevTools blocking, multi-device / duplicate-session prevention, and secondary display detection."
+        },
+        "tier4": {
+          "title": "Tier 4: Advanced Forensics",
+          "body": "Acoustic anomaly detection (background voice/whisper analysis), presence loss monitoring, iris eye-gaze tracking, and lip movement detection."
+        }
+      }
+    },
+    "scoring": {
+      "kicker": "Scoring Engine",
+      "title": "SAO Decomposition & Transparent Evidence",
+      "subtitle": "IntReview doesn't just return a score — it breaks down every candidate's response into verifiable evidence.",
+      "items": {
+        "star": {
+          "title": "SAO Framework Breakdown",
+          "body": "Automatically parses responses into Situation, Action, and Outcome indicators for structured competency grading."
+        },
+        "radar": {
+          "title": "Competency Radar Charts",
+          "body": "Visualizes candidate skill profiles against your 5-level custom rubrics for instant panel comparisons."
+        },
+        "quotes": {
+          "title": "Verbatim Evidence Quoting",
+          "body": "Every rating links directly to exact timestamped quotes in the transcript, allowing hiring managers to audit scores in seconds."
+        }
+      }
+    },
+    "dashboard": {
+      "kicker": "Recruiter Control Surface",
+      "title": "Total Administrative Breadth & Workflows",
+      "subtitle": "Built for talent teams evaluating against legacy enterprise tools — with deep controls, role-based access, and automated assessment generation.",
+      "items": {
+        "builder": {
+          "title": "Dual-Mode Assessment Builder",
+          "body": "Build manually with drag-and-drop or use the AI Assessment Generator — paste a job description to auto-generate SAO-framework questions, rubrics, and time limits."
+        },
+        "bank": {
+          "title": "Question Bank Manager",
+          "body": "Centralized question repository with AI question-generation assistant, difficulty tagging, and competency mapping."
+        },
+        "rubric": {
+          "title": "Competency Framework Manager",
+          "body": "5-level rubric editor with import/export tools, custom grading criteria, and standardized benchmark weights."
+        },
+        "rbac": {
+          "title": "4-Tier Role-Based Access Control",
+          "body": "Granular permission roles: Owner, Admin, Recruiter, and Evaluator — ensuring strict data governance across teams."
+        },
+        "integrations": {
+          "title": "ATS & HRIS Integrations",
+          "body": "Seamless webhooks and native integration support for Greenhouse, Lever, Workday, and BambooHR."
+        }
+      }
+    },
+    "compliance": {
+      "kicker": "Compliance & Residency",
+      "title": "Sovereign Cloud & Global AI Standards",
+      "subtitle": "Purpose-built for regional data sovereignty and compliant with evolving global AI hiring mandates.",
+      "body": "IntReview delivers local KSA/GCC sovereign cloud deployment compliant with PDPL, NDMO, SAMA, and SBP regulations. Moreover, while Western vendors face retrofitting pressures from U.S. mandates like the Illinois AI Video Interview Act and NYC Local Law 144, IntReview was engineered from day 1 with candidate consent, transparent audit logs, and non-discriminatory rubric scoring.",
+      "cta": "Explore Data Residency Specs"
+    },
+    "comparison": {
+      "kicker": "Head-to-Head Comparison",
+      "title": "IntReview vs. Industry Standard Vendors",
+      "subtitle": "See how IntReview compares directly against HireVue, VidCruiter, Spark Hire, and Willo.",
+      "us": "IntReview",
+      "them": "Competitors (HireVue / VidCruiter / Spark Hire / Willo)",
+      "rows": {
+        "formats": {
+          "feature": "Question Formats",
+          "us": "Multi-format (Video, MCQ/Select, Text/Essay, Rating Scales)",
+          "them": "Primarily standard video responses only"
+        },
+        "proctoring": {
+          "feature": "Anti-Cheat Depth",
+          "us": "4-tier stack (gaze, acoustic, tab, device lock)",
+          "them": "Basic tab detection or no native proctoring"
+        },
+        "transparency": {
+          "feature": "Scoring Auditability",
+          "us": "Verbatim evidence quotes & human score override",
+          "them": "Opaque black-box AI scores without quotes"
+        },
+        "compliance": {
+          "feature": "Sovereign Residency",
+          "us": "KSA / GCC local sovereign cloud & PDPL ready",
+          "them": "Standard U.S. / EU cloud hosting only"
+        },
+        "builder": {
+          "feature": "Assessment Creation",
+          "us": "Dual-mode (Manual + Prompt-to-Assessment AI Generator)",
+          "them": "Manual question entry or rigid static templates"
+        },
+        "rbac": {
+          "feature": "Role Access Control",
+          "us": "4 granular roles (Owner, Admin, Recruiter, Evaluator)",
+          "them": "Basic admin vs user account permissions"
+        }
       }
     },
     "features": {
-      "kicker": "How it works",
+      "kicker": "Core Capabilities",
       "title": "Record once. Score instantly. Decide confidently.",
       "subtitle": "Six capabilities that take asynchronous interviewing from raw footage to ranked, defensible shortlists.",
       "items": {
         "scoring": {
           "title": "AI competency scoring",
-          "body": "STAR structure analysis, 1–5 rubric ratings and gap analysis — with verbatim evidence quotes for every score."
+          "body": "SAO structure analysis (Situation, Action, Outcome), 1–5 rubric ratings and gap analysis — with verbatim evidence quotes for every score."
         },
         "questions": {
-          "title": "18+ question types",
-          "body": "18 types — video, audio, text, MCQ, coding, matrix/rating scale, rank order, drag-and-drop and more — plus AI-generated questions from the platform's question engine."
+          "title": "Multi-format questions",
+          "body": "Video, MCQ/Single select, text/essay, Likert rating scale, and rank order — with SAO methodology candidate prompts."
         },
         "proctoring": {
           "title": "Anti-cheat proctoring",
-          "body": "Gaze tracking, tab-switch detection and multi-voice audio forensics flag suspicious sessions automatically."
+          "body": "Tab-switch detection, gaze tracking, acoustic forensics, and single-device session locking."
         },
         "reports": {
-          "title": "Infinite-canvas PDF reports",
-          "body": "Deep, searchable reports that scale to any length — built for hiring committees and audit trails."
+          "title": "Deep candidate reports",
+          "body": "Searchable PDF reports with synchronized transcripts, competency radar charts, and integrity event logs."
         },
         "dashboard": {
-          "title": "Analytics dashboard",
-          "body": "Funnel health, completion rates, question performance and candidate benchmarks at a glance."
+          "title": "Recruiter control surface",
+          "body": "Dual-mode assessment builder, question bank, 5-level rubric editor, and 4-tier RBAC permissions."
         },
         "whiteLabel": {
           "title": "White-label branding",
-          "body": "Your logo, your colors, your domain — the candidate never sees a third-party brand."
+          "body": "Your logo, your colors, your custom domain — candidates experience your brand end-to-end."
         }
       }
     },
     "languages": {
-      "title": "English & Arabic, full RTL",
-      "body": "Interfaces, invites and reports in English and Arabic with right-to-left layout — built for MENA hiring teams."
+      "title": "Bilingual English & Arabic with Full RTL",
+      "body": "Interfaces, email templates, candidate instructions, and reports in English and Arabic with native right-to-left support."
     },
     "flow": {
       "kicker": "The candidate flow",
-      "title": "A better interview experience",
-      "subtitle": "Asynchronous by design — candidates record when they're ready, in a calm environment, with retakes where you allow them.",
+      "title": "A seamless candidate screening journey",
+      "subtitle": "Asynchronous by design — candidates verify identity, check hardware, record prompts, and submit smoothly.",
       "items": {
         "invite": {
-          "title": "Invite at scale",
-          "body": "Send branded invites to thousands of candidates, with scheduling that fits their lives."
+          "title": "1. Invite & Verification",
+          "body": "Branded single or bulk-CSV invites with identity verification and environment hardware checks."
         },
         "record": {
-          "title": "Record once",
-          "body": "Candidates answer structured prompts on any device, with practice mode to settle nerves."
+          "title": "2. Multi-Format Interview",
+          "body": "Candidates record video, MCQ/select, text/essay, or rating responses with live SAO methodology guidance."
         },
         "review": {
-          "title": "Review the evidence",
-          "body": "Ranked shortlists with quotes and timestamps — no more scrubbing through hours of footage."
+          "title": "3. AI Evidence Review",
+          "body": "Synchronized video/transcript view, SAO score breakdown, radar chart, and integrity log."
         },
         "decide": {
-          "title": "Decide with data",
-          "body": "Consistent, rubric-based decisions that survive scrutiny — and are easy to defend to hiring committees."
+          "title": "4. Defensible Decision",
+          "body": "Human evaluator score override authority and rubric-grounded shortlists for hiring committees."
         }
       }
     },
@@ -992,7 +1180,7 @@
     "testimonials": {
       "kicker": "Proven at scale",
       "title": "Assessment results behind IntReview",
-      "subtitle": "The scale and rigour IntReview inherits from 10 years of real drives.",
+      "subtitle": "The scale and rigour IntReview inherits from 10 years of real enterprise screening drives.",
       "cta": "Your interview program could be next",
       "items": {
         "ptcl": {
@@ -1022,45 +1210,6 @@
         }
       }
     },
-    "comparison": {
-      "kicker": "Why teams switch",
-      "title": "IntReview vs. manual video review",
-      "subtitle": "The same interviews, a fraction of the review time.",
-      "us": "IntReview",
-      "them": "Manual review",
-      "rows": {
-        "time": {
-          "feature": "Review time",
-          "us": "~80% less with AI auto-scoring",
-          "them": "Hours of footage per candidate"
-        },
-        "consistency": {
-          "feature": "Consistency",
-          "us": "One rubric, every candidate",
-          "them": "Interviewer-dependent judgment"
-        },
-        "scheduling": {
-          "feature": "Scheduling",
-          "us": "Candidates record anytime, on any device",
-          "them": "Coordinating live interview slots"
-        },
-        "evidence": {
-          "feature": "Evidence",
-          "us": "Verbatim quotes and timestamps",
-          "them": "Notes written after the call"
-        },
-        "integrity": {
-          "feature": "Integrity",
-          "us": "Gaze, tab-switch and audio forensics",
-          "them": "Unmonitored recordings"
-        },
-        "scale": {
-          "feature": "Scale",
-          "us": "4,000–25,000 candidates per drive",
-          "them": "Limited by recruiter capacity"
-        }
-      }
-    },
     "results": {
       "kicker": "Proof",
       "title": "Results from real assessment programs",
@@ -1074,23 +1223,23 @@
       "items": {
         "fairness": {
           "q": "Is AI scoring fair and defensible?",
-          "a": "Every candidate is scored against the same rubric, with verbatim evidence quotes and timestamps on every rating — so a hiring committee can verify each decision. The rubric is yours; the AI applies it consistently."
+          "a": "Every candidate is scored against the same rubric, with verbatim evidence quotes and timestamps on every rating — so a hiring committee can verify each decision. Evaluators also retain 100% manual score override control."
         },
         "proctoring": {
           "q": "How does anti-cheat proctoring work?",
-          "a": "Gaze tracking, tab-switch detection and multi-voice audio forensics flag suspicious sessions automatically — without making honest candidates jump through hoops."
+          "a": "Our 4-tiered proctoring engine combines hardware checks, tab-switch and focus-loss detection, copy-paste/right-click locks, secondary display detection, and acoustic anomaly forensics."
         },
         "questions": {
           "q": "What question types are supported?",
-          "a": "18+ types — video, audio, text, multiple-choice, coding, matrix and rating scales, rank order, drag-and-drop and more — plus AI-generated questions from your own knowledge base."
+          "a": "4 core multi-format categories: video responses, multiple-choice & single select questions, text & short answer / essay responses, and rating scales / rank ordering."
         },
         "candidate": {
           "q": "What does the candidate experience look like?",
-          "a": "Candidates record structured answers once, on their own time, on any device — with practice mode to settle nerves and retakes where you allow them. No downloads required."
+          "a": "Candidates complete identity verification, hardware checks, and answer structured prompts with live SAO guidance on any device — with practice mode and customizable retake allowances."
         },
         "whiteLabel": {
           "q": "Can it carry our brand?",
-          "a": "Yes — your logo, your colours, your domain, end to end. Candidates never see a third-party brand."
+          "a": "Yes — your logo, your colors, your custom domain, end to end. Candidates never see a third-party brand."
         },
         "pricing": {
           "q": "How does pricing work?",
@@ -1100,7 +1249,7 @@
     },
     "pricing": {
       "kicker": "Pricing",
-      "title": "Simple, contact-based pricing",
+      "title": "Simple, transparent pricing",
       "subtitle": "Pricing varies by region, volume and modules — here's how it works, with no mystery.",
       "items": {
         "volume": {

@@ -7,17 +7,27 @@ import { trackEvent } from "@/lib/analytics";
 import { Button } from "./Button";
 import { WindowFrame } from "./WindowFrame";
 
+import { cn } from "@/lib/cn";
+
 const DEMO_URL =
   process.env.NEXT_PUBLIC_INTOS_DEMO_URL ?? "https://demo.intwish.com/os-demo";
 
 type Status = "loading" | "live" | "unavailable";
+
+interface OSSandboxProps {
+  title?: string;
+  heightClassName?: string;
+}
 
 /**
  * Live interactive intOS sandbox embed (ungated — the flagship asset).
  * If the demo endpoint is not yet deployed (or unreachable), a timeout shows
  * a graceful "book a pilot" fallback instead of a blank/error embed.
  */
-export function OSSandbox() {
+export function OSSandbox({
+  title,
+  heightClassName = "h-[520px] sm:h-[620px]",
+}: OSSandboxProps = {}) {
   const t = useTranslations("intos.sandbox");
   const [status, setStatus] = useState<Status>("loading");
   const [session, setSession] = useState(0);
@@ -37,12 +47,14 @@ export function OSSandbox() {
     setSession((n) => n + 1);
   }
 
+  const windowTitle = title ?? `intOS — ${DEMO_URL.replace(/^https?:\/\//, "")}`;
+
   return (
     <WindowFrame
-      title={`intOS — ${DEMO_URL.replace(/^https?:\/\//, "")}`}
+      title={windowTitle}
       bodyClassName="bg-ink-900"
     >
-      <div className="relative h-[520px] sm:h-[620px]">
+      <div className={cn("relative", heightClassName)}>
         {status === "unavailable" ? (
           <div className="flex h-full flex-col items-center justify-center gap-5 bg-ink-900 px-6 text-center">
             <span className="inline-flex h-16 w-16 items-center justify-center rounded-2xl border border-brand-500/30 bg-brand-500/10 text-brand-400">

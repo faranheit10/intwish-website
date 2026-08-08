@@ -609,6 +609,68 @@
         }
       }
     },
+    "antiCheat": {
+      "kicker": "Moteur d'intégrité d'entreprise",
+      "title": "Surveillance anti-tricherie à 4 niveaux et analyse de preuve",
+      "subtitle": "Surveillance continue des sessions équivalente à IntReview — combinant vérification d'identité, suivi du regard, détection d'anomalies acoustiques et contrôle humain.",
+      "tiers": {
+        "tier1": {
+          "title": "Niveau 1 : Vérification d'identité et d'environnement",
+          "body": "Reconnaissance faciale biométrique, capture d'une pièce d'identité et vérification du matériel avant la simulation."
+        },
+        "tier2": {
+          "title": "Niveau 2 : Suivi du regard et du niveau d'attention",
+          "body": "Suivi continu du regard par webcam, contrôle de la position de la tête et détection d'écrans multiples."
+        },
+        "tier3": {
+          "title": "Niveau 3 : Verrouillage du système et du presse-papiers",
+          "body": "Blocage du changement d'onglet, interdiction du copier-coller et du clic droit, et détection des saisies externes."
+        },
+        "tier4": {
+          "title": "Niveau 4 : Analyse acoustique et preuves IA",
+          "body": "Analyse acoustique multi-voix, détection d'audio secondaire et journalisation horodatée des anomalies."
+        }
+      },
+      "overrideCallout": {
+        "title": "Contrôle manuel total de l'évaluateur et preuves horodatées",
+        "body": "L'IA alerte sur les anomalies sans jamais rejeter automatiquement les candidats. Les équipes de recrutement conservent le contrôle total sur la révision des scores avec preuves vidéo et audio."
+      }
+    },
+    "modules": {
+      "kicker": "Architecture de la plateforme",
+      "title": "Simulations de travail et jeux cognitifs CHC",
+      "subtitle": "Sept modules fondamentaux simulent des environnements de travail réels avec conséquences décisionnelles arborescentes.",
+      "items": {
+        "email": {
+          "title": "Simulation de boîte courriel (E-Tray)",
+          "body": "Gestion des priorités de la boîte de réception avec panneau de décision et réponses aux parties prenantes."
+        },
+        "messenger": {
+          "title": "Messagerie d'équipe (Style Slack)",
+          "body": "Canaux de clavardage d'équipe en temps réel avec cartes d'invitation à la décision lors de scénarios de crise."
+        },
+        "meeting": {
+          "title": "Mise en situation en visioconférence (SJT)",
+          "body": "Test de jugement situationnel simulé en visioconférence avec minuterie et objections en direct."
+        },
+        "calendar": {
+          "title": "Calendrier et planificateur",
+          "body": "Module de gestion du temps et de résolution de conflits évaluant la capacité à réorganiser les priorités."
+        },
+        "psychometric": {
+          "title": "Suite de jeux cognitifs LMS et CHC",
+          "body": "6 mini-jeux cognitifs évaluant le facteur g selon la théorie CHC aux côtés de modules d'apprentissage LMS."
+        },
+        "videoRecorder": {
+          "title": "Moteur de surveillance anti-tricherie à 4 niveaux",
+          "body": "Système de surveillance intégré équivalent à IntReview — capture continue par webcam, suivi du regard et verrouillage."
+        },
+        "narrative": {
+          "title": "Moteur narratif de décisions interreliées",
+          "body": "La différenciation clé : les choix s'enchaînent entre les modules. Répondre à un courriel déclenche une alerte de clavardage."
+        }
+      }
+    },
     "useCases": {
       "kicker": "Cas d'utilisation",
       "title": "Des campagnes pour diplômés à la sélection gouvernementale",
@@ -952,6 +1014,110 @@
         "label": "Candidats par campagne, tirés de nos programmes clients"
       }
     },
+    "questionTypes": {
+      "kicker": "Polyvalence multi-format",
+      "title": "Au-delà de la vidéo simple — 4 formats d'entrevue principaux",
+      "subtitle": "Tandis que les outils standard du marché limitent les candidats à des enregistrements vidéo de base, IntReview prend en charge une évaluation multi-format adaptée à chaque rôle.",
+      "starNotice": "Panneau de conseils SAO : Les candidats voient des invites en direct Situation / Action / Résultat tout en répondant.",
+      "items": {
+        "video": {
+          "title": "Réponse vidéo",
+          "body": "Réponses vidéo HD asynchrones avec minuteurs de préparation personnalisables, reprises autorisées et transcription instantanée."
+        },
+        "select": {
+          "title": "QCM et sélection unique",
+          "body": "Questions à choix multiples, vrai/faux, sélection unique et listes déroulantes pour une notation automatisée instantanée."
+        },
+        "text": {
+          "title": "Texte, réponse courte et essai",
+          "body": "Champs texte ouverts pour des invites situationnelles écrites, des analyses de cas et des explications détaillées."
+        },
+        "scale": {
+          "title": "Échelles d'évaluation et classement",
+          "body": "Échelles de Likert à plusieurs points, critères à choix multiples et classement pour l'auto-évaluation."
+        }
+      }
+    },
+    "antiCheat": {
+      "kicker": "Pile d'intégrité",
+      "title": "Moteur de surveillance anti-tricherie à 4 niveaux",
+      "subtitle": "Une pile de sécurité multicouche conçue pour empêcher l'usurpation d'identité et l'aide non autorisée.",
+      "overrideCallout": {
+        "title": "Contrôle manuel de l'évaluateur humain",
+        "body": "Contrairement aux moteurs concurrents opaques, IntReview conserve les recruteurs en contrôle total. Chaque note IA est ancrée dans des citations textuelles et des horodatages."
+      },
+      "tiers": {
+        "tier1": {
+          "title": "Niveau 1 : Verrouillage d'identité et d'appareil",
+          "body": "Vérification de la webcam et du matériel, confirmation de l'identité et verrouillage de session à un seul appareil."
+        },
+        "tier2": {
+          "title": "Niveau 2 : Surveillance de session active",
+          "body": "Détection du changement d'onglet, alertes de flou de fenêtre, plein écran forcé et blocage du copier-coller."
+        },
+        "tier3": {
+          "title": "Niveau 3 : Intégrité du système et des saisies",
+          "body": "Verrouillage du navigateur, blocage des outils de développement et détection d'écrans secondaires."
+        },
+        "tier4": {
+          "title": "Niveau 4 : Analyse médico-légale avancée",
+          "body": "Détection d'anomalies acoustiques (voix en arrière-plan), suivi du regard et des mouvements des lèvres."
+        }
+      }
+    },
+    "scoring": {
+      "kicker": "Moteur d'évaluation",
+      "title": "Décomposition SAO et preuves transparentes",
+      "subtitle": "IntReview ne se contente pas de retourner une note — il décompose chaque réponse en preuves vérifiables.",
+      "items": {
+        "star": {
+          "title": "Décomposition du cadre SAO",
+          "body": "Analyse automatiquement les réponses en indicateurs de Situation, Action et Résultat."
+        },
+        "radar": {
+          "title": "Graphiques radar de compétences",
+          "body": "Visualise les profils de compétences des candidats par rapport à vos grilles d'évaluation à 5 niveaux."
+        },
+        "quotes": {
+          "title": "Citations de preuves textuelles",
+          "body": "Chaque note se lie directement à des citations textuelles exactes horodatées dans la transcription."
+        }
+      }
+    },
+    "dashboard": {
+      "kicker": "Surface de contrôle du recruteur",
+      "title": "Largeur administrative totale et flux de travail",
+      "subtitle": "Conçu pour les équipes de recrutement évaluant par rapport aux outils d'entreprise traditionnels.",
+      "items": {
+        "builder": {
+          "title": "Générateur d'évaluations à mode double",
+          "body": "Créez manuellement par glisser-déposer ou utilisez le générateur d'IA — collez une description de poste."
+        },
+        "bank": {
+          "title": "Gestionnaire de banque de questions",
+          "body": "Dépôt centralisé de questions avec assistant de génération par IA et balisage de difficulté."
+        },
+        "rubric": {
+          "title": "Gestionnaire de cadre de compétences",
+          "body": "Éditeur de grille à 5 niveaux avec outils d'importation/exportation et critères de notation sur mesure."
+        },
+        "rbac": {
+          "title": "Contrôle d'accès basé sur les rôles à 4 niveaux",
+          "body": "Rôles de permission granulaires : Propriétaire, Admin, Recruteur et Évaluateur."
+        },
+        "integrations": {
+          "title": "Intégrations ATS et HRIS",
+          "body": "Prise en charge native des Webhooks pour Greenhouse, Lever, Workday et BambooHR."
+        }
+      }
+    },
+    "compliance": {
+      "kicker": "Conformité et résidence",
+      "title": "Nuage souverain et normes d'IA mondiales",
+      "subtitle": "Conçu sur mesure pour la souveraineté régionale des données et conforme aux mandats mondiaux d'embauche par IA.",
+      "body": "IntReview offre un déploiement local en nuage souverain conforme aux réglementations sur les données.",
+      "cta": "Explorer les spécifications"
+    },
     "features": {
       "kicker": "Comment ça marche",
       "title": "Enregistrez une fois. Évaluez instantanément. Décidez en confiance.",
@@ -1051,41 +1217,41 @@
       }
     },
     "comparison": {
-      "kicker": "Pourquoi les équipes changent",
-      "title": "IntReview contre la révision manuelle des entrevues",
-      "subtitle": "Les mêmes entrevues, une fraction du temps de révision.",
+      "kicker": "Comparaison directe",
+      "title": "IntReview par rapport aux solutions standard",
+      "subtitle": "Découvrez comment IntReview se compare directement à HireVue, VidCruiter, Spark Hire et Willo.",
       "us": "IntReview",
-      "them": "Révision manuelle",
+      "them": "Concurrents (HireVue / VidCruiter / Spark Hire / Willo)",
       "rows": {
-        "time": {
-          "feature": "Temps de révision",
-          "us": "~80 % de moins avec la notation IA",
-          "them": "Des heures de vidéo par candidat"
+        "formats": {
+          "feature": "Formats de questions",
+          "us": "Multi-format (Vidéo, QCM/Sélection, Texte/Essai, Échelles d'évaluation)",
+          "them": "Principalement des réponses vidéo standard uniquement"
         },
-        "consistency": {
-          "feature": "Cohérence",
-          "us": "Une grille, pour chaque candidat",
-          "them": "Un jugement qui dépend de l'intervieweur"
+        "proctoring": {
+          "feature": "Profondeur anti-tricherie",
+          "us": "Pile à 4 niveaux (regard, acoustique, onglets, verrouillage d'appareil)",
+          "them": "Détection d'onglets de base ou pas de proctoring natif"
         },
-        "scheduling": {
-          "feature": "Planification",
-          "us": "Les candidats enregistrent à leur convenance, sur tout appareil",
-          "them": "Coordonner des créneaux d'entrevue en direct"
+        "transparency": {
+          "feature": "Audibilté des scores",
+          "us": "Citations de preuves textuelles et révision humaine",
+          "them": "Scores IA opaques sans citations de preuves"
         },
-        "evidence": {
-          "feature": "Preuves",
-          "us": "Citations textuelles et horodatages",
-          "them": "Des notes prises après l'appel"
+        "compliance": {
+          "feature": "Hébergement souverain",
+          "us": "Nuage souverain local KSA / CCG conforme aux lois sur les données",
+          "them": "Hébergement nuage américain ou européen standard uniquement"
         },
-        "integrity": {
-          "feature": "Intégrité",
-          "us": "Suivi du regard, changements d'onglet et analyse audio",
-          "them": "Des enregistrements non surveillés"
+        "builder": {
+          "feature": "Création d'évaluations",
+          "us": "Mode double (Manuel + Générateur IA à partir de descriptions)",
+          "them": "Saisie manuelle ou modèles statiques rigides"
         },
-        "scale": {
-          "feature": "Échelle",
-          "us": "4 000 à 25 000 candidats par campagne",
-          "them": "Limité par la capacité des recruteurs"
+        "rbac": {
+          "feature": "Contrôle d'accès aux rôles",
+          "us": "4 rôles granulaires (Propriétaire, Admin, Recruteur, Évaluateur)",
+          "them": "Permissions de compte de base administrateur vs utilisateur"
         }
       }
     },
